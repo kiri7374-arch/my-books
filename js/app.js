@@ -628,6 +628,22 @@ function syncAnswerModalVisual(question) {
   visualContainer.style.display = question.visual ? "" : "none";
 }
 
+
+function formatStudyMathText(value) {
+  const escaped = escapeHTML(value ?? "");
+
+  return escaped.replace(
+    /(^|[^\d])(\d+)\/(\d+)(?!\d)/g,
+    (match, prefix, numerator, denominator) => {
+      return `${prefix}<span class="study-fraction" aria-label="${denominator}分の${numerator}">
+        <span class="study-fraction-num">${numerator}</span>
+        <span class="study-fraction-bar"></span>
+        <span class="study-fraction-den">${denominator}</span>
+      </span>`;
+    }
+  );
+}
+
 function renderStudyQuestions(questions) {
   studyQuestionList.innerHTML = "";
 
@@ -642,7 +658,7 @@ function renderStudyQuestions(questions) {
     button.innerHTML = `
       <span class="study-question-number">${escapeHTML(question.id)}</span>
       <span class="study-question-text ${isWordProblem ? "study-question-word" : ""}">
-        ${escapeHTML(questionText)}
+        ${formatStudyMathText(questionText)}
       </span>
       ${renderQuestionVisual(question.visual, true)}
       <span class="study-question-hint">タップして答え・解説を見る →</span>
@@ -655,10 +671,21 @@ function renderStudyQuestions(questions) {
 
 function openAnswerModal(question) {
   answerModalNumber.textContent = question.id || "";
-  answerModalQuestion.textContent = question.question || "";
-  answerModalAnswer.textContent = question.answer || "";
-  answerModalExplanation.textContent = question.explanation || "解説は準備中です。";
-  answerModalWhy.textContent = question.why || "詳しい理由説明は準備中です。";
+  answerModalQuestion.innerHTML =
+    formatStudyMathText(question.question || "");
+
+  answerModalAnswer.innerHTML =
+    formatStudyMathText(question.answer || "");
+
+  answerModalExplanation.innerHTML =
+    formatStudyMathText(
+      question.explanation || "解説は準備中です。"
+    );
+
+  answerModalWhy.innerHTML =
+    formatStudyMathText(
+      question.why || "詳しい理由説明は準備中です。"
+    );
   syncAnswerModalVisual(question);
 
   answerModal.classList.add("answer-modal-open");
