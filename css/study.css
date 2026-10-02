@@ -51,6 +51,13 @@
   display: block;
 }
 
+
+/* study.html から起動したときは通常LIBRARY/DETAILを見せない */
+body.study-only-mode #libraryView,
+body.study-only-mode #bookDetailView {
+  display: none !important;
+}
+
 .study-hero {
   margin-bottom: 32px;
 }
@@ -413,9 +420,9 @@
 
 .study-question-text {
   color: #1e2f3c;
-  font-size: 23px;
+  font-size: clamp(20px, 4.8vw, 23px);
   font-weight: 800;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .study-question-hint {
@@ -426,8 +433,8 @@
 }
 
 .study-question-word {
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: clamp(20px, 4.8vw, 23px);
+  line-height: 1.55;
 }
 
 /* =========================================================
@@ -570,6 +577,7 @@
 
 /* =========================================================
    ANSWER MODAL
+   iPhone / mobile safe layout
 ========================================================= */
 
 .answer-modal {
@@ -577,9 +585,14 @@
   inset: 0;
   z-index: 9999;
   display: none;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  padding: 24px;
+
+  padding:
+    max(8px, env(safe-area-inset-top))
+    max(8px, env(safe-area-inset-right))
+    max(8px, env(safe-area-inset-bottom))
+    max(8px, env(safe-area-inset-left));
 }
 
 .answer-modal.answer-modal-open {
@@ -596,55 +609,86 @@
 .answer-modal-card {
   position: relative;
   z-index: 1;
+
   width: min(720px, 100%);
-  max-height: min(860px, calc(100vh - 48px));
+  height: calc(
+    100dvh
+    - max(8px, env(safe-area-inset-top))
+    - max(8px, env(safe-area-inset-bottom))
+  );
+  max-height: 920px;
+
   overflow: hidden;
-  border-radius: 28px;
+
+  border-radius: 24px;
   background: #ffffff;
   box-shadow: 0 38px 100px rgba(0,0,0,.38);
   color: #1e2c37;
 }
 
 .answer-modal-scroll {
-  max-height: min(860px, calc(100vh - 48px));
+  width: 100%;
+  height: 100%;
   overflow-y: auto;
-  padding: 38px 42px 36px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+
+  padding:
+    38px
+    42px
+    calc(34px + env(safe-area-inset-bottom));
+
+  scroll-padding-top: 74px;
+  scroll-padding-bottom: 100px;
 }
 
 .answer-modal-close {
   position: absolute;
-  top: 16px;
-  right: 16px;
-  z-index: 2;
-  width: 42px;
-  height: 42px;
+  top: 12px;
+  right: 12px;
+  z-index: 20;
+
+  width: 48px;
+  height: 48px;
+
   border: 0;
   border-radius: 50%;
-  background: #eef2f5;
-  color: #4e5b65;
-  font-size: 26px;
+
+  background: rgba(238,242,245,.96);
+  box-shadow: 0 6px 18px rgba(16,35,48,.14);
+
+  color: #354955;
+  font-size: 28px;
   line-height: 1;
+
   cursor: pointer;
+  touch-action: manipulation;
 }
 
 .answer-modal-number {
   margin: 0 0 10px;
+  padding-right: 54px;
+
   color: #6f97b3;
-  font-size: 11px;
+
+  font-size: 13px;
   font-weight: 900;
-  letter-spacing: .18em;
+  letter-spacing: .16em;
 }
 
 .answer-modal-question {
-  margin: 0 52px 28px 0;
+  margin: 0 54px 28px 0;
+
   color: #192b37;
-  font-size: clamp(28px, 5vw, 44px);
-  line-height: 1.25;
+
+  font-size: clamp(24px, 6vw, 42px);
+  line-height: 1.35;
 }
 
 .answer-section {
   margin-top: 18px;
   padding: 24px;
+
   border-radius: 20px;
   background: #f6f8fa;
 }
@@ -660,22 +704,27 @@
 .answer-section-label {
   display: block;
   margin-bottom: 12px;
+
   color: #687985;
-  font-size: 10px;
+
+  font-size: 12px;
   font-weight: 900;
-  letter-spacing: .16em;
+  letter-spacing: .14em;
 }
 
 .answer-result {
   color: #173851;
-  font-size: 34px;
+
+  font-size: clamp(30px, 8vw, 38px);
   font-weight: 900;
 }
 
 .answer-body {
   white-space: pre-line;
+
   color: #354752;
-  font-size: 15px;
+
+  font-size: 16px;
   line-height: 1.95;
 }
 
@@ -683,17 +732,35 @@
   color: #574923;
 }
 
+/*
+  長い解説でも「問題に戻る」を常に押しやすくする。
+  モーダル内スクロールに追従して下端に残る。
+*/
 .answer-modal-done {
+  position: sticky;
+  bottom: 0;
+  z-index: 15;
+
   width: 100%;
+
   margin-top: 26px;
-  padding: 15px 20px;
+  padding: 17px 20px;
+
   border: 0;
   border-radius: 999px;
+
   background: #2b79aa;
+  box-shadow:
+    0 -14px 24px rgba(255,255,255,.94),
+    0 8px 22px rgba(36,91,126,.22);
+
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 800;
+
+  font-size: 16px;
+  font-weight: 900;
+
   cursor: pointer;
+  touch-action: manipulation;
 }
 
 .answer-modal-done:hover {
@@ -758,29 +825,67 @@ body.answer-modal-visible {
     max-height: 180px;
   }
 
+  .study-question-text,
+  .study-question-word {
+    font-size: 21px;
+    line-height: 1.55;
+  }
+
+  .study-question-hint {
+    font-size: 13px;
+  }
+
   .answer-modal {
-    padding: 12px;
+    padding:
+      max(6px, env(safe-area-inset-top))
+      max(6px, env(safe-area-inset-right))
+      max(6px, env(safe-area-inset-bottom))
+      max(6px, env(safe-area-inset-left));
   }
 
   .answer-modal-card {
-    max-height: calc(100vh - 24px);
-    border-radius: 22px;
+    width: 100%;
+    height: calc(
+      100dvh
+      - max(6px, env(safe-area-inset-top))
+      - max(6px, env(safe-area-inset-bottom))
+    );
+    max-height: none;
+    border-radius: 20px;
   }
 
   .answer-modal-scroll {
-    max-height: calc(100vh - 24px);
-    padding: 30px 20px 24px;
+    height: 100%;
+    max-height: none;
+
+    padding:
+      30px
+      18px
+      calc(26px + env(safe-area-inset-bottom));
+  }
+
+  .answer-modal-close {
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
   }
 
   .answer-section {
-    padding: 20px 18px;
+    padding: 21px 18px;
   }
 
-  .answer-result {
-    font-size: 30px;
+  .answer-section-label {
+    font-size: 13px;
   }
 
   .answer-body {
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 1.9;
+  }
+
+  .answer-modal-done {
+    min-height: 54px;
+    font-size: 17px;
   }
 }
