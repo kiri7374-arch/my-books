@@ -1,0 +1,711 @@
+{
+  "id": "perfume001",
+  "title": "THE BOOK OF FRAGRANCE MATERIALS",
+  "subtitle": "香料学入門 ─ 天然香料と香料化学",
+
+  "pages": [
+
+    {
+      "type": "cover",
+      "layout": "cover",
+      "chapter": "",
+      "title": "THE BOOK OF FRAGRANCE MATERIALS",
+      "subtitle": "香料学入門 ─ 天然香料と香料化学",
+      "text": ""
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "INTRODUCTION",
+      "title": "この本で学ぶこと",
+      "text": "この本では、香料とは何かという基本から始まり、天然香料、香料化学、抽出方法、GC/MSを中心とした分析、安全性までを順番に学びます。化学が初めての人でも理解できるように、身近な香りと具体例から少しずつ専門知識へ進みます。",
+      "learningGoal": "香料学全体の地図をつかみ、これから学ぶ内容の関係を理解する。",
+      "sourceType": [
+        "香料学専門書",
+        "香料関連団体資料"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 01",
+      "title": "香料とは何か",
+      "text": "香料は、食品、化粧品、香水、日用品などに香りを与えたり、香りを整えたりするために利用されます。天然素材から得られるものだけでなく、化学的に合成される香気物質も含まれます。",
+      "learningGoal": "香料という言葉が指す範囲と、主な用途を理解する。",
+      "sourceType": [
+        "香料関連団体",
+        "香料学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 01",
+      "title": "香りを感じる仕組み",
+      "text": "空気中の香気分子が鼻腔に入り、嗅覚受容体に作用することで香りとして認識されます。香りの感じ方には、分子の性質だけでなく、濃度、他成分との組み合わせ、経験や記憶なども関係します。",
+      "image": "",
+      "imageAlt": "鼻腔から嗅球までの嗅覚経路を示す模式図",
+      "learningGoal": "香気分子がどのように人の嗅覚で認識されるかを理解する。",
+      "sourceType": [
+        "生理学専門書",
+        "嗅覚研究レビュー論文"
+      ]
+    },
+
+    {
+      "type": "data",
+      "layout": "data",
+      "chapter": "CHAPTER 01",
+      "title": "香料の大分類",
+      "text": "香料は原料や製造方法によって大きく分類することができます。",
+      "data": [
+        {
+          "label": "天然香料",
+          "value": "植物などの天然原料から得る"
+        },
+        {
+          "label": "合成香料",
+          "value": "化学的に製造される香気物質"
+        },
+        {
+          "label": "調合香料",
+          "value": "複数の香料を組み合わせる"
+        }
+      ],
+      "learningGoal": "天然香料、合成香料、調合香料の基本的な違いを理解する。",
+      "sourceType": [
+        "香料学専門書",
+        "香料関連団体"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 01",
+      "title": "天然香料と合成香料",
+      "text": "天然香料は多くの場合、多数の香気成分から構成されます。一方、合成香料には単一の香気物質として使用されるものも多くあります。実際の香料製品では、天然と合成を目的に応じて組み合わせることもあります。",
+      "image": "",
+      "imageAlt": "天然香料と合成香料の構成を比較する模式図",
+      "learningGoal": "天然香料と合成香料を単純な優劣ではなく、構成と用途の違いとして理解する。",
+      "sourceType": [
+        "香料学専門書",
+        "査読論文"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 01",
+      "title": "香りは「1成分」ではない",
+      "text": "天然香料の香りは、一つの成分だけで決まるとは限りません。主要成分だけでなく、微量成分や成分同士のバランスが香り全体の印象に影響します。",
+      "learningGoal": "天然香料を多成分系として捉える考え方を理解する。",
+      "sourceType": [
+        "GC/MS分析論文",
+        "天然香料レビュー論文"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 02",
+      "title": "香料を理解するための化学",
+      "text": "",
+      "learningGoal": "香料化学を学ぶための基本概念を理解する。",
+      "sourceType": [
+        "有機化学入門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "分子とは何か",
+      "text": "",
+      "image": "",
+      "imageAlt": "炭素・水素・酸素から分子ができる模式図",
+      "learningGoal": "香気物質を構成する原子と分子の基本を理解する。",
+      "sourceType": [
+        "化学入門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "分子量と揮発性",
+      "text": "",
+      "image": "",
+      "imageAlt": "分子量と揮発性を比較する模式図",
+      "learningGoal": "香り立ちと分子の物性との関係を理解する。",
+      "sourceType": [
+        "物理化学専門書",
+        "物性データベース"
+      ]
+    },
+
+    {
+      "type": "data",
+      "layout": "data",
+      "chapter": "CHAPTER 02",
+      "title": "沸点と蒸気圧",
+      "text": "",
+      "data": [],
+      "learningGoal": "沸点・蒸気圧と香気成分の揮発性の関係を理解する。",
+      "sourceType": [
+        "PubChem",
+        "NIST Chemistry WebBook",
+        "物理化学専門書"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "CHAPTER 02",
+      "title": "官能基とは",
+      "text": "",
+      "terms": [],
+      "learningGoal": "香料化学で頻出する官能基の意味を理解する。",
+      "sourceType": [
+        "有機化学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "アルコール類",
+      "text": "",
+      "image": "",
+      "imageAlt": "代表的な香料アルコールの構造式",
+      "learningGoal": "香料に使われる代表的なアルコール類を理解する。",
+      "sourceType": [
+        "PubChem",
+        "香料化学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "エステル類",
+      "text": "",
+      "image": "",
+      "imageAlt": "代表的な香料エステルの構造式",
+      "learningGoal": "エステル類とフルーティー・フローラルな香調との関係を知る。",
+      "sourceType": [
+        "PubChem",
+        "香料化学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "アルデヒド類",
+      "text": "",
+      "image": "",
+      "imageAlt": "代表的な香料アルデヒドの構造式",
+      "learningGoal": "アルデヒド類の基本的な特徴を理解する。",
+      "sourceType": [
+        "PubChem",
+        "香料化学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "ケトン類",
+      "text": "",
+      "image": "",
+      "imageAlt": "代表的な香料ケトンの構造式",
+      "learningGoal": "香料に含まれる代表的なケトン類を理解する。",
+      "sourceType": [
+        "PubChem",
+        "香料化学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 02",
+      "title": "フェノール・フェニルプロパノイド",
+      "text": "",
+      "image": "",
+      "imageAlt": "オイゲノールなどの構造式",
+      "learningGoal": "スパイシー系香気成分に多い化学構造を理解する。",
+      "sourceType": [
+        "PubChem",
+        "天然物化学専門書"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 02",
+      "title": "テルペンとは",
+      "text": "",
+      "learningGoal": "天然香料化学で重要なテルペンの基本を理解する。",
+      "sourceType": [
+        "天然物化学専門書"
+      ]
+    },
+
+    {
+      "type": "data",
+      "layout": "data",
+      "chapter": "CHAPTER 02",
+      "title": "モノテルペン",
+      "text": "",
+      "data": [],
+      "learningGoal": "リモネン、ピネンなど代表的モノテルペンを知る。",
+      "sourceType": [
+        "PubChem",
+        "精油分析論文"
+      ]
+    },
+
+    {
+      "type": "data",
+      "layout": "data",
+      "chapter": "CHAPTER 02",
+      "title": "セスキテルペン",
+      "text": "",
+      "data": [],
+      "learningGoal": "天然香料中の代表的なセスキテルペンを理解する。",
+      "sourceType": [
+        "PubChem",
+        "精油分析論文"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "CHAPTER 03",
+      "title": "リナロール",
+      "text": "",
+      "terms": [],
+      "learningGoal": "代表的なモノテルペンアルコールであるリナロールを理解する。",
+      "sourceType": [
+        "PubChem",
+        "NIST",
+        "査読論文"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "CHAPTER 03",
+      "title": "リモネン",
+      "text": "",
+      "terms": [],
+      "learningGoal": "柑橘香を代表するリモネンの特徴を理解する。",
+      "sourceType": [
+        "PubChem",
+        "NIST",
+        "査読論文"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "CHAPTER 03",
+      "title": "ゲラニオール",
+      "text": "",
+      "terms": [],
+      "learningGoal": "ローズ系香気を代表するゲラニオールを理解する。",
+      "sourceType": [
+        "PubChem",
+        "NIST",
+        "査読論文"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "CHAPTER 03",
+      "title": "酢酸ベンジル",
+      "text": "",
+      "terms": [],
+      "learningGoal": "ジャスミンなどに関連する代表的エステルを理解する。",
+      "sourceType": [
+        "PubChem",
+        "GC/MS分析論文"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "CHAPTER 03",
+      "title": "インドール",
+      "text": "",
+      "terms": [],
+      "learningGoal": "濃度によって香りの印象が大きく変わる成分の例を理解する。",
+      "sourceType": [
+        "PubChem",
+        "香料化学専門書"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 04",
+      "title": "天然香料の原料",
+      "text": "",
+      "learningGoal": "花、果皮、葉、木材、樹脂など天然香料原料の種類を理解する。",
+      "sourceType": [
+        "香料学専門書"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 04",
+      "title": "精油とは",
+      "text": "",
+      "learningGoal": "精油の定義と特徴を理解する。",
+      "sourceType": [
+        "ISO",
+        "香料学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 04",
+      "title": "アブソリュートとは",
+      "text": "",
+      "image": "",
+      "imageAlt": "アブソリュート製造工程",
+      "learningGoal": "精油とアブソリュートの違いを理解する。",
+      "sourceType": [
+        "香料学専門書"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 04",
+      "title": "エキス・オレオレジン",
+      "text": "",
+      "learningGoal": "天然香料のその他の抽出物形態を理解する。",
+      "sourceType": [
+        "食品香料専門資料"
+      ]
+    },
+
+    {
+      "type": "image",
+      "layout": "image",
+      "chapter": "CHAPTER 04",
+      "title": "ローズ",
+      "text": "",
+      "image": "",
+      "imageAlt": "ローズと代表的香気成分",
+      "learningGoal": "代表的な天然フローラル香料としてローズを理解する。",
+      "sourceType": [
+        "GC/MS分析論文",
+        "精油専門資料"
+      ]
+    },
+
+    {
+      "type": "image",
+      "layout": "image",
+      "chapter": "CHAPTER 04",
+      "title": "ジャスミン",
+      "text": "",
+      "image": "",
+      "imageAlt": "ジャスミンと代表的香気成分",
+      "learningGoal": "複雑な多成分系天然香料としてジャスミンを理解する。",
+      "sourceType": [
+        "GC/MS分析論文",
+        "天然香料レビュー論文"
+      ]
+    },
+
+    {
+      "type": "image",
+      "layout": "image",
+      "chapter": "CHAPTER 04",
+      "title": "ベルガモット",
+      "text": "",
+      "image": "",
+      "imageAlt": "ベルガモット果皮と精油",
+      "learningGoal": "代表的な柑橘天然香料を理解する。",
+      "sourceType": [
+        "精油分析論文",
+        "IFRA関連資料"
+      ]
+    },
+
+    {
+      "type": "image",
+      "layout": "image",
+      "chapter": "CHAPTER 04",
+      "title": "ラベンダー",
+      "text": "",
+      "image": "",
+      "imageAlt": "ラベンダーと精油",
+      "learningGoal": "代表的な精油原料と主要香気成分を理解する。",
+      "sourceType": [
+        "ISO",
+        "精油分析論文"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 04",
+      "title": "サンダルウッドとパチョリ",
+      "text": "",
+      "image": "",
+      "imageAlt": "サンダルウッドとパチョリ",
+      "learningGoal": "ベースノートに使われる代表的天然香料を理解する。",
+      "sourceType": [
+        "GC/MS分析論文",
+        "天然香料レビュー論文"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 05",
+      "title": "天然香料の抽出法",
+      "text": "",
+      "learningGoal": "天然香料の主要な抽出方法を俯瞰する。",
+      "sourceType": [
+        "香料学専門書",
+        "化学工学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 05",
+      "title": "水蒸気蒸留",
+      "text": "",
+      "image": "",
+      "imageAlt": "水蒸気蒸留装置の模式図",
+      "learningGoal": "精油製造で重要な水蒸気蒸留の仕組みを理解する。",
+      "sourceType": [
+        "香料学専門書",
+        "化学工学資料"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 05",
+      "title": "圧搾法",
+      "text": "",
+      "image": "",
+      "imageAlt": "柑橘果皮から精油を得る模式図",
+      "learningGoal": "柑橘精油で利用される圧搾法を理解する。",
+      "sourceType": [
+        "柑橘精油専門資料"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 05",
+      "title": "溶剤抽出",
+      "text": "",
+      "image": "",
+      "imageAlt": "コンクリートとアブソリュートの製造工程",
+      "learningGoal": "溶剤抽出による天然香料製造を理解する。",
+      "sourceType": [
+        "香料学専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 05",
+      "title": "超臨界CO₂抽出",
+      "text": "",
+      "image": "",
+      "imageAlt": "超臨界CO2抽出の模式図",
+      "learningGoal": "超臨界流体を利用した抽出法の基本を理解する。",
+      "sourceType": [
+        "査読論文",
+        "化学工学専門資料"
+      ]
+    },
+
+    {
+      "type": "data",
+      "layout": "data",
+      "chapter": "CHAPTER 05",
+      "title": "抽出法で香りは変わる",
+      "text": "",
+      "data": [],
+      "learningGoal": "同じ植物でも抽出法によって得られる香気成分が異なることを理解する。",
+      "sourceType": [
+        "比較GC/MS研究論文"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 06",
+      "title": "香料をどう分析するか",
+      "text": "",
+      "learningGoal": "香料分析の全体像を理解する。",
+      "sourceType": [
+        "機器分析専門書"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 06",
+      "title": "GCとは何か",
+      "text": "",
+      "image": "",
+      "imageAlt": "ガスクロマトグラフィーの分離模式図",
+      "learningGoal": "GCで香気成分を分離する仕組みを理解する。",
+      "sourceType": [
+        "機器分析専門書",
+        "分析機器メーカー技術資料"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 06",
+      "title": "MSとは何か",
+      "text": "",
+      "image": "",
+      "imageAlt": "質量分析計の概念図",
+      "learningGoal": "質量スペクトルから成分を推定する考え方を理解する。",
+      "sourceType": [
+        "機器分析専門書",
+        "NIST"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 06",
+      "title": "GC/MSの読み方",
+      "text": "",
+      "image": "",
+      "imageAlt": "クロマトグラムの読み方",
+      "learningGoal": "ピーク、保持時間、ピーク面積の基本を理解する。",
+      "sourceType": [
+        "NIST",
+        "分析機器メーカー技術資料"
+      ]
+    },
+
+    {
+      "type": "split",
+      "layout": "split",
+      "chapter": "CHAPTER 06",
+      "title": "SPMEとヘッドスペース分析",
+      "text": "",
+      "image": "",
+      "imageAlt": "SPMEファイバーとヘッドスペースバイアル",
+      "learningGoal": "香気成分を分析する代表的前処理法を理解する。",
+      "sourceType": [
+        "分析化学論文",
+        "分析機器メーカー資料"
+      ]
+    },
+
+    {
+      "type": "data",
+      "layout": "data",
+      "chapter": "CHAPTER 06",
+      "title": "天然香料の品質評価",
+      "text": "",
+      "data": [],
+      "learningGoal": "ロット差、酸化、成分比など天然香料の品質を見る視点を理解する。",
+      "sourceType": [
+        "ISO",
+        "GC/MS分析論文",
+        "SDS"
+      ]
+    },
+
+    {
+      "type": "article",
+      "layout": "article",
+      "chapter": "CHAPTER 07",
+      "title": "安全性・アレルゲン・規制の基礎",
+      "text": "",
+      "learningGoal": "天然由来であることと安全性は同義ではないことを理解し、ハザードとリスクの違いを知る。",
+      "sourceType": [
+        "IFRA",
+        "RIFM",
+        "EU SCCS",
+        "厚生労働省",
+        "消費者庁"
+      ]
+    },
+
+    {
+      "type": "glossary",
+      "layout": "glossary",
+      "chapter": "REFERENCE",
+      "title": "参考文献・データベース・用語集",
+      "text": "",
+      "terms": [],
+      "learningGoal": "PubChem、NIST、IFRAなどを自分で調べるための入口を理解する。",
+      "sourceType": [
+        "PubChem",
+        "NIST Chemistry WebBook",
+        "IFRA",
+        "RIFM",
+        "ISO",
+        "査読論文"
+      ]
+    },
+
+    {
+      "type": "back-cover",
+      "layout": "back-cover",
+      "chapter": "",
+      "title": "MY BOOKS",
+      "subtitle": "My Knowledge Library",
+      "text": ""
+    }
+
+  ]
+}

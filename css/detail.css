@@ -1,0 +1,593 @@
+/* =========================================================
+   BOOK DETAIL
+========================================================= */
+
+.book-detail-view {
+  padding:
+    42px 0 80px;
+}
+
+.book-detail-layout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(280px, 390px)
+    1fr;
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+
+/* =========================================================
+   DETAIL COVER
+========================================================= */
+
+.detail-cover {
+  position: relative;
+
+  aspect-ratio: 3 / 4;
+
+  border-radius:
+    10px 18px 18px 10px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      #3a3129 0%,
+      #181512 55%,
+      #090909 100%
+    );
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  box-shadow:
+    0 34px 80px
+    rgba(0, 0, 0, 0.5),
+    inset 5px 0 0
+    rgba(255, 255, 255, 0.04),
+    inset -1px 0 0
+    rgba(255, 255, 255, 0.08);
+}
+
+.detail-cover::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 16px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.75),
+      rgba(255, 255, 255, 0.05)
+    );
+}
+
+.detail-cover-inner {
+  height: 100%;
+
+  padding:
+    42px 36px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  position: relative;
+
+  z-index: 1;
+}
+
+.detail-category {
+  font-size: 11px;
+
+  letter-spacing: 0.22em;
+
+  text-transform:
+    uppercase;
+
+  color: #c9bba3;
+}
+
+.detail-cover h2 {
+  margin:
+    auto 0 18px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(
+      34px,
+      5vw,
+      54px
+    );
+
+  line-height: 1.02;
+
+  font-weight: 500;
+
+  letter-spacing: 0.04em;
+
+  color: #f6f1e8;
+}
+
+.detail-cover p {
+  margin: 0;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+
+  color: #c9c0b4;
+}
+
+
+/* =========================================================
+   IMAGE COVER MODE
+   Study books
+========================================================= */
+
+.detail-cover-image-mode {
+  background-color: #ffffff;
+
+  background-size: cover;
+
+  background-position:
+    center center;
+
+  background-repeat:
+    no-repeat;
+
+  border:
+    1px solid
+    rgba(0,0,0,.08);
+
+  box-shadow:
+    0 34px 80px
+    rgba(0,0,0,.42);
+
+  border-radius:
+    10px 18px 18px 10px;
+}
+
+.detail-cover-image-mode::before,
+.detail-cover-image-mode::after {
+  display: none !important;
+}
+
+.detail-cover-image-mode
+.detail-cover-inner {
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   COVER COLOR VARIATIONS
+========================================================= */
+
+.detail-cover-accounting {
+  background:
+    radial-gradient(
+      circle at 32% 28%,
+      rgba(116, 136, 157, 0.3),
+      transparent 38%
+    ),
+    linear-gradient(
+      145deg,
+      #293641,
+      #12181e 58%,
+      #080a0c
+    );
+}
+
+.detail-cover-trial {
+  background:
+    radial-gradient(
+      circle at 72% 26%,
+      rgba(114, 142, 108, 0.3),
+      transparent 38%
+    ),
+    linear-gradient(
+      145deg,
+      #2a3b2c,
+      #111811 58%,
+      #080b08
+    );
+}
+
+
+/* =========================================================
+   DETAIL INFORMATION
+========================================================= */
+
+.detail-information {
+  max-width: 620px;
+}
+
+.detail-label {
+  margin:
+    0 0 22px;
+
+  font-size: 11px;
+
+  letter-spacing: 0.24em;
+
+  color: #9c9386;
+}
+
+.detail-information h1 {
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(
+      42px,
+      6vw,
+      72px
+    );
+
+  font-weight: 500;
+
+  line-height: 1;
+
+  letter-spacing: 0.02em;
+
+  color: #f5efe6;
+}
+
+.detail-subtitle {
+  margin:
+    22px 0 0;
+
+  font-size: 18px;
+
+  color: #c4bbb0;
+}
+
+
+/* =========================================================
+   DETAIL META
+========================================================= */
+
+.detail-meta {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 18px;
+
+  margin-top: 46px;
+}
+
+.detail-meta div {
+  padding:
+    18px 20px;
+
+  border-top:
+    1px solid
+    rgba(255,255,255,.1);
+
+  border-bottom:
+    1px solid
+    rgba(255,255,255,.06);
+}
+
+.detail-meta span {
+  display: block;
+
+  margin-bottom: 6px;
+
+  font-size: 10px;
+
+  letter-spacing: .18em;
+
+  color: #7f786e;
+}
+
+.detail-meta strong {
+  font-size: 15px;
+
+  font-weight: 500;
+
+  color: #d8d0c5;
+
+  text-transform:
+    uppercase;
+}
+
+
+/* =========================================================
+   OPEN BOOK BUTTON
+========================================================= */
+
+.read-book-button {
+  margin-top: 42px;
+
+  min-width: 220px;
+
+  padding:
+    16px 28px;
+
+  border:
+    1px solid
+    #d1b98f;
+
+  border-radius: 999px;
+
+  background: #d1b98f;
+
+  color: #171717;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  letter-spacing: .18em;
+
+  cursor: pointer;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background .2s ease;
+}
+
+.read-book-button:hover {
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 14px 30px
+    rgba(0,0,0,.3);
+
+  background:
+    #e0c99f;
+}
+
+
+/* =========================================================
+   PERFUME MODERN EDITORIAL COVER
+========================================================= */
+
+.detail-cover-perfume {
+  position: relative;
+
+  background:
+    linear-gradient(
+      180deg,
+      #fbfaf7 0%,
+      #f3efe8 100%
+    ) !important;
+
+  color: #111;
+
+  border:
+    1px solid
+    rgba(0,0,0,.08);
+
+  box-shadow:
+    0 34px 80px
+    rgba(0,0,0,.38),
+    inset 5px 0 0
+    rgba(0,0,0,.05);
+
+  overflow: hidden;
+}
+
+.detail-cover-perfume::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 16px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(86,68,56,.20),
+      rgba(255,255,255,.55)
+    );
+
+  z-index: 1;
+}
+
+.detail-cover-perfume::after {
+  content: "";
+
+  position: absolute;
+
+  left: -55px;
+
+  bottom: 125px;
+
+  width: 140%;
+
+  height: 2px;
+
+  background:
+    #8a7666;
+
+  transform:
+    rotate(-11deg);
+
+  z-index: 1;
+}
+
+.detail-cover-perfume
+.detail-cover-inner {
+  position: relative;
+
+  z-index: 2;
+
+  padding:
+    42px 36px 38px;
+}
+
+.detail-cover-perfume
+.detail-category {
+  color: #8b8178;
+
+  font-size: 10px;
+
+  letter-spacing: .26em;
+}
+
+.detail-cover-perfume h2 {
+  margin:
+    auto 0 16px;
+
+  max-width: 90%;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  font-size:
+    clamp(
+      36px,
+      5vw,
+      58px
+    );
+
+  line-height: .95;
+
+  font-weight: 800;
+
+  letter-spacing:
+    -.045em;
+
+  color: #171717;
+}
+
+.detail-cover-perfume p {
+  color: #5e554d;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+}
+
+.detail-cover-perfume
+h2::after {
+  content: "";
+
+  display: block;
+
+  width: 105px;
+  height: 105px;
+
+  margin-top: 36px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #8e7767,
+      #c8b1a0
+    );
+
+  clip-path:
+    polygon(
+      0 20%,
+      100% 0,
+      78% 100%,
+      12% 84%
+    );
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 850px) {
+
+  .book-detail-layout {
+    grid-template-columns:
+      1fr;
+
+    gap: 42px;
+  }
+
+  .detail-cover {
+    width:
+      min(
+        100%,
+        360px
+      );
+
+    margin:
+      0 auto;
+  }
+
+  .detail-information {
+    max-width: none;
+  }
+
+  .detail-information h1 {
+    font-size:
+      clamp(
+        38px,
+        10vw,
+        58px
+      );
+  }
+}
+
+
+@media (max-width: 520px) {
+
+  .book-detail-view {
+    padding-top: 28px;
+  }
+
+  .detail-cover-inner {
+    padding:
+      30px 26px;
+  }
+
+  .detail-cover h2 {
+    font-size: 34px;
+  }
+
+  .detail-meta {
+    grid-template-columns:
+      1fr;
+
+    gap: 0;
+  }
+
+  .read-book-button {
+    width: 100%;
+  }
+}

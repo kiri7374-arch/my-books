@@ -1,0 +1,420 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "unitId": "math-circle",
+  "title": "円周と円周率",
+  "description": "直径と円周の関係、円周率3.14、正多角形との関連",
+  "questionCount": 30,
+  "questions": [
+    {
+      "id": "M5-CI-001",
+      "type": "text",
+      "question": "直径3cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "9.42cm",
+      "explanation": "3×3.14=9.42cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 3.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-002",
+      "type": "text",
+      "question": "円周が15.7cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "5cm",
+      "explanation": "15.7÷3.14=5cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 15.7,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-003",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-004",
+      "type": "text",
+      "question": "直径6cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "18.84cm",
+      "explanation": "6×3.14=18.84cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 6.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-005",
+      "type": "text",
+      "question": "円周が25.12cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "8cm",
+      "explanation": "25.12÷3.14=8cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 25.12,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-006",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-007",
+      "type": "text",
+      "question": "直径9cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "28.26cm",
+      "explanation": "9×3.14=28.26cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 9.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-008",
+      "type": "text",
+      "question": "円周が9.42cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "3cm",
+      "explanation": "9.42÷3.14=3cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 9.42,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-009",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-010",
+      "type": "text",
+      "question": "直径2cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "6.28cm",
+      "explanation": "2×3.14=6.28cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 2.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-011",
+      "type": "text",
+      "question": "円周が18.84cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "6cm",
+      "explanation": "18.84÷3.14=6cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 18.84,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-012",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-013",
+      "type": "text",
+      "question": "直径5cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "15.7cm",
+      "explanation": "5×3.14=15.7cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 5.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-014",
+      "type": "text",
+      "question": "円周が28.26cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "9cm",
+      "explanation": "28.26÷3.14=9cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 28.26,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-015",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-016",
+      "type": "text",
+      "question": "直径8cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "25.12cm",
+      "explanation": "8×3.14=25.12cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 8.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-017",
+      "type": "text",
+      "question": "円周が12.56cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "4cm",
+      "explanation": "12.56÷3.14=4cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 12.56,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-018",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-019",
+      "type": "text",
+      "question": "直径11cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "34.54cm",
+      "explanation": "11×3.14=34.54cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 11.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-020",
+      "type": "text",
+      "question": "円周が21.98cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "7cm",
+      "explanation": "21.98÷3.14=7cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 21.98,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-021",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-022",
+      "type": "text",
+      "question": "直径4cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "12.56cm",
+      "explanation": "4×3.14=12.56cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 4.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-023",
+      "type": "text",
+      "question": "円周が31.4cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "10cm",
+      "explanation": "31.4÷3.14=10cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 31.4,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-024",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-025",
+      "type": "text",
+      "question": "直径7cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "21.98cm",
+      "explanation": "7×3.14=21.98cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 7.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-026",
+      "type": "text",
+      "question": "円周が15.7cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "5cm",
+      "explanation": "15.7÷3.14=5cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 15.7,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-027",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-028",
+      "type": "text",
+      "question": "直径10cmの円の円周を、円周率3.14として求めましょう。",
+      "answer": "31.4cm",
+      "explanation": "10×3.14=31.4cmです。",
+      "why": "円周率は『円周÷直径』で表される一定の値なので、円周＝直径×円周率です。",
+      "visual": {
+        "type": "circle",
+        "diameter": 10.0,
+        "unit": "cm",
+        "showDiameter": true
+      }
+    },
+    {
+      "id": "M5-CI-029",
+      "type": "text",
+      "question": "円周が25.12cmの円の直径を、円周率3.14として求めましょう。",
+      "answer": "8cm",
+      "explanation": "25.12÷3.14=8cmです。",
+      "why": "円周＝直径×円周率なので、直径＝円周÷円周率です。",
+      "visual": {
+        "type": "circle",
+        "circumference": 25.12,
+        "unit": "cm",
+        "showDiameter": false
+      }
+    },
+    {
+      "id": "M5-CI-030",
+      "type": "text",
+      "question": "円周を直径で割った値を何といいますか？",
+      "answer": "円周率",
+      "explanation": "円周÷直径で求められる値を円周率といいます。小学校では通常3.14を用います。",
+      "why": "円の大きさが変わっても、円周と直径の割合は一定です。",
+      "visual": {
+        "type": "circle",
+        "unit": "cm",
+        "showDiameter": true
+      }
+    }
+  ]
+}

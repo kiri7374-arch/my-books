@@ -1,0 +1,382 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "unitId": "math-congruence",
+  "title": "合同な図形",
+  "description": "合同、対応する辺・角、図形の決まり方と構成",
+  "questionCount": 30,
+  "questions": [
+    {
+      "id": "M5-CG-001",
+      "type": "text",
+      "question": "合同な二つの三角形で、辺AB=4cmに対応する辺DEの長さは何cmですか？",
+      "answer": "4cm",
+      "explanation": "合同な図形の対応する辺の長さは等しいので、DE=4cmです。",
+      "why": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "sideLabel": "4cm",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-002",
+      "type": "text",
+      "question": "合同な二つの図形で、角A=60°に対応する角Dは何度ですか？",
+      "answer": "60°",
+      "explanation": "対応する角の大きさは等しいため60°です。",
+      "why": "合同は形と大きさが同じということなので、対応する角も等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "angleLabel": "60°",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-003",
+      "type": "text",
+      "question": "図形を平行移動しただけで形や大きさが変わっていません。移動前と移動後の図形は合同ですか？",
+      "answer": "はい",
+      "explanation": "位置が変わっても形と大きさが同じなら合同です。",
+      "why": "合同は図形の位置や向きに左右されません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
+    },
+    {
+      "id": "M5-CG-004",
+      "type": "text",
+      "question": "同じ形でも大きさが違う二つの図形は合同ですか？",
+      "answer": "いいえ",
+      "explanation": "合同になるには形だけでなく大きさも同じである必要があります。",
+      "why": "拡大・縮小でできた図形は形が同じでも、通常は合同ではありません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
+    },
+    {
+      "id": "M5-CG-005",
+      "type": "text",
+      "question": "二つの図形がぴったり重なるとき、この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形も大きさも同じで、移動したり裏返したりするとぴったり重なる図形は合同です。",
+      "why": "合同かどうかは位置や向きではなく、対応する辺の長さや角の大きさなどで判断します。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
+    },
+    {
+      "id": "M5-CG-006",
+      "type": "text",
+      "question": "合同な二つの三角形で、辺AB=5cmに対応する辺DEの長さは何cmですか？",
+      "answer": "5cm",
+      "explanation": "合同な図形の対応する辺の長さは等しいので、DE=5cmです。",
+      "why": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "sideLabel": "5cm",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-007",
+      "type": "text",
+      "question": "合同な二つの図形で、角A=60°に対応する角Dは何度ですか？",
+      "answer": "60°",
+      "explanation": "対応する角の大きさは等しいため60°です。",
+      "why": "合同は形と大きさが同じということなので、対応する角も等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "angleLabel": "60°",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-008",
+      "type": "text",
+      "question": "図形を平行移動しただけで形や大きさが変わっていません。移動前と移動後の図形は合同ですか？",
+      "answer": "はい",
+      "explanation": "位置が変わっても形と大きさが同じなら合同です。",
+      "why": "合同は図形の位置や向きに左右されません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
+    },
+    {
+      "id": "M5-CG-009",
+      "type": "text",
+      "question": "同じ形でも大きさが違う二つの図形は合同ですか？",
+      "answer": "いいえ",
+      "explanation": "合同になるには形だけでなく大きさも同じである必要があります。",
+      "why": "拡大・縮小でできた図形は形が同じでも、通常は合同ではありません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
+    },
+    {
+      "id": "M5-CG-010",
+      "type": "text",
+      "question": "二つの図形がぴったり重なるとき、この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形も大きさも同じで、移動したり裏返したりするとぴったり重なる図形は合同です。",
+      "why": "合同かどうかは位置や向きではなく、対応する辺の長さや角の大きさなどで判断します。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
+    },
+    {
+      "id": "M5-CG-011",
+      "type": "text",
+      "question": "合同な二つの三角形で、辺AB=6cmに対応する辺DEの長さは何cmですか？",
+      "answer": "6cm",
+      "explanation": "合同な図形の対応する辺の長さは等しいので、DE=6cmです。",
+      "why": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "sideLabel": "6cm",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-012",
+      "type": "text",
+      "question": "合同な二つの図形で、角A=60°に対応する角Dは何度ですか？",
+      "answer": "60°",
+      "explanation": "対応する角の大きさは等しいため60°です。",
+      "why": "合同は形と大きさが同じということなので、対応する角も等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "angleLabel": "60°",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-013",
+      "type": "text",
+      "question": "図形を平行移動しただけで形や大きさが変わっていません。移動前と移動後の図形は合同ですか？",
+      "answer": "はい",
+      "explanation": "位置が変わっても形と大きさが同じなら合同です。",
+      "why": "合同は図形の位置や向きに左右されません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
+    },
+    {
+      "id": "M5-CG-014",
+      "type": "text",
+      "question": "同じ形でも大きさが違う二つの図形は合同ですか？",
+      "answer": "いいえ",
+      "explanation": "合同になるには形だけでなく大きさも同じである必要があります。",
+      "why": "拡大・縮小でできた図形は形が同じでも、通常は合同ではありません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
+    },
+    {
+      "id": "M5-CG-015",
+      "type": "text",
+      "question": "二つの図形がぴったり重なるとき、この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形も大きさも同じで、移動したり裏返したりするとぴったり重なる図形は合同です。",
+      "why": "合同かどうかは位置や向きではなく、対応する辺の長さや角の大きさなどで判断します。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
+    },
+    {
+      "id": "M5-CG-016",
+      "type": "text",
+      "question": "合同な二つの三角形で、辺AB=3cmに対応する辺DEの長さは何cmですか？",
+      "answer": "3cm",
+      "explanation": "合同な図形の対応する辺の長さは等しいので、DE=3cmです。",
+      "why": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "sideLabel": "3cm",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-017",
+      "type": "text",
+      "question": "合同な二つの図形で、角A=60°に対応する角Dは何度ですか？",
+      "answer": "60°",
+      "explanation": "対応する角の大きさは等しいため60°です。",
+      "why": "合同は形と大きさが同じということなので、対応する角も等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "angleLabel": "60°",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-018",
+      "type": "text",
+      "question": "図形を平行移動しただけで形や大きさが変わっていません。移動前と移動後の図形は合同ですか？",
+      "answer": "はい",
+      "explanation": "位置が変わっても形と大きさが同じなら合同です。",
+      "why": "合同は図形の位置や向きに左右されません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
+    },
+    {
+      "id": "M5-CG-019",
+      "type": "text",
+      "question": "同じ形でも大きさが違う二つの図形は合同ですか？",
+      "answer": "いいえ",
+      "explanation": "合同になるには形だけでなく大きさも同じである必要があります。",
+      "why": "拡大・縮小でできた図形は形が同じでも、通常は合同ではありません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
+    },
+    {
+      "id": "M5-CG-020",
+      "type": "text",
+      "question": "二つの図形がぴったり重なるとき、この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形も大きさも同じで、移動したり裏返したりするとぴったり重なる図形は合同です。",
+      "why": "合同かどうかは位置や向きではなく、対応する辺の長さや角の大きさなどで判断します。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
+    },
+    {
+      "id": "M5-CG-021",
+      "type": "text",
+      "question": "合同な二つの三角形で、辺AB=4cmに対応する辺DEの長さは何cmですか？",
+      "answer": "4cm",
+      "explanation": "合同な図形の対応する辺の長さは等しいので、DE=4cmです。",
+      "why": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "sideLabel": "4cm",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-022",
+      "type": "text",
+      "question": "合同な二つの図形で、角A=60°に対応する角Dは何度ですか？",
+      "answer": "60°",
+      "explanation": "対応する角の大きさは等しいため60°です。",
+      "why": "合同は形と大きさが同じということなので、対応する角も等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "angleLabel": "60°",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-023",
+      "type": "text",
+      "question": "図形を平行移動しただけで形や大きさが変わっていません。移動前と移動後の図形は合同ですか？",
+      "answer": "はい",
+      "explanation": "位置が変わっても形と大きさが同じなら合同です。",
+      "why": "合同は図形の位置や向きに左右されません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
+    },
+    {
+      "id": "M5-CG-024",
+      "type": "text",
+      "question": "同じ形でも大きさが違う二つの図形は合同ですか？",
+      "answer": "いいえ",
+      "explanation": "合同になるには形だけでなく大きさも同じである必要があります。",
+      "why": "拡大・縮小でできた図形は形が同じでも、通常は合同ではありません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
+    },
+    {
+      "id": "M5-CG-025",
+      "type": "text",
+      "question": "二つの図形がぴったり重なるとき、この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形も大きさも同じで、移動したり裏返したりするとぴったり重なる図形は合同です。",
+      "why": "合同かどうかは位置や向きではなく、対応する辺の長さや角の大きさなどで判断します。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
+    },
+    {
+      "id": "M5-CG-026",
+      "type": "text",
+      "question": "合同な二つの三角形で、辺AB=5cmに対応する辺DEの長さは何cmですか？",
+      "answer": "5cm",
+      "explanation": "合同な図形の対応する辺の長さは等しいので、DE=5cmです。",
+      "why": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "sideLabel": "5cm",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-027",
+      "type": "text",
+      "question": "合同な二つの図形で、角A=60°に対応する角Dは何度ですか？",
+      "answer": "60°",
+      "explanation": "対応する角の大きさは等しいため60°です。",
+      "why": "合同は形と大きさが同じということなので、対応する角も等しくなります。",
+      "visual": {
+        "type": "congruent-triangles",
+        "angleLabel": "60°",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-028",
+      "type": "text",
+      "question": "図形を平行移動しただけで形や大きさが変わっていません。移動前と移動後の図形は合同ですか？",
+      "answer": "はい",
+      "explanation": "位置が変わっても形と大きさが同じなら合同です。",
+      "why": "合同は図形の位置や向きに左右されません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
+    },
+    {
+      "id": "M5-CG-029",
+      "type": "text",
+      "question": "同じ形でも大きさが違う二つの図形は合同ですか？",
+      "answer": "いいえ",
+      "explanation": "合同になるには形だけでなく大きさも同じである必要があります。",
+      "why": "拡大・縮小でできた図形は形が同じでも、通常は合同ではありません。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
+    },
+    {
+      "id": "M5-CG-030",
+      "type": "text",
+      "question": "二つの図形がぴったり重なるとき、この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形も大きさも同じで、移動したり裏返したりするとぴったり重なる図形は合同です。",
+      "why": "合同かどうかは位置や向きではなく、対応する辺の長さや角の大きさなどで判断します。",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
+    }
+  ]
+}

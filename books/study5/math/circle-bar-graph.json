@@ -1,0 +1,465 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "unitId": "math-circle-bar-graph",
+  "title": "円グラフ・帯グラフ",
+  "description": "円グラフ・帯グラフの特徴、読み取り、割合との関連",
+  "questionCount": 35,
+  "questions": [
+    {
+      "id": "M5-GR-001",
+      "type": "text",
+      "question": "ある帯グラフでAが15%です。全体が200人ならAは何人ですか？",
+      "answer": "30人",
+      "explanation": "200×0.15=30人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 15,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-002",
+      "type": "text",
+      "question": "円グラフでAが20%、残りがBだけなら、Bは何%ですか？",
+      "answer": "80%",
+      "explanation": "100−20=80%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 20,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-003",
+      "type": "text",
+      "question": "200人のうち50人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "25%",
+      "explanation": "50÷200×100=25%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-004",
+      "type": "text",
+      "question": "ある帯グラフでAが30%です。全体が200人ならAは何人ですか？",
+      "answer": "60人",
+      "explanation": "200×0.3=60人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 30,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-005",
+      "type": "text",
+      "question": "円グラフでAが35%、残りがBだけなら、Bは何%ですか？",
+      "answer": "65%",
+      "explanation": "100−35=65%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 35,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-006",
+      "type": "text",
+      "question": "200人のうち80人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "40%",
+      "explanation": "80÷200×100=40%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-007",
+      "type": "text",
+      "question": "ある帯グラフでAが45%です。全体が200人ならAは何人ですか？",
+      "answer": "90人",
+      "explanation": "200×0.45=90人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 45,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-008",
+      "type": "text",
+      "question": "円グラフでAが50%、残りがBだけなら、Bは何%ですか？",
+      "answer": "50%",
+      "explanation": "100−50=50%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 50,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-009",
+      "type": "text",
+      "question": "200人のうち20人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "10%",
+      "explanation": "20÷200×100=10%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-010",
+      "type": "text",
+      "question": "ある帯グラフでAが15%です。全体が200人ならAは何人ですか？",
+      "answer": "30人",
+      "explanation": "200×0.15=30人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 15,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-011",
+      "type": "text",
+      "question": "円グラフでAが20%、残りがBだけなら、Bは何%ですか？",
+      "answer": "80%",
+      "explanation": "100−20=80%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 20,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-012",
+      "type": "text",
+      "question": "200人のうち50人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "25%",
+      "explanation": "50÷200×100=25%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-013",
+      "type": "text",
+      "question": "ある帯グラフでAが30%です。全体が200人ならAは何人ですか？",
+      "answer": "60人",
+      "explanation": "200×0.3=60人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 30,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-014",
+      "type": "text",
+      "question": "円グラフでAが35%、残りがBだけなら、Bは何%ですか？",
+      "answer": "65%",
+      "explanation": "100−35=65%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 35,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-015",
+      "type": "text",
+      "question": "200人のうち80人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "40%",
+      "explanation": "80÷200×100=40%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-016",
+      "type": "text",
+      "question": "ある帯グラフでAが45%です。全体が200人ならAは何人ですか？",
+      "answer": "90人",
+      "explanation": "200×0.45=90人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 45,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-017",
+      "type": "text",
+      "question": "円グラフでAが50%、残りがBだけなら、Bは何%ですか？",
+      "answer": "50%",
+      "explanation": "100−50=50%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 50,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-018",
+      "type": "text",
+      "question": "200人のうち20人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "10%",
+      "explanation": "20÷200×100=10%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-019",
+      "type": "text",
+      "question": "ある帯グラフでAが15%です。全体が200人ならAは何人ですか？",
+      "answer": "30人",
+      "explanation": "200×0.15=30人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 15,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-020",
+      "type": "text",
+      "question": "円グラフでAが20%、残りがBだけなら、Bは何%ですか？",
+      "answer": "80%",
+      "explanation": "100−20=80%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 20,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-021",
+      "type": "text",
+      "question": "200人のうち50人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "25%",
+      "explanation": "50÷200×100=25%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-022",
+      "type": "text",
+      "question": "ある帯グラフでAが30%です。全体が200人ならAは何人ですか？",
+      "answer": "60人",
+      "explanation": "200×0.3=60人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 30,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-023",
+      "type": "text",
+      "question": "円グラフでAが35%、残りがBだけなら、Bは何%ですか？",
+      "answer": "65%",
+      "explanation": "100−35=65%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 35,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-024",
+      "type": "text",
+      "question": "200人のうち80人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "40%",
+      "explanation": "80÷200×100=40%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-025",
+      "type": "text",
+      "question": "ある帯グラフでAが45%です。全体が200人ならAは何人ですか？",
+      "answer": "90人",
+      "explanation": "200×0.45=90人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 45,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-026",
+      "type": "text",
+      "question": "円グラフでAが50%、残りがBだけなら、Bは何%ですか？",
+      "answer": "50%",
+      "explanation": "100−50=50%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 50,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-027",
+      "type": "text",
+      "question": "200人のうち20人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "10%",
+      "explanation": "20÷200×100=10%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-028",
+      "type": "text",
+      "question": "ある帯グラフでAが15%です。全体が200人ならAは何人ですか？",
+      "answer": "30人",
+      "explanation": "200×0.15=30人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 15,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-029",
+      "type": "text",
+      "question": "円グラフでAが20%、残りがBだけなら、Bは何%ですか？",
+      "answer": "80%",
+      "explanation": "100−20=80%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 20,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-030",
+      "type": "text",
+      "question": "200人のうち50人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "25%",
+      "explanation": "50÷200×100=25%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-031",
+      "type": "text",
+      "question": "ある帯グラフでAが30%です。全体が200人ならAは何人ですか？",
+      "answer": "60人",
+      "explanation": "200×0.3=60人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 30,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-032",
+      "type": "text",
+      "question": "円グラフでAが35%、残りがBだけなら、Bは何%ですか？",
+      "answer": "65%",
+      "explanation": "100−35=65%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 35,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-033",
+      "type": "text",
+      "question": "200人のうち80人がAを選びました。円グラフでは何%に当たりますか？",
+      "answer": "40%",
+      "explanation": "80÷200×100=40%です。",
+      "why": "円グラフや帯グラフは、全体を100%として各部分の割合を表します。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-034",
+      "type": "text",
+      "question": "ある帯グラフでAが45%です。全体が200人ならAは何人ですか？",
+      "answer": "90人",
+      "explanation": "200×0.45=90人です。",
+      "why": "グラフの割合から実際の人数を求めるときは、全体×割合で計算します。",
+      "visual": {
+        "type": "bar-chart",
+        "percent": 45,
+        "label": "A"
+      }
+    },
+    {
+      "id": "M5-GR-035",
+      "type": "text",
+      "question": "円グラフでAが50%、残りがBだけなら、Bは何%ですか？",
+      "answer": "50%",
+      "explanation": "100−50=50%です。",
+      "why": "円グラフ全体は100%なので、残りの割合は100%から既知の割合を引いて求めます。",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 50,
+        "label": "A"
+      }
+    }
+  ]
+}

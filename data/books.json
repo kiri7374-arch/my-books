@@ -1,0 +1,38 @@
+[
+  {
+    "id": "perfume001",
+    "title": "THE BOOK OF FRAGRANCE MATERIALS",
+    "subtitle": "香料学入門 ─ 天然香料と香料化学",
+    "category": "fragrance science",
+    "type": "learning",
+    "cover": "assets/covers/perfume.jpg",
+    "bookData": "books/perfume/book.json"
+  },
+  {
+    "id": "accounting001",
+    "title": "ACCOUNTING BASICS",
+    "subtitle": "経理の基礎",
+    "category": "business",
+    "type": "learning",
+    "cover": "assets/covers/accounting.jpg",
+    "bookData": "books/accounting/book.json"
+  },
+  {
+    "id": "trial001",
+    "title": "TRIAL DATA BOOK",
+    "subtitle": "試作・研究記録",
+    "category": "development",
+    "type": "trial",
+    "cover": "assets/covers/trial.jpg",
+    "bookData": "books/trial/book.json"
+  },
+  {
+    "id": "study5",
+    "title": "自主学習本 5年",
+    "subtitle": "算数・理科・英語・国語",
+    "category": "self study",
+    "type": "learning",
+    "cover": "assets/covers/study5.jpg",
+    "bookData": "books/study5/book.json"
+  }
+]

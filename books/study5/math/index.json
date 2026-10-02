@@ -1,0 +1,177 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "title": "算数",
+  "curriculum": "小学校学習指導要領（平成29年告示）解説 算数編・第5学年の内容を基準に構成",
+  "totalQuestions": 955,
+  "units": [
+    {
+      "id": "math-integer-decimal",
+      "title": "整数と小数",
+      "description": "位取り、10倍・100倍・1000倍、1/10・1/100など",
+      "targetQuestions": 35,
+      "questionCount": 35,
+      "file": "books/study5/math/integer-decimal.json"
+    },
+    {
+      "id": "math-multiple-divisor",
+      "title": "偶数・奇数・倍数・約数",
+      "description": "偶数、奇数、倍数、約数、公倍数、最小公倍数、公約数、最大公約数",
+      "targetQuestions": 55,
+      "questionCount": 55,
+      "file": "books/study5/math/multiple-divisor.json"
+    },
+    {
+      "id": "math-decimal-multiplication",
+      "title": "小数のかけ算",
+      "description": "小数×整数、小数×小数、計算の意味と性質",
+      "targetQuestions": 80,
+      "questionCount": 80,
+      "file": "books/study5/math/decimal-multiplication.json"
+    },
+    {
+      "id": "math-decimal-division",
+      "title": "小数のわり算",
+      "description": "小数÷整数、小数÷小数、商の意味、除法の性質",
+      "targetQuestions": 85,
+      "questionCount": 85,
+      "file": "books/study5/math/decimal-division.json"
+    },
+    {
+      "id": "math-fraction-basic",
+      "title": "分数の意味・約分・通分",
+      "description": "分数と整数・小数の関係、除法の結果、等しい分数、約分、通分、大小",
+      "targetQuestions": 60,
+      "questionCount": 60,
+      "file": "books/study5/math/fraction-basic.json"
+    },
+    {
+      "id": "math-fraction-add-subtract",
+      "title": "分数のたし算・ひき算",
+      "description": "異分母分数の加法・減法、通分を使った計算",
+      "targetQuestions": 75,
+      "questionCount": 75,
+      "file": "books/study5/math/fraction-add-subtract.json"
+    },
+    {
+      "id": "math-expression-properties",
+      "title": "数量の関係を表す式",
+      "description": "□や△、言葉の式、表を用いて数量の対応や変化を考える",
+      "targetQuestions": 30,
+      "questionCount": 30,
+      "file": "books/study5/math/expression-properties.json"
+    },
+    {
+      "id": "math-congruence",
+      "title": "合同な図形",
+      "description": "合同、対応する辺・角、図形の決まり方と構成",
+      "targetQuestions": 30,
+      "questionCount": 30,
+      "file": "books/study5/math/congruence.json"
+    },
+    {
+      "id": "math-polygons-angles",
+      "title": "多角形・正多角形・角",
+      "description": "多角形、正多角形、三角形・四角形などの角の関係",
+      "targetQuestions": 35,
+      "questionCount": 35,
+      "file": "books/study5/math/polygons-angles.json"
+    },
+    {
+      "id": "math-area",
+      "title": "面積",
+      "description": "三角形、平行四辺形、台形、ひし形の面積と公式の意味",
+      "targetQuestions": 50,
+      "questionCount": 50,
+      "file": "books/study5/math/area.json"
+    },
+    {
+      "id": "math-volume",
+      "title": "体積",
+      "description": "直方体・立方体の体積、1cm³などの単位と公式の意味",
+      "targetQuestions": 40,
+      "questionCount": 40,
+      "file": "books/study5/math/volume.json"
+    },
+    {
+      "id": "math-circle",
+      "title": "円周と円周率",
+      "description": "直径と円周の関係、円周率3.14、正多角形との関連",
+      "targetQuestions": 30,
+      "questionCount": 30,
+      "file": "books/study5/math/circle.json"
+    },
+    {
+      "id": "math-prism-cylinder",
+      "title": "角柱・円柱",
+      "description": "底面・側面、角柱・円柱の性質、見取図・展開図",
+      "targetQuestions": 25,
+      "questionCount": 25,
+      "file": "books/study5/math/prism-cylinder.json"
+    },
+    {
+      "id": "math-average",
+      "title": "平均",
+      "description": "測定値などの平均の意味と求め方",
+      "targetQuestions": 30,
+      "questionCount": 30,
+      "file": "books/study5/math/average.json"
+    },
+    {
+      "id": "math-unit-amount",
+      "title": "単位量あたりの大きさ",
+      "description": "人口密度、1個あたり・1人あたりなど、異種の二量の割合",
+      "targetQuestions": 40,
+      "questionCount": 40,
+      "file": "books/study5/math/unit-amount.json"
+    },
+    {
+      "id": "math-speed",
+      "title": "速さ",
+      "description": "速さ・道のり・時間の関係、単位時間当たりの大きさ",
+      "targetQuestions": 45,
+      "questionCount": 45,
+      "file": "books/study5/math/speed.json"
+    },
+    {
+      "id": "math-ratio",
+      "title": "割合・百分率",
+      "description": "基準量・比較量・割合、百分率、割合を用いた比較",
+      "targetQuestions": 65,
+      "questionCount": 65,
+      "file": "books/study5/math/ratio.json"
+    },
+    {
+      "id": "math-proportion",
+      "title": "簡単な比例",
+      "description": "伴って変わる二つの数量の簡単な比例関係、表・式による考察",
+      "targetQuestions": 30,
+      "questionCount": 30,
+      "file": "books/study5/math/proportion.json"
+    },
+    {
+      "id": "math-circle-bar-graph",
+      "title": "円グラフ・帯グラフ",
+      "description": "円グラフ・帯グラフの特徴、読み取り、割合との関連",
+      "targetQuestions": 35,
+      "questionCount": 35,
+      "file": "books/study5/math/circle-bar-graph.json"
+    },
+    {
+      "id": "math-data-analysis",
+      "title": "データの整理と考察",
+      "description": "目的に応じたグラフの選択、データの特徴・傾向、結論の考察",
+      "targetQuestions": 30,
+      "questionCount": 30,
+      "file": "books/study5/math/data-analysis.json"
+    },
+    {
+      "id": "math-comprehensive",
+      "title": "総合問題",
+      "description": "数と計算・図形・変化と関係・データの活用を横断する総合問題",
+      "targetQuestions": 50,
+      "questionCount": 50,
+      "file": "books/study5/math/comprehensive.json"
+    }
+  ]
+}

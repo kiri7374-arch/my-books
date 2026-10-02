@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>MY BOOKS</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/library.css">
+  <link rel="stylesheet" href="css/detail.css">
+  <link rel="stylesheet" href="css/reader.css">
+  <link rel="stylesheet" href="css/book-layouts.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/study.css">
+</head>
+
+
+<body>
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+  <header class="app-header">
+
+    <h1>
+      MY BOOKS
+    </h1>
+
+    <p>
+      My Knowledge Library
+    </p>
+
+  </header>
+
+
+  <!-- =====================================================
+       APP
+  ====================================================== -->
+  <main id="app">
+
+
+    <!-- ===================================================
+         LIBRARY
+    ==================================================== -->
+    <section
+      id="libraryView"
+      class="library view active-view"
+    >
+
+      <h2>
+        LIBRARY
+      </h2>
+
+      <div
+        id="bookShelf"
+        class="book-shelf"
+      >
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         BOOK DETAIL
+    ==================================================== -->
+    <section
+      id="bookDetailView"
+      class="book-detail-view view"
+    >
+
+      <button
+        id="backToLibrary"
+        class="back-button"
+        type="button"
+      >
+        ← LIBRARY
+      </button>
+
+
+      <div class="book-detail-layout">
+
+        <div
+          id="detailCover"
+          class="detail-cover"
+        >
+
+          <div class="detail-cover-inner">
+
+            <span
+              id="detailCategory"
+              class="detail-category"
+            >
+              CATEGORY
+            </span>
+
+            <h2 id="detailTitle">
+              BOOK TITLE
+            </h2>
+
+            <p id="detailSubtitle">
+              BOOK SUBTITLE
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="detail-information">
+
+          <p class="detail-label">
+            MY KNOWLEDGE LIBRARY
+          </p>
+
+          <h1 id="detailTitleLarge">
+            BOOK TITLE
+          </h1>
+
+          <p
+            id="detailSubtitleLarge"
+            class="detail-subtitle"
+          >
+            BOOK SUBTITLE
+          </p>
+
+
+          <div class="detail-meta">
+
+            <div>
+              <span>TYPE</span>
+              <strong id="detailType">-</strong>
+            </div>
+
+            <div>
+              <span>CATEGORY</span>
+              <strong id="detailCategoryText">-</strong>
+            </div>
+
+          </div>
+
+
+          <button
+            id="readBookButton"
+            class="read-book-button"
+            type="button"
+          >
+            OPEN BOOK
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         NORMAL FLIP READER
+    ==================================================== -->
+    <section
+      id="readerView"
+      class="reader-view view"
+    >
+
+      <div class="reader-topbar">
+
+        <button
+          id="backToBookDetail"
+          class="back-button"
+          type="button"
+        >
+          ← BOOK
+        </button>
+
+        <div class="reader-book-info">
+
+          <span id="readerBookTitle">
+            BOOK TITLE
+          </span>
+
+          <small id="readerPageStatus">
+            PAGE 1 / 1
+          </small>
+
+        </div>
+
+      </div>
+
+
+      <div class="reader-stage">
+
+        <div
+          id="pageFlip"
+          class="page-flip-book"
+        >
+        </div>
+
+      </div>
+
+
+      <div class="reader-controls">
+
+        <button
+          id="prevPageButton"
+          class="reader-control-button"
+          type="button"
+        >
+          ← PREV
+        </button>
+
+        <button
+          id="tableOfContentsButton"
+          class="reader-control-button reader-control-center"
+          type="button"
+        >
+          CONTENTS
+        </button>
+
+        <button
+          id="nextPageButton"
+          class="reader-control-button"
+          type="button"
+        >
+          NEXT →
+        </button>
+
+      </div>
+
+
+      <div
+        id="contentsOverlay"
+        class="contents-overlay"
+        aria-hidden="true"
+      >
+
+        <div
+          id="contentsPanel"
+          class="contents-panel"
+        >
+
+          <div class="contents-header">
+
+            <div>
+
+              <p class="contents-label">
+                TABLE OF CONTENTS
+              </p>
+
+              <h2 id="contentsBookTitle">
+                BOOK TITLE
+              </h2>
+
+            </div>
+
+            <button
+              id="closeContentsButton"
+              class="contents-close-button"
+              type="button"
+              aria-label="目次を閉じる"
+            >
+              ×
+            </button>
+
+          </div>
+
+          <div
+            id="contentsList"
+            class="contents-list"
+          >
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         STUDY MODE
+    ==================================================== -->
+    <section
+      id="studyView"
+      class="study-view view"
+    >
+
+      <div class="study-topbar">
+
+        <button
+          id="backFromStudy"
+          class="back-button"
+          type="button"
+        >
+          ← BOOK
+        </button>
+
+        <div class="study-topbar-title">
+
+          <span id="studyBookTitle">
+            自主学習本 5年
+          </span>
+
+          <small>
+            STUDY MODE
+          </small>
+
+        </div>
+
+      </div>
+
+
+      <div class="study-shell">
+
+
+        <!-- ===============================================
+             HOME
+        ================================================ -->
+        <section
+          id="studyHomePanel"
+          class="study-panel study-panel-active"
+        >
+
+          <div class="study-hero">
+
+            <p class="study-eyebrow">
+              SELF STUDY
+            </p>
+
+            <div class="study-grade-row">
+
+              <h2>
+                今日は何を勉強する？
+              </h2>
+
+              <span
+                id="studyGradeBadge"
+                class="study-grade-badge"
+              >
+                5年
+              </span>
+
+            </div>
+
+            <p class="study-intro">
+              4つの教科から、今日取り組む学習を選びましょう。
+            </p>
+
+          </div>
+
+
+          <div
+            id="studySubjectGrid"
+            class="study-mode-subject-grid"
+          >
+
+            <button
+              type="button"
+              class="study-mode-subject-card subject-math"
+              data-subject="math"
+            >
+              <span class="study-mode-icon">
+                ＋
+              </span>
+
+              <strong>算数</strong>
+
+              <small>MATH</small>
+
+              <p>
+                計算・分数・割合など
+              </p>
+            </button>
+
+
+            <button
+              type="button"
+              class="study-mode-subject-card subject-science"
+              data-subject="science"
+            >
+              <span class="study-mode-icon">
+                ⚗
+              </span>
+
+              <strong>理科</strong>
+
+              <small>SCIENCE</small>
+
+              <p>
+                植物・天気・実験など
+              </p>
+            </button>
+
+
+            <button
+              type="button"
+              class="study-mode-subject-card subject-english"
+              data-subject="english"
+            >
+              <span class="study-mode-icon">
+                A
+              </span>
+
+              <strong>英語</strong>
+
+              <small>ENGLISH</small>
+
+              <p>
+                単語・文・会話など
+              </p>
+            </button>
+
+
+            <button
+              type="button"
+              class="study-mode-subject-card subject-japanese"
+              data-subject="japanese"
+            >
+              <span class="study-mode-icon">
+                漢
+              </span>
+
+              <strong>国語</strong>
+
+              <small>JAPANESE</small>
+
+              <p>
+                漢字の読み・書きなど
+              </p>
+            </button>
+
+          </div>
+
+        </section>
+
+
+        <!-- ===============================================
+             SUBJECT
+        ================================================ -->
+        <section
+          id="studySubjectPanel"
+          class="study-panel"
+        >
+
+          <button
+            id="backToStudyHome"
+            class="study-inner-back"
+            type="button"
+          >
+            ← 教科を選び直す
+          </button>
+
+
+          <div class="study-subject-header">
+
+            <p
+              id="studySubjectEnglish"
+              class="study-subject-english"
+            >
+              MATH
+            </p>
+
+            <h2 id="studySubjectTitle">
+              算数
+            </h2>
+
+            <p id="studySubjectDescription">
+              学習する単元を選びましょう。
+            </p>
+
+          </div>
+
+
+          <div
+            id="studyUnitList"
+            class="study-unit-list"
+          >
+          </div>
+
+        </section>
+
+
+        <!-- ===============================================
+             QUESTION PAGE
+        ================================================ -->
+        <section
+          id="studyQuestionPanel"
+          class="study-panel"
+        >
+
+          <button
+            id="backToStudyUnits"
+            class="study-inner-back"
+            type="button"
+          >
+            ← 単元一覧へ戻る
+          </button>
+
+
+          <div class="study-question-header">
+
+            <p class="study-subject-english">
+              MATH
+            </p>
+
+            <h2 id="studyQuestionUnitTitle">
+              小数のかけ算
+            </h2>
+
+            <p id="studyQuestionUnitDescription">
+              問題をタップすると、答えと解説を見ることができます。
+            </p>
+
+          </div>
+
+
+          <div class="study-question-guide">
+
+            <span>
+              STEP 1
+            </span>
+
+            <strong>
+              基本から理解しよう
+            </strong>
+
+            <p>
+              答えだけでなく、「なぜそうなるのか」まで確認しましょう。
+            </p>
+
+          </div>
+
+
+          <div
+            id="studyQuestionList"
+            class="study-question-list"
+          >
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         ANSWER MODAL
+    ==================================================== -->
+    <div
+      id="answerModal"
+      class="answer-modal"
+      aria-hidden="true"
+    >
+
+      <div
+        class="answer-modal-backdrop"
+        data-close-answer-modal
+      >
+      </div>
+
+
+      <div
+        class="answer-modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="answerModalQuestion"
+      >
+
+        <button
+          id="closeAnswerModal"
+          class="answer-modal-close"
+          type="button"
+          aria-label="答えを閉じる"
+        >
+          ×
+        </button>
+
+
+        <div class="answer-modal-scroll">
+
+          <p
+            id="answerModalNumber"
+            class="answer-modal-number"
+          >
+            Q001
+          </p>
+
+
+          <h2
+            id="answerModalQuestion"
+            class="answer-modal-question"
+          >
+            3.6 × 2.4
+          </h2>
+
+
+          <section class="answer-section answer-section-result">
+
+            <span class="answer-section-label">
+              答え
+            </span>
+
+            <div
+              id="answerModalAnswer"
+              class="answer-result"
+            >
+              8.64
+            </div>
+
+          </section>
+
+
+          <section class="answer-section">
+
+            <span class="answer-section-label">
+              解き方
+            </span>
+
+            <div
+              id="answerModalExplanation"
+              class="answer-body"
+            >
+            </div>
+
+          </section>
+
+
+          <section class="answer-section answer-section-why">
+
+            <span class="answer-section-label">
+              なぜそうなる？
+            </span>
+
+            <div
+              id="answerModalWhy"
+              class="answer-body"
+            >
+            </div>
+
+          </section>
+
+
+          <button
+            id="answerModalDone"
+            class="answer-modal-done"
+            type="button"
+          >
+            問題に戻る
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <script src="js/vendor/page-flip.browser.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

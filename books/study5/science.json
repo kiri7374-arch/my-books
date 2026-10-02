@@ -1,0 +1,85 @@
+{
+  "grade": 5,
+  "subject": "science",
+  "title": "理科",
+  "curriculum": "日本の現行小学校学習指導要領に準拠",
+  "units": [
+    {
+      "id": "science-solution",
+      "title": "物の溶け方",
+      "description": "溶ける量、水の量、温度、溶けた物の取り出し、重さ",
+      "targetQuestions": 70,
+      "questions": []
+    },
+    {
+      "id": "science-pendulum",
+      "title": "振り子の運動",
+      "description": "1往復する時間と糸の長さ、おもりの重さなどの関係",
+      "targetQuestions": 50,
+      "questions": []
+    },
+    {
+      "id": "science-electromagnet",
+      "title": "電流がつくる磁力",
+      "description": "電磁石、極、電流の向き、電流の強さ、コイルの巻数",
+      "targetQuestions": 65,
+      "questions": []
+    },
+    {
+      "id": "science-germination",
+      "title": "植物の発芽",
+      "description": "種子のつくり、発芽に必要な水・空気・温度、種子の養分",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "science-plant-growth",
+      "title": "植物の成長",
+      "description": "植物の成長と日光・肥料などの条件",
+      "targetQuestions": 45,
+      "questions": []
+    },
+    {
+      "id": "science-flower-fruit",
+      "title": "花から実へ",
+      "description": "おしべ・めしべ、花粉、受粉、実、種子",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "science-animal-development",
+      "title": "動物の発生と成長",
+      "description": "魚の卵の変化、人の母体内での成長",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "science-running-water",
+      "title": "流れる水の働き",
+      "description": "侵食・運搬・堆積、水量による変化、川と土地、災害",
+      "targetQuestions": 65,
+      "questions": []
+    },
+    {
+      "id": "science-weather",
+      "title": "天気の変化",
+      "description": "雲の量や動き、天気の変化、気象情報",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "science-experiment-thinking",
+      "title": "観察・実験と思考",
+      "description": "条件をそろえる、予想、仮説、実験方法、結果から考える",
+      "targetQuestions": 50,
+      "questions": []
+    },
+    {
+      "id": "science-comprehensive",
+      "title": "総合理科問題",
+      "description": "複数単元を組み合わせた応用・考察問題",
+      "targetQuestions": 50,
+      "questions": []
+    }
+  ]
+}

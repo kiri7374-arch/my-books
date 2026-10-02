@@ -1,0 +1,27 @@
+{
+  "id": "accounting001",
+  "title": "ACCOUNTING BASICS",
+  "subtitle": "経理の基礎",
+  "pages": [
+    {
+      "chapter": "INTRODUCTION",
+      "title": "経理の基礎",
+      "text": "経理は、会社のお金の動きを記録し、整理し、経営判断に役立てる仕事です。"
+    },
+    {
+      "chapter": "BASICS",
+      "title": "売上と利益",
+      "text": "売上高から売上原価を差し引くと、売上総利益を求めることができます。"
+    },
+    {
+      "chapter": "BASICS",
+      "title": "費用とは",
+      "text": "会社の活動に必要となる支出を、目的や性質に応じて整理します。"
+    },
+    {
+      "chapter": "ACCOUNTING",
+      "title": "減価償却",
+      "text": "設備などの取得価額を、使用期間に応じて費用として配分する考え方です。"
+    }
+  ]
+}

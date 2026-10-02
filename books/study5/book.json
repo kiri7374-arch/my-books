@@ -1,0 +1,172 @@
+{
+  "id": "study5",
+  "title": "自主学習本 5年",
+  "subtitle": "算数・理科・英語・国語",
+  "grade": 5,
+  "type": "study",
+  "pages": [
+    {
+      "type": "cover",
+      "layout": "cover",
+      "title": "自主学習本 5年",
+      "subtitle": "算数・理科・英語・国語",
+      "showInContents": false
+    },
+    {
+      "type": "article",
+      "layout": "reference",
+      "runningTitle": "START",
+      "title": "今日は何を勉強する？",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "4つの教科から、今日取り組む学習を選びましょう。"
+        },
+        {
+          "type": "subject-grid",
+          "items": [
+            {
+              "label": "算数",
+              "en": "MATH",
+              "description": "計算・分数・割合など",
+              "targetPage": 2
+            },
+            {
+              "label": "理科",
+              "en": "SCIENCE",
+              "description": "植物・天気・実験など",
+              "targetPage": 3
+            },
+            {
+              "label": "英語",
+              "en": "ENGLISH",
+              "description": "単語・文・会話など",
+              "targetPage": 4
+            },
+            {
+              "label": "国語",
+              "en": "JAPANESE",
+              "description": "漢字の読み・書きなど",
+              "targetPage": 5
+            }
+          ]
+        },
+        {
+          "type": "point",
+          "label": "SELF STUDY",
+          "text": "好きな教科から始めてOKです。毎日少しずつ続けましょう。"
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "layout": "reference",
+      "runningTitle": "算数",
+      "title": "算数",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "計算のやり方だけでなく、なぜその答えになるのかまで理解していきます。"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "整数と小数",
+            "倍数と約数",
+            "小数のかけ算",
+            "小数のわり算",
+            "分数",
+            "平均",
+            "単位量あたり",
+            "割合"
+          ]
+        },
+        {
+          "type": "point",
+          "label": "POINT",
+          "text": "問題をタップすると、答え・解き方・なぜそうなるのかを確認できるようにします。"
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "layout": "reference",
+      "runningTitle": "理科",
+      "title": "理科",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "言葉を覚えるだけでなく、観察や実験の結果から理由を考える力を身につけます。"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "植物の発芽",
+            "植物の成長",
+            "花から実へ",
+            "メダカの誕生",
+            "天気の変化",
+            "流れる水のはたらき",
+            "物の溶け方",
+            "電磁石"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "layout": "reference",
+      "runningTitle": "英語",
+      "title": "英語",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "英単語だけでなく、短い文章や会話の中で使えるように練習します。"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Alphabet",
+            "Numbers",
+            "Colors / Shapes",
+            "Days / Months",
+            "Food",
+            "Subjects",
+            "Family / Friends",
+            "Daily Life",
+            "Can / Like / Want",
+            "Short Sentences"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "layout": "reference",
+      "runningTitle": "国語",
+      "title": "国語",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "5年生で学ぶ漢字を中心に、読み方と書き方を身につけます。"
+        },
+        {
+          "type": "paragraph",
+          "text": "問題の答えを開くと、正しい漢字だけでなく、音読み・訓読み・意味・熟語・書き順も確認できるようにします。"
+        },
+        {
+          "type": "point",
+          "label": "漢字学習",
+          "text": "書き順は、1画ずつ動くアニメーションで確認できるようにします。"
+        }
+      ]
+    },
+    {
+      "type": "back-cover",
+      "layout": "back-cover",
+      "title": "自主学習本 5年",
+      "subtitle": "毎日の学習を、少しずつ。",
+      "showInContents": false
+    }
+  ]
+}

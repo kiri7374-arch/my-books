@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta name="theme-color" content="#10283b">
+
+  <title>SELF STUDY | MY BOOKS</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+
+      min-height: 100vh;
+
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Sans",
+        "Yu Gothic",
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+
+      background:
+        radial-gradient(
+          circle at top right,
+          rgba(67, 145, 197, .24),
+          transparent 35%
+        ),
+        linear-gradient(
+          160deg,
+          #0e2434 0%,
+          #102d42 45%,
+          #071722 100%
+        );
+
+      color: #ffffff;
+    }
+
+
+    button {
+      font: inherit;
+    }
+
+
+    .study-launcher {
+
+      width: min(
+        100%,
+        720px
+      );
+
+      min-height: 100vh;
+
+      margin: 0 auto;
+
+      padding:
+        max(34px, env(safe-area-inset-top))
+        22px
+        max(36px, env(safe-area-inset-bottom));
+
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .launcher-header {
+
+      margin-bottom: 38px;
+    }
+
+
+    .launcher-eyebrow {
+
+      margin: 0 0 8px;
+
+      font-size: 10px;
+      font-weight: 800;
+
+      letter-spacing: .24em;
+
+      color: #8db5d1;
+    }
+
+
+    .launcher-title {
+
+      margin: 0;
+
+      font-size:
+        clamp(
+          38px,
+          10vw,
+          68px
+        );
+
+      line-height: .95;
+
+      letter-spacing: -.04em;
+    }
+
+
+    .launcher-subtitle {
+
+      margin: 15px 0 0;
+
+      max-width: 520px;
+
+      color: #b8c7d1;
+
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+
+    .grade-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        1fr;
+
+      gap: 18px;
+    }
+
+
+    .grade-card {
+
+      width: 100%;
+
+      min-height: 240px;
+
+      padding: 0;
+
+      border: 0;
+
+      border-radius: 28px;
+
+      overflow: hidden;
+
+      cursor: pointer;
+
+      position: relative;
+
+      text-align: left;
+
+      box-shadow:
+        0 22px 55px
+        rgba(0,0,0,.28);
+
+      transition:
+        transform .18s ease,
+        box-shadow .18s ease;
+    }
+
+
+    .grade-card:active {
+
+      transform:
+        scale(.985);
+    }
+
+
+    .grade-card-image {
+
+      position: absolute;
+
+      inset: 0;
+
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+    }
+
+
+    .grade-card::after {
+
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(3,15,24,.02) 0%,
+          rgba(3,15,24,.12) 45%,
+          rgba(3,15,24,.78) 100%
+        );
+    }
+
+
+    .grade-card-content {
+
+      position: absolute;
+
+      z-index: 2;
+
+      left: 22px;
+      right: 22px;
+      bottom: 21px;
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      gap: 16px;
+    }
+
+
+    .grade-card-copy {
+
+      min-width: 0;
+    }
+
+
+    .grade-card-label {
+
+      display: block;
+
+      margin-bottom: 5px;
+
+      color: rgba(255,255,255,.76);
+
+      font-size: 9px;
+      font-weight: 900;
+
+      letter-spacing: .18em;
+    }
+
+
+    .grade-card-title {
+
+  display: block;
+
+  color: #ffffff;
+
+  font-size:
+    clamp(
+      22px,
+      5.5vw,
+      34px
+    );
+
+  line-height: 1.08;
+
+  font-weight: 900;
+
+  white-space: nowrap;
+}
+
+
+    .grade-card-subtitle {
+
+      display: block;
+
+      margin-top: 8px;
+
+      color: rgba(255,255,255,.78);
+
+      font-size: 12px;
+    }
+
+
+    .grade-card-arrow {
+
+      flex-shrink: 0;
+
+      width: 48px;
+      height: 48px;
+
+      border-radius: 50%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background:
+        rgba(255,255,255,.92);
+
+      color: #173247;
+
+      font-size: 23px;
+      font-weight: 900;
+    }
+
+
+    .launcher-footer {
+
+      margin-top: auto;
+
+      padding-top: 34px;
+
+      text-align: center;
+
+      color: #718a9d;
+
+      font-size: 10px;
+
+      letter-spacing: .16em;
+    }
+
+
+    .launcher-loading {
+
+      position: fixed;
+
+      inset: 0;
+
+      z-index: 999;
+
+      display: none;
+
+      align-items: center;
+      justify-content: center;
+
+      background:
+        rgba(5,17,26,.88);
+
+      backdrop-filter:
+        blur(7px);
+    }
+
+
+    .launcher-loading.visible {
+
+      display: flex;
+    }
+
+
+    .launcher-loading-inner {
+
+      text-align: center;
+    }
+
+
+    .launcher-spinner {
+
+      width: 42px;
+      height: 42px;
+
+      margin: 0 auto 16px;
+
+      border:
+        3px solid
+        rgba(255,255,255,.18);
+
+      border-top-color:
+        #ffffff;
+
+      border-radius: 50%;
+
+      animation:
+        launcherSpin
+        .8s linear infinite;
+    }
+
+
+    .launcher-loading-text {
+
+      font-size: 11px;
+      font-weight: 800;
+
+      letter-spacing: .18em;
+
+      color: #ffffff;
+    }
+
+
+    @keyframes launcherSpin {
+
+      to {
+        transform:
+          rotate(360deg);
+      }
+    }
+
+
+    @media (min-width: 640px) {
+
+      .study-launcher {
+
+        padding-left: 34px;
+        padding-right: 34px;
+      }
+
+
+      .grade-grid {
+
+        grid-template-columns:
+          repeat(
+            2,
+            minmax(0,1fr)
+          );
+      }
+
+
+      .grade-card {
+
+        min-height: 340px;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <main class="study-launcher">
+
+    <header class="launcher-header">
+
+      <p class="launcher-eyebrow">
+        MY BOOKS / SELF STUDY
+      </p>
+
+      <h1 class="launcher-title">
+        自主学習
+      </h1>
+
+      <p class="launcher-subtitle">
+        学年を選んで学習を始めましょう。
+        算数・理科・英語・国語を、自分のペースで進められます。
+      </p>
+
+    </header>
+
+
+    <section class="grade-grid">
+
+      <button
+        class="grade-card"
+        type="button"
+        data-book-id="study5"
+      >
+
+        <img
+          class="grade-card-image"
+          src="assets/covers/study5.jpg"
+          alt="自主学習本 5年"
+        >
+
+        <span class="grade-card-content">
+
+          <span class="grade-card-copy">
+
+            <span class="grade-card-label">
+              GRADE 5
+            </span>
+
+            <span class="grade-card-title">
+              自主学習本 5年
+            </span>
+
+            <span class="grade-card-subtitle">
+              算数・理科・英語・国語
+            </span>
+
+          </span>
+
+          <span class="grade-card-arrow">
+            →
+          </span>
+
+        </span>
+
+      </button>
+
+
+      <button
+        class="grade-card"
+        type="button"
+        data-book-id="study6"
+      >
+
+        <img
+          class="grade-card-image"
+          src="assets/covers/study6.jpg"
+          alt="自主学習本 6年"
+        >
+
+        <span class="grade-card-content">
+
+          <span class="grade-card-copy">
+
+            <span class="grade-card-label">
+              GRADE 6
+            </span>
+
+            <span class="grade-card-title">
+              自主学習本 6年
+            </span>
+
+            <span class="grade-card-subtitle">
+              算数・理科・英語・国語
+            </span>
+
+          </span>
+
+          <span class="grade-card-arrow">
+            →
+          </span>
+
+        </span>
+
+      </button>
+
+    </section>
+
+
+    <footer class="launcher-footer">
+      MY BOOKS · SELF STUDY
+    </footer>
+
+  </main>
+
+
+  <div
+    id="launcherLoading"
+    class="launcher-loading"
+    aria-hidden="true"
+  >
+
+    <div class="launcher-loading-inner">
+
+      <div class="launcher-spinner">
+      </div>
+
+      <div class="launcher-loading-text">
+        OPENING BOOK
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script>
+
+    const loading =
+      document.getElementById(
+        "launcherLoading"
+      );
+
+
+    document
+      .querySelectorAll(
+        ".grade-card"
+      )
+      .forEach(
+        (button) => {
+
+          button.addEventListener(
+            "click",
+            () => {
+
+              const bookId =
+                button.dataset.bookId;
+
+
+              loading.classList.add(
+                "visible"
+              );
+
+              loading.setAttribute(
+                "aria-hidden",
+                "false"
+              );
+
+
+              window.setTimeout(
+                () => {
+
+                  window.location.href =
+                    `index.html?study=${encodeURIComponent(bookId)}`;
+
+                },
+                250
+              );
+            }
+          );
+        }
+      );
+
+  </script>
+
+</body>
+
+</html>

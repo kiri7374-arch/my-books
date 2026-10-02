@@ -1,0 +1,483 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "unitId": "math-polygons-angles",
+  "title": "多角形・正多角形・角",
+  "description": "多角形、正多角形、三角形・四角形などの角の関係",
+  "questionCount": 35,
+  "questions": [
+    {
+      "id": "M5-PA-001",
+      "type": "text",
+      "question": "4角形の内角の和は何度ですか？",
+      "answer": "360°",
+      "explanation": "4角形は1つの頂点から対角線を引くと2個の三角形に分けられるので、180×2=360°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 4,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-002",
+      "type": "text",
+      "question": "5角形の内角の和は何度ですか？",
+      "answer": "540°",
+      "explanation": "5角形は1つの頂点から対角線を引くと3個の三角形に分けられるので、180×3=540°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 5,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-003",
+      "type": "text",
+      "question": "6角形の内角の和は何度ですか？",
+      "answer": "720°",
+      "explanation": "6角形は1つの頂点から対角線を引くと4個の三角形に分けられるので、180×4=720°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 6,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-004",
+      "type": "text",
+      "question": "7角形の内角の和は何度ですか？",
+      "answer": "900°",
+      "explanation": "7角形は1つの頂点から対角線を引くと5個の三角形に分けられるので、180×5=900°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 7,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-005",
+      "type": "text",
+      "question": "8角形の内角の和は何度ですか？",
+      "answer": "1080°",
+      "explanation": "8角形は1つの頂点から対角線を引くと6個の三角形に分けられるので、180×6=1080°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 8,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-006",
+      "type": "text",
+      "question": "3角形の内角の和は何度ですか？",
+      "answer": "180°",
+      "explanation": "3角形は1つの頂点から対角線を引くと1個の三角形に分けられるので、180×1=180°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 3,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-007",
+      "type": "text",
+      "question": "4角形の内角の和は何度ですか？",
+      "answer": "360°",
+      "explanation": "4角形は1つの頂点から対角線を引くと2個の三角形に分けられるので、180×2=360°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 4,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-008",
+      "type": "text",
+      "question": "5角形の内角の和は何度ですか？",
+      "answer": "540°",
+      "explanation": "5角形は1つの頂点から対角線を引くと3個の三角形に分けられるので、180×3=540°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 5,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-009",
+      "type": "text",
+      "question": "6角形の内角の和は何度ですか？",
+      "answer": "720°",
+      "explanation": "6角形は1つの頂点から対角線を引くと4個の三角形に分けられるので、180×4=720°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 6,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-010",
+      "type": "text",
+      "question": "7角形の内角の和は何度ですか？",
+      "answer": "900°",
+      "explanation": "7角形は1つの頂点から対角線を引くと5個の三角形に分けられるので、180×5=900°です。",
+      "why": "多角形の内角の和は、三角形の内角の和180°を基にして考えられます。",
+      "visual": {
+        "type": "polygon",
+        "sides": 7,
+        "regular": false
+      }
+    },
+    {
+      "id": "M5-PA-011",
+      "type": "text",
+      "question": "正10角形の1つの内角は何度ですか？",
+      "answer": "144°",
+      "explanation": "内角の和1440°を10等分するので、144°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 10,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-012",
+      "type": "text",
+      "question": "正3角形の1つの内角は何度ですか？",
+      "answer": "60°",
+      "explanation": "内角の和180°を3等分するので、60°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 3,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-013",
+      "type": "text",
+      "question": "正4角形の1つの内角は何度ですか？",
+      "answer": "90°",
+      "explanation": "内角の和360°を4等分するので、90°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 4,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-014",
+      "type": "text",
+      "question": "正5角形の1つの内角は何度ですか？",
+      "answer": "108°",
+      "explanation": "内角の和540°を5等分するので、108°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 5,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-015",
+      "type": "text",
+      "question": "正6角形の1つの内角は何度ですか？",
+      "answer": "120°",
+      "explanation": "内角の和720°を6等分するので、120°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 6,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-016",
+      "type": "text",
+      "question": "正8角形の1つの内角は何度ですか？",
+      "answer": "135°",
+      "explanation": "内角の和1080°を8等分するので、135°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 8,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-017",
+      "type": "text",
+      "question": "正10角形の1つの内角は何度ですか？",
+      "answer": "144°",
+      "explanation": "内角の和1440°を10等分するので、144°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 10,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-018",
+      "type": "text",
+      "question": "正3角形の1つの内角は何度ですか？",
+      "answer": "60°",
+      "explanation": "内角の和180°を3等分するので、60°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 3,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-019",
+      "type": "text",
+      "question": "正4角形の1つの内角は何度ですか？",
+      "answer": "90°",
+      "explanation": "内角の和360°を4等分するので、90°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 4,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-020",
+      "type": "text",
+      "question": "正5角形の1つの内角は何度ですか？",
+      "answer": "108°",
+      "explanation": "内角の和540°を5等分するので、108°です。",
+      "why": "正多角形は辺の長さも角の大きさもすべて等しいので、内角の和を辺の数で等分します。",
+      "visual": {
+        "type": "polygon",
+        "sides": 5,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-021",
+      "type": "text",
+      "question": "正3角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺3本、頂点3個",
+      "explanation": "3角形なので辺は3本、頂点も3個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 3,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-022",
+      "type": "text",
+      "question": "正4角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺4本、頂点4個",
+      "explanation": "4角形なので辺は4本、頂点も4個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 4,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-023",
+      "type": "text",
+      "question": "正5角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺5本、頂点5個",
+      "explanation": "5角形なので辺は5本、頂点も5個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 5,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-024",
+      "type": "text",
+      "question": "正6角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺6本、頂点6個",
+      "explanation": "6角形なので辺は6本、頂点も6個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 6,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-025",
+      "type": "text",
+      "question": "正7角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺7本、頂点7個",
+      "explanation": "7角形なので辺は7本、頂点も7個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 7,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-026",
+      "type": "text",
+      "question": "正8角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺8本、頂点8個",
+      "explanation": "8角形なので辺は8本、頂点も8個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 8,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-027",
+      "type": "text",
+      "question": "正9角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺9本、頂点9個",
+      "explanation": "9角形なので辺は9本、頂点も9個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 9,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-028",
+      "type": "text",
+      "question": "正3角形には辺が何本、頂点が何個ありますか？",
+      "answer": "辺3本、頂点3個",
+      "explanation": "3角形なので辺は3本、頂点も3個です。",
+      "why": "多角形の名前の数字は辺の本数を表し、閉じた多角形では辺と頂点の数は同じです。",
+      "visual": {
+        "type": "polygon",
+        "sides": 3,
+        "regular": true
+      }
+    },
+    {
+      "id": "M5-PA-029",
+      "type": "text",
+      "question": "四角形の三つの角が80°、90°、100°です。残りの角は何度ですか？",
+      "answer": "90°",
+      "explanation": "360−80−90−100=90°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "quadrilateral-angles",
+        "angles": [
+          80,
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "id": "M5-PA-030",
+      "type": "text",
+      "question": "三角形の二つの角が80°と50°です。残りの角は何度ですか？",
+      "answer": "50°",
+      "explanation": "180−80−50=50°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "triangle-angles",
+        "angles": [
+          80,
+          50
+        ]
+      }
+    },
+    {
+      "id": "M5-PA-031",
+      "type": "text",
+      "question": "四角形の三つの角が80°、90°、100°です。残りの角は何度ですか？",
+      "answer": "90°",
+      "explanation": "360−80−90−100=90°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "quadrilateral-angles",
+        "angles": [
+          80,
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "id": "M5-PA-032",
+      "type": "text",
+      "question": "三角形の二つの角が60°と50°です。残りの角は何度ですか？",
+      "answer": "70°",
+      "explanation": "180−60−50=70°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "triangle-angles",
+        "angles": [
+          60,
+          50
+        ]
+      }
+    },
+    {
+      "id": "M5-PA-033",
+      "type": "text",
+      "question": "四角形の三つの角が80°、90°、100°です。残りの角は何度ですか？",
+      "answer": "90°",
+      "explanation": "360−80−90−100=90°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "quadrilateral-angles",
+        "angles": [
+          80,
+          90,
+          100
+        ]
+      }
+    },
+    {
+      "id": "M5-PA-034",
+      "type": "text",
+      "question": "三角形の二つの角が80°と50°です。残りの角は何度ですか？",
+      "answer": "50°",
+      "explanation": "180−80−50=50°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "triangle-angles",
+        "angles": [
+          80,
+          50
+        ]
+      }
+    },
+    {
+      "id": "M5-PA-035",
+      "type": "text",
+      "question": "四角形の三つの角が80°、90°、100°です。残りの角は何度ですか？",
+      "answer": "90°",
+      "explanation": "360−80−90−100=90°です。",
+      "why": "三角形の内角の和は180°、四角形は三角形2つ分なので360°です。",
+      "visual": {
+        "type": "quadrilateral-angles",
+        "angles": [
+          80,
+          90,
+          100
+        ]
+      }
+    }
+  ]
+}

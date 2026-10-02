@@ -1,0 +1,590 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "unitId": "math-volume",
+  "title": "体積",
+  "description": "直方体・立方体の体積、1cm³などの単位と公式の意味",
+  "questionCount": 40,
+  "questions": [
+    {
+      "id": "M5-VO-001",
+      "type": "text",
+      "question": "縦3cm、横4cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "60cm³",
+      "explanation": "3×4×5=60cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 4.0,
+        "height": 5.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-002",
+      "type": "text",
+      "question": "縦4cm、横5cm、高さ6cmの直方体の体積を求めましょう。",
+      "answer": "120cm³",
+      "explanation": "4×5×6=120cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 4.0,
+        "width": 5.0,
+        "height": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-003",
+      "type": "text",
+      "question": "縦5cm、横6cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "210cm³",
+      "explanation": "5×6×7=210cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 6.0,
+        "height": 7.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-004",
+      "type": "text",
+      "question": "1辺が6cmの立方体の体積を求めましょう。",
+      "answer": "216cm³",
+      "explanation": "6×6×6=216cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-005",
+      "type": "text",
+      "question": "縦7cm、横8cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "224cm³",
+      "explanation": "7×8×4=224cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 7.0,
+        "width": 8.0,
+        "height": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-006",
+      "type": "text",
+      "question": "縦2cm、横9cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "90cm³",
+      "explanation": "2×9×5=90cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 2.0,
+        "width": 9.0,
+        "height": 5.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-007",
+      "type": "text",
+      "question": "縦3cm、横3cm、高さ6cmの直方体の体積を求めましょう。",
+      "answer": "54cm³",
+      "explanation": "3×3×6=54cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 3.0,
+        "height": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-008",
+      "type": "text",
+      "question": "1辺が4cmの立方体の体積を求めましょう。",
+      "answer": "64cm³",
+      "explanation": "4×4×4=64cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-009",
+      "type": "text",
+      "question": "縦5cm、横5cm、高さ8cmの直方体の体積を求めましょう。",
+      "answer": "200cm³",
+      "explanation": "5×5×8=200cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 5.0,
+        "height": 8.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-010",
+      "type": "text",
+      "question": "縦6cm、横6cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "144cm³",
+      "explanation": "6×6×4=144cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 6.0,
+        "width": 6.0,
+        "height": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-011",
+      "type": "text",
+      "question": "縦7cm、横7cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "245cm³",
+      "explanation": "7×7×5=245cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 7.0,
+        "width": 7.0,
+        "height": 5.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-012",
+      "type": "text",
+      "question": "1辺が2cmの立方体の体積を求めましょう。",
+      "answer": "8cm³",
+      "explanation": "2×2×2=8cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 2.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-013",
+      "type": "text",
+      "question": "縦3cm、横9cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "189cm³",
+      "explanation": "3×9×7=189cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 9.0,
+        "height": 7.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-014",
+      "type": "text",
+      "question": "縦4cm、横3cm、高さ8cmの直方体の体積を求めましょう。",
+      "answer": "96cm³",
+      "explanation": "4×3×8=96cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 4.0,
+        "width": 3.0,
+        "height": 8.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-015",
+      "type": "text",
+      "question": "縦5cm、横4cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "80cm³",
+      "explanation": "5×4×4=80cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 4.0,
+        "height": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-016",
+      "type": "text",
+      "question": "1辺が6cmの立方体の体積を求めましょう。",
+      "answer": "216cm³",
+      "explanation": "6×6×6=216cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-017",
+      "type": "text",
+      "question": "縦7cm、横6cm、高さ6cmの直方体の体積を求めましょう。",
+      "answer": "252cm³",
+      "explanation": "7×6×6=252cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 7.0,
+        "width": 6.0,
+        "height": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-018",
+      "type": "text",
+      "question": "縦2cm、横7cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "98cm³",
+      "explanation": "2×7×7=98cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 2.0,
+        "width": 7.0,
+        "height": 7.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-019",
+      "type": "text",
+      "question": "縦3cm、横8cm、高さ8cmの直方体の体積を求めましょう。",
+      "answer": "192cm³",
+      "explanation": "3×8×8=192cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 8.0,
+        "height": 8.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-020",
+      "type": "text",
+      "question": "1辺が4cmの立方体の体積を求めましょう。",
+      "answer": "64cm³",
+      "explanation": "4×4×4=64cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-021",
+      "type": "text",
+      "question": "縦5cm、横3cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "75cm³",
+      "explanation": "5×3×5=75cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 3.0,
+        "height": 5.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-022",
+      "type": "text",
+      "question": "縦6cm、横4cm、高さ6cmの直方体の体積を求めましょう。",
+      "answer": "144cm³",
+      "explanation": "6×4×6=144cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 6.0,
+        "width": 4.0,
+        "height": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-023",
+      "type": "text",
+      "question": "縦7cm、横5cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "245cm³",
+      "explanation": "7×5×7=245cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 7.0,
+        "width": 5.0,
+        "height": 7.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-024",
+      "type": "text",
+      "question": "1辺が2cmの立方体の体積を求めましょう。",
+      "answer": "8cm³",
+      "explanation": "2×2×2=8cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 2.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-025",
+      "type": "text",
+      "question": "縦3cm、横7cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "84cm³",
+      "explanation": "3×7×4=84cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 7.0,
+        "height": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-026",
+      "type": "text",
+      "question": "縦4cm、横8cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "160cm³",
+      "explanation": "4×8×5=160cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 4.0,
+        "width": 8.0,
+        "height": 5.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-027",
+      "type": "text",
+      "question": "縦5cm、横9cm、高さ6cmの直方体の体積を求めましょう。",
+      "answer": "270cm³",
+      "explanation": "5×9×6=270cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 9.0,
+        "height": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-028",
+      "type": "text",
+      "question": "1辺が6cmの立方体の体積を求めましょう。",
+      "answer": "216cm³",
+      "explanation": "6×6×6=216cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-029",
+      "type": "text",
+      "question": "縦7cm、横4cm、高さ8cmの直方体の体積を求めましょう。",
+      "answer": "224cm³",
+      "explanation": "7×4×8=224cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 7.0,
+        "width": 4.0,
+        "height": 8.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-030",
+      "type": "text",
+      "question": "縦2cm、横5cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "40cm³",
+      "explanation": "2×5×4=40cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 2.0,
+        "width": 5.0,
+        "height": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-031",
+      "type": "text",
+      "question": "縦3cm、横6cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "90cm³",
+      "explanation": "3×6×5=90cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 6.0,
+        "height": 5.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-032",
+      "type": "text",
+      "question": "1辺が4cmの立方体の体積を求めましょう。",
+      "answer": "64cm³",
+      "explanation": "4×4×4=64cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-033",
+      "type": "text",
+      "question": "縦5cm、横8cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "280cm³",
+      "explanation": "5×8×7=280cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 8.0,
+        "height": 7.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-034",
+      "type": "text",
+      "question": "縦6cm、横9cm、高さ8cmの直方体の体積を求めましょう。",
+      "answer": "432cm³",
+      "explanation": "6×9×8=432cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 6.0,
+        "width": 9.0,
+        "height": 8.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-035",
+      "type": "text",
+      "question": "縦7cm、横3cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "84cm³",
+      "explanation": "7×3×4=84cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 7.0,
+        "width": 3.0,
+        "height": 4.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-036",
+      "type": "text",
+      "question": "1辺が2cmの立方体の体積を求めましょう。",
+      "answer": "8cm³",
+      "explanation": "2×2×2=8cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 2.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-037",
+      "type": "text",
+      "question": "縦3cm、横5cm、高さ6cmの直方体の体積を求めましょう。",
+      "answer": "90cm³",
+      "explanation": "3×5×6=90cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 3.0,
+        "width": 5.0,
+        "height": 6.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-038",
+      "type": "text",
+      "question": "縦4cm、横6cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "168cm³",
+      "explanation": "4×6×7=168cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 4.0,
+        "width": 6.0,
+        "height": 7.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-039",
+      "type": "text",
+      "question": "縦5cm、横7cm、高さ8cmの直方体の体積を求めましょう。",
+      "answer": "280cm³",
+      "explanation": "5×7×8=280cm³",
+      "why": "底面に1cm³が縦×横個並び、それが高さの段数だけ重なるためです。",
+      "visual": {
+        "type": "rectangular-prism",
+        "length": 5.0,
+        "width": 7.0,
+        "height": 8.0,
+        "unit": "cm"
+      }
+    },
+    {
+      "id": "M5-VO-040",
+      "type": "text",
+      "question": "1辺が6cmの立方体の体積を求めましょう。",
+      "answer": "216cm³",
+      "explanation": "6×6×6=216cm³",
+      "why": "1cm³の立方体が縦・横・高さの数だけ並ぶので、3つの長さをかけます。",
+      "visual": {
+        "type": "cube",
+        "side": 6.0,
+        "unit": "cm"
+      }
+    }
+  ]
+}

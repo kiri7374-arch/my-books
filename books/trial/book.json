@@ -1,0 +1,27 @@
+{
+  "id": "trial001",
+  "title": "TRIAL DATA BOOK",
+  "subtitle": "試作・研究記録",
+  "pages": [
+    {
+      "chapter": "TRIAL DATA",
+      "title": "試作・研究記録",
+      "text": "このBOOKでは、過去に行った試作条件、結果、考察などを整理していきます。"
+    },
+    {
+      "chapter": "PROCESS",
+      "title": "原料",
+      "text": "原料名、投入量、ロット、固形分などを記録します。"
+    },
+    {
+      "chapter": "PROCESS",
+      "title": "加工条件",
+      "text": "乾燥温度、減圧条件、粉砕条件などを記録します。"
+    },
+    {
+      "chapter": "RESULT",
+      "title": "結果",
+      "text": "出来高、歩留まり、水分、外観、官能評価などをまとめます。"
+    }
+  ]
+}

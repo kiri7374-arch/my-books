@@ -1,0 +1,93 @@
+{
+  "grade": 5,
+  "subject": "japanese",
+  "title": "国語",
+  "curriculum": "日本の現行小学校学習指導要領に準拠",
+  "focus": "漢字を中心とした自主学習",
+  "units": [
+    {
+      "id": "japanese-kanji-reading-1",
+      "title": "漢字の読み①",
+      "description": "5年生で学ぶ漢字の基本的な読み",
+      "targetQuestions": 100,
+      "questions": []
+    },
+    {
+      "id": "japanese-kanji-reading-2",
+      "title": "漢字の読み②",
+      "description": "文や熟語の中で漢字を読む",
+      "targetQuestions": 100,
+      "questions": []
+    },
+    {
+      "id": "japanese-kanji-writing-1",
+      "title": "漢字の書き取り①",
+      "description": "基本的な漢字の書き取り",
+      "targetQuestions": 100,
+      "questions": []
+    },
+    {
+      "id": "japanese-kanji-writing-2",
+      "title": "漢字の書き取り②",
+      "description": "文脈に合う漢字を書く",
+      "targetQuestions": 100,
+      "questions": []
+    },
+    {
+      "id": "japanese-onyomi-kunyomi",
+      "title": "音読み・訓読み",
+      "description": "音読みと訓読みを区別し、使い分ける",
+      "targetQuestions": 80,
+      "questions": []
+    },
+    {
+      "id": "japanese-compounds",
+      "title": "熟語",
+      "description": "漢字を組み合わせた言葉の意味と使い方",
+      "targetQuestions": 100,
+      "questions": []
+    },
+    {
+      "id": "japanese-homophones",
+      "title": "同音異義語・同訓異字",
+      "description": "読みが同じ漢字を意味によって使い分ける",
+      "targetQuestions": 70,
+      "questions": []
+    },
+    {
+      "id": "japanese-okurigana",
+      "title": "送り仮名",
+      "description": "送り仮名に注意して正しく書く",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "japanese-kanji-meaning",
+      "title": "漢字の意味",
+      "description": "漢字や熟語の意味を文脈から考える",
+      "targetQuestions": 70,
+      "questions": []
+    },
+    {
+      "id": "japanese-kanji-in-sentences",
+      "title": "文章の中の漢字",
+      "description": "文や短い文章の中で漢字を正しく読む・書く",
+      "targetQuestions": 100,
+      "questions": []
+    },
+    {
+      "id": "japanese-vocabulary",
+      "title": "語彙・言葉の使い方",
+      "description": "語句の意味、文脈に合う言葉、語彙を増やす",
+      "targetQuestions": 70,
+      "questions": []
+    },
+    {
+      "id": "japanese-review",
+      "title": "総合漢字ドリル",
+      "description": "読み・書き・意味・熟語を組み合わせた総合問題",
+      "targetQuestions": 100,
+      "questions": []
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "grade": 5,
+  "subject": "english",
+  "title": "英語",
+  "curriculum": "日本の現行小学校学習指導要領に準拠",
+  "units": [
+    {
+      "id": "english-alphabet",
+      "title": "Alphabet",
+      "description": "アルファベットの大文字・小文字、文字の形と順序",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "english-sounds",
+      "title": "Letters and Sounds",
+      "description": "文字と音の関係、基本的な英語の音に親しむ",
+      "targetQuestions": 50,
+      "questions": []
+    },
+    {
+      "id": "english-numbers",
+      "title": "Numbers",
+      "description": "数字、年齢、個数、時刻など",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "english-colors-shapes",
+      "title": "Colors and Shapes",
+      "description": "色、形、身近な物の表現",
+      "targetQuestions": 45,
+      "questions": []
+    },
+    {
+      "id": "english-days-months",
+      "title": "Days, Months and Dates",
+      "description": "曜日、月、日付、誕生日",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "english-weather",
+      "title": "Weather",
+      "description": "天気や季節についての基本表現",
+      "targetQuestions": 40,
+      "questions": []
+    },
+    {
+      "id": "english-food",
+      "title": "Food and Drinks",
+      "description": "食べ物、飲み物、好き嫌いの表現",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "english-school",
+      "title": "School and Subjects",
+      "description": "学校生活、教科、持ち物",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "english-family-friends",
+      "title": "Family and Friends",
+      "description": "家族、友達、人を紹介する表現",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "english-daily-life",
+      "title": "Daily Life",
+      "description": "起床、食事、学校、遊びなど日常生活の表現",
+      "targetQuestions": 65,
+      "questions": []
+    },
+    {
+      "id": "english-like-want",
+      "title": "Like and Want",
+      "description": "好きなもの、欲しいもの、したいことを表す",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "english-can",
+      "title": "Can",
+      "description": "できること、できないことを伝える",
+      "targetQuestions": 50,
+      "questions": []
+    },
+    {
+      "id": "english-introductions",
+      "title": "Self Introduction",
+      "description": "名前、年齢、好きなもの、できることなどの自己紹介",
+      "targetQuestions": 45,
+      "questions": []
+    },
+    {
+      "id": "english-questions",
+      "title": "Questions and Answers",
+      "description": "What、When、Where、Whoなどを使った基本的なやり取り",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "english-word-order",
+      "title": "Word Order",
+      "description": "語順、並べ替え、基本的な英文の形",
+      "targetQuestions": 70,
+      "questions": []
+    },
+    {
+      "id": "english-reading",
+      "title": "Short Reading",
+      "description": "短い英文や会話文を読んで内容を理解する",
+      "targetQuestions": 60,
+      "questions": []
+    },
+    {
+      "id": "english-writing",
+      "title": "Writing Practice",
+      "description": "単語や短い英文を書く練習",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "english-conversation",
+      "title": "Conversation",
+      "description": "簡単な会話、受け答え、場面に応じた表現",
+      "targetQuestions": 55,
+      "questions": []
+    },
+    {
+      "id": "english-comprehensive",
+      "title": "総合英語問題",
+      "description": "単語、文、会話、読解を組み合わせた総合問題",
+      "targetQuestions": 70,
+      "questions": []
+    }
+  ]
+}
