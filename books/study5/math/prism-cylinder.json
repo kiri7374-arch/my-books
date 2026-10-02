@@ -3,208 +3,241 @@
   "subject": "math",
   "unitId": "math-prism-cylinder",
   "title": "角柱・円柱",
-  "description": "底面・側面、角柱・円柱の性質、見取図・展開図",
-  "questionCount": 25,
+  "description": "底面・側面・辺・頂点・展開図・見方",
+  "questionCount": 20,
   "questions": [
     {
       "id": "M5-PC-001",
-      "type": "mixed",
-      "question": "三角柱の底面は何角形ですか？",
+      "type": "text",
+      "level": "basic",
+      "question": "三角柱の底面は何という図形ですか？",
       "answer": "三角形",
-      "explanation": "三角柱は合同な二つの三角形を底面にもつ立体です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "explanation": "三角柱は合同で平行な二つの三角形を底面にもつ立体です。",
+      "why": "角柱の名前は底面の形で決まります。",
+      "skill": "solid",
+      "visual": {
+        "type": "prism",
+        "sides": 3
+      }
     },
     {
       "id": "M5-PC-002",
-      "type": "mixed",
-      "question": "四角柱の側面はいくつありますか？",
-      "answer": "4つ",
-      "explanation": "底面の4本の辺それぞれに側面が1つあります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "五角柱の側面はいくつありますか？",
+      "answer": "5つ",
+      "explanation": "底面の辺1本につき側面が1つあります。",
+      "why": "側面の数は底面の辺の数と同じです。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-003",
-      "type": "mixed",
-      "question": "五角柱の頂点はいくつありますか？",
-      "answer": "10個",
-      "explanation": "底面の五角形が上下に2つあるので5×2=10個です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "三角柱の面は全部でいくつありますか？",
+      "answer": "5つ",
+      "explanation": "底面2つと側面3つで5つです。",
+      "why": "面の構成を分けて数えます。",
+      "skill": "solid",
+      "visual": {
+        "type": "prism",
+        "sides": 3
+      }
     },
     {
       "id": "M5-PC-004",
-      "type": "mixed",
-      "question": "三角柱の辺はいくつありますか？",
-      "answer": "9本",
-      "explanation": "上3本、下3本、上下を結ぶ3本で9本です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "四角柱の頂点は全部でいくつありますか？",
+      "answer": "8個",
+      "explanation": "底面の4頂点が2組あるので8個です。",
+      "why": "角柱の頂点は底面の頂点数の2倍です。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-005",
-      "type": "mixed",
-      "question": "円柱の底面はどんな図形ですか？",
-      "answer": "合同な二つの円",
-      "explanation": "同じ大きさの円が平行に二つあります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "三角柱の辺は全部で何本ありますか？",
+      "answer": "9本",
+      "explanation": "底面3本が2組で6本、それらを結ぶ3本で9本です。",
+      "why": "底面の辺と縦の辺に分けて数えます。",
+      "skill": "solid",
+      "visual": {
+        "type": "prism",
+        "sides": 3
+      }
     },
     {
       "id": "M5-PC-006",
-      "type": "mixed",
-      "question": "円柱には頂点がありますか？",
-      "answer": "ありません",
-      "explanation": "円柱には角がないため頂点はありません。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱の底面の形は何ですか？",
+      "answer": "円",
+      "explanation": "合同な二つの円が底面です。",
+      "why": "円柱は角柱とは違い底面が円です。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     },
     {
       "id": "M5-PC-007",
-      "type": "mixed",
-      "question": "円柱の側面をまっすぐ切って開くと、基本的にどんな形になりますか？",
-      "answer": "長方形",
-      "explanation": "側面を開くと高さと円周を辺にもつ長方形になります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱の底面はいくつありますか？",
+      "answer": "2つ",
+      "explanation": "同じ大きさの円が2つあります。",
+      "why": "二つの底面は合同で平行です。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     },
     {
       "id": "M5-PC-008",
-      "type": "mixed",
-      "question": "角柱の二つの底面はどんな関係ですか？",
-      "answer": "合同で平行",
-      "explanation": "同じ形・大きさで、互いに平行です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱の側面を切り開くと基本的にどんな形になりますか？",
+      "answer": "長方形",
+      "explanation": "側面をまっすぐ切って開くと長方形になります。",
+      "why": "長方形の一辺は高さ、もう一辺は底面の円周です。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     },
     {
       "id": "M5-PC-009",
-      "type": "mixed",
-      "question": "六角柱の側面はいくつありますか？",
-      "answer": "6つ",
-      "explanation": "底面の辺の数と側面の数は同じです。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱の展開図で長方形の横の長さは底面の何に等しいですか？",
+      "answer": "円周",
+      "explanation": "側面が底面を一周しているからです。",
+      "why": "立体と展開図の対応を考えます。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     },
     {
       "id": "M5-PC-010",
-      "type": "mixed",
-      "question": "四角柱の頂点はいくつありますか？",
-      "answer": "8個",
-      "explanation": "四角形が上下に2つあるので4×2=8個です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱に頂点はありますか？",
+      "answer": "ありません",
+      "explanation": "円柱には角がありません。",
+      "why": "頂点は辺が集まる角の点です。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     },
     {
       "id": "M5-PC-011",
-      "type": "mixed",
-      "question": "四角柱の辺はいくつありますか？",
-      "answer": "12本",
-      "explanation": "上4本、下4本、上下を結ぶ4本で12本です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "三角柱と円柱の共通点を一つ答えましょう。",
+      "answer": "合同で平行な二つの底面をもつこと",
+      "explanation": "どちらも同じ形・同じ大きさの底面が2つあります。",
+      "why": "共通する立体の特徴を見ます。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-012",
-      "type": "mixed",
-      "question": "三角柱の側面はいくつありますか？",
-      "answer": "3つ",
-      "explanation": "底面の三角形の3辺に対応して3つあります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "三角柱と円柱の違いを一つ答えましょう。",
+      "answer": "底面の形が三角形と円で違うこと",
+      "explanation": "三角柱の底面は三角形、円柱は円です。",
+      "why": "底面に注目して分類します。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-013",
-      "type": "mixed",
-      "question": "五角柱の辺はいくつありますか？",
-      "answer": "15本",
-      "explanation": "上5本、下5本、上下を結ぶ5本で15本です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "『底面が三角形ならどんな立体でも三角柱』は正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "合同で平行な二つの三角形を底面にもつなどの条件が必要です。",
+      "why": "名前だけでなく立体の条件を確かめます。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-014",
-      "type": "mixed",
-      "question": "円柱の側面を開いた長方形の横の長さは、底面の円の何に当たりますか？",
-      "answer": "円周",
-      "explanation": "円柱の側面を一周した長さが底面の円周と同じです。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "四角柱の底面が正方形でも長方形でも四角柱といえますか？",
+      "answer": "いえます",
+      "explanation": "どちらも四角形だからです。",
+      "why": "角柱は底面の辺の数で名前が決まります。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-015",
-      "type": "mixed",
-      "question": "角柱の名前は何を見て決めますか？",
-      "answer": "底面の形",
-      "explanation": "底面が三角形なら三角柱、五角形なら五角柱です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "六角柱の底面どうしを結ぶ辺は何本ありますか？",
+      "answer": "6本",
+      "explanation": "6つの対応する頂点どうしを結ぶので6本です。",
+      "why": "底面の頂点数と同じ本数です。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-016",
-      "type": "mixed",
-      "question": "底面が正方形の角柱は何角柱ですか？",
-      "answer": "四角柱",
-      "explanation": "正方形は四角形なので四角柱です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "五角柱の頂点は全部で何個ありますか？",
+      "answer": "10個",
+      "explanation": "5×2=10個です。",
+      "why": "二つの底面に同じ数の頂点があります。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-017",
-      "type": "mixed",
-      "question": "底面が六角形なら何角柱ですか？",
-      "answer": "六角柱",
-      "explanation": "底面の多角形の名前を使います。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "四角柱の辺は全部で何本ありますか？",
+      "answer": "12本",
+      "explanation": "底面4本×2+縦の辺4本=12本です。",
+      "why": "辺を種類ごとに分けて数えます。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-018",
-      "type": "mixed",
-      "question": "円柱と角柱に共通する特徴を一つ答えましょう。",
-      "answer": "合同で平行な二つの底面がある",
-      "explanation": "どちらも同じ形・大きさの底面を二つもちます。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱を真横から見ると、基本的にどんな形に見えますか？",
+      "answer": "長方形",
+      "explanation": "高さと直径を辺にもつ長方形のように見えます。",
+      "why": "立体をいろいろな方向から見る力を使います。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     },
     {
       "id": "M5-PC-019",
-      "type": "mixed",
-      "question": "円柱と三角柱の違いを一つ答えましょう。",
-      "answer": "円柱の底面は円、三角柱の底面は三角形",
-      "explanation": "底面の形が違います。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "角柱の二つの底面はどんな関係ですか？",
+      "answer": "合同で平行",
+      "explanation": "同じ形・同じ大きさで平行です。",
+      "why": "角柱の基本的な性質です。",
+      "skill": "solid"
     },
     {
       "id": "M5-PC-020",
-      "type": "mixed",
-      "question": "角柱の側面はどんな図形になりますか？",
-      "answer": "長方形",
-      "explanation": "まっすぐな角柱の側面は長方形になります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
-    },
-    {
-      "id": "M5-PC-021",
-      "type": "mixed",
-      "question": "三角柱を真上から見たとき、底面と同じ形が見える場合があります。その形は何ですか？",
-      "answer": "三角形",
-      "explanation": "底面が三角形だからです。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
-    },
-    {
-      "id": "M5-PC-022",
-      "type": "mixed",
-      "question": "円柱を真上から見ると、基本的にどんな形に見えますか？",
-      "answer": "円",
-      "explanation": "上の底面が円だからです。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
-    },
-    {
-      "id": "M5-PC-023",
-      "type": "mixed",
-      "question": "四角柱の展開図には、底面の四角形が何枚ありますか？",
-      "answer": "2枚",
-      "explanation": "上下の二つの底面が必要です。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
-    },
-    {
-      "id": "M5-PC-024",
-      "type": "mixed",
-      "question": "三角柱の展開図には、側面の長方形が何枚ありますか？",
-      "answer": "3枚",
-      "explanation": "三角形の3辺に対応して3枚あります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
-    },
-    {
-      "id": "M5-PC-025",
-      "type": "mixed",
-      "question": "「円柱には側面がない」という説明は正しいですか？",
-      "answer": "正しくありません",
-      "explanation": "円柱にも、二つの円をつなぐ曲面の側面があります。",
-      "why": "立体の名前や面・辺・頂点の数は、底面の形と立体のつくりを見て考えます。"
+      "type": "text",
+      "level": "basic",
+      "question": "円柱の二つの底面はどんな関係ですか？",
+      "answer": "合同で平行",
+      "explanation": "同じ大きさの円で平行です。",
+      "why": "円柱の基本的な性質です。",
+      "skill": "solid",
+      "visual": {
+        "type": "cylinder"
+      }
     }
   ]
 }

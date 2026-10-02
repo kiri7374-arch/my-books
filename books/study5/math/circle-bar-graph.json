@@ -3,288 +3,298 @@
   "subject": "math",
   "unitId": "math-circle-bar-graph",
   "title": "円グラフ・帯グラフ",
-  "description": "円グラフ・帯グラフの特徴、読み取り、割合との関連",
-  "questionCount": 35,
+  "description": "割合の読み取り、人数への変換、残り、グラフの特徴と選択",
+  "questionCount": 24,
   "questions": [
     {
       "id": "M5-GR-001",
-      "type": "mixed",
-      "question": "クラス40人のうち読書が好きな人は25%です。何人ですか？",
-      "answer": "10人",
-      "explanation": "40×0.25=10人です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体が100人で、Aが20%です。Aは何人ですか？",
+      "answer": "2人",
+      "explanation": "100×0.2=2人です。",
+      "why": "グラフの割合から実際の人数を求めます。",
+      "skill": "read",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 20,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-002",
-      "type": "mixed",
-      "question": "200人のうち60人がAを選びました。円グラフでは何%ですか？",
-      "answer": "30%",
-      "explanation": "60÷200=0.3=30%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体が200人で、Aが35%です。Aは何人ですか？",
+      "answer": "7人",
+      "explanation": "200×0.35=7人です。",
+      "why": "グラフの割合から実際の人数を求めます。",
+      "skill": "read",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 35,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-003",
-      "type": "mixed",
-      "question": "帯グラフでAが35%、Bが25%です。残りは何%ですか？",
-      "answer": "40%",
-      "explanation": "100-35-25=40%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体が120人で、Aが25%です。Aは何人ですか？",
+      "answer": "3人",
+      "explanation": "120×0.25=3人です。",
+      "why": "グラフの割合から実際の人数を求めます。",
+      "skill": "read",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 25,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-004",
-      "type": "mixed",
-      "question": "円グラフで全体の半分を表す部分は何%ですか？",
-      "answer": "50%",
-      "explanation": "全体100%の半分なので50%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体が160人で、Aが50%です。Aは何人ですか？",
+      "answer": "8人",
+      "explanation": "160×0.5=8人です。",
+      "why": "グラフの割合から実際の人数を求めます。",
+      "skill": "read",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 50,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-005",
-      "type": "mixed",
-      "question": "円グラフで25%の部分は、円全体の何分の1ですか？",
-      "answer": "1/4",
-      "explanation": "25%=0.25=1/4です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体が300人で、Aが15%です。Aは何人ですか？",
+      "answer": "45人",
+      "explanation": "300×0.15=45人です。",
+      "why": "グラフの割合から実際の人数を求めます。",
+      "skill": "read",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 15,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-006",
-      "type": "mixed",
-      "question": "人数が違う二つの学校で好きな給食の割合を比べたいです。人数の棒グラフと割合の帯グラフのどちらが向いていますか？",
-      "answer": "割合の帯グラフ",
-      "explanation": "全体人数が違うときは100%にそろえた割合で比べると分かりやすいです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体が80人で、Aが40%です。Aは何人ですか？",
+      "answer": "32人",
+      "explanation": "80×0.4=32人です。",
+      "why": "グラフの割合から実際の人数を求めます。",
+      "skill": "read",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-007",
-      "type": "mixed",
-      "question": "A組40人のうち20人、B組30人のうち18人がサッカー好きです。割合が高いのはどちらですか？",
-      "answer": "B組",
-      "explanation": "A組50%、B組60%なのでB組です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体80人のうちAが20人です。Aは何%ですか？",
+      "answer": "25%",
+      "explanation": "20÷80×100=25%です。",
+      "why": "全体を100%として割合を求めます。",
+      "skill": "percent"
     },
     {
       "id": "M5-GR-008",
-      "type": "mixed",
-      "question": "円グラフでA=40%、B=30%、C=30%です。最も多いのはどれですか？",
-      "answer": "A",
-      "explanation": "40%が最も大きいのでAです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体150人のうちAが45人です。Aは何%ですか？",
+      "answer": "30%",
+      "explanation": "45÷150×100=30%です。",
+      "why": "全体を100%として割合を求めます。",
+      "skill": "percent"
     },
     {
       "id": "M5-GR-009",
-      "type": "mixed",
-      "question": "帯グラフでA=20%、C=35%です。AとCの差は何ポイントですか？",
-      "answer": "15ポイント",
-      "explanation": "35-20=15ポイントです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体240人のうちAが72人です。Aは何%ですか？",
+      "answer": "30%",
+      "explanation": "72÷240×100=30%です。",
+      "why": "全体を100%として割合を求めます。",
+      "skill": "percent"
     },
     {
       "id": "M5-GR-010",
-      "type": "mixed",
-      "question": "100人の調査でAが45%でした。Aは何人ですか？",
-      "answer": "45人",
-      "explanation": "100×0.45=45人です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体120人のうちAが30人です。Aは何%ですか？",
+      "answer": "25%",
+      "explanation": "30÷120×100=25%です。",
+      "why": "全体を100%として割合を求めます。",
+      "skill": "percent"
     },
     {
       "id": "M5-GR-011",
-      "type": "mixed",
-      "question": "80人のうち24人がAです。Aの割合は何%ですか？",
-      "answer": "30%",
-      "explanation": "24÷80=0.3=30%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体200人のうちAが50人です。Aは何%ですか？",
+      "answer": "25%",
+      "explanation": "50÷200×100=25%です。",
+      "why": "全体を100%として割合を求めます。",
+      "skill": "percent"
     },
     {
       "id": "M5-GR-012",
-      "type": "mixed",
-      "question": "120人のうちA=50%、B=30%、C=20%です。Bは何人ですか？",
-      "answer": "36人",
-      "explanation": "120×0.3=36人です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフでAが35%、Bが25%です。残りのCは何%ですか？",
+      "answer": "40%",
+      "explanation": "100−35−25=40%です。",
+      "why": "円グラフ全体は100%です。",
+      "skill": "remainder",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 35,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-013",
-      "type": "mixed",
-      "question": "円グラフの10%の部分と20%の部分を合わせると何%ですか？",
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフでAが40%、Bが30%です。残りのCは何%ですか？",
       "answer": "30%",
-      "explanation": "10+20=30%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "explanation": "100−40−30=30%です。",
+      "why": "円グラフ全体は100%です。",
+      "skill": "remainder",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 40,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-014",
-      "type": "mixed",
-      "question": "帯グラフのAが60%から45%に減りました。何ポイント減りましたか？",
-      "answer": "15ポイント",
-      "explanation": "60-45=15ポイントです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフでAが20%、Bが45%です。残りのCは何%ですか？",
+      "answer": "35%",
+      "explanation": "100−20−45=35%です。",
+      "why": "円グラフ全体は100%です。",
+      "skill": "remainder",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 20,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-015",
-      "type": "mixed",
-      "question": "40%から50%に変わりました。割合どうしの差を表すなら何ポイント増えたと言えますか？",
-      "answer": "10ポイント",
-      "explanation": "50-40=10ポイントです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフでAが50%、Bが15%です。残りのCは何%ですか？",
+      "answer": "35%",
+      "explanation": "100−50−15=35%です。",
+      "why": "円グラフ全体は100%です。",
+      "skill": "remainder",
+      "visual": {
+        "type": "pie-chart",
+        "percent": 50,
+        "label": "A"
+      }
     },
     {
       "id": "M5-GR-016",
-      "type": "mixed",
-      "question": "円グラフは、全体と部分の割合を見るのに向いていますか？",
-      "answer": "向いています",
-      "explanation": "円全体を100%として各部分を表すからです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフで全体の半分を表す割合は何%ですか？",
+      "answer": "50%",
+      "explanation": "半分=1/2=50%です。",
+      "why": "円グラフは全体を100%として表します。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-017",
-      "type": "mixed",
-      "question": "時間の変化を細かく追うのに、円グラフは最も向いていますか？",
-      "answer": "最も向いているとはいえません",
-      "explanation": "時間による変化は折れ線グラフなどの方が読み取りやすい場合があります。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "帯グラフで全体の1/4を表す割合は何%ですか？",
+      "answer": "25%",
+      "explanation": "1/4=0.25=25%です。",
+      "why": "分数・小数・百分率の関係を使います。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-018",
-      "type": "mixed",
-      "question": "二つの帯グラフで同じ色の部分が30%と45%でした。どちらの割合が大きいですか？",
-      "answer": "45%の方",
-      "explanation": "30%と45%を直接比べます。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "人数の違う二つのクラスの割合を比べるのに帯グラフが便利なのはなぜですか？",
+      "answer": "全体を100%にそろえて比べられるから",
+      "explanation": "人数が違っても同じ100%を基準にできます。",
+      "why": "割合で比べる目的を理解します。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-019",
-      "type": "mixed",
-      "question": "50人中15人と、100人中25人では、割合が高いのはどちらですか？",
-      "answer": "50人中15人",
-      "explanation": "30%と25%なので前者です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフと帯グラフの共通点は何ですか？",
+      "answer": "どちらも全体を100%として割合を表すこと",
+      "explanation": "形は違っても割合を示すグラフです。",
+      "why": "グラフの特徴を比べます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-020",
-      "type": "mixed",
-      "question": "円グラフの一部分が75%です。残りは何%ですか？",
-      "answer": "25%",
-      "explanation": "100-75=25%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "棒グラフと帯グラフは同じ目的で使いますか？",
+      "answer": "いつも同じではありません",
+      "explanation": "棒グラフは量の大小、帯グラフは割合を見るのに向きます。",
+      "why": "目的に合うグラフを選びます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-021",
-      "type": "mixed",
-      "question": "全体240人でA=25%です。Aは何人ですか？",
-      "answer": "60人",
-      "explanation": "240×0.25=60人です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "Aが60%、Bが40%なら、Aの割合はBの何倍ですか？",
+      "answer": "1.5倍",
+      "explanation": "60÷40=1.5です。",
+      "why": "割合どうしを比べます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-022",
-      "type": "mixed",
-      "question": "全体160人でB=40人です。Bは何%ですか？",
-      "answer": "25%",
-      "explanation": "40÷160=0.25=25%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "円グラフで10%の部分は全体の何分の1ですか？",
+      "answer": "1/10",
+      "explanation": "10%=0.1=1/10です。",
+      "why": "百分率と分数を対応させます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-023",
-      "type": "mixed",
-      "question": "A=15%、B=35%、C=50%の円グラフで、AとBを合わせるとCと同じですか？",
-      "answer": "はい",
-      "explanation": "15+35=50%でCと同じです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "帯グラフでAが45%、Bが35%なら、残りは何%ですか？",
+      "answer": "20%",
+      "explanation": "100−45−35=20%です。",
+      "why": "全体100%から引きます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-GR-024",
-      "type": "mixed",
-      "question": "帯グラフでA=55%、B=45%です。AはBより何ポイント高いですか？",
-      "answer": "10ポイント",
-      "explanation": "55-45=10ポイントです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-025",
-      "type": "mixed",
-      "question": "全体の20%が24人です。全体は何人ですか？",
-      "answer": "120人",
-      "explanation": "24÷0.2=120人です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-026",
-      "type": "mixed",
-      "question": "全体80人のうちA=20人、B=30人です。残りCは何人ですか？",
-      "answer": "30人",
-      "explanation": "80-20-30=30人です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-027",
-      "type": "mixed",
-      "question": "円グラフのAが1/5を占めます。百分率では何%ですか？",
-      "answer": "20%",
-      "explanation": "1÷5=0.2=20%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-028",
-      "type": "mixed",
-      "question": "帯グラフでA=40%、B=35%、C=25%です。AとBを合わせると何%ですか？",
-      "answer": "75%",
-      "explanation": "40+35=75%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-029",
-      "type": "mixed",
-      "question": "A校は200人中80人、B校は300人中105人が徒歩通学です。割合が高いのはどちらですか？",
-      "answer": "A校",
-      "explanation": "A校40%、B校35%なのでA校です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-030",
-      "type": "mixed",
-      "question": "円グラフのA=30%を、全体360°の角度で表すと何度ですか？",
-      "answer": "108°",
-      "explanation": "360×0.3=108°です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-031",
-      "type": "mixed",
-      "question": "円グラフの90°の部分は全体の何%ですか？",
-      "answer": "25%",
-      "explanation": "90÷360=0.25=25%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-032",
-      "type": "mixed",
-      "question": "円グラフでA=25%、B=25%、C=50%です。AとBを合わせるとCと同じですか？",
-      "answer": "はい",
-      "explanation": "25+25=50%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-033",
-      "type": "mixed",
-      "question": "100人のうちA=20%、B=35%、C=45%です。人数が最も多いのはどれですか？",
-      "answer": "C",
-      "explanation": "45人で最も多いです。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-034",
-      "type": "mixed",
-      "question": "二つのクラスの人数が同じなら、人数の棒グラフと割合の帯グラフのどちらでも比較できますか？",
-      "answer": "はい",
-      "explanation": "全体人数が同じなら、人数の大小と割合の大小は一致します。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
-    },
-    {
-      "id": "M5-GR-035",
-      "type": "mixed",
-      "question": "帯グラフの一部分が全体の3/4です。百分率では何%ですか？",
-      "answer": "75%",
-      "explanation": "3÷4=0.75=75%です。",
-      "why": "円グラフや帯グラフでは、全体を100%として部分の割合を読み取ります。"
+      "type": "text",
+      "level": "basic",
+      "question": "全体200人の帯グラフでAが30%なら、Aは何人ですか？",
+      "answer": "60人",
+      "explanation": "200×0.3=60人です。",
+      "why": "割合から人数を求めます.",
+      "skill": "reasoning"
     }
   ]
 }

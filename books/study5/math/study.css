@@ -1,0 +1,952 @@
+/* =========================================================
+   STUDY MODE
+========================================================= */
+
+.study-view {
+  padding: 32px 0 80px;
+}
+
+.study-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.study-topbar-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.study-topbar-title span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #eee7dd;
+}
+
+.study-topbar-title small {
+  font-size: 9px;
+  letter-spacing: .18em;
+  color: #8f877d;
+}
+
+.study-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 44px;
+  border-radius: 32px;
+  background: linear-gradient(145deg, #fbfcfe, #eef4f8);
+  box-shadow: 0 30px 80px rgba(0,0,0,.28);
+  color: #1d2b37;
+}
+
+.study-panel {
+  display: none;
+}
+
+.study-panel-active {
+  display: block;
+}
+
+
+/* study.html から起動したときは通常LIBRARY/DETAILを見せない */
+body.study-only-mode #libraryView,
+body.study-only-mode #bookDetailView {
+  display: none !important;
+}
+
+.study-hero {
+  margin-bottom: 32px;
+}
+
+.study-eyebrow {
+  margin: 0 0 10px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .22em;
+  color: #7e8c98;
+}
+
+.study-grade-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.study-grade-row h2 {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-size: clamp(30px, 5vw, 52px);
+  line-height: 1.15;
+  color: #1d2b37;
+}
+
+.study-grade-badge {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 88px;
+  min-height: 54px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #ffca50;
+  color: #28313a;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.study-intro {
+  margin: 16px 0 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #65717c;
+}
+
+.study-mode-subject-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 20px;
+}
+
+.study-mode-subject-card {
+  appearance: none;
+  min-height: 210px;
+  padding: 28px;
+  border: 0;
+  border-radius: 28px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 14px 34px rgba(31,47,61,.12);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.study-mode-subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 44px rgba(31,47,61,.18);
+}
+
+.study-mode-subject-card::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  right: -55px;
+  top: -55px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.42);
+}
+
+.study-mode-icon {
+  width: 58px;
+  height: 58px;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background: rgba(255,255,255,.72);
+  font-size: 30px;
+  font-weight: 900;
+  color: #24313d;
+  position: relative;
+  z-index: 1;
+}
+
+.study-mode-subject-card strong {
+  position: relative;
+  z-index: 1;
+  font-size: 28px;
+  color: #23313d;
+}
+
+.study-mode-subject-card small {
+  position: relative;
+  z-index: 1;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  color: #61717e;
+}
+
+.study-mode-subject-card p {
+  position: relative;
+  z-index: 1;
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #64717c;
+}
+
+.subject-math {
+  background: linear-gradient(145deg, #e4f3ff, #cfe8fc);
+}
+
+.subject-science {
+  background: linear-gradient(145deg, #edf8e8, #d6efcc);
+}
+
+.subject-english {
+  background: linear-gradient(145deg, #fff1db, #ffe0ad);
+}
+
+.subject-japanese {
+  background: linear-gradient(145deg, #fff0f4, #ffdce6);
+}
+
+.study-inner-back {
+  margin-bottom: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #60707d;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.study-inner-back:hover {
+  color: #1f2e39;
+}
+
+.study-subject-header {
+  padding-bottom: 26px;
+  border-bottom: 1px solid rgba(43,62,77,.12);
+}
+
+.study-subject-english {
+  margin: 0 0 7px;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .22em;
+  color: #84929e;
+}
+
+.study-subject-header h2 {
+  margin: 0;
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1;
+  color: #1c2c38;
+}
+
+.study-subject-header p:last-child {
+  margin: 15px 0 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #697681;
+}
+
+.study-unit-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.study-unit-button {
+  appearance: none;
+  width: 100%;
+  min-height: 92px;
+  padding: 18px 20px;
+  border: 1px solid rgba(45,66,82,.10);
+  border-radius: 18px;
+  background: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.study-unit-button:hover {
+  transform: translateY(-2px);
+  border-color: rgba(45,66,82,.22);
+  box-shadow: 0 12px 26px rgba(30,48,62,.10);
+}
+
+.study-unit-number {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef3f7;
+  color: #4b5b68;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.study-unit-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.study-unit-copy strong {
+  font-size: 16px;
+  color: #273744;
+}
+
+.study-unit-copy small {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #82909b;
+}
+
+.study-unit-progress {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 800;
+  color: #6790ac;
+}
+
+.study-loading,
+.study-empty-message {
+  grid-column: 1 / -1;
+  padding: 28px;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #667681;
+  text-align: center;
+}
+
+.study-empty-message strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #2c3b46;
+  font-size: 18px;
+}
+
+.study-empty-message p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.study-question-header {
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(43,62,77,.12);
+}
+
+.study-question-header h2 {
+  margin: 0;
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1;
+  color: #1d2c38;
+}
+
+.study-question-header > p:last-child {
+  margin: 15px 0 0;
+  color: #697681;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.study-question-guide {
+  margin-top: 24px;
+  padding: 22px 24px;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #e7f4ff, #d8ecfb);
+}
+
+.study-question-guide span {
+  display: block;
+  margin-bottom: 5px;
+  color: #5681a3;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .2em;
+}
+
+.study-question-guide strong {
+  display: block;
+  color: #263947;
+  font-size: 19px;
+}
+
+.study-question-guide p {
+  margin: 7px 0 0;
+  color: #607685;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.study-question-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.study-question-button {
+  appearance: none;
+  min-height: 126px;
+  padding: 20px 22px;
+  border: 1px solid rgba(42,67,86,.10);
+  border-radius: 20px;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.study-question-button:hover {
+  transform: translateY(-3px);
+  border-color: rgba(65,132,180,.35);
+  box-shadow: 0 16px 32px rgba(33,58,76,.11);
+}
+
+.study-question-number {
+  margin-bottom: 14px;
+  color: #6895b5;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .14em;
+}
+
+.study-question-text {
+  color: #1e2f3c;
+  font-size: clamp(20px, 4.8vw, 23px);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.study-question-hint {
+  margin-top: auto;
+  padding-top: 16px;
+  color: #85939d;
+  font-size: 11px;
+}
+
+.study-question-word {
+  font-size: clamp(20px, 4.8vw, 23px);
+  line-height: 1.55;
+}
+
+/* =========================================================
+   VISUAL QUESTIONS
+========================================================= */
+
+.study-visual {
+  width: 100%;
+  margin: 20px 0 6px;
+  padding: 16px;
+  border: 1px solid rgba(45,70,88,.10);
+  border-radius: 18px;
+  background: #fbfdff;
+  overflow: hidden;
+}
+
+.study-visual-compact {
+  margin: 16px 0 2px;
+  padding: 10px;
+}
+
+.study-visual svg {
+  display: block;
+  width: 100%;
+  max-height: 270px;
+}
+
+.study-visual-compact svg {
+  max-height: 155px;
+}
+
+.study-svg-shape {
+  fill: rgba(88,154,198,.11);
+  stroke: #315e7d;
+  stroke-width: 2.4;
+  stroke-linejoin: round;
+}
+
+.study-svg-shape-alt {
+  fill: rgba(242,176,88,.12);
+}
+
+.study-svg-guide {
+  fill: none;
+  stroke: #8498a7;
+  stroke-width: 1.8;
+  stroke-dasharray: 6 5;
+}
+
+.study-svg-arrow {
+  fill: none;
+  stroke: #6c879a;
+  stroke-width: 2;
+  marker-end: url(#arrowhead);
+}
+
+.study-svg-label {
+  fill: #344a5a;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.study-svg-equal {
+  fill: #68879b;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.study-pie-chart {
+  --study-pie-percent: 40%;
+  width: min(220px, 70vw);
+  aspect-ratio: 1;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: conic-gradient(#6da6c9 0 var(--study-pie-percent), #e4ecf1 var(--study-pie-percent) 100%);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.study-pie-chart::after {
+  content: "";
+  position: absolute;
+  width: 54%;
+  height: 54%;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.study-pie-chart span {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #294253;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.study-bar-chart {
+  display: flex;
+  width: 100%;
+  min-height: 66px;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #e6edf2;
+}
+
+.study-bar-chart-main,
+.study-bar-chart-rest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.study-bar-chart-main {
+  background: #79aecd;
+  color: #ffffff;
+}
+
+.study-bar-chart-rest {
+  background: #e6edf2;
+  color: #5f727e;
+}
+
+.study-bar-chart span {
+  padding: 8px;
+  white-space: nowrap;
+}
+
+.answer-modal-visual {
+  margin: -8px 0 24px;
+}
+
+.answer-modal-visual:empty {
+  display: none;
+}
+
+/* =========================================================
+   ANSWER MODAL
+   iPhone / mobile safe layout
+========================================================= */
+
+.answer-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: stretch;
+  justify-content: center;
+
+  padding:
+    max(8px, env(safe-area-inset-top))
+    max(8px, env(safe-area-inset-right))
+    max(8px, env(safe-area-inset-bottom))
+    max(8px, env(safe-area-inset-left));
+}
+
+.answer-modal.answer-modal-open {
+  display: flex;
+}
+
+.answer-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(12,18,24,.72);
+  backdrop-filter: blur(6px);
+}
+
+.answer-modal-card {
+  position: relative;
+  z-index: 1;
+
+  width: min(720px, 100%);
+  height: calc(
+    100dvh
+    - max(8px, env(safe-area-inset-top))
+    - max(8px, env(safe-area-inset-bottom))
+  );
+  max-height: 920px;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 38px 100px rgba(0,0,0,.38);
+  color: #1e2c37;
+}
+
+.answer-modal-scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+
+  padding:
+    38px
+    42px
+    calc(34px + env(safe-area-inset-bottom));
+
+  scroll-padding-top: 74px;
+  scroll-padding-bottom: 100px;
+}
+
+.answer-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 20;
+
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: rgba(238,242,245,.96);
+  box-shadow: 0 6px 18px rgba(16,35,48,.14);
+
+  color: #354955;
+  font-size: 28px;
+  line-height: 1;
+
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.answer-modal-number {
+  margin: 0 0 10px;
+  padding-right: 54px;
+
+  color: #6f97b3;
+
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: .16em;
+}
+
+.answer-modal-question {
+  margin: 0 54px 28px 0;
+
+  color: #192b37;
+
+  font-size: clamp(24px, 6vw, 42px);
+  line-height: 1.35;
+}
+
+.answer-section {
+  margin-top: 18px;
+  padding: 24px;
+
+  border-radius: 20px;
+  background: #f6f8fa;
+}
+
+.answer-section-result {
+  background: linear-gradient(145deg, #e8f5ff, #d9edfb);
+}
+
+.answer-section-why {
+  background: linear-gradient(145deg, #fff5dc, #ffedc0);
+}
+
+.answer-section-label {
+  display: block;
+  margin-bottom: 12px;
+
+  color: #687985;
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .14em;
+}
+
+.answer-result {
+  color: #173851;
+
+  font-size: clamp(30px, 8vw, 38px);
+  font-weight: 900;
+}
+
+.answer-body {
+  white-space: pre-line;
+
+  color: #354752;
+
+  font-size: 16px;
+  line-height: 1.95;
+}
+
+.answer-section-why .answer-body {
+  color: #574923;
+}
+
+/*
+  長い解説でも「問題に戻る」を常に押しやすくする。
+  モーダル内スクロールに追従して下端に残る。
+*/
+.answer-modal-done {
+  position: sticky;
+  bottom: 0;
+  z-index: 15;
+
+  width: 100%;
+
+  margin-top: 26px;
+  padding: 17px 20px;
+
+  border: 0;
+  border-radius: 999px;
+
+  background: #2b79aa;
+  box-shadow:
+    0 -14px 24px rgba(255,255,255,.94),
+    0 8px 22px rgba(36,91,126,.22);
+
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 900;
+
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.answer-modal-done:hover {
+  background: #22698f;
+}
+
+body.answer-modal-visible {
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .study-view {
+    padding-top: 24px;
+  }
+
+  .study-shell {
+    padding: 26px 18px;
+    border-radius: 22px;
+  }
+
+  .study-mode-subject-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .study-mode-subject-card {
+    min-height: 145px;
+    padding: 22px;
+  }
+
+  .study-mode-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    font-size: 24px;
+  }
+
+  .study-mode-subject-card strong {
+    font-size: 23px;
+  }
+
+  .study-unit-list,
+  .study-question-list {
+    grid-template-columns: 1fr;
+  }
+
+  .study-grade-row {
+    align-items: flex-start;
+  }
+
+  .study-grade-badge {
+    min-width: 70px;
+    min-height: 46px;
+    font-size: 18px;
+  }
+
+  .study-question-button {
+    min-height: 110px;
+  }
+
+  .study-visual-compact svg {
+    max-height: 180px;
+  }
+
+  .study-question-text,
+  .study-question-word {
+    font-size: 21px;
+    line-height: 1.55;
+  }
+
+  .study-question-hint {
+    font-size: 13px;
+  }
+
+  .answer-modal {
+    padding:
+      max(6px, env(safe-area-inset-top))
+      max(6px, env(safe-area-inset-right))
+      max(6px, env(safe-area-inset-bottom))
+      max(6px, env(safe-area-inset-left));
+  }
+
+  .answer-modal-card {
+    width: 100%;
+    height: calc(
+      100dvh
+      - max(6px, env(safe-area-inset-top))
+      - max(6px, env(safe-area-inset-bottom))
+    );
+    max-height: none;
+    border-radius: 20px;
+  }
+
+  .answer-modal-scroll {
+    height: 100%;
+    max-height: none;
+
+    padding:
+      30px
+      18px
+      calc(26px + env(safe-area-inset-bottom));
+  }
+
+  .answer-modal-close {
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .answer-section {
+    padding: 21px 18px;
+  }
+
+  .answer-section-label {
+    font-size: 13px;
+  }
+
+  .answer-body {
+    font-size: 17px;
+    line-height: 1.9;
+  }
+
+  .answer-modal-done {
+    min-height: 54px;
+    font-size: 17px;
+  }
+}
+
+
+/* =========================================================
+   V3: QUESTION TYPOGRAPHY / FRACTION DISPLAY
+========================================================= */
+
+/* PCでも長文・短文で文字サイズを変えない */
+.study-question-text,
+.study-question-word {
+  font-size: 22px !important;
+  line-height: 1.55 !important;
+  font-weight: 800;
+}
+
+/* 分数を教科書に近い縦型表示にする */
+.study-fraction {
+  display: inline-grid;
+  grid-template-rows: auto 2px auto;
+  align-items: center;
+  justify-items: center;
+
+  min-width: 1.45em;
+
+  margin: 0 .12em;
+  vertical-align: middle;
+
+  line-height: 1;
+  font-size: .96em;
+}
+
+.study-fraction-num,
+.study-fraction-den {
+  display: block;
+  padding: 0 .12em;
+  line-height: 1.05;
+}
+
+.study-fraction-bar {
+  display: block;
+  width: 100%;
+  height: 0;
+  border-top: 2px solid currentColor;
+}
+
+.answer-body .study-fraction,
+.answer-result .study-fraction,
+.answer-modal-question .study-fraction {
+  margin-left: .16em;
+  margin-right: .16em;
+}
+
+@media (max-width: 700px) {
+  .study-question-text,
+  .study-question-word {
+    font-size: 21px !important;
+  }
+
+  .study-fraction {
+    min-width: 1.55em;
+  }
+}

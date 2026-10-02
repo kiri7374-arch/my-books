@@ -3,720 +3,378 @@
   "subject": "math",
   "unitId": "math-area",
   "title": "面積",
-  "description": "三角形、平行四辺形、台形、ひし形の面積と公式の意味",
-  "questionCount": 50,
+  "description": "三角形・平行四辺形・台形・ひし形の計算、逆算、理由、比較、文章題",
+  "questionCount": 32,
   "questions": [
     {
       "id": "M5-AR-001",
       "type": "text",
-      "question": "底辺5cm、高さ4cmの三角形の面積を求めましょう。",
-      "answer": "10cm²",
-      "explanation": "5×4÷2=10",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
+      "level": "basic",
+      "question": "底辺8cm、高さ5cmの三角形の面積を求めましょう。",
+      "answer": "20cm²",
+      "explanation": "8×5÷2=20cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
         "type": "triangle",
-        "base": 5.0,
-        "height": 4.0,
+        "base": 8,
+        "height": 5,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-002",
       "type": "text",
-      "question": "底辺7cm、高さ4cmの平行四辺形の面積を求めましょう。",
-      "answer": "28cm²",
-      "explanation": "7×4=28",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
+      "level": "basic",
+      "question": "底辺12cm、高さ6cmの三角形の面積を求めましょう。",
+      "answer": "36cm²",
+      "explanation": "12×6÷2=36cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
-        "type": "parallelogram",
-        "base": 7.0,
-        "height": 4.0,
+        "type": "triangle",
+        "base": 12,
+        "height": 6,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-003",
       "type": "text",
-      "question": "上底7cm、下底13cm、高さ6cmの台形の面積を求めましょう。",
-      "answer": "60cm²",
-      "explanation": "(7＋13)×6÷2=60",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
+      "level": "basic",
+      "question": "底辺9cm、高さ4cmの平行四辺形の面積を求めましょう。",
+      "answer": "36cm²",
+      "explanation": "9×4=36cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
-        "type": "trapezoid",
-        "top": 7.0,
-        "bottom": 13.0,
-        "height": 6.0,
+        "type": "parallelogram",
+        "base": 9,
+        "height": 4,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-004",
       "type": "text",
-      "question": "対角線が14cmと12cmのひし形の面積を求めましょう。",
-      "answer": "84cm²",
-      "explanation": "14×12÷2=84",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
+      "level": "basic",
+      "question": "底辺7cm、高さ8cmの平行四辺形の面積を求めましょう。",
+      "answer": "56cm²",
+      "explanation": "7×8=56cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
-        "type": "rhombus",
-        "diagonal1": 14.0,
-        "diagonal2": 12.0,
+        "type": "parallelogram",
+        "base": 7,
+        "height": 8,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-005",
       "type": "text",
-      "question": "底辺9cm、高さ8cmの三角形の面積を求めましょう。",
-      "answer": "36cm²",
-      "explanation": "9×8÷2=36",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
+      "level": "basic",
+      "question": "上底5cm、下底9cm、高さ4cmの台形の面積を求めましょう。",
+      "answer": "28cm²",
+      "explanation": "(5+9)×4÷2=28cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
-        "type": "triangle",
-        "base": 9.0,
-        "height": 8.0,
+        "type": "trapezoid",
+        "top": 5,
+        "bottom": 9,
+        "height": 4,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-006",
       "type": "text",
-      "question": "底辺11cm、高さ2cmの平行四辺形の面積を求めましょう。",
-      "answer": "22cm²",
-      "explanation": "11×2=22",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
+      "level": "basic",
+      "question": "上底8cm、下底12cm、高さ5cmの台形の面積を求めましょう。",
+      "answer": "50cm²",
+      "explanation": "(8+12)×5÷2=50cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
-        "type": "parallelogram",
-        "base": 11.0,
-        "height": 2.0,
+        "type": "trapezoid",
+        "top": 8,
+        "bottom": 12,
+        "height": 5,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-007",
       "type": "text",
-      "question": "上底5cm、下底11cm、高さ5cmの台形の面積を求めましょう。",
-      "answer": "40cm²",
-      "explanation": "(5＋11)×5÷2=40",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
+      "level": "basic",
+      "question": "対角線が10cmと6cmのひし形の面積を求めましょう。",
+      "answer": "30cm²",
+      "explanation": "10×6÷2=30cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
-        "type": "trapezoid",
-        "top": 5.0,
-        "bottom": 11.0,
-        "height": 5.0,
+        "type": "rhombus",
+        "diagonal1": 10,
+        "diagonal2": 6,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-008",
       "type": "text",
-      "question": "対角線が10cmと10cmのひし形の面積を求めましょう。",
-      "answer": "50cm²",
-      "explanation": "10×10÷2=50",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
+      "level": "basic",
+      "question": "対角線が12cmと8cmのひし形の面積を求めましょう。",
+      "answer": "48cm²",
+      "explanation": "12×8÷2=48cm²です。",
+      "why": "公式は、既に分かっている図形へ変形したり組み合わせたりして説明できます。",
+      "skill": "calculate",
       "visual": {
         "type": "rhombus",
-        "diagonal1": 10.0,
-        "diagonal2": 10.0,
+        "diagonal1": 12,
+        "diagonal2": 8,
         "unit": "cm"
       }
     },
     {
       "id": "M5-AR-009",
       "type": "text",
-      "question": "底辺5cm、高さ5cmの三角形の面積を求めましょう。",
-      "answer": "12.5cm²",
-      "explanation": "5×5÷2=12.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 5.0,
-        "height": 5.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "面積24cm²、底辺8cmの三角形の高さは何cmですか？",
+      "answer": "6cm",
+      "explanation": "8×高さ÷2=24なので、高さ=6cmです。",
+      "why": "面積の公式を逆に使います。",
+      "skill": "inverse"
     },
     {
       "id": "M5-AR-010",
       "type": "text",
-      "question": "底辺6cm、高さ6cmの平行四辺形の面積を求めましょう。",
-      "answer": "36cm²",
-      "explanation": "6×6=36",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 6.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "面積42cm²、高さ6cmの三角形の底辺は何cmですか？",
+      "answer": "14cm",
+      "explanation": "底辺×6÷2=42なので、底辺=14cmです。",
+      "why": "分からない長さを逆算します。",
+      "skill": "inverse"
     },
     {
       "id": "M5-AR-011",
       "type": "text",
-      "question": "上底9cm、下底15cm、高さ4cmの台形の面積を求めましょう。",
-      "answer": "48cm²",
-      "explanation": "(9＋15)×4÷2=48",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 9.0,
-        "bottom": 15.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "面積48cm²、高さ6cmの平行四辺形の底辺は何cmですか？",
+      "answer": "8cm",
+      "explanation": "48÷6=8cmです。",
+      "why": "底辺=面積÷高さです。",
+      "skill": "inverse"
     },
     {
       "id": "M5-AR-012",
       "type": "text",
-      "question": "対角線が6cmと8cmのひし形の面積を求めましょう。",
-      "answer": "24cm²",
-      "explanation": "6×8÷2=24",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 6.0,
-        "diagonal2": 8.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "面積63cm²、底辺9cmの平行四辺形の高さは何cmですか？",
+      "answer": "7cm",
+      "explanation": "63÷9=7cmです。",
+      "why": "高さ=面積÷底辺です。",
+      "skill": "inverse"
     },
     {
       "id": "M5-AR-013",
       "type": "text",
-      "question": "底辺9cm、高さ9cmの三角形の面積を求めましょう。",
-      "answer": "40.5cm²",
-      "explanation": "9×9÷2=40.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 9.0,
-        "height": 9.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "面積40cm²、上底6cm、下底10cmの台形の高さは何cmですか？",
+      "answer": "5cm",
+      "explanation": "(6+10)×高さ÷2=40なので5cmです。",
+      "why": "台形の公式を逆に使います。",
+      "skill": "inverse"
     },
     {
       "id": "M5-AR-014",
       "type": "text",
-      "question": "底辺10cm、高さ4cmの平行四辺形の面積を求めましょう。",
-      "answer": "40cm²",
-      "explanation": "10×4=40",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 10.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "面積36cm²、一方の対角線が9cmのひし形で、もう一方の対角線は何cmですか？",
+      "answer": "8cm",
+      "explanation": "36×2÷9=8cmです。",
+      "why": "ひし形の公式を逆に使います。",
+      "skill": "inverse"
     },
     {
       "id": "M5-AR-015",
       "type": "text",
-      "question": "上底7cm、下底13cm、高さ3cmの台形の面積を求めましょう。",
-      "answer": "30cm²",
-      "explanation": "(7＋13)×3÷2=30",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 7.0,
-        "bottom": 13.0,
-        "height": 3.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "底辺と高さが同じ二つの三角形は、形が違っても面積は同じですか？",
+      "answer": "同じです",
+      "explanation": "面積は底辺×高さ÷2で決まります。",
+      "why": "傾きではなく底辺と高さに注目します。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-AR-016",
       "type": "text",
-      "question": "対角線が14cmと6cmのひし形の面積を求めましょう。",
-      "answer": "42cm²",
-      "explanation": "14×6÷2=42",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 14.0,
-        "diagonal2": 6.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "平行四辺形を斜めにしても、底辺と高さが変わらなければ面積は変わりますか？",
+      "answer": "変わりません",
+      "explanation": "底辺×高さが同じだからです。",
+      "why": "見た目の傾きに惑わされず高さを見ます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-AR-017",
-      "type": "text",
-      "question": "底辺5cm、高さ6cmの三角形の面積を求めましょう。",
-      "answer": "15cm²",
-      "explanation": "5×6÷2=15",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 5.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
+      "type": "calculation",
+      "level": "basic",
+      "question": "三角形の面積を『底辺×高さ』とした考えは正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "同じ底辺と高さの平行四辺形の半分なので2で割ります。",
+      "why": "公式の÷2の意味を理解します。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-AR-018",
       "type": "text",
-      "question": "底辺5cm、高さ2cmの平行四辺形の面積を求めましょう。",
-      "answer": "10cm²",
-      "explanation": "5×2=10",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 5.0,
-        "height": 2.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "台形の面積で上底と下底を足すのはなぜですか？",
+      "answer": "同じ台形2つで平行四辺形を作ると、その底辺になるから",
+      "explanation": "同じ台形を2つ組み合わせると底辺が上底+下底の平行四辺形になります。",
+      "why": "公式を図形の変形から考えます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-AR-019",
-      "type": "text",
-      "question": "上底5cm、下底11cm、高さ7cmの台形の面積を求めましょう。",
-      "answer": "56cm²",
-      "explanation": "(5＋11)×7÷2=56",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 5.0,
-        "bottom": 11.0,
-        "height": 7.0,
-        "unit": "cm"
-      }
+      "type": "calculation",
+      "level": "basic",
+      "question": "ひし形の面積を対角線×対角線だけで求めるのは正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "対角線を縦・横とする長方形の半分なので2で割ります。",
+      "why": "÷2の意味を確かめます。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-AR-020",
       "type": "text",
-      "question": "対角線が10cmと4cmのひし形の面積を求めましょう。",
-      "answer": "20cm²",
-      "explanation": "10×4÷2=20",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 10.0,
-        "diagonal2": 4.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "同じ面積なら図形の形も必ず同じですか？",
+      "answer": "いいえ",
+      "explanation": "形が違っても同じ面積になることがあります。",
+      "why": "面積は広さを表します。",
+      "skill": "reasoning"
     },
     {
       "id": "M5-AR-021",
       "type": "text",
-      "question": "底辺9cm、高さ3cmの三角形の面積を求めましょう。",
-      "answer": "13.5cm²",
-      "explanation": "9×3÷2=13.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 9.0,
-        "height": 3.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "Aは底辺8cm・高さ6cmの三角形、Bは底辺6cm・高さ4cmの平行四辺形です。面積が大きいのはどちらですか？",
+      "answer": "同じ",
+      "explanation": "A=24cm²、B=24cm²なので同じです。",
+      "why": "図形ごとの公式で面積を求めてから比べます。",
+      "skill": "compare"
     },
     {
       "id": "M5-AR-022",
       "type": "text",
-      "question": "底辺9cm、高さ6cmの平行四辺形の面積を求めましょう。",
-      "answer": "54cm²",
-      "explanation": "9×6=54",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 9.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "Aは底辺10cm・高さ5cmの三角形、Bは底辺5cm・高さ5cmの平行四辺形です。面積が大きいのはどちらですか？",
+      "answer": "同じ",
+      "explanation": "A=25cm²、B=25cm²なので同じです。",
+      "why": "図形ごとの公式で面積を求めてから比べます。",
+      "skill": "compare"
     },
     {
       "id": "M5-AR-023",
       "type": "text",
-      "question": "上底9cm、下底15cm、高さ6cmの台形の面積を求めましょう。",
-      "answer": "72cm²",
-      "explanation": "(9＋15)×6÷2=72",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 9.0,
-        "bottom": 15.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "Aは底辺12cm・高さ4cmの三角形、Bは底辺8cm・高さ3cmの平行四辺形です。面積が大きいのはどちらですか？",
+      "answer": "同じ",
+      "explanation": "A=24cm²、B=24cm²なので同じです。",
+      "why": "図形ごとの公式で面積を求めてから比べます。",
+      "skill": "compare"
     },
     {
       "id": "M5-AR-024",
       "type": "text",
-      "question": "対角線が6cmと12cmのひし形の面積を求めましょう。",
-      "answer": "36cm²",
-      "explanation": "6×12÷2=36",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 6.0,
-        "diagonal2": 12.0,
-        "unit": "cm"
-      }
+      "level": "basic",
+      "question": "Aは底辺14cm・高さ6cmの三角形、Bは底辺7cm・高さ6cmの平行四辺形です。面積が大きいのはどちらですか？",
+      "answer": "同じ",
+      "explanation": "A=42cm²、B=42cm²なので同じです。",
+      "why": "図形ごとの公式で面積を求めてから比べます。",
+      "skill": "compare"
     },
     {
       "id": "M5-AR-025",
       "type": "text",
-      "question": "底辺5cm、高さ7cmの三角形の面積を求めましょう。",
-      "answer": "17.5cm²",
-      "explanation": "5×7÷2=17.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 5.0,
-        "height": 7.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "三角形の旗があります。底辺9cm、高さ6cmです。面積は何cm²ですか？",
+      "answer": "27cm²",
+      "explanation": "9×6÷2=27cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-026",
       "type": "text",
-      "question": "底辺13cm、高さ4cmの平行四辺形の面積を求めましょう。",
-      "answer": "52cm²",
-      "explanation": "13×4=52",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 13.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "三角形の花だんがあります。底辺12cm、高さ5cmです。面積は何cm²ですか？",
+      "answer": "30cm²",
+      "explanation": "12×5÷2=30cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-027",
       "type": "text",
-      "question": "上底7cm、下底13cm、高さ5cmの台形の面積を求めましょう。",
-      "answer": "50cm²",
-      "explanation": "(7＋13)×5÷2=50",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 7.0,
-        "bottom": 13.0,
-        "height": 5.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "平行四辺形の紙があります。底辺10cm、高さ7cmです。面積は何cm²ですか？",
+      "answer": "70cm²",
+      "explanation": "10×7=70cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-028",
       "type": "text",
-      "question": "対角線が14cmと10cmのひし形の面積を求めましょう。",
-      "answer": "70cm²",
-      "explanation": "14×10÷2=70",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 14.0,
-        "diagonal2": 10.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "平行四辺形の板があります。底辺8cm、高さ4cmです。面積は何cm²ですか？",
+      "answer": "32cm²",
+      "explanation": "8×4=32cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-029",
       "type": "text",
-      "question": "底辺9cm、高さ4cmの三角形の面積を求めましょう。",
-      "answer": "18cm²",
-      "explanation": "9×4÷2=18",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 9.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "台形の土地があります。上底6cm、下底10cm、高さ10cmです。面積は何cm²ですか？",
+      "answer": "80cm²",
+      "explanation": "(6+10)×10÷2=80cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-030",
       "type": "text",
-      "question": "底辺8cm、高さ2cmの平行四辺形の面積を求めましょう。",
-      "answer": "16cm²",
-      "explanation": "8×2=16",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 8.0,
-        "height": 2.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "ひし形の飾りがあります。対角線が5cmと7cmです。面積は何cm²ですか？",
+      "answer": "17.5cm²",
+      "explanation": "5×7÷2=17.5cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-031",
       "type": "text",
-      "question": "上底5cm、下底11cm、高さ4cmの台形の面積を求めましょう。",
-      "answer": "32cm²",
-      "explanation": "(5＋11)×4÷2=32",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 5.0,
-        "bottom": 11.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "三角形の標識があります。底辺14cm、高さ3cmです。面積は何cm²ですか？",
+      "answer": "21cm²",
+      "explanation": "14×3÷2=21cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     },
     {
       "id": "M5-AR-032",
       "type": "text",
-      "question": "対角線が10cmと8cmのひし形の面積を求めましょう。",
-      "answer": "40cm²",
-      "explanation": "10×8÷2=40",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 10.0,
-        "diagonal2": 8.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-033",
-      "type": "text",
-      "question": "底辺5cm、高さ8cmの三角形の面積を求めましょう。",
-      "answer": "20cm²",
-      "explanation": "5×8÷2=20",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 5.0,
-        "height": 8.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-034",
-      "type": "text",
-      "question": "底辺12cm、高さ6cmの平行四辺形の面積を求めましょう。",
-      "answer": "72cm²",
-      "explanation": "12×6=72",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 12.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-035",
-      "type": "text",
-      "question": "上底9cm、下底15cm、高さ3cmの台形の面積を求めましょう。",
-      "answer": "36cm²",
-      "explanation": "(9＋15)×3÷2=36",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 9.0,
-        "bottom": 15.0,
-        "height": 3.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-036",
-      "type": "text",
-      "question": "対角線が6cmと6cmのひし形の面積を求めましょう。",
-      "answer": "18cm²",
-      "explanation": "6×6÷2=18",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 6.0,
-        "diagonal2": 6.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-037",
-      "type": "text",
-      "question": "底辺9cm、高さ5cmの三角形の面積を求めましょう。",
-      "answer": "22.5cm²",
-      "explanation": "9×5÷2=22.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 9.0,
-        "height": 5.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-038",
-      "type": "text",
-      "question": "底辺7cm、高さ4cmの平行四辺形の面積を求めましょう。",
-      "answer": "28cm²",
-      "explanation": "7×4=28",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 7.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-039",
-      "type": "text",
-      "question": "上底7cm、下底13cm、高さ7cmの台形の面積を求めましょう。",
-      "answer": "70cm²",
-      "explanation": "(7＋13)×7÷2=70",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 7.0,
-        "bottom": 13.0,
-        "height": 7.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-040",
-      "type": "text",
-      "question": "対角線が14cmと4cmのひし形の面積を求めましょう。",
-      "answer": "28cm²",
-      "explanation": "14×4÷2=28",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 14.0,
-        "diagonal2": 4.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-041",
-      "type": "text",
-      "question": "底辺5cm、高さ9cmの三角形の面積を求めましょう。",
-      "answer": "22.5cm²",
-      "explanation": "5×9÷2=22.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 5.0,
-        "height": 9.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-042",
-      "type": "text",
-      "question": "底辺11cm、高さ2cmの平行四辺形の面積を求めましょう。",
-      "answer": "22cm²",
-      "explanation": "11×2=22",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 11.0,
-        "height": 2.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-043",
-      "type": "text",
-      "question": "上底5cm、下底11cm、高さ6cmの台形の面積を求めましょう。",
-      "answer": "48cm²",
-      "explanation": "(5＋11)×6÷2=48",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 5.0,
-        "bottom": 11.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-044",
-      "type": "text",
-      "question": "対角線が10cmと12cmのひし形の面積を求めましょう。",
-      "answer": "60cm²",
-      "explanation": "10×12÷2=60",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 10.0,
-        "diagonal2": 12.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-045",
-      "type": "text",
-      "question": "底辺9cm、高さ6cmの三角形の面積を求めましょう。",
-      "answer": "27cm²",
-      "explanation": "9×6÷2=27",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 9.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-046",
-      "type": "text",
-      "question": "底辺6cm、高さ6cmの平行四辺形の面積を求めましょう。",
-      "answer": "36cm²",
-      "explanation": "6×6=36",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 6.0,
-        "height": 6.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-047",
-      "type": "text",
-      "question": "上底9cm、下底15cm、高さ5cmの台形の面積を求めましょう。",
-      "answer": "60cm²",
-      "explanation": "(9＋15)×5÷2=60",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ台形を2つ組み合わせると、底辺が上底＋下底、高さが同じ平行四辺形になるため、その半分です。",
-      "visual": {
-        "type": "trapezoid",
-        "top": 9.0,
-        "bottom": 15.0,
-        "height": 5.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-048",
-      "type": "text",
-      "question": "対角線が6cmと10cmのひし形の面積を求めましょう。",
-      "answer": "30cm²",
-      "explanation": "6×10÷2=30",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 ひし形は対角線で分けたり、周りを補ったりすると、対角線を縦・横とする長方形の半分として考えられます。",
-      "visual": {
-        "type": "rhombus",
-        "diagonal1": 6.0,
-        "diagonal2": 10.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-049",
-      "type": "text",
-      "question": "底辺5cm、高さ3cmの三角形の面積を求めましょう。",
-      "answer": "7.5cm²",
-      "explanation": "5×3÷2=7.5",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 同じ三角形を2つ合わせると、底辺と高さが同じ平行四辺形を作れるため、平行四辺形の面積の半分になります。",
-      "visual": {
-        "type": "triangle",
-        "base": 5.0,
-        "height": 3.0,
-        "unit": "cm"
-      }
-    },
-    {
-      "id": "M5-AR-050",
-      "type": "text",
-      "question": "底辺10cm、高さ4cmの平行四辺形の面積を求めましょう。",
-      "answer": "40cm²",
-      "explanation": "10×4=40",
-      "why": "面積の公式は図形を既習の図形に変形して考えることで説明できます。 平行四辺形は一部を移動すると、底辺と高さが同じ長方形に変形できるため、底辺×高さで求められます。",
-      "visual": {
-        "type": "parallelogram",
-        "base": 10.0,
-        "height": 4.0,
-        "unit": "cm"
-      }
+      "level": "applied",
+      "question": "平行四辺形の布があります。底辺11cm、高さ6cmです。面積は何cm²ですか？",
+      "answer": "66cm²",
+      "explanation": "11×6=66cm²です。",
+      "why": "実際の場面でも、必要な長さを見つけて公式に当てはめます。",
+      "skill": "word"
     }
   ]
 }

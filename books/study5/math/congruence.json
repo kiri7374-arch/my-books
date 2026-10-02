@@ -3,40 +3,88 @@
   "subject": "math",
   "unitId": "math-congruence",
   "title": "合同な図形",
-  "description": "合同、対応する辺・角、図形の決まり方と構成",
-  "questionCount": 30,
+  "description": "合同の意味、対応、作図、判断、三角形・四角形への応用",
+  "questionCount": 24,
   "questions": [
     {
       "id": "M5-CG-001",
-      "type": "concept",
-      "question": "二つの図形を動かしたり裏返したりして、ぴったり重ねることができました。この二つの図形を何といいますか？",
-      "answer": "合同な図形",
-      "explanation": "形も大きさも同じで、重ねるとぴったり一致する図形を「合同な図形」といいます。",
-      "why": "合同かどうかは、置かれている場所や向きではなく、形と大きさが同じかで決まります。"
+      "type": "text",
+      "level": "basic",
+      "question": "二つの図形を動かしたり回したり裏返したりするとぴったり重なります。この二つの図形を何といいますか？",
+      "answer": "合同",
+      "explanation": "形と大きさが同じ図形を合同といいます。",
+      "why": "位置や向きではなく、形と大きさが同じかどうかで判断します。",
+      "skill": "concept",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "basic"
+      }
     },
     {
       "id": "M5-CG-002",
-      "type": "judgement",
-      "question": "同じ形の三角形でも、一方だけを2倍に拡大しました。この二つは合同ですか？",
+      "type": "text",
+      "level": "basic",
+      "question": "同じ形でも、一方だけを拡大した図形は合同ですか？",
       "answer": "合同ではありません",
-      "explanation": "形は似ていますが大きさが違うので、ぴったり重なりません。",
-      "why": "合同になるには、形だけでなく大きさも同じである必要があります。"
+      "explanation": "形は似ていますが大きさが違うため合同ではありません。",
+      "why": "合同には形だけでなく大きさも同じであることが必要です。",
+      "skill": "concept",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "different-size"
+      }
     },
     {
       "id": "M5-CG-003",
-      "type": "correspondence",
-      "question": "合同な三角形ABCと三角形DEFで、A↔D、B↔Eです。Cに対応する頂点はどれですか？",
-      "answer": "F",
-      "explanation": "A↔D、B↔Eなので、残るC↔Fです。",
-      "why": "対応する頂点を先に決めると、対応する辺や角も見つけやすくなります。"
+      "type": "text",
+      "level": "basic",
+      "question": "図形を右へ平行に動かしただけなら、動かす前と後は合同ですか？",
+      "answer": "合同です",
+      "explanation": "場所が変わっただけで形と大きさは同じです。",
+      "why": "移動して重なる図形は合同です。",
+      "skill": "concept",
+      "visual": {
+        "type": "congruent-shapes",
+        "variant": "translated"
+      }
     },
     {
       "id": "M5-CG-004",
-      "type": "side",
-      "question": "合同な三角形ABCとDEFで、辺ABに対応する辺はDEです。AB=6cmならDEは何cmですか？",
+      "type": "text",
+      "level": "basic",
+      "question": "三角形ABCとDEFが合同で、A↔D、B↔E、C↔Fです。辺ABに対応する辺はどれですか？",
+      "answer": "辺DE",
+      "explanation": "AにD、BにEが対応するのでDEです。",
+      "why": "対応する頂点を順に結んだ辺どうしが対応します。",
+      "skill": "concept",
+      "visual": {
+        "type": "congruent-triangles",
+        "highlight": "side"
+      }
+    },
+    {
+      "id": "M5-CG-005",
+      "type": "text",
+      "level": "basic",
+      "question": "同じ対応で、角Cに対応する角はどれですか？",
+      "answer": "角F",
+      "explanation": "C↔Fなので角Fです。",
+      "why": "合同な図形では対応する角の大きさが等しくなります。",
+      "skill": "concept",
+      "visual": {
+        "type": "congruent-triangles",
+        "highlight": "angle"
+      }
+    },
+    {
+      "id": "M5-CG-006",
+      "type": "text",
+      "level": "basic",
+      "question": "合同な三角形で、辺AB=6cmに対応する辺DEの長さは何cmですか？",
       "answer": "6cm",
-      "explanation": "合同な図形では、対応する辺の長さは等しいのでDE=6cmです。",
-      "why": "重ねたときに同じ位置になる辺どうしは同じ長さです。",
+      "explanation": "対応する辺の長さは等しいので6cmです。",
+      "why": "合同な図形では対応する辺の長さが等しいです。",
+      "skill": "concept",
       "visual": {
         "type": "congruent-triangles",
         "sideLabel": "6cm",
@@ -44,12 +92,14 @@
       }
     },
     {
-      "id": "M5-CG-005",
-      "type": "angle",
-      "question": "合同な二つの三角形で、角Aに対応する角Dが52°です。角Aは何度ですか？",
+      "id": "M5-CG-007",
+      "type": "text",
+      "level": "basic",
+      "question": "合同な三角形で、角A=52°に対応する角Dは何度ですか？",
       "answer": "52°",
       "explanation": "対応する角の大きさは等しいので52°です。",
-      "why": "合同な図形では、対応する角もぴったり重なるからです。",
+      "why": "合同な図形の対応する角は等しくなります。",
+      "skill": "concept",
       "visual": {
         "type": "congruent-triangles",
         "angleLabel": "52°",
@@ -57,208 +107,174 @@
       }
     },
     {
-      "id": "M5-CG-006",
-      "type": "side",
-      "question": "三角形ABCとDEFが合同です。AB=5cm、BC=7cm、CA=6cmで、AB↔DE、BC↔EF、CA↔FDです。EFは何cmですか？",
-      "answer": "7cm",
-      "explanation": "BCに対応する辺がEFなので、EF=7cmです。",
-      "why": "どの辺に対応しているかを確かめてから長さを移します。"
-    },
-    {
-      "id": "M5-CG-007",
-      "type": "reasoning",
-      "question": "合同な二つの四角形で、対応する4本の辺のうち3本が同じ長さだと分かりました。それだけで合同だと言い切れますか？",
-      "answer": "言い切れません",
-      "explanation": "残りの辺や角の大きさ、図形全体の形も確かめる必要があります。",
-      "why": "一部の辺だけが同じでも、形の違う四角形を作れる場合があります。"
-    },
-    {
       "id": "M5-CG-008",
-      "type": "transformation",
-      "question": "図形を右へ平行に移動しました。形も大きさも変わっていません。移動前と移動後の図形は合同ですか？",
-      "answer": "合同です",
-      "explanation": "場所だけが変わり、形と大きさは変わっていないので合同です。",
-      "why": "合同は図形の位置には関係しません。",
-      "visual": {
-        "type": "congruent-shapes",
-        "variant": "translated"
-      }
+      "type": "text",
+      "level": "basic",
+      "question": "三角形ABCとDEFが合同です。AB=5cm、BC=7cm、CA=6cmで、BC↔EFです。EFは何cmですか？",
+      "answer": "7cm",
+      "explanation": "BCに対応するのがEFなので7cmです。",
+      "why": "対応する辺を先に見つけてから長さを読みます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-009",
-      "type": "transformation",
-      "question": "図形を180°回転させました。回転前と回転後の図形は合同ですか？",
-      "answer": "合同です",
-      "explanation": "向きだけが変わり、辺の長さや角の大きさは変わっていません。",
-      "why": "回転しても形と大きさは変わりません。"
+      "type": "text",
+      "level": "basic",
+      "question": "辺が3cm、4cm、5cmの三角形と、3cm、4cm、6cmの三角形は合同ですか？",
+      "answer": "合同ではありません",
+      "explanation": "3本目の辺の長さが違います。",
+      "why": "合同なら対応する辺の長さはすべて等しくなります。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-010",
-      "type": "transformation",
-      "question": "紙にかいた図形を裏返した形は、元の図形と合同ですか？",
+      "type": "text",
+      "level": "basic",
+      "question": "3辺の長さが4cm、5cm、6cmで同じ二つの三角形は合同ですか？",
       "answer": "合同です",
-      "explanation": "裏返して重ねることができれば合同です。",
-      "why": "合同を考えるときは、裏返す操作も認めて考えます。"
+      "explanation": "3辺の長さがすべて同じなので同じ三角形になります。",
+      "why": "三角形は3辺の長さが決まると形と大きさが決まります。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-011",
-      "type": "construction",
-      "question": "三辺が4cm、5cm、6cmの三角形と合同な三角形をかきたいです。長さを正確に写すために使う道具は何ですか？",
-      "answer": "定規とコンパス",
-      "explanation": "定規で辺を引き、コンパスで必要な長さを移すと正確にかけます。",
-      "why": "三角形の形を決める辺の長さを正確に写すためです。"
+      "type": "text",
+      "level": "basic",
+      "question": "2辺の長さと、その間の角の大きさがそれぞれ同じ二つの三角形は、同じ形にかけますか？",
+      "answer": "かけます",
+      "explanation": "2辺とその間の角が決まると三角形の形と大きさが決まります。",
+      "why": "三角形をつくるために必要な情報の組み合わせの一つです。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-012",
-      "type": "construction",
-      "question": "ある三角形と合同な三角形をかくために、2本の辺の長さと、その間の角の大きさが分かっています。この情報で同じ形をかけますか？",
+      "type": "text",
+      "level": "basic",
+      "question": "1辺の長さと、その両端の角がそれぞれ同じ二つの三角形は、同じ形にかけますか？",
       "answer": "かけます",
-      "explanation": "2本の辺とその間の角を同じにすると、元と同じ形・大きさになります。",
-      "why": "三角形は、辺や角の情報の組合せによって形が決まります。"
+      "explanation": "1辺とその両端の角が決まると三角形が決まります。",
+      "why": "すべての辺や角を測らなくても三角形を決められます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-013",
-      "type": "correspondence",
-      "question": "合同な四角形ABCDとEFGHで、A↔E、B↔F、C↔G、D↔Hです。辺CDに対応する辺はどれですか？",
-      "answer": "辺GH",
-      "explanation": "C↔G、D↔Hなので、CD↔GHです。",
-      "why": "辺の対応は、その両端の頂点の対応を見ると分かります。"
+      "type": "text",
+      "level": "basic",
+      "question": "辺AB=5cm、AC=4cm、角A=60°の三角形をかくとき、分度器は何を測るために使いますか？",
+      "answer": "角Aの60°",
+      "explanation": "辺ABをかいた後、Aから60°の方向を決めるために使います。",
+      "why": "長さは定規やコンパス、角度は分度器を使って条件を再現します。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-014",
-      "type": "angle",
-      "question": "合同な四角形ABCDとEFGHで、角B=90°、B↔Fです。角Fは何度ですか？",
-      "answer": "90°",
-      "explanation": "対応する角の大きさは等しいので90°です。",
-      "why": "合同な図形では対応する角が同じ大きさです。"
+      "type": "text",
+      "level": "basic",
+      "question": "3辺が4cm、5cm、6cmの三角形をかくとき、コンパスは何に使いますか？",
+      "answer": "決められた長さを移すため",
+      "explanation": "各辺の長さを円弧として移し、交点を頂点にします。",
+      "why": "コンパスは同じ長さを正確に別の場所へ移せます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-015",
-      "type": "judgement",
-      "question": "二つの長方形はどちらも縦4cmですが、一方は横6cm、もう一方は横8cmです。この二つは合同ですか？",
-      "answer": "合同ではありません",
-      "explanation": "横の長さが違うので、ぴったり重なりません。",
-      "why": "同じ種類の図形でも、対応する辺の長さが違えば合同ではありません。"
+      "type": "text",
+      "level": "basic",
+      "question": "合同な四角形ABCDとEFGHでA↔E、B↔F、C↔G、D↔Hです。対角線ACに対応するのはどれですか？",
+      "answer": "対角線EG",
+      "explanation": "A↔E、C↔GなのでEGです。",
+      "why": "対応する頂点を結んだ線分どうしが対応します。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-016",
-      "type": "judgement",
-      "question": "一辺が5cmの正方形を、向きを変えてもう一つかきました。この二つは合同ですか？",
-      "answer": "合同です",
-      "explanation": "どちらも4辺が5cmで、4つの角が直角なのでぴったり重なります。",
-      "why": "向きが違っても、形と大きさが同じなら合同です。"
+      "type": "text",
+      "level": "basic",
+      "question": "合同な図形を裏返して重ねてもよいですか？",
+      "answer": "よいです",
+      "explanation": "裏返すとぴったり重なる場合も合同です。",
+      "why": "向きが反対でも形と大きさが同じなら合同です。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-017",
-      "type": "application",
-      "question": "合同な三角形ABCとDEFで、AB↔DE、BC↔EF、CA↔FDです。AB=4cm、BC=6cm、CA=7cmのとき、三角形DEFの周りの長さは何cmですか？",
-      "answer": "17cm",
-      "explanation": "DE=4、EF=6、FD=7なので、4+6+7=17cmです。",
-      "why": "合同な図形は対応する辺の長さが同じなので、周りの長さも同じです。"
+      "type": "text",
+      "level": "basic",
+      "question": "正方形を対角線で二つに分けてできる三角形は合同ですか？",
+      "answer": "合同です",
+      "explanation": "正方形の辺2本と共通の対角線がそれぞれ同じ長さです。",
+      "why": "一つの図形を分けた部分でも合同を見つけられます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-018",
-      "type": "application",
-      "question": "合同な二つの図形の面積を比べると、どのような関係になりますか？",
-      "answer": "面積は等しくなります",
-      "explanation": "ぴったり重なるので、占める広さも同じです。",
-      "why": "合同な図形は形も大きさも同じだからです。"
+      "type": "text",
+      "level": "basic",
+      "question": "長方形を対角線で二つに分けると、二つの三角形は合同ですか？",
+      "answer": "合同です",
+      "explanation": "向かい合う辺の長さが等しく、対角線は共通です。",
+      "why": "辺の長さに注目すると合同を説明できます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-019",
-      "type": "reasoning",
-      "question": "三角形ABCとDEFについて、AB=DE、BC=EF、CA=FDです。対応する三つの辺がそれぞれ同じ長さなら、同じ形・大きさの三角形を作れますか？",
-      "answer": "作れます",
-      "explanation": "三つの辺の長さを同じにすると、三角形の形が決まります。",
-      "why": "三角形は三辺の長さが決まると形が決まるからです。"
+      "type": "text",
+      "level": "basic",
+      "question": "平行四辺形を対角線で二つに分けると、二つの三角形は合同ですか？",
+      "answer": "合同です",
+      "explanation": "向かい合う辺がそれぞれ等しく、対角線は共通です。",
+      "why": "合同を使うと図形の性質を説明できます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-020",
-      "type": "concept",
-      "question": "合同な図形で対応する辺を見つけるとき、最初に何を確かめるとよいですか？",
-      "answer": "対応する頂点",
-      "explanation": "対応する頂点を決め、その頂点どうしを結ぶ辺を対応させます。",
-      "why": "見た目の位置ではなく、重ねたときの対応関係で考えるためです。"
+      "type": "text",
+      "level": "basic",
+      "question": "『向きが違うから合同ではない』という考えは正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "回転や裏返しでぴったり重なれば合同です。",
+      "why": "見た目の向きだけで判断しません。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-021",
-      "type": "judgement",
-      "question": "図形AとBは、辺の長さはすべて同じですが、角の大きさが一部違います。合同ですか？",
-      "answer": "合同ではありません",
-      "explanation": "角の大きさが違うとぴったり重なりません。",
-      "why": "合同な図形では、対応する辺の長さだけでなく角の大きさも等しくなります。"
+      "type": "text",
+      "level": "basic",
+      "question": "『対応する1辺だけ同じなら合同だ』という考えは正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "1辺だけ同じでも形の違う図形は作れます。",
+      "why": "形と大きさ全体が同じことを確かめる必要があります。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-022",
-      "type": "angle",
-      "question": "合同な二つの三角形で、一方の角が45°、60°、75°です。もう一方の対応する角も45°、60°、75°ですか？",
-      "answer": "はい",
-      "explanation": "合同な図形では対応する角が等しいので、同じ三つの角になります。",
-      "why": "対応する角は重ねたときに一致するからです。"
+      "type": "text",
+      "level": "basic",
+      "question": "合同な二つの図形の面積は同じですか？",
+      "answer": "同じです",
+      "explanation": "ぴったり重なるので同じ広さです。",
+      "why": "形と大きさが同じなら面積も同じです。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-023",
-      "type": "construction",
-      "question": "方眼紙で元の図形のすべての頂点を右へ3マス、上へ2マスずつ移しました。できた図形は元の図形と合同ですか？",
-      "answer": "合同です",
-      "explanation": "すべての頂点を同じだけ移しているので、辺の長さや角の大きさは変わりません。",
-      "why": "平行移動では形と大きさが変わらないからです。"
+      "type": "text",
+      "level": "basic",
+      "question": "合同な二つの図形の周りの長さは同じですか？",
+      "answer": "同じです",
+      "explanation": "対応する辺の長さがすべて等しいので、合計も同じです。",
+      "why": "部分の長さが対応して等しいことから全体も比較できます。",
+      "skill": "concept"
     },
     {
       "id": "M5-CG-024",
-      "type": "error-analysis",
-      "question": "「合同な図形は、必ず同じ向きに置かれている」という説明は正しいですか？",
-      "answer": "正しくありません",
-      "explanation": "合同な図形は、回転したり裏返したりして置かれていることがあります。",
-      "why": "向きが違っても重ねればぴったり一致することがあります。"
-    },
-    {
-      "id": "M5-CG-025",
-      "type": "error-analysis",
-      "question": "「4本の辺の長さが全部同じなら、どんな四角形でも合同である」という説明は正しいですか？",
-      "answer": "正しくありません",
-      "explanation": "4本の辺が同じでも、角の大きさが違うひし形を作れます。",
-      "why": "四角形は辺の長さだけでは形が一つに決まらない場合があります。"
-    },
-    {
-      "id": "M5-CG-026",
-      "type": "mixed",
-      "question": "合同な三角形ABCとDEFで、AB↔DE、角A↔角D、角B↔角Eです。AB=8cm、角A=40°、角B=65°なら、DE、角D、角Eを答えましょう。",
-      "answer": "DE=8cm、角D=40°、角E=65°",
-      "explanation": "対応する辺と角はそれぞれ等しいので、対応する値をそのまま使います。",
-      "why": "合同な図形では、対応関係が分かれば未知の辺や角を求められます。"
-    },
-    {
-      "id": "M5-CG-027",
-      "type": "transformation",
-      "question": "三角形を一本の線で折り返してできた三角形は、元の三角形と合同ですか？",
-      "answer": "合同です",
-      "explanation": "折り返しは裏返す操作なので、形と大きさは変わりません。",
-      "why": "裏返してぴったり重なる図形も合同です。"
-    },
-    {
-      "id": "M5-CG-028",
-      "type": "reasoning",
-      "question": "合同かどうかを確かめるとき、「対応する辺の長さ」と「対応する角の大きさ」のどちらが大切ですか？",
-      "answer": "どちらも大切です",
-      "explanation": "辺の長さと角の大きさの対応を確かめると、形と大きさが同じか判断しやすくなります。",
-      "why": "図形を一つの見方だけでなく、複数の性質から確かめるためです。"
-    },
-    {
-      "id": "M5-CG-029",
-      "type": "application",
-      "question": "合同な二つの三角形があります。一方の周りの長さが18cmなら、もう一方の周りの長さは何cmですか？",
-      "answer": "18cm",
-      "explanation": "対応する三辺の長さがそれぞれ等しいので、周りの長さも同じ18cmです。",
-      "why": "合同な図形では対応する辺の長さが全て同じだからです。"
-    },
-    {
-      "id": "M5-CG-030",
-      "type": "explanation",
-      "question": "図形Aをコピーして90°回して図形Bを作りました。AとBが合同であることを、辺や角を使って説明しましょう。",
-      "answer": "対応する辺の長さと対応する角の大きさがすべて同じなので合同です",
-      "explanation": "回転しても辺の長さや角の大きさは変わりません。",
-      "why": "「ぴったり重なる」ことを、辺や角の性質を使って説明できることが大切です。"
+      "type": "text",
+      "level": "basic",
+      "question": "合同かどうかを判断するとき、色・位置・向き・形と大きさのうち、最も大切なのはどれですか？",
+      "answer": "形と大きさ",
+      "explanation": "色や位置や向きは変わっても合同のことがあります。",
+      "why": "合同の意味を正しく理解して判断します。",
+      "skill": "concept"
     }
   ]
 }
