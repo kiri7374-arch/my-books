@@ -81,7 +81,7 @@ function getStudySubjectConfig(subjectKey) {
       title: "算数",
       en: "MATH",
       description: "計算の仕方だけでなく、なぜそうなるのかまで理解しながら学習します。",
-      file: `${base}/math/index.json`,
+      file: `${base}/math/index.json?v=20261003-v6`,
       splitUnits: true
     },
     science: {
