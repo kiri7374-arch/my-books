@@ -14,7 +14,6 @@
   <title>SELF STUDY | MY BOOKS</title>
 
   <style>
-
     * {
       box-sizing: border-box;
     }
@@ -25,7 +24,6 @@
 
     body {
       margin: 0;
-
       min-height: 100vh;
 
       font-family:
@@ -53,19 +51,12 @@
       color: #ffffff;
     }
 
-
     button {
       font: inherit;
     }
 
-
     .study-launcher {
-
-      width: min(
-        100%,
-        720px
-      );
-
+      width: min(100%, 720px);
       min-height: 100vh;
 
       margin: 0 auto;
@@ -79,47 +70,30 @@
       flex-direction: column;
     }
 
-
     .launcher-header {
-
       margin-bottom: 38px;
     }
 
-
     .launcher-eyebrow {
-
       margin: 0 0 8px;
 
       font-size: 10px;
       font-weight: 800;
-
       letter-spacing: .24em;
 
       color: #8db5d1;
     }
 
-
     .launcher-title {
-
       margin: 0;
 
-      font-size:
-        clamp(
-          38px,
-          10vw,
-          68px
-        );
-
+      font-size: clamp(38px, 10vw, 68px);
       line-height: .95;
-
       letter-spacing: -.04em;
     }
 
-
     .launcher-subtitle {
-
       margin: 15px 0 0;
-
       max-width: 520px;
 
       color: #b8c7d1;
@@ -128,32 +102,22 @@
       line-height: 1.8;
     }
 
-
     .grade-grid {
-
       display: grid;
-
-      grid-template-columns:
-        1fr;
-
+      grid-template-columns: 1fr;
       gap: 18px;
     }
 
-
     .grade-card {
-
       width: 100%;
-
       min-height: 240px;
 
       padding: 0;
 
       border: 0;
-
       border-radius: 28px;
 
       overflow: hidden;
-
       cursor: pointer;
 
       position: relative;
@@ -169,18 +133,12 @@
         box-shadow .18s ease;
     }
 
-
     .grade-card:active {
-
-      transform:
-        scale(.985);
+      transform: scale(.985);
     }
 
-
     .grade-card-image {
-
       position: absolute;
-
       inset: 0;
 
       width: 100%;
@@ -189,13 +147,10 @@
       object-fit: cover;
     }
 
-
     .grade-card::after {
-
       content: "";
 
       position: absolute;
-
       inset: 0;
 
       background:
@@ -207,11 +162,8 @@
         );
     }
 
-
     .grade-card-content {
-
       position: absolute;
-
       z-index: 2;
 
       left: 22px;
@@ -221,57 +173,38 @@
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
-
       gap: 16px;
     }
 
-
     .grade-card-copy {
-
       min-width: 0;
     }
 
-
     .grade-card-label {
-
       display: block;
-
       margin-bottom: 5px;
 
       color: rgba(255,255,255,.76);
 
       font-size: 9px;
       font-weight: 900;
-
       letter-spacing: .18em;
     }
 
-
     .grade-card-title {
-
-  display: block;
-
-  color: #ffffff;
-
-  font-size:
-    clamp(
-      22px,
-      5.5vw,
-      34px
-    );
-
-  line-height: 1.08;
-
-  font-weight: 900;
-
-  white-space: nowrap;
-}
-
-
-    .grade-card-subtitle {
-
       display: block;
 
+      color: #ffffff;
+
+      font-size: clamp(22px, 5.5vw, 34px);
+      line-height: 1.08;
+      font-weight: 900;
+
+      white-space: nowrap;
+    }
+
+    .grade-card-subtitle {
+      display: block;
       margin-top: 8px;
 
       color: rgba(255,255,255,.78);
@@ -279,9 +212,7 @@
       font-size: 12px;
     }
 
-
     .grade-card-arrow {
-
       flex-shrink: 0;
 
       width: 48px;
@@ -293,8 +224,7 @@
       align-items: center;
       justify-content: center;
 
-      background:
-        rgba(255,255,255,.92);
+      background: rgba(255,255,255,.92);
 
       color: #173247;
 
@@ -302,11 +232,8 @@
       font-weight: 900;
     }
 
-
     .launcher-footer {
-
       margin-top: auto;
-
       padding-top: 34px;
 
       text-align: center;
@@ -314,111 +241,71 @@
       color: #718a9d;
 
       font-size: 10px;
-
       letter-spacing: .16em;
     }
 
-
     .launcher-loading {
-
       position: fixed;
-
       inset: 0;
-
       z-index: 999;
 
       display: none;
-
       align-items: center;
       justify-content: center;
 
-      background:
-        rgba(5,17,26,.88);
-
-      backdrop-filter:
-        blur(7px);
+      background: rgba(5,17,26,.88);
+      backdrop-filter: blur(7px);
     }
 
-
     .launcher-loading.visible {
-
       display: flex;
     }
 
-
     .launcher-loading-inner {
-
       text-align: center;
     }
 
-
     .launcher-spinner {
-
       width: 42px;
       height: 42px;
 
       margin: 0 auto 16px;
 
-      border:
-        3px solid
-        rgba(255,255,255,.18);
-
-      border-top-color:
-        #ffffff;
-
+      border: 3px solid rgba(255,255,255,.18);
+      border-top-color: #ffffff;
       border-radius: 50%;
 
-      animation:
-        launcherSpin
-        .8s linear infinite;
+      animation: launcherSpin .8s linear infinite;
     }
 
-
     .launcher-loading-text {
-
       font-size: 11px;
       font-weight: 800;
-
       letter-spacing: .18em;
 
       color: #ffffff;
     }
 
-
     @keyframes launcherSpin {
-
       to {
-        transform:
-          rotate(360deg);
+        transform: rotate(360deg);
       }
     }
 
-
     @media (min-width: 640px) {
-
       .study-launcher {
-
         padding-left: 34px;
         padding-right: 34px;
       }
 
-
       .grade-grid {
-
-        grid-template-columns:
-          repeat(
-            2,
-            minmax(0,1fr)
-          );
+        grid-template-columns: repeat(2, minmax(0,1fr));
       }
 
-
       .grade-card {
-
         min-height: 340px;
       }
     }
-
   </style>
 </head>
 
@@ -555,11 +442,100 @@
 
 
   <script>
-
     const loading =
       document.getElementById(
         "launcherLoading"
       );
+
+    /*
+      学年選択画面に戻った時点で、
+      前回の自主学習専用セッションを解除します。
+    */
+    sessionStorage.removeItem(
+      "myBooksStudyOnlyBookId"
+    );
+
+    let loadingSafetyTimer =
+      null;
+
+
+    function resetLauncherLoading() {
+
+      if (
+        loadingSafetyTimer
+      ) {
+
+        window.clearTimeout(
+          loadingSafetyTimer
+        );
+
+        loadingSafetyTimer =
+          null;
+      }
+
+
+      loading.classList.remove(
+        "visible"
+      );
+
+      loading.setAttribute(
+        "aria-hidden",
+        "true"
+      );
+
+
+      document
+        .querySelectorAll(
+          ".grade-card"
+        )
+        .forEach(
+          (button) => {
+
+            button.disabled =
+              false;
+          }
+        );
+    }
+
+
+    /*
+      iPhone Safariは「戻る」でページをキャッシュから復元することがあります。
+      その際 OPENING BOOK の表示だけが残らないよう必ず解除します。
+    */
+    window.addEventListener(
+      "pageshow",
+      resetLauncherLoading
+    );
+
+
+    window.addEventListener(
+      "focus",
+      () => {
+
+        if (
+          document.visibilityState ===
+          "visible"
+        ) {
+
+          resetLauncherLoading();
+        }
+      }
+    );
+
+
+    document.addEventListener(
+      "visibilitychange",
+      () => {
+
+        if (
+          document.visibilityState ===
+          "visible"
+        ) {
+
+          resetLauncherLoading();
+        }
+      }
+    );
 
 
     document
@@ -577,6 +553,19 @@
                 button.dataset.bookId;
 
 
+              document
+                .querySelectorAll(
+                  ".grade-card"
+                )
+                .forEach(
+                  (card) => {
+
+                    card.disabled =
+                      true;
+                  }
+                );
+
+
               loading.classList.add(
                 "visible"
               );
@@ -587,20 +576,31 @@
               );
 
 
+              /*
+                万一遷移に失敗しても、
+                OPENING BOOK画面に永久に閉じ込められないための保険。
+              */
+              loadingSafetyTimer =
+                window.setTimeout(
+                  resetLauncherLoading,
+                  4000
+                );
+
+
               window.setTimeout(
                 () => {
 
-                  window.location.href =
-                    `index.html?study=${encodeURIComponent(bookId)}`;
+                  window.location.assign(
+                    `index.html?study=${encodeURIComponent(bookId)}`
+                  );
 
                 },
-                250
+                100
               );
             }
           );
         }
       );
-
   </script>
 
 </body>
