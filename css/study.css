@@ -889,3 +889,64 @@ body.answer-modal-visible {
     font-size: 17px;
   }
 }
+
+
+/* =========================================================
+   V3: QUESTION TYPOGRAPHY / FRACTION DISPLAY
+========================================================= */
+
+/* PCでも長文・短文で文字サイズを変えない */
+.study-question-text,
+.study-question-word {
+  font-size: 22px !important;
+  line-height: 1.55 !important;
+  font-weight: 800;
+}
+
+/* 分数を教科書に近い縦型表示にする */
+.study-fraction {
+  display: inline-grid;
+  grid-template-rows: auto 2px auto;
+  align-items: center;
+  justify-items: center;
+
+  min-width: 1.45em;
+
+  margin: 0 .12em;
+  vertical-align: middle;
+
+  line-height: 1;
+  font-size: .96em;
+}
+
+.study-fraction-num,
+.study-fraction-den {
+  display: block;
+  padding: 0 .12em;
+  line-height: 1.05;
+}
+
+.study-fraction-bar {
+  display: block;
+  width: 100%;
+  height: 0;
+  border-top: 2px solid currentColor;
+}
+
+.answer-body .study-fraction,
+.answer-result .study-fraction,
+.answer-modal-question .study-fraction {
+  margin-left: .16em;
+  margin-right: .16em;
+}
+
+@media (max-width: 700px) {
+  .study-question-text,
+  .study-question-word {
+    font-size: 21px !important;
+  }
+
+  .study-fraction {
+    min-width: 1.55em;
+  }
+}
