@@ -88,7 +88,7 @@ function getStudySubjectConfig(subjectKey) {
       title: "理科",
       en: "SCIENCE",
       description: "観察や実験の結果から、理由を考える力を身につけます。",
-      file: `${base}/science.json`,
+      file: `${base}/science.json?v=20261003-sci1`,
       splitUnits: false
     },
     english: {
