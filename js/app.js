@@ -701,6 +701,12 @@ backToStudyUnits.addEventListener("click", () => {
 
 backFromStudy.addEventListener("click", () => {
   closeAnswerModal();
+
+  if (isStudyOnlyMode()) {
+    window.location.replace("study.html");
+    return;
+  }
+
   showStudyHome();
   showView(bookDetailView);
 });
@@ -1099,11 +1105,23 @@ contentsOverlay.addEventListener("click", (event) => {
 
 backToBookDetail.addEventListener("click", () => {
   destroyPageFlip();
+
+  if (isStudyOnlyMode()) {
+    window.location.replace("study.html");
+    return;
+  }
+
   showView(bookDetailView);
 });
 
 backToLibrary.addEventListener("click", () => {
   destroyPageFlip();
+
+  if (isStudyOnlyMode()) {
+    window.location.replace("study.html");
+    return;
+  }
+
   selectedBook = null;
   selectedBookData = null;
   showView(libraryView);
@@ -1125,128 +1143,107 @@ function showView(view) {
   view.classList.add("active-view");
 }
 
-loadBooks();
 /* =========================================================
-   DIRECT STUDY LAUNCH
-   study.html → Study Mode
+   STUDY-ONLY MODE
+   study.html から起動した場合は本棚へ戻さない
 ========================================================= */
 
-async function launchStudyFromURL() {
+function getStudyOnlyBookId() {
+  const params = new URLSearchParams(window.location.search);
+  const studyBookIdFromURL = params.get("study");
 
-  const params =
-    new URLSearchParams(
-      window.location.search
+  if (
+    studyBookIdFromURL === "study5" ||
+    studyBookIdFromURL === "study6"
+  ) {
+    sessionStorage.setItem(
+      "myBooksStudyOnlyBookId",
+      studyBookIdFromURL
     );
 
-  const studyBookId =
-    params.get("study");
+    return studyBookIdFromURL;
+  }
 
+  const storedBookId =
+    sessionStorage.getItem(
+      "myBooksStudyOnlyBookId"
+    );
+
+  if (
+    storedBookId === "study5" ||
+    storedBookId === "study6"
+  ) {
+    return storedBookId;
+  }
+
+  return null;
+}
+
+function isStudyOnlyMode() {
+  return Boolean(
+    sessionStorage.getItem(
+      "myBooksStudyOnlyBookId"
+    ) ||
+    new URLSearchParams(
+      window.location.search
+    ).get("study")
+  );
+}
+
+async function launchStudyFromURL() {
+  const studyBookId = getStudyOnlyBookId();
 
   if (!studyBookId) {
     return;
   }
 
+  sessionStorage.setItem(
+    "myBooksStudyOnlyBookId",
+    studyBookId
+  );
 
-  const supportedIds = [
-    "study5",
-    "study6"
-  ];
+  document.body.classList.add(
+    "study-only-mode"
+  );
 
-
-  if (
-    !supportedIds.includes(
-      studyBookId
-    )
-  ) {
-    return;
+  if (backFromStudy) {
+    backFromStudy.textContent = "← 学年選択";
   }
 
-
   let retryCount = 0;
+  const maxRetries = 120;
 
-  const maxRetries = 100;
+  const timer = window.setInterval(() => {
+    retryCount += 1;
 
+    if (Array.isArray(books) && books.length > 0) {
+      window.clearInterval(timer);
 
-  const waitForBooks =
-    window.setInterval(
-      async () => {
+      const targetBook = books.find((book) => book.id === studyBookId);
 
-        retryCount += 1;
+      if (!targetBook) {
+        console.warn(`Study book not found: ${studyBookId}`);
+        window.location.replace("study.html");
+        return;
+      }
 
+      selectedBook = targetBook;
+      selectedBookData = null;
+      currentStudySubject = null;
+      currentStudySubjectData = null;
+      studyUnitCache.clear();
 
-        if (
-          Array.isArray(books) &&
-          books.length > 0
-        ) {
+      openStudyMode();
+      return;
+    }
 
-          window.clearInterval(
-            waitForBooks
-          );
-
-
-          const targetBook =
-            books.find(
-              (book) =>
-                book.id === studyBookId
-            );
-
-
-          if (!targetBook) {
-
-            console.warn(
-              `Study book not found: ${studyBookId}`
-            );
-
-            return;
-          }
-
-
-          try {
-
-            await openBookDetail(
-              studyBookId
-            );
-
-
-            openStudyMode();
-
-
-            window.history.replaceState(
-              {},
-              "",
-              "index.html"
-            );
-
-          } catch (error) {
-
-            console.error(
-              "Study Modeの起動に失敗しました。",
-              error
-            );
-          }
-
-
-          return;
-        }
-
-
-        if (
-          retryCount >= maxRetries
-        ) {
-
-          window.clearInterval(
-            waitForBooks
-          );
-
-          console.warn(
-            "BOOKデータの読み込み待機がタイムアウトしました。"
-          );
-        }
-
-      },
-      50
-    );
+    if (retryCount >= maxRetries) {
+      window.clearInterval(timer);
+      console.warn("BOOKデータの読み込み待機がタイムアウトしました。");
+      window.location.replace("study.html");
+    }
+  }, 50);
 }
 
-
+loadBooks();
 launchStudyFromURL();
