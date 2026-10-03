@@ -1171,3 +1171,119 @@ body.answer-modal-visible {
     max-height: 165px;
   }
 }
+
+
+/* =========================================================
+   GRADE 6 ENTRANCE EXAM CHALLENGE
+========================================================= */
+
+.subject-challenge {
+  grid-column: span 2;
+  border-style: double;
+}
+
+.subject-challenge .study-mode-icon {
+  font-size: 28px;
+}
+
+.study-exam-intro {
+  width: min(100%, 920px);
+  margin: 18px auto 22px;
+  border: 1px solid rgba(0,0,0,.22);
+  padding: 22px clamp(16px, 3vw, 30px);
+  background: #fff;
+}
+
+.study-exam-paper-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid currentColor;
+  letter-spacing: .08em;
+}
+
+.study-exam-paper-head span {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.study-exam-paper-head strong {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 20px;
+}
+
+.study-exam-passage {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 17px;
+  line-height: 2;
+  text-align: left;
+}
+
+.study-exam-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 22px;
+}
+
+.study-exam-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.study-exam-table th,
+.study-exam-table td {
+  border: 1px solid rgba(0,0,0,.32);
+  padding: 9px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.study-exam-table th {
+  font-weight: 800;
+}
+
+.study-question-exam {
+  border-radius: 0;
+  border: 1px solid rgba(0,0,0,.18);
+}
+
+.study-exam-question-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.study-exam-question-meta b {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 18px;
+}
+
+.study-exam-question-meta em {
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  opacity: .62;
+}
+
+@media (max-width: 700px) {
+  .subject-challenge {
+    grid-column: span 1;
+  }
+
+  .study-exam-intro {
+    padding: 16px 14px;
+  }
+
+  .study-exam-passage {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
