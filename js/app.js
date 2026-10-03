@@ -95,14 +95,14 @@ function getStudySubjectConfig(subjectKey) {
       title: "英語",
       en: "ENGLISH",
       description: "単語だけでなく、短い文章や会話の中で英語を使います。",
-      file: `${base}/english.json`,
+      file: `${base}/english.json?v=20261003-en1`,
       splitUnits: false
     },
     japanese: {
       title: "国語",
       en: "JAPANESE",
       description: `${selectedBook?.id === "study6" ? "6" : "5"}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
-      file: `${base}/japanese.json`,
+      file: `${base}/japanese.json?v=20261003-jp1`,
       splitUnits: false
     }
   };
@@ -654,9 +654,15 @@ function renderStudyQuestions(questions) {
 
     const questionText = String(question.question || "");
     const isWordProblem = questionText.length > 18;
+    const isKanjiCard = question.type === "kanji-card";
+
+    if (isKanjiCard) {
+      button.classList.add("study-question-kanji-card");
+    }
 
     button.innerHTML = `
       <span class="study-question-number">${escapeHTML(question.id)}</span>
+      ${isKanjiCard && question.kanji ? `<span class="study-kanji-card-char">${escapeHTML(question.kanji)}</span>` : ""}
       <span class="study-question-text ${isWordProblem ? "study-question-word" : ""}">
         ${formatStudyMathText(questionText)}
       </span>
@@ -668,6 +674,213 @@ function renderStudyQuestions(questions) {
     studyQuestionList.appendChild(button);
   });
 }
+
+
+function ensureKanjiExtraContainer() {
+  let container = document.getElementById("answerKanjiExtra");
+
+  if (!container) {
+    container = document.createElement("section");
+    container.id = "answerKanjiExtra";
+    container.className = "answer-section answer-kanji-extra";
+    answerModalWhy.closest(".answer-section").insertAdjacentElement("afterend", container);
+  }
+
+  return container;
+}
+
+function getKanjiVGUrl(kanji) {
+  const codePoint = kanji.codePointAt(0);
+  const hex = codePoint.toString(16).padStart(5, "0");
+  return `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${hex}.svg`;
+}
+
+async function renderKanjiStrokeAnimation(kanji, mount) {
+  mount.innerHTML = `<div class="kanji-loading">書き順を読み込んでいます...</div>`;
+
+  try {
+    const response = await fetch(getKanjiVGUrl(kanji));
+    if (!response.ok) throw new Error("KanjiVG SVG not found");
+
+    const svgText = await response.text();
+    const doc = new DOMParser().parseFromString(svgText, "image/svg+xml");
+    const svg = doc.querySelector("svg");
+
+    if (!svg) throw new Error("SVG parse error");
+
+    svg.removeAttribute("width");
+    svg.removeAttribute("height");
+    svg.classList.add("kanji-stroke-svg");
+    svg.querySelectorAll("text").forEach((node) => node.remove());
+
+    [...svg.querySelectorAll("path")].forEach((path, index) => {
+      path.removeAttribute("style");
+      path.setAttribute("fill", "none");
+      path.setAttribute("stroke", "currentColor");
+      path.setAttribute("stroke-width", "3");
+      path.setAttribute("stroke-linecap", "round");
+      path.setAttribute("stroke-linejoin", "round");
+      path.dataset.strokeIndex = String(index);
+    });
+
+    mount.innerHTML = "";
+    mount.appendChild(document.importNode(svg, true));
+
+    const replay = document.createElement("button");
+    replay.type = "button";
+    replay.className = "kanji-replay-button";
+    replay.textContent = "↻ 書き順をもう一度";
+
+    const play = () => {
+      const renderedPaths = [...mount.querySelectorAll("path")];
+
+      renderedPaths.forEach((path, index) => {
+        const length = path.getTotalLength();
+
+        path.style.transition = "none";
+        path.style.strokeDasharray = `${length}`;
+        path.style.strokeDashoffset = `${length}`;
+        path.getBoundingClientRect();
+
+        window.setTimeout(() => {
+          path.style.transition = "stroke-dashoffset 0.55s ease";
+          path.style.strokeDashoffset = "0";
+        }, index * 360);
+      });
+    };
+
+    replay.addEventListener("click", play);
+    mount.appendChild(replay);
+
+    window.setTimeout(play, 80);
+  } catch (error) {
+    console.warn(error);
+    mount.innerHTML = `
+      <div class="kanji-source-error">
+        書き順データを読み込めませんでした。インターネット接続を確認してください。
+      </div>
+    `;
+  }
+}
+
+async function renderKanjiEnrichment(question) {
+  const container = ensureKanjiExtraContainer();
+
+  if (!question || !question.kanji) {
+    container.style.display = "none";
+    container.innerHTML = "";
+    return;
+  }
+
+  container.style.display = "";
+  container.innerHTML = `
+    <span class="answer-section-label">漢字情報</span>
+    <div class="kanji-extra-grid">
+      <div class="kanji-extra-info">
+        <div class="kanji-extra-main">${escapeHTML(question.kanji)}</div>
+        <div class="kanji-loading">読み・熟語を読み込んでいます...</div>
+      </div>
+      <div class="kanji-stroke-mount"></div>
+    </div>
+    <p class="kanji-source-note">
+      読み・熟語: kanjiapi.dev / KANJIDIC・JMdict系データ　
+      書き順: KanjiVG (CC BY-SA 3.0)
+    </p>
+  `;
+
+  const info = container.querySelector(".kanji-extra-info");
+  const strokeMount = container.querySelector(".kanji-stroke-mount");
+
+  renderKanjiStrokeAnimation(question.kanji, strokeMount);
+
+  try {
+    const [kanjiRes, wordsRes] = await Promise.all([
+      fetch(`https://kanjiapi.dev/v1/kanji/${encodeURIComponent(question.kanji)}`),
+      fetch(`https://kanjiapi.dev/v1/words/${encodeURIComponent(question.kanji)}`)
+    ]);
+
+    if (!kanjiRes.ok) throw new Error("kanjiapi detail failed");
+
+    const detail = await kanjiRes.json();
+    const words = wordsRes.ok ? await wordsRes.json() : [];
+
+    const examples = [];
+
+    words.slice(0, 40).forEach((entry) => {
+      (entry.variants || []).forEach((variant) => {
+        if (
+          examples.length < 4 &&
+          variant.written &&
+          variant.pronounced &&
+          variant.written.includes(question.kanji) &&
+          !examples.some((x) => x.written === variant.written)
+        ) {
+          examples.push({
+            written: variant.written,
+            pronounced: variant.pronounced
+          });
+        }
+      });
+    });
+
+    const on = Array.isArray(detail.on_readings) && detail.on_readings.length
+      ? detail.on_readings.join("・")
+      : "―";
+
+    const kun = Array.isArray(detail.kun_readings) && detail.kun_readings.length
+      ? detail.kun_readings.join("・")
+      : "―";
+
+    info.innerHTML = `
+      <div class="kanji-extra-main">${escapeHTML(question.kanji)}</div>
+      <dl class="kanji-meta-list">
+        <div>
+          <dt>音読み</dt>
+          <dd>${escapeHTML(on)}</dd>
+        </div>
+        <div>
+          <dt>訓読み</dt>
+          <dd>${escapeHTML(kun)}</dd>
+        </div>
+        <div>
+          <dt>意味</dt>
+          <dd>${escapeHTML(question.meaningJa || "この問題の解説で意味を確認しましょう。")}</dd>
+        </div>
+        <div>
+          <dt>画数</dt>
+          <dd>${escapeHTML(detail.stroke_count ?? "―")}画</dd>
+        </div>
+      </dl>
+      ${
+        examples.length
+          ? `
+            <div class="kanji-example-block">
+              <strong>熟語・用例</strong>
+              <ul>
+                ${examples.map((x) => `<li>${escapeHTML(x.written)}（${escapeHTML(x.pronounced)}）</li>`).join("")}
+              </ul>
+            </div>
+          `
+          : ""
+      }
+    `;
+  } catch (error) {
+    console.warn(error);
+    info.innerHTML = `
+      <div class="kanji-extra-main">${escapeHTML(question.kanji)}</div>
+      <dl class="kanji-meta-list">
+        <div>
+          <dt>意味</dt>
+          <dd>${escapeHTML(question.meaningJa || "この問題の解説で意味を確認しましょう。")}</dd>
+        </div>
+      </dl>
+      <div class="kanji-source-error">
+        読み・熟語のオンライン辞書データを読み込めませんでした。
+      </div>
+    `;
+  }
+}
+
 
 function openAnswerModal(question) {
   answerModalNumber.textContent = question.id || "";
@@ -687,6 +900,7 @@ function openAnswerModal(question) {
       question.why || "詳しい理由説明は準備中です。"
     );
   syncAnswerModalVisual(question);
+  renderKanjiEnrichment(question);
 
   answerModal.classList.add("answer-modal-open");
   answerModal.setAttribute("aria-hidden", "false");
@@ -694,6 +908,13 @@ function openAnswerModal(question) {
 }
 
 function closeAnswerModal() {
+  const kanjiExtra = document.getElementById("answerKanjiExtra");
+
+  if (kanjiExtra) {
+    kanjiExtra.innerHTML = "";
+    kanjiExtra.style.display = "none";
+  }
+
   answerModal.classList.remove("answer-modal-open");
   answerModal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("answer-modal-visible");
