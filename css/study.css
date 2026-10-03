@@ -950,3 +950,135 @@ body.answer-modal-visible {
     min-width: 1.55em;
   }
 }
+
+
+/* =========================================================
+   JAPANESE / KANJI STUDY
+========================================================= */
+
+.study-question-kanji-card {
+  position: relative;
+  padding-top: 24px;
+}
+
+.study-kanji-card-char {
+  display: block;
+  margin: 2px 0 12px;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(58px, 8vw, 88px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.answer-kanji-extra {
+  margin-bottom: 96px;
+}
+
+.kanji-extra-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, .9fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.kanji-extra-info,
+.kanji-stroke-mount {
+  min-width: 0;
+}
+
+.kanji-extra-main {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 72px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.kanji-meta-list {
+  margin: 0;
+}
+
+.kanji-meta-list > div {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.kanji-meta-list dt {
+  font-weight: 800;
+}
+
+.kanji-meta-list dd {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.kanji-example-block {
+  margin-top: 18px;
+}
+
+.kanji-example-block ul {
+  margin: 8px 0 0 1.2em;
+  padding: 0;
+}
+
+.kanji-example-block li {
+  margin: 5px 0;
+  line-height: 1.55;
+}
+
+.kanji-stroke-mount {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 16px;
+  padding: 14px;
+  background: #fff;
+  color: #111;
+}
+
+.kanji-stroke-svg {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.kanji-replay-button {
+  width: 100%;
+  margin-top: 10px;
+  min-height: 44px;
+  border: 0;
+  border-radius: 12px;
+  background: #111;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.kanji-source-note,
+.kanji-source-error,
+.kanji-loading {
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: .72;
+}
+
+.kanji-source-note {
+  margin: 14px 0 0;
+}
+
+@media (max-width: 700px) {
+  .kanji-extra-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kanji-extra-main {
+    font-size: 64px;
+  }
+
+  .answer-kanji-extra {
+    margin-bottom: 120px;
+  }
+}
