@@ -1,0 +1,330 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "unitId": "math6-symmetry",
+  "title": "対称な図形",
+  "description": "線対称・点対称、対応する点や辺、作図、正多角形の対称性を扱います。",
+  "questionCount": 32,
+  "questions": [
+    {
+      "id": "M6-SY-001",
+      "type": "text",
+      "level": "basic",
+      "question": "1本の直線で折ったとき両側がぴったり重なる図形を何といいますか？",
+      "answer": "線対称な図形",
+      "explanation": "折り目になる直線を対称の軸といいます。",
+      "why": "線対称は直線を基準に対応を考えます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-002",
+      "type": "text",
+      "level": "basic",
+      "question": "線対称な図形で、折り目になる直線を何といいますか？",
+      "answer": "対称の軸",
+      "explanation": "対称の軸で折ると両側が重なります。",
+      "why": "図形の基準となる直線です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-003",
+      "type": "text",
+      "level": "basic",
+      "question": "ある点を中心に180°回転すると重なる図形を何といいますか？",
+      "answer": "点対称な図形",
+      "explanation": "回転の中心を対称の中心といいます。",
+      "why": "点対称は180°回転で重なる関係です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-004",
+      "type": "text",
+      "level": "basic",
+      "question": "点対称な図形で、回転の中心を何といいますか？",
+      "answer": "対称の中心",
+      "explanation": "対応する点を結ぶ線分の中点になります。",
+      "why": "図形の基準となる点です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-005",
+      "type": "text",
+      "level": "basic",
+      "question": "正方形の対称の軸は何本ですか？",
+      "answer": "4本",
+      "explanation": "縦・横・2本の対角線です。",
+      "why": "複数の対称の軸をもつ図形があります。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-006",
+      "type": "text",
+      "level": "basic",
+      "question": "長方形の対称の軸は何本ですか？",
+      "answer": "2本",
+      "explanation": "縦と横の中央を通る2本です。",
+      "why": "一般の長方形では対角線は軸ではありません。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-007",
+      "type": "text",
+      "level": "basic",
+      "question": "正三角形の対称の軸は何本ですか？",
+      "answer": "3本",
+      "explanation": "各頂点から向かい側の辺の中点を通ります。",
+      "why": "正多角形の対称性を考えます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-008",
+      "type": "text",
+      "level": "basic",
+      "question": "正六角形の対称の軸は何本ですか？",
+      "answer": "6本",
+      "explanation": "頂点を結ぶ3本と辺の中点を結ぶ3本です。",
+      "why": "軸の種類を整理します。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-009",
+      "type": "text",
+      "level": "basic",
+      "question": "円の対称の軸は何本ありますか？",
+      "answer": "無数にあります",
+      "explanation": "中心を通るどの直線でも対称の軸です。",
+      "why": "円は高い対称性をもちます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-010",
+      "type": "text",
+      "level": "basic",
+      "question": "正方形は点対称ですか？",
+      "answer": "はい",
+      "explanation": "中心を180°回転すると重なります。",
+      "why": "線対称と点対称の両方をもつ図形があります。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-011",
+      "type": "text",
+      "level": "basic",
+      "question": "正五角形は点対称ですか？",
+      "answer": "いいえ",
+      "explanation": "180°回転では元の位置に重なりません。",
+      "why": "奇数個の頂点をもつ正多角形は、中心を180°回転しても元の頂点配置と一致しません。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-012",
+      "type": "text",
+      "level": "basic",
+      "question": "平行四辺形は一般に点対称ですか？",
+      "answer": "はい",
+      "explanation": "対角線の交点を中心に180°回転すると重なります。",
+      "why": "平行四辺形の性質と結び付けます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-013",
+      "type": "text",
+      "level": "basic",
+      "question": "平行四辺形は一般に線対称ですか？",
+      "answer": "いいえ",
+      "explanation": "長方形やひし形など特別な場合を除き軸はありません。",
+      "why": "いつも成り立つかを区別します。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-014",
+      "type": "text",
+      "level": "basic",
+      "question": "ひし形は線対称ですか？",
+      "answer": "はい",
+      "explanation": "2本の対角線が対称の軸です。",
+      "why": "辺の等しい図形の対称性です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-015",
+      "type": "text",
+      "level": "basic",
+      "question": "円は点対称ですか？",
+      "answer": "はい",
+      "explanation": "中心を180°回転すると重なります。",
+      "why": "円の中心は対称の中心です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-016",
+      "type": "text",
+      "level": "basic",
+      "question": "線対称な図形で対応する点AとA'を結ぶ線分と対称の軸はどうなりますか？",
+      "answer": "垂直に交わり、交点はAA'の中点です",
+      "explanation": "軸はAA'の垂直二等分線です。",
+      "why": "作図に使う重要な性質です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-017",
+      "type": "text",
+      "level": "basic",
+      "question": "線対称な図形で対称の軸上の点は移動しますか？",
+      "answer": "移動しません",
+      "explanation": "折っても自分自身に重なります。",
+      "why": "軸上の点は自分自身に対応します。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-018",
+      "type": "text",
+      "level": "basic",
+      "question": "点対称な図形で対応する点AとA'を結ぶ線分の中点はどこですか？",
+      "answer": "対称の中心",
+      "explanation": "中心からAとA'までの距離は等しいです。",
+      "why": "点対称の作図に使います。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-019",
+      "type": "text",
+      "level": "basic",
+      "question": "点対称な図形の対称の中心は180°回転で移動しますか？",
+      "answer": "移動しません",
+      "explanation": "回転の中心だからです。",
+      "why": "変換の基準点は同じ位置です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-020",
+      "type": "text",
+      "level": "basic",
+      "question": "線対称の図形を作図するとき、点Aの対応点A'はどう決めますか？",
+      "answer": "軸に垂線を引き、反対側へ同じ距離の点を取ります",
+      "explanation": "軸からAとA'までの距離を等しくします。",
+      "why": "線対称の性質を作図に使います。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-021",
+      "type": "text",
+      "level": "basic",
+      "question": "点対称の図形を作図するとき、点Aの対応点A'はどう決めますか？",
+      "answer": "中心Oを通る直線上でOA=OA'となる反対側の点を取ります",
+      "explanation": "OがAA'の中点になります。",
+      "why": "180°回転の位置関係です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-022",
+      "type": "text",
+      "level": "basic",
+      "question": "『線対称なら必ず点対称でもある』は正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "正三角形は線対称ですが点対称ではありません。",
+      "why": "反例で考えを確かめます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-023",
+      "type": "text",
+      "level": "basic",
+      "question": "『点対称なら必ず線対称でもある』は正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "一般の平行四辺形は点対称ですが線対称ではありません。",
+      "why": "性質を混同しないようにします。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-024",
+      "type": "text",
+      "level": "basic",
+      "question": "線対称な図形で対応する辺の長さは等しいですか？",
+      "answer": "等しいです",
+      "explanation": "折ると重なるためです。",
+      "why": "合同の考えが使えます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-025",
+      "type": "text",
+      "level": "basic",
+      "question": "点対称な図形で対応する角の大きさは等しいですか？",
+      "answer": "等しいです",
+      "explanation": "180°回転で重なるためです。",
+      "why": "回転して重なる図形の対応です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-026",
+      "type": "text",
+      "level": "basic",
+      "question": "正八角形は点対称ですか？",
+      "answer": "はい",
+      "explanation": "中心を180°回転すると重なります。",
+      "why": "正多角形の対称性を調べます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-027",
+      "type": "text",
+      "level": "basic",
+      "question": "アルファベット大文字Hは一般的なブロック体なら線対称ですか？",
+      "answer": "はい",
+      "explanation": "縦・横方向に対称の軸をもつ形として描けます。",
+      "why": "身近な形の対称性です。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-028",
+      "type": "text",
+      "level": "basic",
+      "question": "アルファベット大文字Nは一般的なブロック体なら点対称ですか？",
+      "answer": "はい",
+      "explanation": "中心を180°回転すると重なる形として描けます。",
+      "why": "文字にも対称性があります。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-029",
+      "type": "text",
+      "level": "basic",
+      "question": "線対称な図形の片側だけから残りをかくとき、最も大切なのは何ですか？",
+      "answer": "対称の軸から各点までの距離",
+      "explanation": "反対側へ同じ距離だけ取ります。",
+      "why": "見た目ではなく位置関係で作図します。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-030",
+      "type": "text",
+      "level": "basic",
+      "question": "正五角形の対称の軸は何本ですか？",
+      "answer": "5本",
+      "explanation": "各頂点に対応する5本です。",
+      "why": "正n角形の軸の本数を考えます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-031",
+      "type": "text",
+      "level": "basic",
+      "question": "長方形は点対称ですか？",
+      "answer": "はい",
+      "explanation": "中心を180°回転すると重なります。",
+      "why": "線対称と点対称の両方を確かめます。",
+      "skill": "symmetry"
+    },
+    {
+      "id": "M6-SY-032",
+      "type": "text",
+      "level": "basic",
+      "question": "対称な図形を学ぶよさを一つ答えましょう。",
+      "answer": "図形の半分から全体を作図したり規則性を説明したりできること",
+      "explanation": "対称性を使うと図形の構造を簡潔に捉えられます。",
+      "why": "模様やデザインにも活用できます。",
+      "skill": "symmetry"
+    }
+  ]
+}

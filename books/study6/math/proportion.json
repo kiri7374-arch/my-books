@@ -1,0 +1,330 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "unitId": "math6-proportion",
+  "title": "比例",
+  "description": "比例の意味、式・表・グラフ、倍率、比例を利用した問題解決を扱います。",
+  "questionCount": 32,
+  "questions": [
+    {
+      "id": "M6-PR-001",
+      "type": "text",
+      "level": "basic",
+      "question": "y=3×xでx=4のときyはいくつですか？",
+      "answer": "12",
+      "explanation": "3×4=12です。",
+      "why": "比例ではyはxに一定の数をかけた形です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-002",
+      "type": "text",
+      "level": "basic",
+      "question": "y=2.5×xでx=6のときyはいくつですか？",
+      "answer": "15",
+      "explanation": "2.5×6=15です。",
+      "why": "比例定数が小数でも同じです。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-003",
+      "type": "text",
+      "level": "basic",
+      "question": "y=3/4×xでx=8のときyはいくつですか？",
+      "answer": "6",
+      "explanation": "3/4×8=6です。",
+      "why": "比例定数が分数でも同じです。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-004",
+      "type": "text",
+      "level": "basic",
+      "question": "y=5×xでy=35のときxはいくつですか？",
+      "answer": "7",
+      "explanation": "35÷5=7です。",
+      "why": "対応する値から逆算します。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-005",
+      "type": "text",
+      "level": "basic",
+      "question": "xが2倍になると比例するyは何倍ですか？",
+      "answer": "2倍",
+      "explanation": "比例では同じ倍率で変化します。",
+      "why": "比例の重要な性質です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-006",
+      "type": "text",
+      "level": "basic",
+      "question": "xが1/2になると比例するyはどうなりますか？",
+      "answer": "1/2になります",
+      "explanation": "同じ倍率で変わります。",
+      "why": "分数倍でも比例の性質です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-007",
+      "type": "text",
+      "level": "basic",
+      "question": "比例でx=0のときyはいくつですか？",
+      "answer": "0",
+      "explanation": "y=axなので0です。",
+      "why": "比例のグラフは原点を通ります。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-008",
+      "type": "text",
+      "level": "basic",
+      "question": "y=4xならy÷xはいくつですか？",
+      "answer": "4",
+      "explanation": "比例定数4です。",
+      "why": "比例ではy÷xが一定です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-009",
+      "type": "text",
+      "level": "basic",
+      "question": "x=1,2,3,4でy=6,12,18,24なら比例していますか？",
+      "answer": "しています",
+      "explanation": "y÷xがいつも6です。",
+      "why": "表から一定の比を調べます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-010",
+      "type": "text",
+      "level": "basic",
+      "question": "x=1,2,3でy=4,8,13なら比例していますか？",
+      "answer": "していません",
+      "explanation": "y÷xが一定ではありません。",
+      "why": "一部だけで判断しません。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-011",
+      "type": "text",
+      "level": "basic",
+      "question": "比例のグラフはどんな形ですか？",
+      "answer": "原点を通る直線",
+      "explanation": "y=axのグラフです。",
+      "why": "式とグラフを関連付けます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-012",
+      "type": "text",
+      "level": "basic",
+      "question": "y=2xとy=5xではどちらのグラフが急ですか？",
+      "answer": "y=5x",
+      "explanation": "xが同じときyがより大きく増えます。",
+      "why": "比例定数と傾きの関係です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-013",
+      "type": "text",
+      "level": "basic",
+      "question": "比例のグラフが点(3,12)を通るとき比例定数は？",
+      "answer": "4",
+      "explanation": "12÷3=4です。",
+      "why": "1組の対応から比例定数を求めます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-014",
+      "type": "text",
+      "level": "basic",
+      "question": "点(5,15)を通る比例の式は？",
+      "answer": "y=3x",
+      "explanation": "15÷5=3です。",
+      "why": "比例定数を式にします。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-015",
+      "type": "text",
+      "level": "basic",
+      "question": "1m80円のリボンの代金y円と長さx mの式は？",
+      "answer": "y=80x",
+      "explanation": "1mあたり80円です。",
+      "why": "単位量が比例定数です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-016",
+      "type": "text",
+      "level": "basic",
+      "question": "時速60kmで進む道のりy kmと時間x時間の式は？",
+      "answer": "y=60x",
+      "explanation": "道のり=速さ×時間です。",
+      "why": "一定の速さなら比例します。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-017",
+      "type": "text",
+      "level": "basic",
+      "question": "1個150gの品物x個の重さy gの式は？",
+      "answer": "y=150x",
+      "explanation": "150×個数です。",
+      "why": "身近な比例関係です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-018",
+      "type": "text",
+      "level": "basic",
+      "question": "円周は直径に比例しますか？",
+      "answer": "比例します",
+      "explanation": "円周=3.14×直径です。",
+      "why": "円周率が比例定数です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-019",
+      "type": "text",
+      "level": "basic",
+      "question": "円の面積は半径に比例しますか？",
+      "answer": "比例しません",
+      "explanation": "半径2倍で面積4倍です。",
+      "why": "比例と別の変化を区別します。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-020",
+      "type": "text",
+      "level": "basic",
+      "question": "正方形の周りの長さは1辺に比例しますか？",
+      "answer": "比例します",
+      "explanation": "周り=4×1辺です。",
+      "why": "一定の数をかける関係です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-021",
+      "type": "text",
+      "level": "basic",
+      "question": "正方形の面積は1辺に比例しますか？",
+      "answer": "比例しません",
+      "explanation": "1辺2倍で面積4倍です。",
+      "why": "見た目だけで判断しません。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-022",
+      "type": "text",
+      "level": "basic",
+      "question": "200枚の紙の厚さを10枚の厚さから比例で求められますか？",
+      "answer": "求められます",
+      "explanation": "1枚の厚さがほぼ一定なら枚数と厚さは比例します。",
+      "why": "測定に比例を活用します。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-023",
+      "type": "text",
+      "level": "basic",
+      "question": "比例の問題で表・式・グラフはどれを使ってもよいですか？",
+      "answer": "よいです",
+      "explanation": "目的に応じて選べます。",
+      "why": "複数の表現を行き来します。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-024",
+      "type": "text",
+      "level": "basic",
+      "question": "y=0.5xでxが20から40になるとyは10からいくつになりますか？",
+      "answer": "20",
+      "explanation": "xが2倍なのでyも2倍です。",
+      "why": "倍率の性質です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-025",
+      "type": "text",
+      "level": "basic",
+      "question": "y=7xでxが5増えるとyはいくつ増えますか？",
+      "answer": "35",
+      "explanation": "7×5=35です。",
+      "why": "一定の増え方としても見られます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-026",
+      "type": "text",
+      "level": "basic",
+      "question": "y=x+3は比例ですか？",
+      "answer": "比例ではありません",
+      "explanation": "x=0でy=3になり原点を通りません。",
+      "why": "比例の条件を確かめます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-027",
+      "type": "text",
+      "level": "basic",
+      "question": "y=3xとx=y/3は同じ関係ですか？",
+      "answer": "同じです",
+      "explanation": "同じ式を別の文字について表したものです。",
+      "why": "同じ数量関係を異なる式で表せます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-028",
+      "type": "text",
+      "level": "basic",
+      "question": "比例する関係でxが10%増えるとyも10%増えますか？",
+      "answer": "増えます",
+      "explanation": "同じ1.1倍で変化します。",
+      "why": "百分率の倍率にも比例の性質です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-029",
+      "type": "text",
+      "level": "basic",
+      "question": "3mで450円の布は7mでいくらですか？",
+      "answer": "1050円",
+      "explanation": "1m150円×7=1050円です。",
+      "why": "単位量から比例を使います。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-030",
+      "type": "text",
+      "level": "basic",
+      "question": "4個で600gの品物は10個で何gですか？",
+      "answer": "1500g",
+      "explanation": "1個150g×10です。",
+      "why": "個数と重さの比例です。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-031",
+      "type": "text",
+      "level": "basic",
+      "question": "比例定数を1あたりの量として見ることはできますか？",
+      "answer": "できます",
+      "explanation": "y=axのaはx=1のときのyです。",
+      "why": "単位量と比例をつなげます。",
+      "skill": "proportion"
+    },
+    {
+      "id": "M6-PR-032",
+      "type": "text",
+      "level": "basic",
+      "question": "比例のグラフを見るよさを一つ答えましょう。",
+      "answer": "変化の様子を目で捉えやすいこと",
+      "explanation": "傾きや位置から関係を確認できます。",
+      "why": "表現方法ごとのよさを活用します。",
+      "skill": "proportion"
+    }
+  ]
+}

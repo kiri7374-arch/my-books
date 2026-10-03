@@ -1,0 +1,370 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "unitId": "math6-fraction-division",
+  "title": "分数のわり算",
+  "description": "逆数を使う計算、文章題、単位量、速さ、計算の意味を扱います。",
+  "questionCount": 36,
+  "questions": [
+    {
+      "id": "M6-FD-001",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3 ÷ 4/5",
+      "answer": "5/6",
+      "explanation": "割る数4/5の逆数5/4をかけて5/6です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-002",
+      "type": "text",
+      "level": "basic",
+      "question": "5/7 ÷ 3/4",
+      "answer": "20/21",
+      "explanation": "割る数3/4の逆数4/3をかけて20/21です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-003",
+      "type": "text",
+      "level": "basic",
+      "question": "7/8 ÷ 2/9",
+      "answer": "63/16",
+      "explanation": "割る数2/9の逆数9/2をかけて63/16です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-004",
+      "type": "text",
+      "level": "basic",
+      "question": "3/10 ÷ 5/6",
+      "answer": "9/25",
+      "explanation": "割る数5/6の逆数6/5をかけて9/25です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-005",
+      "type": "text",
+      "level": "basic",
+      "question": "11/12 ÷ 6/7",
+      "answer": "77/72",
+      "explanation": "割る数6/7の逆数7/6をかけて77/72です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-006",
+      "type": "text",
+      "level": "basic",
+      "question": "4/15 ÷ 9/8",
+      "answer": "32/135",
+      "explanation": "割る数9/8の逆数8/9をかけて32/135です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-007",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6 ÷ 12/25",
+      "answer": "125/72",
+      "explanation": "割る数12/25の逆数25/12をかけて125/72です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-008",
+      "type": "text",
+      "level": "basic",
+      "question": "7/9 ÷ 3/14",
+      "answer": "98/27",
+      "explanation": "割る数3/14の逆数14/3をかけて98/27です。",
+      "why": "分数で割ることは、その逆数をかけることに直せます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FD-009",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3Lを1/6Lずつ分けます。何杯分ですか？",
+      "answer": "4杯分",
+      "explanation": "2/3÷1/6=4です。",
+      "why": "全体の中に1杯分がいくつ入るかを求めます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-010",
+      "type": "text",
+      "level": "basic",
+      "question": "3/4mを1/8mずつ切ります。何本できますか？",
+      "answer": "6本",
+      "explanation": "3/4÷1/8=6です。",
+      "why": "包含除として考えます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-011",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6kgを2/9kgずつ袋に入れます。何袋分ですか？",
+      "answer": "15/4袋分",
+      "explanation": "5/6÷2/9=15/4です。",
+      "why": "割り切れなくても分数で表せます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-012",
+      "type": "text",
+      "level": "basic",
+      "question": "3/5m²の板が2/3kgです。1m²あたり何kgですか？",
+      "answer": "10/9kg",
+      "explanation": "2/3÷3/5=10/9です。",
+      "why": "1あたりの量を求めます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-013",
+      "type": "text",
+      "level": "basic",
+      "question": "4/5Lで2/3m²をぬれるペンキです。1Lで何m²？",
+      "answer": "5/6m²",
+      "explanation": "2/3÷4/5=5/6です。",
+      "why": "単位量あたりの大きさです。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-014",
+      "type": "text",
+      "level": "basic",
+      "question": "3/4÷2/5の答えは3/4より大きくなりますか？",
+      "answer": "大きくなります",
+      "explanation": "2/5は1より小さいからです。",
+      "why": "割る数と1の大小で商を予想します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-015",
+      "type": "text",
+      "level": "basic",
+      "question": "3/4÷5/2の答えは3/4より小さくなりますか？",
+      "answer": "小さくなります",
+      "explanation": "5/2は1より大きいからです。",
+      "why": "計算前に大きさを見積もります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-016",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3÷4/5を2/3×4/5とするのは正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "4/5の逆数5/4をかけます。",
+      "why": "割る数を逆数にします。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-017",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6÷3/7で逆数にするのはどちらですか？",
+      "answer": "割る数3/7",
+      "explanation": "3/7を7/3にします。",
+      "why": "割られる数まで逆数にしません。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-018",
+      "type": "text",
+      "level": "basic",
+      "question": "7/8÷7/8はいくつですか？",
+      "answer": "1",
+      "explanation": "同じ0でない数どうしの商は1です。",
+      "why": "a÷a=1です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-019",
+      "type": "text",
+      "level": "basic",
+      "question": "4/9÷1はいくつですか？",
+      "answer": "4/9",
+      "explanation": "1で割っても変わりません。",
+      "why": "割り算の基本性質です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-020",
+      "type": "text",
+      "level": "basic",
+      "question": "1と1/2÷3/5を計算しましょう。",
+      "answer": "5/2",
+      "explanation": "3/2×5/3=5/2です。",
+      "why": "帯分数を仮分数に直します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-021",
+      "type": "text",
+      "level": "basic",
+      "question": "2と1/4÷1と1/2を計算しましょう。",
+      "answer": "3/2",
+      "explanation": "9/4×2/3=3/2です。",
+      "why": "両方を仮分数にします。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-022",
+      "type": "text",
+      "level": "basic",
+      "question": "3/5÷x=9/10のときxはいくつですか？",
+      "answer": "2/3",
+      "explanation": "3/5÷9/10=2/3です。",
+      "why": "式の関係を逆にたどります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-023",
+      "type": "text",
+      "level": "basic",
+      "question": "x÷4/7=3/2のときxはいくつですか？",
+      "answer": "6/7",
+      "explanation": "3/2×4/7=6/7です。",
+      "why": "割られる数=商×割る数です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-024",
+      "type": "text",
+      "level": "basic",
+      "question": "(3/4+1/8)÷5/6を計算しましょう。",
+      "answer": "21/20",
+      "explanation": "7/8×6/5=21/20です。",
+      "why": "かっこの中を先に計算します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-025",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6÷(1/2+1/3)を計算しましょう。",
+      "answer": "1",
+      "explanation": "かっこの中も5/6なので1です。",
+      "why": "計算の順序を守ります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-026",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3÷1/6が4になることを同じ分母で説明しましょう。",
+      "answer": "2/3=4/6なので1/6が4個あります",
+      "explanation": "同じ分母にすると含まれる個数が見えます。",
+      "why": "割り算の意味を図や分数で確かめます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-027",
+      "type": "text",
+      "level": "basic",
+      "question": "分数÷分数の答えは必ず小さくなりますか？",
+      "answer": "いいえ",
+      "explanation": "1より小さい数で割ると大きくなることがあります。",
+      "why": "整数だけの感覚をそのまま当てはめません。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-028",
+      "type": "text",
+      "level": "basic",
+      "question": "1/2÷1/4と1/2×4は同じですか？",
+      "answer": "同じです",
+      "explanation": "1/4の逆数は4です。",
+      "why": "逆数をかける意味を確認します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-029",
+      "type": "text",
+      "level": "basic",
+      "question": "6÷3/4を計算しましょう。",
+      "answer": "8",
+      "explanation": "6×4/3=8です。",
+      "why": "整数も分数として計算できます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-030",
+      "type": "text",
+      "level": "basic",
+      "question": "5/8÷10を計算しましょう。",
+      "answer": "1/16",
+      "explanation": "5/8÷10=5/80=1/16です。",
+      "why": "5年の分数÷整数ともつながります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-031",
+      "type": "text",
+      "level": "basic",
+      "question": "2/5Lの重さが3/10kgです。1Lあたりの重さは？",
+      "answer": "3/4kg",
+      "explanation": "3/10÷2/5=3/4です。",
+      "why": "単位量を分数除法で求めます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-032",
+      "type": "text",
+      "level": "basic",
+      "question": "3/7kmを2/5時間で進みました。時速は？",
+      "answer": "15/14km",
+      "explanation": "3/7÷2/5=15/14です。",
+      "why": "速さ=道のり÷時間です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-033",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6kgが750円です。1kgあたり何円ですか？",
+      "answer": "900円",
+      "explanation": "750÷5/6=900円です。",
+      "why": "単価を求めます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-034",
+      "type": "text",
+      "level": "basic",
+      "question": "3/4mで450円の布は1mあたり何円ですか？",
+      "answer": "600円",
+      "explanation": "450÷3/4=600円です。",
+      "why": "1mあたりの値段です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-035",
+      "type": "text",
+      "level": "basic",
+      "question": "1÷3/5はいくつですか？",
+      "answer": "5/3",
+      "explanation": "3/5の逆数をかけます。",
+      "why": "1を分数で割ると逆数になります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FD-036",
+      "type": "text",
+      "level": "basic",
+      "question": "3÷3/5はいくつですか？",
+      "answer": "5",
+      "explanation": "3×5/3=5です。",
+      "why": "整数÷分数も同じ方法です。",
+      "skill": "application"
+    }
+  ]
+}

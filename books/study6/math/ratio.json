@@ -1,0 +1,330 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "unitId": "math6-ratio",
+  "title": "比",
+  "description": "比の意味・比の値、等しい比、比で分ける問題、割合との関係を扱います。",
+  "questionCount": 32,
+  "questions": [
+    {
+      "id": "M6-RA-001",
+      "type": "text",
+      "level": "basic",
+      "question": "3:5の前の数3を何といいますか？",
+      "answer": "前項",
+      "explanation": "3を前項といいます。",
+      "why": "比の用語を確認します。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-002",
+      "type": "text",
+      "level": "basic",
+      "question": "3:5の後ろの数5を何といいますか？",
+      "answer": "後項",
+      "explanation": "5を後項といいます。",
+      "why": "比の二つの項を区別します。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-003",
+      "type": "text",
+      "level": "basic",
+      "question": "比3:5の比の値は？",
+      "answer": "3/5",
+      "explanation": "3÷5=3/5です。",
+      "why": "比の値は割合を表します。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-004",
+      "type": "text",
+      "level": "basic",
+      "question": "比8:12を最も簡単にしましょう。",
+      "answer": "2:3",
+      "explanation": "両方を4で割ります。",
+      "why": "両項を同じ数で割っても比は等しいです。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-005",
+      "type": "text",
+      "level": "basic",
+      "question": "比6:9を最も簡単にしましょう。",
+      "answer": "2:3",
+      "explanation": "3で割ります。",
+      "why": "分数の約分と似ています。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-006",
+      "type": "text",
+      "level": "basic",
+      "question": "比0.4:0.6を整数比にしましょう。",
+      "answer": "2:3",
+      "explanation": "10倍して4:6、さらに2:3です。",
+      "why": "両方を同じ倍率で変えます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-007",
+      "type": "text",
+      "level": "basic",
+      "question": "比1/2:3/4を整数比にしましょう。",
+      "answer": "2:3",
+      "explanation": "両方を4倍します。",
+      "why": "分数の比も整数比にできます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-008",
+      "type": "text",
+      "level": "basic",
+      "question": "2:3と4:6は等しい比ですか？",
+      "answer": "等しいです",
+      "explanation": "両方2倍です。",
+      "why": "比の値も同じです。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-009",
+      "type": "text",
+      "level": "basic",
+      "question": "2:3と6:8は等しい比ですか？",
+      "answer": "等しくありません",
+      "explanation": "2/3と3/4で異なります。",
+      "why": "比の値で確かめます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-010",
+      "type": "text",
+      "level": "basic",
+      "question": "赤:青=2:3で赤4杯なら青は何杯？",
+      "answer": "6杯",
+      "explanation": "倍率2倍なので青も2倍です。",
+      "why": "等しい比の倍率を使います。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-011",
+      "type": "text",
+      "level": "basic",
+      "question": "赤:青=3:5で全部32Lなら赤は何L？",
+      "answer": "12L",
+      "explanation": "全体8等分、1つ4L、赤12Lです。",
+      "why": "比で分けるときは合計で割ります。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-012",
+      "type": "text",
+      "level": "basic",
+      "question": "同じ条件で青は何L？",
+      "answer": "20L",
+      "explanation": "1つ4L×5です。",
+      "why": "二つの取り分を合計すると全体です。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-013",
+      "type": "text",
+      "level": "basic",
+      "question": "24個を5:3に分けます。多い方はいくつ？",
+      "answer": "15個",
+      "explanation": "24÷8=3、5×3=15です。",
+      "why": "全体を比で按分します。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-014",
+      "type": "text",
+      "level": "basic",
+      "question": "60cmを2:3に分けます。短い方は？",
+      "answer": "24cm",
+      "explanation": "60÷5=12、2×12=24です。",
+      "why": "長さも比で分けられます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-015",
+      "type": "text",
+      "level": "basic",
+      "question": "4:7で前項20の等しい比を作りましょう。",
+      "answer": "20:35",
+      "explanation": "5倍します。",
+      "why": "両項を同じ倍率にします。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-016",
+      "type": "text",
+      "level": "basic",
+      "question": "5:8で後項40の等しい比を作りましょう。",
+      "answer": "25:40",
+      "explanation": "5倍します。",
+      "why": "未知の項を倍率から求めます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-017",
+      "type": "text",
+      "level": "basic",
+      "question": "x:12=3:4のxは？",
+      "answer": "9",
+      "explanation": "4→12が3倍なので3→9です。",
+      "why": "等しい比の倍率です。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-018",
+      "type": "text",
+      "level": "basic",
+      "question": "15:x=5:7のxは？",
+      "answer": "21",
+      "explanation": "5→15が3倍なので7→21です。",
+      "why": "比例的な対応です。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-019",
+      "type": "text",
+      "level": "basic",
+      "question": "2:5=x:20のxは？",
+      "answer": "8",
+      "explanation": "5→20が4倍なので2→8です。",
+      "why": "同じ倍率を使います。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-020",
+      "type": "text",
+      "level": "basic",
+      "question": "比3:4の比の値を小数で表しましょう。",
+      "answer": "0.75",
+      "explanation": "3÷4=0.75です。",
+      "why": "比の値は小数でも表せます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-021",
+      "type": "text",
+      "level": "basic",
+      "question": "比1:4は25%と同じ割合ですか？",
+      "answer": "同じです",
+      "explanation": "1/4=0.25=25%です。",
+      "why": "比と割合をつなげます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-022",
+      "type": "text",
+      "level": "basic",
+      "question": "比2:5は40%と同じ割合ですか？",
+      "answer": "同じです",
+      "explanation": "2/5=0.4=40%です。",
+      "why": "複数の表し方をつなげます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-023",
+      "type": "text",
+      "level": "basic",
+      "question": "小麦粉:砂糖=4:1で小麦粉200gなら砂糖は？",
+      "answer": "50g",
+      "explanation": "50倍なので砂糖も50gです。",
+      "why": "料理の配合に比を使います。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-024",
+      "type": "text",
+      "level": "basic",
+      "question": "ジュース:水=1:3で全部800mLならジュースは？",
+      "answer": "200mL",
+      "explanation": "全体4等分です。",
+      "why": "比の合計で全体を分けます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-025",
+      "type": "text",
+      "level": "basic",
+      "question": "3:5の両方に2を足して5:7にしても等しい比ですか？",
+      "answer": "いいえ",
+      "explanation": "同じ数を足すと比の値は保たれません。",
+      "why": "同じ倍率と同じ差を区別します。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-026",
+      "type": "text",
+      "level": "basic",
+      "question": "3:5を両方2倍して6:10は等しい比ですか？",
+      "answer": "はい",
+      "explanation": "比の値は同じです。",
+      "why": "同じ倍率なら比は保たれます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-027",
+      "type": "text",
+      "level": "basic",
+      "question": "5:3と3:5は同じ比ですか？",
+      "answer": "違います",
+      "explanation": "順序が違い比の値も違います。",
+      "why": "前項と後項の順序には意味があります。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-028",
+      "type": "text",
+      "level": "basic",
+      "question": "男女比3:2で全員25人、女子が2に対応すると女子は？",
+      "answer": "10人",
+      "explanation": "25÷5=5、2×5=10です。",
+      "why": "比から人数を求めます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-029",
+      "type": "text",
+      "level": "basic",
+      "question": "比を簡単にするよさを一つ答えましょう。",
+      "answer": "二つの量の関係を分かりやすく比較できること",
+      "explanation": "大きな数でも簡潔に表せます。",
+      "why": "関係の本質が見えやすくなります。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-030",
+      "type": "text",
+      "level": "basic",
+      "question": "比と割合は関係がありますか？",
+      "answer": "あります",
+      "explanation": "a:bの比の値a/bは割合を表します。",
+      "why": "5年の割合とつなげます。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-031",
+      "type": "text",
+      "level": "basic",
+      "question": "Aは原液:水=1:4、Bは2:8です。濃さは同じですか？",
+      "answer": "同じです",
+      "explanation": "2:8を簡単にすると1:4です。",
+      "why": "比を簡単にして比較します。",
+      "skill": "ratio"
+    },
+    {
+      "id": "M6-RA-032",
+      "type": "text",
+      "level": "basic",
+      "question": "比の問題の検算方法を一つ答えましょう。",
+      "answer": "分けた量の合計と比の両方を確かめる",
+      "explanation": "全体と指定された比に合うか見ます。",
+      "why": "答えを振り返ります。",
+      "skill": "ratio"
+    }
+  ]
+}

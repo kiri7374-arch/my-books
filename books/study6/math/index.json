@@ -1,0 +1,145 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "title": "算数",
+  "curriculum": "小学校学習指導要領（平成29年告示）解説 算数編・第6学年を基準。現行教科書の単元構成と文部科学省公開資料を参照し、問題文は独自作成。",
+  "designPolicy": [
+    "完全に同じ問題を出さない",
+    "概念単元では数字だけを変えた同型問題の大量反復を避ける",
+    "分数の乗除など技能定着が必要な単元のみ、直接計算を限定的に反復する",
+    "文章題・逆算・誤り分析・理由説明・複数単元の応用問題を混ぜる",
+    "中学校入試で見られる複数条件・複数単元の考え方を参考にしつつ、問題文は独自作成する",
+    "答えだけでなく、小学6年生が追える具体的な解説と理由を付ける"
+  ],
+  "totalQuestions": 512,
+  "units": [
+    {
+      "id": "math6-letter-expression",
+      "title": "文字を使った式",
+      "description": "xなどの文字で数量の関係を表し、代入・逆算・変化を考えます。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/letter-expression.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-symmetry",
+      "title": "対称な図形",
+      "description": "線対称・点対称、対応する点や辺、作図、正多角形の対称性を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/symmetry.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-fraction-multiplication",
+      "title": "分数のかけ算",
+      "description": "分数×分数、逆数、約分、文章題、計算の性質を扱います。",
+      "questionCount": 36,
+      "targetQuestions": 36,
+      "file": "books/study6/math/fraction-multiplication.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-fraction-division",
+      "title": "分数のわり算",
+      "description": "逆数を使う計算、文章題、単位量、速さ、計算の意味を扱います。",
+      "questionCount": 36,
+      "targetQuestions": 36,
+      "file": "books/study6/math/fraction-division.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-data",
+      "title": "データの見方",
+      "description": "平均値・中央値・最頻値、度数分布、ヒストグラム、データの比較を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/data.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-circle-area",
+      "title": "円の面積",
+      "description": "円の面積公式、半円・複合図形、逆算、倍率、公式の意味を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/circle-area.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-proportion",
+      "title": "比例",
+      "description": "比例の意味、式・表・グラフ、倍率、比例を利用した問題解決を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/proportion.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-inverse-proportion",
+      "title": "反比例",
+      "description": "反比例の意味、表・式・グラフ、一定の積、生活場面への活用を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/inverse-proportion.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-prism-cylinder-volume",
+      "title": "角柱・円柱の体積",
+      "description": "底面積×高さ、円柱、逆算、倍率、容積、公式の意味を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/prism-cylinder-volume.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-ratio",
+      "title": "比",
+      "description": "比の意味・比の値、等しい比、比で分ける問題、割合との関係を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/ratio.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-scale",
+      "title": "拡大図と縮図",
+      "description": "対応する辺・角、倍率、面積倍率、縮尺を使った実測を扱います。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/scale.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-approx-area-volume",
+      "title": "およその面積と体積",
+      "description": "複雑な形を既習図形・立体に見立てて概算し、誤差や目的を考えます。",
+      "questionCount": 24,
+      "targetQuestions": 24,
+      "file": "books/study6/math/approx-area-volume.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-combinations",
+      "title": "並べ方と組み合わせ",
+      "description": "樹形図・表を使い、順序を区別する場合としない場合を整理します。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/combinations.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-number-review",
+      "title": "数と計算・変化と関係の総合",
+      "description": "分数、文字式、比、比例・反比例、速さ・単位量を横断して復習します。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/number-review.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-geometry-data-review",
+      "title": "図形・データの総合",
+      "description": "円、体積、対称、拡大縮小、データ、場合の数を横断して復習します。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/geometry-data-review.json?v=20261003-m6v1"
+    },
+    {
+      "id": "math6-challenge",
+      "title": "応用・チャレンジ",
+      "description": "中学校入試でも見られるような複数条件・複数単元の考え方を、独自問題で練習します。",
+      "questionCount": 32,
+      "targetQuestions": 32,
+      "file": "books/study6/math/challenge.json?v=20261003-m6v1"
+    }
+  ]
+}

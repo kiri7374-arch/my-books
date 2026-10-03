@@ -1,0 +1,370 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "unitId": "math6-fraction-multiplication",
+  "title": "分数のかけ算",
+  "description": "分数×分数、逆数、約分、文章題、計算の性質を扱います。",
+  "questionCount": 36,
+  "questions": [
+    {
+      "id": "M6-FM-001",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3 × 4/5",
+      "answer": "8/15",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると8/15です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-002",
+      "type": "text",
+      "level": "basic",
+      "question": "5/7 × 3/4",
+      "answer": "15/28",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると15/28です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-003",
+      "type": "text",
+      "level": "basic",
+      "question": "7/8 × 2/9",
+      "answer": "7/36",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると7/36です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-004",
+      "type": "text",
+      "level": "basic",
+      "question": "3/10 × 5/6",
+      "answer": "1/4",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると1/4です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-005",
+      "type": "text",
+      "level": "basic",
+      "question": "11/12 × 6/7",
+      "answer": "11/14",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると11/14です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-006",
+      "type": "text",
+      "level": "basic",
+      "question": "4/15 × 9/8",
+      "answer": "3/10",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると3/10です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-007",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6 × 12/25",
+      "answer": "2/5",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると2/5です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-008",
+      "type": "text",
+      "level": "basic",
+      "question": "7/9 × 3/14",
+      "answer": "1/6",
+      "explanation": "分子どうし、分母どうしをかけ、約分すると1/6です。",
+      "why": "分数どうしのかけ算では分子どうし・分母どうしをかけます。",
+      "skill": "direct"
+    },
+    {
+      "id": "M6-FM-009",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3mの布の3/4を使いました。何m使いましたか？",
+      "answer": "1/2m",
+      "explanation": "2/3×3/4=1/2mです。",
+      "why": "ある量の何分のいくつを求めるときはかけ算です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-010",
+      "type": "text",
+      "level": "basic",
+      "question": "5/6Lの3/5は何Lですか？",
+      "answer": "1/2L",
+      "explanation": "5/6×3/5=1/2Lです。",
+      "why": "全体量に割合をかけます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-011",
+      "type": "text",
+      "level": "basic",
+      "question": "1mあたり3/4kgの棒が2/3mあります。重さは？",
+      "answer": "1/2kg",
+      "explanation": "3/4×2/3=1/2kgです。",
+      "why": "1あたりの量×いくつ分です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-012",
+      "type": "text",
+      "level": "basic",
+      "question": "面積4/5m²の土地の3/8を花だんにします。面積は？",
+      "answer": "3/10m²",
+      "explanation": "4/5×3/8=3/10m²です。",
+      "why": "部分の割合を求めます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-013",
+      "type": "text",
+      "level": "basic",
+      "question": "3/4×2/5の答えは3/4より大きいですか？",
+      "answer": "小さいです",
+      "explanation": "2/5は1より小さいので積も小さくなります。",
+      "why": "かける数と1の大小から積を予想できます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-014",
+      "type": "text",
+      "level": "basic",
+      "question": "3/4×5/2の答えは3/4より大きいですか？",
+      "answer": "大きいです",
+      "explanation": "5/2は1より大きいからです。",
+      "why": "計算前に大きさを見積もります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-015",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3×3/2はいくつですか？",
+      "answer": "1",
+      "explanation": "逆数どうしの積は1です。",
+      "why": "逆数の意味を理解します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-016",
+      "type": "text",
+      "level": "basic",
+      "question": "5/7の逆数は何ですか？",
+      "answer": "7/5",
+      "explanation": "分子と分母を入れ替えます。",
+      "why": "0でない数に逆数をかけると1です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-017",
+      "type": "text",
+      "level": "basic",
+      "question": "整数4の逆数は何ですか？",
+      "answer": "1/4",
+      "explanation": "4=4/1と考えます。",
+      "why": "整数も分数として見られます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-018",
+      "type": "text",
+      "level": "basic",
+      "question": "0の逆数はありますか？",
+      "answer": "ありません",
+      "explanation": "0を分母にすることはできません。",
+      "why": "逆数は0でない数について考えます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-019",
+      "type": "text",
+      "level": "basic",
+      "question": "3/5×10/9で先に約分できますか？",
+      "answer": "できます",
+      "explanation": "3と9、5と10を約分できます。",
+      "why": "途中で約分すると計算が簡単です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-020",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3×4/5を2×4/(3+5)とするのは正しいですか？",
+      "answer": "正しくありません",
+      "explanation": "分母もかけて3×5=15です。",
+      "why": "たし算と乗法の計算方法を区別します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-021",
+      "type": "text",
+      "level": "basic",
+      "question": "1と1/2×2/3を計算しましょう。",
+      "answer": "1",
+      "explanation": "3/2×2/3=1です。",
+      "why": "帯分数は仮分数に直します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-022",
+      "type": "text",
+      "level": "basic",
+      "question": "2と1/4×4/9を計算しましょう。",
+      "answer": "1",
+      "explanation": "9/4×4/9=1です。",
+      "why": "仮分数と逆数の関係です。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-023",
+      "type": "text",
+      "level": "basic",
+      "question": "3/5×x=9/10のときxはいくつですか？",
+      "answer": "3/2",
+      "explanation": "9/10÷3/5=3/2です。",
+      "why": "未知のかける数は割り算で求めます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-024",
+      "type": "text",
+      "level": "basic",
+      "question": "x×4/7=6/7のときxはいくつですか？",
+      "answer": "3/2",
+      "explanation": "6/7÷4/7=3/2です。",
+      "why": "式を逆にたどります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-025",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3×3/5×5/4を計算しましょう。",
+      "answer": "1/2",
+      "explanation": "約分して2/4=1/2です。",
+      "why": "3つの分数でも計算の性質を使えます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-026",
+      "type": "text",
+      "level": "basic",
+      "question": "(2/3+1/6)×3/5を計算しましょう。",
+      "answer": "1/2",
+      "explanation": "5/6×3/5=1/2です。",
+      "why": "かっこの中を先に計算します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-027",
+      "type": "text",
+      "level": "basic",
+      "question": "2/3×(3/4+1/4)を計算しましょう。",
+      "answer": "2/3",
+      "explanation": "かっこの中は1です。",
+      "why": "計算の順序を守ります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-028",
+      "type": "text",
+      "level": "basic",
+      "question": "分数の乗法にも交換法則は成り立ちますか？",
+      "answer": "成り立ちます",
+      "explanation": "a×b=b×aが分数でも成り立ちます。",
+      "why": "整数・小数の性質を分数へ広げます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-029",
+      "type": "text",
+      "level": "basic",
+      "question": "分数の乗法にも分配法則は成り立ちますか？",
+      "answer": "成り立ちます",
+      "explanation": "a×(b+c)=a×b+a×cです。",
+      "why": "計算を工夫できます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-030",
+      "type": "text",
+      "level": "basic",
+      "question": "12の5/8倍はいくつですか？",
+      "answer": "15/2",
+      "explanation": "12×5/8=15/2です。",
+      "why": "整数も分数として計算できます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-031",
+      "type": "text",
+      "level": "basic",
+      "question": "6/7の4/9倍を求める式を書きましょう。",
+      "answer": "6/7×4/9",
+      "explanation": "何倍はかけ算で表します。",
+      "why": "倍の意味を分数まで広げます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-032",
+      "type": "text",
+      "level": "basic",
+      "question": "答えが1になる分数のかけ算を一つ作りましょう。",
+      "answer": "例：3/5×5/3=1",
+      "explanation": "逆数どうしをかければ1になります。",
+      "why": "自分で例を作ると意味が深まります。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-033",
+      "type": "text",
+      "level": "basic",
+      "question": "4/5×15/8を計算しましょう。",
+      "answer": "3/2",
+      "explanation": "先に約分すると1/2×3=3/2です。",
+      "why": "計算の工夫を使います。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-034",
+      "type": "text",
+      "level": "basic",
+      "question": "2/5×7/3+2/5×8/3を計算しましょう。",
+      "answer": "2",
+      "explanation": "2/5×(15/3)=2です。",
+      "why": "分配法則を使うとまとめられます。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-035",
+      "type": "text",
+      "level": "basic",
+      "question": "1より小さい正の分数をかけると、積は元の数より小さくなりますか？",
+      "answer": "はい",
+      "explanation": "0より大きい数に1より小さい数をかけると小さくなります。",
+      "why": "積の大きさを予想します。",
+      "skill": "application"
+    },
+    {
+      "id": "M6-FM-036",
+      "type": "text",
+      "level": "basic",
+      "question": "1より大きい分数をかけると、積は元の数より大きくなりますか？",
+      "answer": "はい",
+      "explanation": "正の数では1より大きい倍率だからです。",
+      "why": "倍率の意味で考えます。",
+      "skill": "application"
+    }
+  ]
+}
