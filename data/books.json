@@ -31,8 +31,17 @@
     "title": "自主学習本 5年",
     "subtitle": "算数・理科・英語・国語",
     "category": "self study",
-    "type": "learning",
+    "type": "study",
     "cover": "assets/covers/study5.jpg",
     "bookData": "books/study5/book.json"
+  },
+  {
+    "id": "study6",
+    "title": "自主学習本 6年",
+    "subtitle": "算数・理科・英語・国語",
+    "category": "self study",
+    "type": "study",
+    "cover": "assets/covers/study6.jpg",
+    "bookData": "books/study6/book.json"
   }
 ]
