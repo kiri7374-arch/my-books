@@ -134,7 +134,11 @@
       "answer": "階級ごとの度数の分布",
       "explanation": "横軸に階級、縦軸に度数を表します。",
       "why": "分布の形を視覚的に捉えます。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "histogram"
+      }
     },
     {
       "id": "M6-DA-014",
@@ -144,7 +148,11 @@
       "answer": "はい",
       "explanation": "同じ値の上に点を積み重ねます。",
       "why": "個々の値を残したまま分布を見られます。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot"
+      }
     },
     {
       "id": "M6-DA-015",
@@ -154,7 +162,11 @@
       "answer": "散らばり方や山の形も分かること",
       "explanation": "平均だけでは分布の形が分かりません。",
       "why": "複数の見方を組み合わせます。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "histogram"
+      }
     },
     {
       "id": "M6-DA-016",
@@ -164,7 +176,11 @@
       "answer": "あります",
       "explanation": "同じ平均でも散らばり方は異なる場合があります。",
       "why": "代表値と分布の両方を見ます。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "histogram"
+      }
     },
     {
       "id": "M6-DA-017",
@@ -174,7 +190,11 @@
       "answer": "何を知りたいかという目的",
       "explanation": "目的によって集めるデータや分析方法が変わります。",
       "why": "統計的な問題解決は目的設定から始まります。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot"
+      }
     },
     {
       "id": "M6-DA-018",
@@ -184,7 +204,11 @@
       "answer": "役立ちます",
       "explanation": "特徴や傾向を見つけやすくなります。",
       "why": "整理してから分析します。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot"
+      }
     },
     {
       "id": "M6-DA-019",
@@ -194,7 +218,11 @@
       "answer": "大切です",
       "explanation": "代表値やグラフの選び方で見え方が変わることがあります。",
       "why": "結果を批判的に考察します。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot"
+      }
     },
     {
       "id": "M6-DA-020",
@@ -204,7 +232,11 @@
       "answer": "いつもとは限りません",
       "explanation": "外れ値や偏った分布では中央値などが適する場合があります。",
       "why": "目的に応じて代表値を選びます。",
-      "skill": "concept"
+      "skill": "concept",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot"
+      }
     },
     {
       "id": "M6-DA-021",
@@ -214,7 +246,18 @@
       "answer": "8",
       "explanation": "合計40÷5=8です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          5,
+          7,
+          8,
+          8,
+          12
+        ]
+      }
     },
     {
       "id": "M6-DA-022",
@@ -224,7 +267,18 @@
       "answer": "4",
       "explanation": "順に並べた中央から中央値は4です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          3,
+          4,
+          4,
+          4,
+          10
+        ]
+      }
     },
     {
       "id": "M6-DA-023",
@@ -234,7 +288,19 @@
       "answer": "4",
       "explanation": "順に並べた中央から中央値は4です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8
+        ]
+      }
     },
     {
       "id": "M6-DA-024",
@@ -244,7 +310,18 @@
       "answer": "11",
       "explanation": "最も多く現れる値は11です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          10,
+          11,
+          11,
+          12,
+          13
+        ]
+      }
     },
     {
       "id": "M6-DA-025",
@@ -254,7 +331,20 @@
       "answer": "9",
       "explanation": "最も多く現れる値は9です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          6,
+          8,
+          8,
+          9,
+          9,
+          9,
+          10
+        ]
+      }
     },
     {
       "id": "M6-DA-026",
@@ -264,7 +354,18 @@
       "answer": "6",
       "explanation": "合計30÷5=6です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
     },
     {
       "id": "M6-DA-027",
@@ -274,7 +375,18 @@
       "answer": "14",
       "explanation": "順に並べた中央から中央値は14です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          12,
+          14,
+          14,
+          16,
+          19
+        ]
+      }
     },
     {
       "id": "M6-DA-028",
@@ -284,7 +396,19 @@
       "answer": "6",
       "explanation": "順に並べた中央から中央値は6です。",
       "why": "目的に合う代表値を正しく求めます。",
-      "skill": "representative"
+      "skill": "representative",
+      "visual": {
+        "type": "data-chart",
+        "mode": "dotplot",
+        "values": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      }
     },
     {
       "id": "M6-DA-029",

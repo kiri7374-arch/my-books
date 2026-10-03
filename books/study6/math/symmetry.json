@@ -54,7 +54,13 @@
       "answer": "4本",
       "explanation": "縦・横・2本の対角線です。",
       "why": "複数の対称の軸をもつ図形があります。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "square",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-006",
@@ -64,7 +70,13 @@
       "answer": "2本",
       "explanation": "縦と横の中央を通る2本です。",
       "why": "一般の長方形では対角線は軸ではありません。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "rectangle",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-007",
@@ -74,7 +86,13 @@
       "answer": "3本",
       "explanation": "各頂点から向かい側の辺の中点を通ります。",
       "why": "正多角形の対称性を考えます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "equilateral-triangle",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-008",
@@ -84,7 +102,13 @@
       "answer": "6本",
       "explanation": "頂点を結ぶ3本と辺の中点を結ぶ3本です。",
       "why": "軸の種類を整理します。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "regular-hexagon",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-009",
@@ -94,7 +118,13 @@
       "answer": "無数にあります",
       "explanation": "中心を通るどの直線でも対称の軸です。",
       "why": "円は高い対称性をもちます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "circle",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-010",
@@ -104,7 +134,13 @@
       "answer": "はい",
       "explanation": "中心を180°回転すると重なります。",
       "why": "線対称と点対称の両方をもつ図形があります。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "square",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-011",
@@ -114,7 +150,13 @@
       "answer": "いいえ",
       "explanation": "180°回転では元の位置に重なりません。",
       "why": "奇数個の頂点をもつ正多角形は、中心を180°回転しても元の頂点配置と一致しません。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "equilateral-triangle",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-012",
@@ -124,7 +166,13 @@
       "answer": "はい",
       "explanation": "対角線の交点を中心に180°回転すると重なります。",
       "why": "平行四辺形の性質と結び付けます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "parallelogram",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-013",
@@ -134,7 +182,13 @@
       "answer": "いいえ",
       "explanation": "長方形やひし形など特別な場合を除き軸はありません。",
       "why": "いつも成り立つかを区別します。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "parallelogram",
+        "showAxis": false,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-014",
@@ -144,7 +198,13 @@
       "answer": "はい",
       "explanation": "2本の対角線が対称の軸です。",
       "why": "辺の等しい図形の対称性です。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "rhombus",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-015",
@@ -154,7 +214,13 @@
       "answer": "はい",
       "explanation": "中心を180°回転すると重なります。",
       "why": "円の中心は対称の中心です。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "circle",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-016",
@@ -164,7 +230,13 @@
       "answer": "垂直に交わり、交点はAA'の中点です",
       "explanation": "軸はAA'の垂直二等分線です。",
       "why": "作図に使う重要な性質です。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "point-pair",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-017",
@@ -174,7 +246,13 @@
       "answer": "移動しません",
       "explanation": "折っても自分自身に重なります。",
       "why": "軸上の点は自分自身に対応します。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "point-pair",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-018",
@@ -184,7 +262,13 @@
       "answer": "対称の中心",
       "explanation": "中心からAとA'までの距離は等しいです。",
       "why": "点対称の作図に使います。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "point-pair",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-019",
@@ -194,7 +278,13 @@
       "answer": "移動しません",
       "explanation": "回転の中心だからです。",
       "why": "変換の基準点は同じ位置です。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "point-pair",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-020",
@@ -204,7 +294,13 @@
       "answer": "軸に垂線を引き、反対側へ同じ距離の点を取ります",
       "explanation": "軸からAとA'までの距離を等しくします。",
       "why": "線対称の性質を作図に使います。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "point-pair",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-021",
@@ -214,7 +310,13 @@
       "answer": "中心Oを通る直線上でOA=OA'となる反対側の点を取ります",
       "explanation": "OがAA'の中点になります。",
       "why": "180°回転の位置関係です。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "point-symmetry",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-022",
@@ -244,7 +346,13 @@
       "answer": "等しいです",
       "explanation": "折ると重なるためです。",
       "why": "合同の考えが使えます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "square",
+        "showAxis": false,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-025",
@@ -254,7 +362,13 @@
       "answer": "等しいです",
       "explanation": "180°回転で重なるためです。",
       "why": "回転して重なる図形の対応です。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "parallelogram",
+        "showAxis": false,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-026",
@@ -264,7 +378,13 @@
       "answer": "はい",
       "explanation": "中心を180°回転すると重なります。",
       "why": "正多角形の対称性を調べます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "regular-octagon",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-027",
@@ -294,7 +414,13 @@
       "answer": "対称の軸から各点までの距離",
       "explanation": "反対側へ同じ距離だけ取ります。",
       "why": "見た目ではなく位置関係で作図します。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "half-reflection",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-030",
@@ -304,7 +430,13 @@
       "answer": "5本",
       "explanation": "各頂点に対応する5本です。",
       "why": "正n角形の軸の本数を考えます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "regular-pentagon",
+        "showAxis": true,
+        "showCenter": false
+      }
     },
     {
       "id": "M6-SY-031",
@@ -314,7 +446,13 @@
       "answer": "はい",
       "explanation": "中心を180°回転すると重なります。",
       "why": "線対称と点対称の両方を確かめます。",
-      "skill": "symmetry"
+      "skill": "symmetry",
+      "visual": {
+        "type": "symmetry",
+        "shape": "rectangle",
+        "showAxis": false,
+        "showCenter": true
+      }
     },
     {
       "id": "M6-SY-032",

@@ -14,7 +14,12 @@
       "answer": "拡大図または縮図",
       "explanation": "大きくしたものが拡大図、小さくしたものが縮図です。",
       "why": "合同から大きさを変えた図形へ広げます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-002",
@@ -24,7 +29,12 @@
       "answer": "等しいです",
       "explanation": "形が同じなので角は変わりません。",
       "why": "長さは変わっても角は等しいです。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-003",
@@ -34,7 +44,12 @@
       "answer": "同じ倍率です",
       "explanation": "どの対応辺でも拡大率は同じです。",
       "why": "全体で倍率をそろえます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-004",
@@ -44,7 +59,12 @@
       "answer": "8cm",
       "explanation": "4×2=8cmです。",
       "why": "拡大率をかけます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 2.0
+      }
     },
     {
       "id": "M6-SC-005",
@@ -54,7 +74,12 @@
       "answer": "4cm",
       "explanation": "12×1/3=4cmです。",
       "why": "縮小率をかけます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.3333333333333333
+      }
     },
     {
       "id": "M6-SC-006",
@@ -64,7 +89,12 @@
       "answer": "1.5倍",
       "explanation": "9÷6=1.5です。",
       "why": "対応辺の比から倍率を求めます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-007",
@@ -74,7 +104,12 @@
       "answer": "0.4倍",
       "explanation": "4÷10=0.4です。",
       "why": "縮図でも倍率を求めます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-008",
@@ -84,7 +119,12 @@
       "answer": "70°",
       "explanation": "角は変わりません。",
       "why": "対応する角は等しいです。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-009",
@@ -94,7 +134,12 @@
       "answer": "4倍",
       "explanation": "2×2=4倍です。",
       "why": "面積倍率は長さ倍率の2乗です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 2.0
+      }
     },
     {
       "id": "M6-SC-010",
@@ -104,7 +149,12 @@
       "answer": "9倍",
       "explanation": "3×3=9倍です。",
       "why": "二次元の倍率です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 3.0
+      }
     },
     {
       "id": "M6-SC-011",
@@ -114,7 +164,12 @@
       "answer": "2倍",
       "explanation": "全ての辺が2倍です。",
       "why": "周長は長さなので倍率そのままです。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 2.0
+      }
     },
     {
       "id": "M6-SC-012",
@@ -124,7 +179,12 @@
       "answer": "1/4倍",
       "explanation": "1/2×1/2=1/4です。",
       "why": "長さと面積の倍率を区別します。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.5
+      }
     },
     {
       "id": "M6-SC-013",
@@ -134,7 +194,12 @@
       "answer": "6,8,10cm",
       "explanation": "すべて2倍です。",
       "why": "対応辺に同じ倍率をかけます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "triangle",
+        "scale": 2.0
+      }
     },
     {
       "id": "M6-SC-014",
@@ -144,7 +209,12 @@
       "answer": "はい",
       "explanation": "全て1.5倍です。",
       "why": "倍率が一定か確かめます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "triangle",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-015",
@@ -154,7 +224,12 @@
       "answer": "いいえ",
       "explanation": "倍率がそろいません。",
       "why": "一部だけ同じでは不十分です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-016",
@@ -164,7 +239,12 @@
       "answer": "はい",
       "explanation": "中心からの方向を保ち距離だけ変えます。",
       "why": "中心を使った作図の性質です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "center-scale",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-017",
@@ -174,7 +254,12 @@
       "answer": "求められます",
       "explanation": "縮図上の長さと縮尺から実際の長さを出せます。",
       "why": "縮図を生活に活用します。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-018",
@@ -184,7 +269,12 @@
       "answer": "20m",
       "explanation": "2×1000=2000cm=20mです。",
       "why": "縮尺と単位換算を使います。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.001
+      }
     },
     {
       "id": "M6-SC-019",
@@ -194,7 +284,12 @@
       "answer": "30m",
       "explanation": "6×500=3000cm=30mです。",
       "why": "倍率で元に戻します。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.002
+      }
     },
     {
       "id": "M6-SC-020",
@@ -204,7 +299,12 @@
       "answer": "5cm",
       "explanation": "5000cm÷1000=5cmです。",
       "why": "実際の長さを小さくします。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.001
+      }
     },
     {
       "id": "M6-SC-021",
@@ -214,7 +314,12 @@
       "answer": "1/5000",
       "explanation": "150m=15000cm、3:15000=1:5000です。",
       "why": "単位をそろえます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "map",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-022",
@@ -224,7 +329,12 @@
       "answer": "いいえ",
       "explanation": "縦横の倍率が違い形が変わります。",
       "why": "全方向で同じ倍率が必要です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "distortion",
+        "scale": 2.0
+      }
     },
     {
       "id": "M6-SC-023",
@@ -234,7 +344,12 @@
       "answer": "いいえ",
       "explanation": "対応辺の倍率がそろいません。",
       "why": "単に大きくしただけでは拡大図ではありません。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "rectangle",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-024",
@@ -244,7 +359,12 @@
       "answer": "1倍",
       "explanation": "大きさも変わらないためです。",
       "why": "合同と拡大縮小を統合します。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     },
     {
       "id": "M6-SC-025",
@@ -254,7 +374,12 @@
       "answer": "戻ります",
       "explanation": "2×1/2=1です。",
       "why": "倍率をかけ合わせます。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.5
+      }
     },
     {
       "id": "M6-SC-026",
@@ -264,7 +389,12 @@
       "answer": "戻ります",
       "explanation": "1/3×3=1です。",
       "why": "逆の倍率関係です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": 0.3333333333333333
+      }
     },
     {
       "id": "M6-SC-027",
@@ -294,7 +424,12 @@
       "answer": "縦6cm、横9cm",
       "explanation": "各辺を1.5倍します。",
       "why": "対応辺に同じ倍率です。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "rectangle",
+        "scale": 1.5
+      }
     },
     {
       "id": "M6-SC-030",
@@ -314,7 +449,12 @@
       "answer": "1km",
       "explanation": "4×25000=100000cm=1kmです。",
       "why": "大きな縮尺でも段階的に直します。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "map",
+        "scale": 4e-05
+      }
     },
     {
       "id": "M6-SC-032",
@@ -324,7 +464,12 @@
       "answer": "例：地図、設計図、模型、写真",
       "explanation": "同じ形を保って大きさを変える場面に使います。",
       "why": "図形の学習を生活に活用します。",
-      "skill": "scale"
+      "skill": "scale",
+      "visual": {
+        "type": "scale",
+        "mode": "pair",
+        "scale": null
+      }
     }
   ]
 }

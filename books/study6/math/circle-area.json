@@ -14,7 +14,12 @@
       "answer": "3.14cm²",
       "explanation": "1×1×3.14=3.14cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 1.0
+      }
     },
     {
       "id": "M6-CA-002",
@@ -24,7 +29,12 @@
       "answer": "12.56cm²",
       "explanation": "2×2×3.14=12.56cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 2.0
+      }
     },
     {
       "id": "M6-CA-003",
@@ -34,7 +44,12 @@
       "answer": "28.26cm²",
       "explanation": "3×3×3.14=28.26cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 3.0
+      }
     },
     {
       "id": "M6-CA-004",
@@ -44,7 +59,12 @@
       "answer": "50.24cm²",
       "explanation": "4×4×3.14=50.24cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 4.0
+      }
     },
     {
       "id": "M6-CA-005",
@@ -54,7 +74,12 @@
       "answer": "78.5cm²",
       "explanation": "5×5×3.14=78.5cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 5.0
+      }
     },
     {
       "id": "M6-CA-006",
@@ -64,7 +89,12 @@
       "answer": "113.04cm²",
       "explanation": "6×6×3.14=113.04cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 6.0
+      }
     },
     {
       "id": "M6-CA-007",
@@ -74,7 +104,12 @@
       "answer": "200.96cm²",
       "explanation": "8×8×3.14=200.96cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 8.0
+      }
     },
     {
       "id": "M6-CA-008",
@@ -84,7 +119,12 @@
       "answer": "314cm²",
       "explanation": "10×10×3.14=314cm²です。",
       "why": "円の面積=半径×半径×円周率です。",
-      "skill": "direct"
+      "skill": "direct",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 10.0
+      }
     },
     {
       "id": "M6-CA-009",
@@ -94,7 +134,12 @@
       "answer": "78.5cm²",
       "explanation": "半径5cmなので5×5×3.14=78.5cm²です。",
       "why": "直径から半径を求めて公式を使います。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "diameter": 10.0
+      }
     },
     {
       "id": "M6-CA-010",
@@ -104,7 +149,12 @@
       "answer": "153.86cm²",
       "explanation": "半径7cmなので7×7×3.14です。",
       "why": "公式に使うのは半径です。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "diameter": 14.0
+      }
     },
     {
       "id": "M6-CA-011",
@@ -114,7 +164,11 @@
       "answer": "4倍",
       "explanation": "2×2=4倍です。",
       "why": "面積は半径の2乗に関係します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-012",
@@ -124,7 +178,11 @@
       "answer": "9倍",
       "explanation": "3×3=9倍です。",
       "why": "長さ倍率と面積倍率を区別します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-013",
@@ -134,7 +192,11 @@
       "answer": "正しくありません",
       "explanation": "半径×半径×3.14です。",
       "why": "円周の式と混同しません。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-014",
@@ -144,7 +206,11 @@
       "answer": "円周は直径×3.14、面積は半径×半径×3.14",
       "explanation": "使う長さと単位が異なります。",
       "why": "周りの長さと広さを区別します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-015",
@@ -154,7 +220,12 @@
       "answer": "円",
       "explanation": "円78.5cm²、正方形25cm²です。",
       "why": "同じ単位で比較します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "circle-in-square",
+        "radius": 5.0
+      }
     },
     {
       "id": "M6-CA-016",
@@ -164,7 +235,12 @@
       "answer": "13.76cm²",
       "explanation": "64−50.24=13.76cm²です。",
       "why": "複合図形は差で求めます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "circle-in-square",
+        "radius": 4.0
+      }
     },
     {
       "id": "M6-CA-017",
@@ -174,7 +250,12 @@
       "answer": "157cm²",
       "explanation": "円314cm²の半分です。",
       "why": "半円は円の1/2です。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "semicircle",
+        "radius": 10.0
+      }
     },
     {
       "id": "M6-CA-018",
@@ -184,7 +265,12 @@
       "answer": "28.26cm²",
       "explanation": "113.04÷4=28.26cm²です。",
       "why": "円の何分のいくつかで考えます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "quarter",
+        "radius": 6.0
+      }
     },
     {
       "id": "M6-CA-019",
@@ -194,7 +280,12 @@
       "answer": "50.24cm²",
       "explanation": "78.5−28.26=50.24cm²です。",
       "why": "大きい円から小さい円を引きます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "ring",
+        "radius": 5.0
+      }
     },
     {
       "id": "M6-CA-020",
@@ -204,7 +295,11 @@
       "answer": "5cm",
       "explanation": "78.5÷3.14=25、5×5=25です。",
       "why": "公式を逆に使います。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-021",
@@ -214,7 +309,11 @@
       "answer": "10cm",
       "explanation": "314÷3.14=100です。",
       "why": "平方の関係を逆に考えます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-022",
@@ -224,7 +323,11 @@
       "answer": "長方形や平行四辺形に近い形",
       "explanation": "底辺が円周の半分、高さが半径に近づきます。",
       "why": "既習図形へ変形して公式を考えます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "rearrangement"
+      }
     },
     {
       "id": "M6-CA-023",
@@ -234,7 +337,11 @@
       "answer": "cm²",
       "explanation": "面積なので平方単位です。",
       "why": "長さ・面積・体積の単位を区別します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-024",
@@ -244,7 +351,12 @@
       "answer": "よいです",
       "explanation": "7×7=49だからです。",
       "why": "計算しやすい形にまとめられます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 7.0
+      }
     },
     {
       "id": "M6-CA-025",
@@ -254,7 +366,11 @@
       "answer": "正しい面積の4倍になります",
       "explanation": "直径は半径の2倍なので面積は4倍です。",
       "why": "公式に使う量を正しく選びます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-026",
@@ -264,7 +380,11 @@
       "answer": "適切ではありません",
       "explanation": "単位の種類が違います。",
       "why": "異なる種類の量を数値だけで比べません。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-027",
@@ -274,7 +394,11 @@
       "answer": "例：丸い花だんやピザの広さを求める",
       "explanation": "円形の物の広さを求めるときに使います。",
       "why": "算数を生活に活用します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     },
     {
       "id": "M6-CA-028",
@@ -284,7 +408,12 @@
       "answer": "150.72cm²",
       "explanation": "200.96−50.24=150.72cm²です。",
       "why": "二つの円を比較します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 8.0
+      }
     },
     {
       "id": "M6-CA-029",
@@ -294,7 +423,12 @@
       "answer": "157cm²",
       "explanation": "半径10cmの円の半分です。",
       "why": "直径→半径→面積と順に考えます。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "semicircle",
+        "diameter": 20.0
+      }
     },
     {
       "id": "M6-CA-030",
@@ -304,7 +438,12 @@
       "answer": "よいです",
       "explanation": "12×12=144です。",
       "why": "公式の意味を保ちながら計算を工夫します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic",
+        "radius": 12.0
+      }
     },
     {
       "id": "M6-CA-031",
@@ -314,7 +453,11 @@
       "answer": "近づきます",
       "explanation": "扇形が細くなるためです。",
       "why": "図形の分割から公式を理解します。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "rearrangement"
+      }
     },
     {
       "id": "M6-CA-032",
@@ -324,7 +467,11 @@
       "answer": "同じです",
       "explanation": "面積は半径で決まります。",
       "why": "円の大きさを決める量です。",
-      "skill": "application"
+      "skill": "application",
+      "visual": {
+        "type": "circle-area",
+        "mode": "basic"
+      }
     }
   ]
 }

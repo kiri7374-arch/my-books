@@ -14,7 +14,11 @@
       "answer": "120cm³",
       "explanation": "24×5=120cm³です。",
       "why": "角柱の体積=底面積×高さです。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-002",
@@ -24,7 +28,11 @@
       "answer": "240cm³",
       "explanation": "30×8=240cm³です。",
       "why": "底面の形が違っても公式は同じです。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-003",
@@ -34,7 +42,11 @@
       "answer": "75cm³",
       "explanation": "12.5×6=75cm³です。",
       "why": "小数でも同じ公式です。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-004",
@@ -44,7 +56,11 @@
       "answer": "200cm³",
       "explanation": "底面積20cm²×10=200cm³です。",
       "why": "まず底面積を求めます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "triangular-prism"
+      }
     },
     {
       "id": "M6-VP-005",
@@ -54,7 +70,11 @@
       "answer": "324cm³",
       "explanation": "36×9=324cm³です。",
       "why": "底面積と柱の高さを使います。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-006",
@@ -64,7 +84,11 @@
       "answer": "180cm³",
       "explanation": "台形18cm²×10=180cm³です。",
       "why": "既習の面積公式を組み合わせます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "trapezoid-prism"
+      }
     },
     {
       "id": "M6-VP-007",
@@ -74,7 +98,11 @@
       "answer": "282.6cm³",
       "explanation": "3×3×3.14×10=282.6cm³です。",
       "why": "円柱も底面積×高さです。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-008",
@@ -84,7 +112,11 @@
       "answer": "628cm³",
       "explanation": "半径5cm、78.5×8=628cm³です。",
       "why": "直径を半径へ直します。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-009",
@@ -94,7 +126,11 @@
       "answer": "251.2cm³",
       "explanation": "4×4×3.14×5=251.2cm³です。",
       "why": "円の面積公式とつなげます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-010",
@@ -104,7 +140,11 @@
       "answer": "どちらも底面積×高さ",
       "explanation": "同じ断面が高さ方向に続く柱体だからです。",
       "why": "図形を一般化して捉えます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-011",
@@ -114,7 +154,11 @@
       "answer": "6cm",
       "explanation": "300÷50=6cmです。",
       "why": "公式を逆に使います。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-012",
@@ -124,7 +168,11 @@
       "answer": "31.4cm²",
       "explanation": "376.8÷12=31.4cm²です。",
       "why": "底面積=体積÷高さです。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-013",
@@ -164,7 +212,11 @@
       "answer": "4倍",
       "explanation": "底面積が4倍になるためです。",
       "why": "円の面積の倍率とつなげます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-017",
@@ -174,7 +226,11 @@
       "answer": "8倍",
       "explanation": "底面積4倍×高さ2倍です。",
       "why": "長さの倍率が体積へどう影響するか考えます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-018",
@@ -194,7 +250,11 @@
       "answer": "正しくありません",
       "explanation": "底面の円の面積×高さです。",
       "why": "円周と面積を混同しません。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-020",
@@ -204,7 +264,11 @@
       "answer": "求められます",
       "explanation": "底面の形に関係なく角柱なら同じです。",
       "why": "公式を一般化します。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "triangular-prism"
+      }
     },
     {
       "id": "M6-VP-021",
@@ -224,7 +288,11 @@
       "answer": "3000cm³",
       "explanation": "200×15=3000cm³です。",
       "why": "容積問題に使います。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "prism"
+      }
     },
     {
       "id": "M6-VP-023",
@@ -244,7 +312,11 @@
       "answer": "1570cm³",
       "explanation": "5×5×3.14×20=1570cm³です。",
       "why": "円柱形の容器に使います。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-025",
@@ -254,7 +326,11 @@
       "answer": "同じです",
       "explanation": "どちらも180cm³です。",
       "why": "見た目ではなく計算で比べます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-026",
@@ -264,7 +340,11 @@
       "answer": "同じです",
       "explanation": "どちらも72×3.14cm³です。",
       "why": "式の形から等しさを確認できます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     },
     {
       "id": "M6-VP-027",
@@ -274,7 +354,11 @@
       "answer": "求められます",
       "explanation": "底面積に高さをかけます。",
       "why": "問題を段階に分けます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "rect-prism"
+      }
     },
     {
       "id": "M6-VP-028",
@@ -284,7 +368,11 @@
       "answer": "できます",
       "explanation": "1層の体積が底面積cm³で、それが高さ分重なります。",
       "why": "公式を単位体積の積み重ねで理解します。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "prism"
+      }
     },
     {
       "id": "M6-VP-029",
@@ -294,7 +382,11 @@
       "answer": "違います",
       "explanation": "高さは底面に垂直な距離です。",
       "why": "公式に使う長さを正しく選びます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "prism"
+      }
     },
     {
       "id": "M6-VP-030",
@@ -324,7 +416,11 @@
       "answer": "よいです",
       "explanation": "6×6=36だからです。",
       "why": "計算しやすい形にまとめられます。",
-      "skill": "volume"
+      "skill": "volume",
+      "visual": {
+        "type": "solid",
+        "shape": "cylinder"
+      }
     }
   ]
 }
