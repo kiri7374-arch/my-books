@@ -61,6 +61,7 @@ const backFromStudySearch = document.getElementById("backFromStudySearch");
 const studySearchSummary = document.getElementById("studySearchSummary");
 const studyKanjiSearchInfo = document.getElementById("studyKanjiSearchInfo");
 const studySearchResults = document.getElementById("studySearchResults");
+const studyScrollTopButton = document.getElementById("studyScrollTopButton");
 
 const answerModal = document.getElementById("answerModal");
 const closeAnswerModalButton = document.getElementById("closeAnswerModal");
@@ -303,6 +304,7 @@ function openStudyMode() {
   showStudyHome();
   showView(studyView);
   window.scrollTo({ top: 0, behavior: "smooth" });
+  window.setTimeout(updateStudyScrollTopButton, 0);
 }
 
 function hideStudyPanels() {
@@ -1517,6 +1519,66 @@ async function openStudySearchTarget(record, openQuestion) {
   }, 120);
 }
 
+
+
+function updateStudyScrollTopButton() {
+  if (!studyScrollTopButton) return;
+
+  const studyIsVisible =
+    studyView &&
+    !studyView.classList.contains("hidden") &&
+    getComputedStyle(studyView).display !== "none";
+
+  const shouldShow = studyIsVisible && window.scrollY >= 420;
+
+  studyScrollTopButton.hidden = !shouldShow;
+  studyScrollTopButton.classList.toggle("is-visible", shouldShow);
+}
+
+studyScrollTopButton?.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+window.addEventListener("scroll", updateStudyScrollTopButton, { passive: true });
+window.addEventListener("resize", updateStudyScrollTopButton);
+
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) {
+    updateStudyScrollTopButton();
+  }
+});
+
+
+function resetStudySearch({ restorePanel = true } = {}) {
+  if (studySearchInput) {
+    studySearchInput.value = "";
+  }
+
+  if (studySearchSummary) {
+    studySearchSummary.textContent = "キーワードを入力して検索してください。";
+  }
+
+  if (studyKanjiSearchInfo) {
+    studyKanjiSearchInfo.innerHTML = "";
+  }
+
+  if (studySearchResults) {
+    studySearchResults.innerHTML = "";
+  }
+
+  updateStudySearchClearButton();
+
+  if (
+    restorePanel &&
+    studySearchPanel?.classList.contains("study-panel-active")
+  ) {
+    restoreStudySearchReturnPanel();
+  }
+}
+
 function updateStudySearchClearButton() {
   if (!studySearchClear) return;
   studySearchClear.hidden = !studySearchInput.value;
@@ -1534,12 +1596,12 @@ studySearchInput?.addEventListener("keydown", (event) => {
 });
 
 studySearchClear?.addEventListener("click", () => {
-  studySearchInput.value = "";
-  updateStudySearchClearButton();
-  studySearchInput.focus();
+  resetStudySearch({ restorePanel: true });
+  studySearchInput?.focus();
 });
 
 backFromStudySearch?.addEventListener("click", () => {
+  resetStudySearch({ restorePanel: false });
   restoreStudySearchReturnPanel();
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
