@@ -51,6 +51,17 @@ const studyQuestionUnitTitle = document.getElementById("studyQuestionUnitTitle")
 const studyQuestionUnitDescription = document.getElementById("studyQuestionUnitDescription");
 const studyQuestionList = document.getElementById("studyQuestionList");
 
+const studySearchPanel = document.getElementById("studySearchPanel");
+const studySearchInput = document.getElementById("studySearchInput");
+const studySearchClear = document.getElementById("studySearchClear");
+const studySearchGradeScope = document.getElementById("studySearchGradeScope");
+const studySearchSubject = document.getElementById("studySearchSubject");
+const studySearchButton = document.getElementById("studySearchButton");
+const backFromStudySearch = document.getElementById("backFromStudySearch");
+const studySearchSummary = document.getElementById("studySearchSummary");
+const studyKanjiSearchInfo = document.getElementById("studyKanjiSearchInfo");
+const studySearchResults = document.getElementById("studySearchResults");
+
 const answerModal = document.getElementById("answerModal");
 const closeAnswerModalButton = document.getElementById("closeAnswerModal");
 const answerModalDone = document.getElementById("answerModalDone");
@@ -67,6 +78,36 @@ let pageFlip = null;
 let currentStudySubject = null;
 let currentStudySubjectData = null;
 const studyUnitCache = new Map();
+
+const studySearchDataCache = new Map();
+let studyKanjiGradeData = null;
+let studySearchReturnPanel = "home";
+
+function getStudyGradeFromBook(book = selectedBook) {
+  if (!book) return null;
+
+  const idMatch = String(book.id || "").match(/^study(\d+)$/i);
+  if (idMatch) return Number(idMatch[1]);
+
+  const grade = Number(book.grade);
+  return Number.isFinite(grade) ? grade : null;
+}
+
+function getStudyBookByGrade(grade) {
+  return books.find((book) =>
+    isStudyBook(book) &&
+    getStudyGradeFromBook(book) === Number(grade)
+  ) || null;
+}
+
+function getAvailableStudyGrades() {
+  return books
+    .filter(isStudyBook)
+    .map((book) => getStudyGradeFromBook(book))
+    .filter((grade) => Number.isFinite(grade))
+    .filter((grade, index, array) => array.indexOf(grade) === index)
+    .sort((a, b) => a - b);
+}
 
 function getStudyBasePath() {
   if (!selectedBook) return "books/study5";
@@ -101,7 +142,7 @@ function getStudySubjectConfig(subjectKey) {
     japanese: {
       title: "国語",
       en: "JAPANESE",
-      description: `${selectedBook?.id === "study6" ? "6" : "5"}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
+      description: `${getStudyGradeFromBook() || ""}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
       file: `${base}/japanese.json?v=20261003-s6all1`,
       splitUnits: false
     },
@@ -128,12 +169,12 @@ function escapeHTML(value) {
 
 function isStudyBook(book) {
   if (!book) return false;
-  return book.id === "study5" || book.id === "study6" || book.type === "study";
+  return book.type === "study" || /^study\d+$/i.test(String(book.id || ""));
 }
 
 function isImageCoverBook(book) {
   if (!book) return false;
-  return book.id === "study5" || book.id === "study6" || book.coverMode === "image";
+  return (isStudyBook(book) && Boolean(book.cover)) || book.coverMode === "image";
 }
 
 async function loadBooks() {
@@ -257,7 +298,8 @@ readBookButton.addEventListener("click", async () => {
 function openStudyMode() {
   destroyPageFlip();
   studyBookTitle.textContent = selectedBook.title;
-  studyGradeBadge.textContent = selectedBook.id === "study6" ? "6年" : "5年";
+  const grade = getStudyGradeFromBook();
+  studyGradeBadge.textContent = grade ? `${grade}年` : "";
   showStudyHome();
   showView(studyView);
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -267,6 +309,7 @@ function hideStudyPanels() {
   studyHomePanel.classList.remove("study-panel-active");
   studySubjectPanel.classList.remove("study-panel-active");
   studyQuestionPanel.classList.remove("study-panel-active");
+  studySearchPanel?.classList.remove("study-panel-active");
 }
 
 function showStudyHome() {
@@ -1049,6 +1092,7 @@ function renderStudyQuestions(questions) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "study-question-button";
+    button.dataset.questionId = String(question.id || "");
 
     const questionText = String(question.question || "");
     const isWordProblem = questionText.length > 18;
@@ -1084,6 +1128,421 @@ function renderStudyQuestions(questions) {
     studyQuestionList.appendChild(button);
   });
 }
+
+
+
+function normalizeStudySearchText(value) {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getStudySubjectLabel(subjectKey) {
+  return {
+    math: "算数",
+    science: "理科",
+    english: "英語",
+    japanese: "国語",
+    challenge: "チャレンジ"
+  }[subjectKey] || subjectKey;
+}
+
+function getStudySubjectPath(bookId, subjectKey) {
+  if (subjectKey === "math") {
+    return `books/${bookId}/math/index.json?v=20261003-searchv1`;
+  }
+  return `books/${bookId}/${subjectKey}.json?v=20261003-searchv1`;
+}
+
+async function tryLoadStudyJSON(path) {
+  if (studySearchDataCache.has(path)) return studySearchDataCache.get(path);
+
+  try {
+    const response = await fetch(path);
+
+    if (!response.ok) {
+      studySearchDataCache.set(path, null);
+      return null;
+    }
+
+    const data = await response.json();
+    studySearchDataCache.set(path, data);
+    return data;
+  } catch (error) {
+    console.warn("検索用データを読み込めませんでした:", path, error);
+    studySearchDataCache.set(path, null);
+    return null;
+  }
+}
+
+async function loadKanjiGradeData() {
+  if (studyKanjiGradeData) return studyKanjiGradeData;
+
+  try {
+    const response = await fetch("data/kanji-grade.json?v=20261003-searchv1");
+    if (!response.ok) throw new Error("漢字学年データを読み込めませんでした。");
+
+    studyKanjiGradeData = await response.json();
+    return studyKanjiGradeData;
+  } catch (error) {
+    console.warn(error);
+    return null;
+  }
+}
+
+async function buildStudySearchIndexForBook(book, subjectFilter = "all") {
+  const grade = getStudyGradeFromBook(book);
+  if (!grade) return [];
+
+  const subjectKeys = ["math", "science", "english", "japanese", "challenge"]
+    .filter((key) => subjectFilter === "all" || subjectFilter === key);
+
+  const records = [];
+
+  for (const subjectKey of subjectKeys) {
+    const subjectData = await tryLoadStudyJSON(getStudySubjectPath(book.id, subjectKey));
+
+    if (!subjectData || !Array.isArray(subjectData.units)) continue;
+
+    for (const unit of subjectData.units) {
+      const unitId = String(unit.id || unit.title || "");
+
+      records.push({
+        kind: "unit",
+        grade,
+        bookId: book.id,
+        subjectKey,
+        subjectLabel: getStudySubjectLabel(subjectKey),
+        unitId,
+        unitTitle: String(unit.title || ""),
+        unitDescription: String(unit.description || ""),
+        questionId: "",
+        questionText: "",
+        searchable: normalizeStudySearchText([
+          unit.title,
+          unit.description,
+          unit.examIntro,
+          ...(unit.examTable?.headers || []),
+          ...((unit.examTable?.rows || []).flat())
+        ].filter(Boolean).join(" "))
+      });
+
+      let questions = [];
+
+      if (Array.isArray(unit.questions)) {
+        questions = unit.questions;
+      } else if (unit.file) {
+        const unitData = await tryLoadStudyJSON(unit.file);
+        questions = Array.isArray(unitData?.questions) ? unitData.questions : [];
+      }
+
+      questions.forEach((question) => {
+        records.push({
+          kind: "question",
+          grade,
+          bookId: book.id,
+          subjectKey,
+          subjectLabel: getStudySubjectLabel(subjectKey),
+          unitId,
+          unitTitle: String(unit.title || ""),
+          unitDescription: String(unit.description || ""),
+          questionId: String(question.id || ""),
+          questionText: String(question.question || ""),
+          searchable: normalizeStudySearchText([
+            unit.title,
+            unit.description,
+            question.id,
+            question.examLabel,
+            question.subject,
+            question.question,
+            question.answer,
+            question.explanation,
+            question.why,
+            question.kanji,
+            question.meaningJa
+          ].filter(Boolean).join(" "))
+        });
+      });
+    }
+  }
+
+  return records;
+}
+
+function getKanjiSearchCharacters(query) {
+  return [...new Set(
+    [...String(query || "")].filter((char) =>
+      /[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/u.test(char)
+    )
+  )];
+}
+
+function getKanjiLearningStatus(kanjiGrade, currentGrade) {
+  if (!kanjiGrade) return "小学校の学年別漢字配当表にはありません";
+  if (!currentGrade) return `${kanjiGrade}年生で学習`;
+  if (kanjiGrade < currentGrade) return "すでに習った漢字";
+  if (kanjiGrade === currentGrade) return "今年習う漢字";
+  return "これから習う漢字";
+}
+
+async function renderKanjiSearchCards(query) {
+  const data = await loadKanjiGradeData();
+  const chars = getKanjiSearchCharacters(query);
+
+  if (!data || chars.length === 0) {
+    studyKanjiSearchInfo.innerHTML = "";
+    return;
+  }
+
+  const currentGrade = getStudyGradeFromBook();
+
+  studyKanjiSearchInfo.innerHTML = `
+    <div class="study-kanji-search-section">
+      <div class="study-kanji-search-title">
+        <span>漢字の学習学年</span>
+        <small>学年別漢字配当表</small>
+      </div>
+
+      <div class="study-kanji-grade-grid">
+        ${chars.map((char) => {
+          const grade = Number(data.map?.[char]) || null;
+          const status = getKanjiLearningStatus(grade, currentGrade);
+
+          return `
+            <article class="study-kanji-grade-card">
+              <div class="study-kanji-grade-char">${escapeHTML(char)}</div>
+              <div class="study-kanji-grade-copy">
+                <strong>${grade ? `${grade}年生で学習` : "小学校配当外"}</strong>
+                <span>${escapeHTML(status)}</span>
+              </div>
+            </article>
+          `;
+        }).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function saveStudySearchReturnPanel() {
+  if (studyQuestionPanel.classList.contains("study-panel-active")) {
+    studySearchReturnPanel = "question";
+  } else if (studySubjectPanel.classList.contains("study-panel-active")) {
+    studySearchReturnPanel = "subject";
+  } else {
+    studySearchReturnPanel = "home";
+  }
+}
+
+function restoreStudySearchReturnPanel() {
+  hideStudyPanels();
+
+  if (studySearchReturnPanel === "question") {
+    studyQuestionPanel.classList.add("study-panel-active");
+  } else if (studySearchReturnPanel === "subject") {
+    studySubjectPanel.classList.add("study-panel-active");
+  } else {
+    studyHomePanel.classList.add("study-panel-active");
+  }
+}
+
+async function runStudySearch() {
+  const rawQuery = studySearchInput.value;
+  const query = normalizeStudySearchText(rawQuery);
+
+  if (!query) {
+    studySearchSummary.textContent = "検索する言葉を入力してください。";
+    studySearchResults.innerHTML = "";
+    studyKanjiSearchInfo.innerHTML = "";
+    return;
+  }
+
+  saveStudySearchReturnPanel();
+  hideStudyPanels();
+  studySearchPanel.classList.add("study-panel-active");
+
+  studySearchSummary.textContent = "検索データを読み込んでいます...";
+  studySearchResults.innerHTML = `<div class="study-loading">検索中...</div>`;
+
+  await renderKanjiSearchCards(rawQuery);
+
+  const currentGrade = getStudyGradeFromBook();
+  const targetGrades = studySearchGradeScope.value === "all"
+    ? getAvailableStudyGrades()
+    : [currentGrade].filter(Boolean);
+
+  const targetBooks = targetGrades
+    .map((grade) => getStudyBookByGrade(grade))
+    .filter(Boolean);
+
+  const indexes = await Promise.all(
+    targetBooks.map((book) =>
+      buildStudySearchIndexForBook(book, studySearchSubject.value)
+    )
+  );
+
+  const results = indexes
+    .flat()
+    .filter((record) => record.searchable.includes(query))
+    .sort((a, b) => {
+      if (a.grade !== b.grade) return a.grade - b.grade;
+      if (a.kind !== b.kind) return a.kind === "unit" ? -1 : 1;
+      return a.unitTitle.localeCompare(b.unitTitle, "ja");
+    });
+
+  studySearchSummary.textContent =
+    `「${rawQuery}」の検索結果 ${results.length}件` +
+    (studySearchGradeScope.value === "all" ? "（利用可能な学年を横断）" : "");
+
+  if (results.length === 0) {
+    studySearchResults.innerHTML = `
+      <div class="study-empty-message">
+        <strong>該当する学習内容が見つかりませんでした。</strong>
+        <p>別の言葉や教科で検索してみてください。</p>
+      </div>
+    `;
+    return;
+  }
+
+  studySearchResults.innerHTML = "";
+
+  results.forEach((record) => {
+    const card = document.createElement("article");
+    card.className = `study-search-result-card study-search-result-${record.kind}`;
+
+    const preview = record.kind === "question"
+      ? record.questionText
+      : record.unitDescription;
+
+    card.innerHTML = `
+      <div class="study-search-result-meta">
+        <span>${record.grade}年</span>
+        <span>${escapeHTML(record.subjectLabel)}</span>
+        <span>${record.kind === "unit" ? "単元" : "問題"}</span>
+      </div>
+
+      <h3>${escapeHTML(record.unitTitle)}</h3>
+
+      <p class="study-search-result-preview">
+        ${escapeHTML(preview || "学習内容")}
+      </p>
+
+      <div class="study-search-result-actions">
+        ${record.kind === "question" ? `
+          <button type="button" data-action="question">この問題を開く</button>
+        ` : ""}
+        <button type="button" data-action="unit">この単元を開く</button>
+      </div>
+    `;
+
+    card.querySelector("[data-action='unit']")
+      .addEventListener("click", () => openStudySearchTarget(record, false));
+
+    card.querySelector("[data-action='question']")
+      ?.addEventListener("click", () => openStudySearchTarget(record, true));
+
+    studySearchResults.appendChild(card);
+  });
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+async function selectStudyBookForSearch(bookId) {
+  const book = books.find((item) => item.id === bookId);
+  if (!book) return false;
+
+  if (selectedBook?.id !== book.id) {
+    selectedBook = book;
+    selectedBookData = null;
+    currentStudySubject = null;
+    currentStudySubjectData = null;
+    studyUnitCache.clear();
+
+    try {
+      selectedBookData = await loadBookData(book.bookData);
+    } catch (error) {
+      console.warn(error);
+    }
+
+    studyBookTitle.textContent = book.title;
+
+    const grade = getStudyGradeFromBook(book);
+    studyGradeBadge.textContent = grade ? `${grade}年` : "";
+
+    document.querySelectorAll("[data-study6-only='true']").forEach((element) => {
+      element.hidden = grade !== 6;
+    });
+  }
+
+  return true;
+}
+
+async function openStudySearchTarget(record, openQuestion) {
+  const selected = await selectStudyBookForSearch(record.bookId);
+  if (!selected) return;
+
+  await openStudySubject(record.subjectKey);
+
+  const unit = currentStudySubjectData?.units?.find((item) =>
+    String(item.id || item.title || "") === String(record.unitId)
+  );
+
+  if (!unit) {
+    alert("単元を開けませんでした。");
+    return;
+  }
+
+  await openStudyUnit(unit);
+
+  if (!openQuestion || !record.questionId) {
+    window.setTimeout(() => {
+      studyQuestionPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 80);
+    return;
+  }
+
+  window.setTimeout(() => {
+    const target = [...studyQuestionList.querySelectorAll(".study-question-button")]
+      .find((button) => button.dataset.questionId === record.questionId);
+
+    if (!target) return;
+
+    target.classList.add("study-search-jump-highlight");
+    target.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    window.setTimeout(() => {
+      target.classList.remove("study-search-jump-highlight");
+    }, 2400);
+  }, 120);
+}
+
+function updateStudySearchClearButton() {
+  if (!studySearchClear) return;
+  studySearchClear.hidden = !studySearchInput.value;
+}
+
+studySearchButton?.addEventListener("click", runStudySearch);
+
+studySearchInput?.addEventListener("input", updateStudySearchClearButton);
+
+studySearchInput?.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    runStudySearch();
+  }
+});
+
+studySearchClear?.addEventListener("click", () => {
+  studySearchInput.value = "";
+  updateStudySearchClearButton();
+  studySearchInput.focus();
+});
+
+backFromStudySearch?.addEventListener("click", () => {
+  restoreStudySearchReturnPanel();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
 
 function ensureKanjiExtraContainer() {
