@@ -88,21 +88,21 @@ function getStudySubjectConfig(subjectKey) {
       title: "理科",
       en: "SCIENCE",
       description: "観察や実験の結果から、理由を考える力を身につけます。",
-      file: `${base}/science.json?v=20261003-sci1`,
+      file: `${base}/science.json?v=20261003-s6all1`,
       splitUnits: false
     },
     english: {
       title: "英語",
       en: "ENGLISH",
       description: "単語だけでなく、短い文章や会話の中で英語を使います。",
-      file: `${base}/english.json?v=20261003-en1`,
+      file: `${base}/english.json?v=20261003-s6all1`,
       splitUnits: false
     },
     japanese: {
       title: "国語",
       en: "JAPANESE",
       description: `${selectedBook?.id === "study6" ? "6" : "5"}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
-      file: `${base}/japanese.json?v=20261003-jp1`,
+      file: `${base}/japanese.json?v=20261003-s6all1`,
       splitUnits: false
     }
   };
