@@ -1,0 +1,963 @@
+{
+  "grade": 6,
+  "subject": "english",
+  "title": "英語",
+  "curriculum": "小学校学習指導要領（平成29年告示）外国語・第5学年及び第6学年を基準。聞く・読む・話す・書く活動と、実際のコミュニケーションを重視。",
+  "questionCount": 98,
+  "units": [
+    {
+      "id": "english6-past",
+      "title": "Past & Memories",
+      "description": "過去の出来事や思い出を表す基本表現を扱います。",
+      "questionCount": 14,
+      "targetQuestions": 14,
+      "questions": [
+        {
+          "id": "E6-PAST-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“I went to Kyoto.” の意味は何ですか？",
+          "answer": "私は京都へ行きました",
+          "explanation": "went は go の過去の表現です。",
+          "why": "過去の出来事を伝えます。"
+        },
+        {
+          "id": "E6-PAST-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“I ate curry.” の意味は何ですか？",
+          "answer": "私はカレーを食べました",
+          "explanation": "ate は eat の過去の表現です。",
+          "why": "過去の経験を表します。"
+        },
+        {
+          "id": "E6-PAST-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“I saw a big temple.” の意味は何ですか？",
+          "answer": "私は大きなお寺を見ました",
+          "explanation": "saw は see の過去の表現です。",
+          "why": "旅行や思い出を伝えます。"
+        },
+        {
+          "id": "E6-PAST-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“It was fun.” の意味は何ですか？",
+          "answer": "楽しかったです",
+          "explanation": "was は is/am の過去形として使われます。",
+          "why": "過去の感想を伝えます。"
+        },
+        {
+          "id": "E6-PAST-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“What did you do?” は何をたずねていますか？",
+          "answer": "何をしたか",
+          "explanation": "過去にしたことをたずねます。",
+          "why": "過去のやり取りに使います。"
+        },
+        {
+          "id": "E6-PAST-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“I played soccer.” の意味は何ですか？",
+          "answer": "私はサッカーをしました",
+          "explanation": "played は play の過去の表現です。",
+          "why": "動作の過去を伝えます。"
+        },
+        {
+          "id": "E6-PAST-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“I enjoyed the festival.” の意味は何ですか？",
+          "answer": "私は祭りを楽しみました",
+          "explanation": "enjoyed は楽しんだ、です。",
+          "why": "感想を含めて思い出を伝えます。"
+        },
+        {
+          "id": "E6-PAST-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“Did you go to the park?” は何をたずねていますか？",
+          "answer": "公園へ行ったか",
+          "explanation": "Did you ...? で過去のことをたずねます。",
+          "why": "質問の目的を理解します。"
+        },
+        {
+          "id": "E6-PAST-009",
+          "type": "text",
+          "level": "basic",
+          "question": "“Yes, I did.” は過去の質問に肯定で答える表現ですか？",
+          "answer": "はい",
+          "explanation": "Did you ...? に対する基本的な肯定です。",
+          "why": "質問と答えを対応させます。"
+        },
+        {
+          "id": "E6-PAST-010",
+          "type": "text",
+          "level": "basic",
+          "question": "“No, I didn’t.” は何を表しますか？",
+          "answer": "過去の質問への否定",
+          "explanation": "didn’t は did not の短い形です。",
+          "why": "過去の否定表現に慣れます。"
+        },
+        {
+          "id": "E6-PAST-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“I went there with my family.” の意味は何ですか？",
+          "answer": "私は家族とそこへ行きました",
+          "explanation": "with my family は家族と一緒に、です。",
+          "why": "だれとしたかも伝えられます。"
+        },
+        {
+          "id": "E6-PAST-012",
+          "type": "text",
+          "level": "basic",
+          "question": "“Last Sunday” はいつを表しますか？",
+          "answer": "先週の日曜日",
+          "explanation": "last は前の、という意味で使われます。",
+          "why": "過去を示す時間表現です。"
+        },
+        {
+          "id": "E6-PAST-013",
+          "type": "text",
+          "level": "basic",
+          "question": "“Yesterday” は何を表しますか？",
+          "answer": "昨日",
+          "explanation": "過去の時を示す語です。",
+          "why": "文の時を判断する手掛かりです。"
+        },
+        {
+          "id": "E6-PAST-014",
+          "type": "text",
+          "level": "basic",
+          "question": "“I was happy.” の意味は何ですか？",
+          "answer": "私はうれしかったです",
+          "explanation": "was を使って過去の状態を表します。",
+          "why": "出来事だけでなく感情も伝えます。"
+        }
+      ]
+    },
+    {
+      "id": "english6-future",
+      "title": "Future & Dreams",
+      "description": "将来の夢、なりたい職業、したいことを扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-FUTURE-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to be a doctor.” の意味は何ですか？",
+          "answer": "私は医者になりたいです",
+          "explanation": "want to be ... で〜になりたい、です。",
+          "why": "将来の夢を伝えます。"
+        },
+        {
+          "id": "E6-FUTURE-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“What do you want to be?” は何をたずねていますか？",
+          "answer": "将来何になりたいか",
+          "explanation": "職業などの夢をたずねます。",
+          "why": "相手の将来の希望を聞きます。"
+        },
+        {
+          "id": "E6-FUTURE-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to be a teacher.” の意味は何ですか？",
+          "answer": "私は先生になりたいです",
+          "explanation": "teacher は先生です。",
+          "why": "職業名を使って夢を伝えます。"
+        },
+        {
+          "id": "E6-FUTURE-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to help people.” の意味は何ですか？",
+          "answer": "私は人々を助けたいです",
+          "explanation": "want to + 動詞で、〜したい、を表します。",
+          "why": "将来したいことを伝えます。"
+        },
+        {
+          "id": "E6-FUTURE-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to study science.” の意味は何ですか？",
+          "answer": "私は理科・科学を勉強したいです",
+          "explanation": "study は勉強する、です。",
+          "why": "興味や希望を伝えます。"
+        },
+        {
+          "id": "E6-FUTURE-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“My dream is to be a soccer player.” の意味は何ですか？",
+          "answer": "私の夢はサッカー選手になることです",
+          "explanation": "dream は夢です。",
+          "why": "少し長い自己表現に慣れます。"
+        },
+        {
+          "id": "E6-FUTURE-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“Why?” は何をたずねていますか？",
+          "answer": "理由",
+          "explanation": "相手の考えの理由をたずねます。",
+          "why": "やり取りを一段深めます。"
+        },
+        {
+          "id": "E6-FUTURE-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“Because I like animals.” の意味は何ですか？",
+          "answer": "動物が好きだからです",
+          "explanation": "because は理由を伝えるときに使います。",
+          "why": "理由を添えて自分の考えを伝えます。"
+        },
+        {
+          "id": "E6-FUTURE-009",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to travel around the world.” の意味は何ですか？",
+          "answer": "世界中を旅行したいです",
+          "explanation": "travel は旅行する、around the world は世界中を、です。",
+          "why": "将来したいことを表します。"
+        },
+        {
+          "id": "E6-FUTURE-010",
+          "type": "text",
+          "level": "basic",
+          "question": "将来の夢を英語で伝えるとき、職業名だけでなく理由も言うと伝わりやすいですか？",
+          "answer": "伝わりやすいです",
+          "explanation": "want to be ... と because ... を組み合わせられます。",
+          "why": "まとまりのある発表につながります。"
+        },
+        {
+          "id": "E6-FUTURE-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to make robots.” の意味は何ですか？",
+          "answer": "私はロボットを作りたいです",
+          "explanation": "make は作る、です。",
+          "why": "興味のある活動を表します。"
+        },
+        {
+          "id": "E6-FUTURE-012",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to work in a hospital.” の意味は何ですか？",
+          "answer": "私は病院で働きたいです",
+          "explanation": "work は働く、です。",
+          "why": "場所と将来の仕事を結び付けます。"
+        }
+      ]
+    },
+    {
+      "id": "english6-countries",
+      "title": "Countries & Culture",
+      "description": "国、文化、食べ物、世界とのつながりを扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-COUNTRIES-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“Where do you want to go?” は何をたずねていますか？",
+          "answer": "どこへ行きたいか",
+          "explanation": "行きたい場所をたずねます。",
+          "why": "旅行の希望をやり取りします。"
+        },
+        {
+          "id": "E6-COUNTRIES-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to go to Italy.” の意味は何ですか？",
+          "answer": "私はイタリアへ行きたいです",
+          "explanation": "want to go to ... で〜へ行きたい、です。",
+          "why": "国名と希望を組み合わせます。"
+        },
+        {
+          "id": "E6-COUNTRIES-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to see the Eiffel Tower.” の意味は何ですか？",
+          "answer": "私はエッフェル塔を見たいです",
+          "explanation": "want to see ... で〜を見たい、です。",
+          "why": "観光したいものを伝えます。"
+        },
+        {
+          "id": "E6-COUNTRIES-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to eat pizza.” の意味は何ですか？",
+          "answer": "私はピザを食べたいです",
+          "explanation": "want to eat ... です。",
+          "why": "食文化の話題に使います。"
+        },
+        {
+          "id": "E6-COUNTRIES-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“Japan” の人・物を表す “Japanese” は何という意味ですか？",
+          "answer": "日本の・日本人・日本語",
+          "explanation": "文脈によって意味が変わります。",
+          "why": "国名と形容表現を結び付けます。"
+        },
+        {
+          "id": "E6-COUNTRIES-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“French food” は何ですか？",
+          "answer": "フランス料理",
+          "explanation": "French はフランスの、です。",
+          "why": "国と文化を英語で紹介します。"
+        },
+        {
+          "id": "E6-COUNTRIES-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“What is famous in your town?” は何をたずねていますか？",
+          "answer": "自分の町で何が有名か",
+          "explanation": "famous は有名な、です。",
+          "why": "地域紹介に使える表現です。"
+        },
+        {
+          "id": "E6-COUNTRIES-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“Our town is famous for pears.” の意味は何ですか？",
+          "answer": "私たちの町は梨で有名です",
+          "explanation": "be famous for ... で〜で有名、です。",
+          "why": "地域の特色を紹介します。"
+        },
+        {
+          "id": "E6-COUNTRIES-009",
+          "type": "text",
+          "level": "basic",
+          "question": "海外の文化を紹介するとき、自分の文化との違いだけでなく共通点にも注目するとよいですか？",
+          "answer": "よいです",
+          "explanation": "違いと共通点の両方から理解が深まります。",
+          "why": "外国語学習を文化理解につなげます。"
+        },
+        {
+          "id": "E6-COUNTRIES-010",
+          "type": "text",
+          "level": "basic",
+          "question": "知らない国名の発音があったとき、聞き返すことは大切ですか？",
+          "answer": "大切です",
+          "explanation": "Pardon? などを使って確認できます。",
+          "why": "やり取りを続ける工夫です。"
+        },
+        {
+          "id": "E6-COUNTRIES-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“You can enjoy beautiful beaches.” の意味は何ですか？",
+          "answer": "美しい海辺を楽しめます",
+          "explanation": "can を使ってその場所でできることを紹介します。",
+          "why": "観光案内に使えます。"
+        },
+        {
+          "id": "E6-COUNTRIES-012",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to visit Australia because I like animals.” の意味は何ですか？",
+          "answer": "動物が好きなのでオーストラリアを訪れたいです",
+          "explanation": "because で理由をつないでいます。",
+          "why": "希望と理由を一文で表します。"
+        }
+      ]
+    },
+    {
+      "id": "english6-life",
+      "title": "Daily Life & Frequency",
+      "description": "生活習慣、頻度、時間の表現を扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-LIFE-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“I usually get up at seven.” の usually は何を表しますか？",
+          "answer": "たいてい",
+          "explanation": "習慣の頻度を表します。",
+          "why": "日常生活を詳しく説明します。"
+        },
+        {
+          "id": "E6-LIFE-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“I sometimes play tennis.” の sometimes は何を表しますか？",
+          "answer": "ときどき",
+          "explanation": "頻度を表します。",
+          "why": "行動の回数の感じを伝えます。"
+        },
+        {
+          "id": "E6-LIFE-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“I always eat breakfast.” の always は何を表しますか？",
+          "answer": "いつも",
+          "explanation": "非常に高い頻度を表します。",
+          "why": "生活習慣について話します。"
+        },
+        {
+          "id": "E6-LIFE-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“I never go to bed at nine.” の never はどんな意味ですか？",
+          "answer": "決して〜しない",
+          "explanation": "頻度が0に近いことを表します。",
+          "why": "否定を含む頻度表現です。"
+        },
+        {
+          "id": "E6-LIFE-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“How often do you play soccer?” は何をたずねていますか？",
+          "answer": "どのくらいの頻度でサッカーをするか",
+          "explanation": "how often は頻度をたずねます。",
+          "why": "習慣について詳しく聞きます。"
+        },
+        {
+          "id": "E6-LIFE-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“I play soccer three times a week.” の意味は何ですか？",
+          "answer": "週に3回サッカーをします",
+          "explanation": "three times a week は週3回、です。",
+          "why": "回数を使って頻度を伝えます。"
+        },
+        {
+          "id": "E6-LIFE-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“once a week” はどのくらいですか？",
+          "answer": "週1回",
+          "explanation": "once は1回です。",
+          "why": "頻度表現を覚えます。"
+        },
+        {
+          "id": "E6-LIFE-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“twice a week” はどのくらいですか？",
+          "answer": "週2回",
+          "explanation": "twice は2回です。",
+          "why": "回数の表現を使います。"
+        },
+        {
+          "id": "E6-LIFE-009",
+          "type": "text",
+          "level": "basic",
+          "question": "“I do my homework before dinner.” の意味は何ですか？",
+          "answer": "夕食前に宿題をします",
+          "explanation": "before は〜の前に、です。",
+          "why": "行動の順序を表します。"
+        },
+        {
+          "id": "E6-LIFE-010",
+          "type": "text",
+          "level": "basic",
+          "question": "“I take a bath after dinner.” の意味は何ですか？",
+          "answer": "夕食後にお風呂に入ります",
+          "explanation": "after は〜の後に、です。",
+          "why": "時間の前後を表します。"
+        },
+        {
+          "id": "E6-LIFE-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“What time do you go to bed?” は何をたずねていますか？",
+          "answer": "何時に寝るか",
+          "explanation": "生活時刻をたずねます。",
+          "why": "相手の生活を質問します。"
+        },
+        {
+          "id": "E6-LIFE-012",
+          "type": "text",
+          "level": "basic",
+          "question": "自分の生活習慣を説明するとき、時刻だけでなく usually などを使うと詳しくなりますか？",
+          "answer": "なります",
+          "explanation": "頻度を加えると習慣がより具体的になります。",
+          "why": "表現を組み合わせます。"
+        }
+      ]
+    },
+    {
+      "id": "english6-school-events",
+      "title": "School Events & Experiences",
+      "description": "学校行事、経験、感想を扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-SCHOOL-EVENTS-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“We had a sports day.” の意味は何ですか？",
+          "answer": "運動会がありました",
+          "explanation": "had は have の過去の表現です。",
+          "why": "学校行事を振り返ります。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“I ran in the relay.” の意味は何ですか？",
+          "answer": "私はリレーで走りました",
+          "explanation": "ran は run の過去形です。",
+          "why": "経験したことを伝えます。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“We sang a song.” の意味は何ですか？",
+          "answer": "私たちは歌を歌いました",
+          "explanation": "sang は sing の過去形です。",
+          "why": "行事の活動を表します。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“It was exciting.” の意味は何ですか？",
+          "answer": "わくわくしました・とてもおもしろかったです",
+          "explanation": "exciting はわくわくさせる、です。",
+          "why": "感想を伝えます。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“I was nervous.” の意味は何ですか？",
+          "answer": "私は緊張しました",
+          "explanation": "nervous は緊張した、です。",
+          "why": "気持ちを過去形で表します。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“What was your favorite event?” は何をたずねていますか？",
+          "answer": "一番好きだった行事",
+          "explanation": "favorite event で一番好きな行事です。",
+          "why": "思い出を質問します。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“My favorite event was the school trip.” の意味は何ですか？",
+          "answer": "一番好きだった行事は修学旅行でした",
+          "explanation": "school trip は学校旅行です。",
+          "why": "自分の経験を説明します。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“We went to Nara.” の意味は何ですか？",
+          "answer": "私たちは奈良へ行きました",
+          "explanation": "went は過去の移動を表します。",
+          "why": "行事の場所を伝えます。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-009",
+          "type": "text",
+          "level": "basic",
+          "question": "“I learned a lot.” の意味は何ですか？",
+          "answer": "私はたくさん学びました",
+          "explanation": "learned は学んだ、です。",
+          "why": "経験から学んだことを伝えます。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-010",
+          "type": "text",
+          "level": "basic",
+          "question": "行事について発表するとき、いつ・どこで・何をした・どう感じたを入れると分かりやすいですか？",
+          "answer": "分かりやすいです",
+          "explanation": "情報を順序よく伝えられます。",
+          "why": "まとまりのある発表を作ります。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“First, we visited a museum.” の First は何を表しますか？",
+          "answer": "最初に",
+          "explanation": "出来事の順序を示します。",
+          "why": "発表の構成に使えます。"
+        },
+        {
+          "id": "E6-SCHOOL-EVENTS-012",
+          "type": "text",
+          "level": "basic",
+          "question": "“Then, we ate lunch.” の Then は何を表しますか？",
+          "answer": "それから",
+          "explanation": "次の出来事をつなぎます。",
+          "why": "順序を分かりやすくします。"
+        }
+      ]
+    },
+    {
+      "id": "english6-animals",
+      "title": "Animals & Environment",
+      "description": "生き物、環境、できること、守るための行動を扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-ANIMALS-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“We should protect animals.” の意味は何ですか？",
+          "answer": "私たちは動物を守るべきです",
+          "explanation": "should は〜した方がよい・〜すべき、という助言に使われます。",
+          "why": "環境について自分の考えを伝えます。"
+        },
+        {
+          "id": "E6-ANIMALS-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“We should save water.” の意味は何ですか？",
+          "answer": "水を大切に使うべきです",
+          "explanation": "save は節約する・守る、の意味で使われます。",
+          "why": "生活と環境を結び付けます。"
+        },
+        {
+          "id": "E6-ANIMALS-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“We should not litter.” の意味は何ですか？",
+          "answer": "ごみを捨てるべきではありません",
+          "explanation": "litter はごみを捨てる、です。",
+          "why": "してはいけない行動を伝えます。"
+        },
+        {
+          "id": "E6-ANIMALS-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“Polar bears live in the Arctic.” の意味は何ですか？",
+          "answer": "ホッキョクグマは北極地域に住んでいます",
+          "explanation": "live in ... で〜に住む、です。",
+          "why": "動物の生息地を紹介します。"
+        },
+        {
+          "id": "E6-ANIMALS-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“They eat fish.” の意味は何ですか？",
+          "answer": "それらは魚を食べます",
+          "explanation": "they は複数の動物を受けることができます。",
+          "why": "動物の食べ物を紹介します。"
+        },
+        {
+          "id": "E6-ANIMALS-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“They can swim well.” の意味は何ですか？",
+          "answer": "それらは上手に泳げます",
+          "explanation": "can で能力を表します。",
+          "why": "動物の特徴を説明します。"
+        },
+        {
+          "id": "E6-ANIMALS-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“Why are they in danger?” は何をたずねていますか？",
+          "answer": "なぜ危険な状態にあるか",
+          "explanation": "理由をたずねます。",
+          "why": "環境問題を考える質問です。"
+        },
+        {
+          "id": "E6-ANIMALS-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“Because their habitat is changing.” の意味は何ですか？",
+          "answer": "生息地が変化しているからです",
+          "explanation": "habitat は生息地です。",
+          "why": "理由を説明します。"
+        },
+        {
+          "id": "E6-ANIMALS-009",
+          "type": "text",
+          "level": "basic",
+          "question": "“What can we do?” は何をたずねていますか？",
+          "answer": "私たちに何ができるか",
+          "explanation": "行動を考える表現です。",
+          "why": "問題に対する自分の考えを伝えます。"
+        },
+        {
+          "id": "E6-ANIMALS-010",
+          "type": "text",
+          "level": "basic",
+          "question": "環境について英語で話すとき、難しい単語を全部知らなくても知っている表現で伝えようとすることは大切ですか？",
+          "answer": "大切です",
+          "explanation": "短い文やジェスチャーでも考えを伝えられます。",
+          "why": "外国語は実際に伝え合うことが目的です。"
+        },
+        {
+          "id": "E6-ANIMALS-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“We can use less plastic.” の意味は何ですか？",
+          "answer": "プラスチックの使用を減らすことができます",
+          "explanation": "less はより少ない、です。",
+          "why": "自分たちにできる行動を提案します。"
+        },
+        {
+          "id": "E6-ANIMALS-012",
+          "type": "text",
+          "level": "basic",
+          "question": "“Let’s help the animals.” の意味は何ですか？",
+          "answer": "動物たちを助けましょう",
+          "explanation": "Let’s ... で一緒に〜しよう、です。",
+          "why": "相手に呼びかける表現です。"
+        }
+      ]
+    },
+    {
+      "id": "english6-directions",
+      "title": "Places, Directions & Travel",
+      "description": "町の施設、道案内、旅行で使う表現を扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-DIRECTIONS-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“Where is the station?” は何をたずねていますか？",
+          "answer": "駅の場所",
+          "explanation": "where は場所をたずねます。",
+          "why": "実生活の質問表現です。"
+        },
+        {
+          "id": "E6-DIRECTIONS-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“Go straight for two blocks.” の意味は何ですか？",
+          "answer": "2区画まっすぐ進んでください",
+          "explanation": "道案内で使います。",
+          "why": "指示を聞いて行動します。"
+        },
+        {
+          "id": "E6-DIRECTIONS-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“Turn right at the second corner.” の意味は何ですか？",
+          "answer": "2つ目の角を右に曲がってください",
+          "explanation": "second は2番目、corner は角です。",
+          "why": "順番と方向を組み合わせます。"
+        },
+        {
+          "id": "E6-DIRECTIONS-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“It’s across from the bank.” の意味は何ですか？",
+          "answer": "銀行の向かい側です",
+          "explanation": "across from は〜の向かい、です。",
+          "why": "位置関係を表します。"
+        },
+        {
+          "id": "E6-DIRECTIONS-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“It’s between the park and the library.” の意味は何ですか？",
+          "answer": "公園と図書館の間です",
+          "explanation": "between A and B でAとBの間です。",
+          "why": "位置を詳しく説明します。"
+        },
+        {
+          "id": "E6-DIRECTIONS-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“How can I get to the museum?” は何をたずねていますか？",
+          "answer": "博物館への行き方",
+          "explanation": "道順をたずねる表現です。",
+          "why": "旅行先でも使える表現です。"
+        },
+        {
+          "id": "E6-DIRECTIONS-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“Take the bus.” の意味は何ですか？",
+          "answer": "バスに乗ってください",
+          "explanation": "take を交通手段に使うことがあります。",
+          "why": "移動方法を伝えます。"
+        },
+        {
+          "id": "E6-DIRECTIONS-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“Get off at the station.” の意味は何ですか？",
+          "answer": "駅で降りてください",
+          "explanation": "get off は乗り物から降りる、です。",
+          "why": "交通機関の案内に使います。"
+        },
+        {
+          "id": "E6-DIRECTIONS-009",
+          "type": "text",
+          "level": "basic",
+          "question": "道案内では、相手が理解できたか確認することも大切ですか？",
+          "answer": "大切です",
+          "explanation": "必要ならゆっくり言ったり繰り返したりします。",
+          "why": "相手を意識したコミュニケーションです。"
+        },
+        {
+          "id": "E6-DIRECTIONS-010",
+          "type": "text",
+          "level": "basic",
+          "question": "“Excuse me.” は道をたずねる前の呼びかけとして使えますか？",
+          "answer": "使えます",
+          "explanation": "相手に丁寧に声をかける表現です。",
+          "why": "場面に合う表現を使います。"
+        },
+        {
+          "id": "E6-DIRECTIONS-011",
+          "type": "text",
+          "level": "basic",
+          "question": "“Thank you for your help.” の意味は何ですか？",
+          "answer": "助けてくれてありがとうございます",
+          "explanation": "help は助けることです。",
+          "why": "やり取りの最後に感謝を伝えます。"
+        },
+        {
+          "id": "E6-DIRECTIONS-012",
+          "type": "text",
+          "level": "basic",
+          "question": "地図を見ながら英語の道案内を聞く活動は、聞く力と読む力の両方を使いますか？",
+          "answer": "使います",
+          "explanation": "音声と地図情報を結び付けます。",
+          "why": "複数の情報を統合して理解します。"
+        }
+      ]
+    },
+    {
+      "id": "english6-middle-school",
+      "title": "My Best Memory & Junior High",
+      "description": "小学校の思い出と中学校生活への希望を扱います。",
+      "questionCount": 12,
+      "targetQuestions": 12,
+      "questions": [
+        {
+          "id": "E6-MIDDLE-SCHOOL-001",
+          "type": "text",
+          "level": "basic",
+          "question": "“My best memory is our school trip.” の意味は何ですか？",
+          "answer": "一番の思い出は修学旅行です",
+          "explanation": "best memory は一番の思い出です。",
+          "why": "小学校生活を振り返ります。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-002",
+          "type": "text",
+          "level": "basic",
+          "question": "“I enjoyed playing soccer with my friends.” の意味は何ですか？",
+          "answer": "友達とサッカーをするのを楽しみました",
+          "explanation": "enjoyed playing ... で、〜して楽しんだ、です。",
+          "why": "思い出を詳しく伝えます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-003",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to join the soccer club.” の意味は何ですか？",
+          "answer": "サッカー部に入りたいです",
+          "explanation": "join は参加する・入る、です。",
+          "why": "中学校でやりたいことを伝えます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-004",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to study English hard.” の意味は何ですか？",
+          "answer": "英語を一生懸命勉強したいです",
+          "explanation": "hard は一生懸命に、です。",
+          "why": "これからの目標を伝えます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-005",
+          "type": "text",
+          "level": "basic",
+          "question": "“I’m looking forward to junior high school.” の意味は何ですか？",
+          "answer": "中学校を楽しみにしています",
+          "explanation": "look forward to ... で〜を楽しみにする、です。",
+          "why": "卒業後への気持ちを表します。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-006",
+          "type": "text",
+          "level": "basic",
+          "question": "“What club do you want to join?” は何をたずねていますか？",
+          "answer": "何部に入りたいか",
+          "explanation": "club は部活動です。",
+          "why": "将来の学校生活について質問します。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-007",
+          "type": "text",
+          "level": "basic",
+          "question": "“I want to make new friends.” の意味は何ですか？",
+          "answer": "新しい友達を作りたいです",
+          "explanation": "make friends で友達を作る、です。",
+          "why": "中学校での希望を伝えます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-008",
+          "type": "text",
+          "level": "basic",
+          "question": "“My favorite memory was the music festival.” の意味は何ですか？",
+          "answer": "一番好きな思い出は音楽会でした",
+          "explanation": "過去形wasを使っています。",
+          "why": "過去の思い出をまとめます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-009",
+          "type": "text",
+          "level": "basic",
+          "question": "思い出の発表で、写真や絵を見せながら話すと伝わりやすくなりますか？",
+          "answer": "なります",
+          "explanation": "視覚情報が内容の理解を助けます。",
+          "why": "資料を使った発表につなげます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-010",
+          "type": "text",
+          "level": "basic",
+          "question": "“First ... Then ... Finally ...” は、出来事を順序よく話すのに使えますか？",
+          "answer": "使えます",
+          "explanation": "最初・次・最後を示せます。",
+          "why": "まとまりのある話を組み立てます。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-011",
+          "type": "text",
+          "level": "basic",
+          "question": "英語での小学校最後の発表では、完璧な文法だけでなく相手に伝えようとすることも大切ですか？",
+          "answer": "大切です",
+          "explanation": "聞き手を見たり、声や資料を工夫したりできます。",
+          "why": "外国語科ではコミュニケーションを図ることが重要です。"
+        },
+        {
+          "id": "E6-MIDDLE-SCHOOL-012",
+          "type": "text",
+          "level": "basic",
+          "question": "中学校でも、分からない英語を聞き返したり調べたりする力は役立ちますか？",
+          "answer": "役立ちます",
+          "explanation": "自分で学習を続けるための力になります。",
+          "why": "小学校英語を中学校へつなげます。"
+        }
+      ]
+    }
+  ]
+}

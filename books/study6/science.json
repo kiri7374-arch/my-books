@@ -1,0 +1,1233 @@
+{
+  "grade": 6,
+  "subject": "science",
+  "title": "理科",
+  "curriculum": "小学校学習指導要領（平成29年告示）解説 理科編・第6学年を基準",
+  "questionCount": 128,
+  "units": [
+    {
+      "id": "science6-combustion",
+      "title": "物の燃え方と空気",
+      "description": "燃焼に必要な条件、酸素・二酸化炭素、実験方法と安全を扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-COMBUSTION-001",
+          "type": "text",
+          "level": "basic",
+          "question": "物が燃え続けるためには、空気が必要ですか？",
+          "answer": "必要です",
+          "explanation": "燃焼には空気中の酸素が必要です。",
+          "why": "燃焼と空気の関係を実験で確かめます。"
+        },
+        {
+          "id": "S6-COMBUSTION-002",
+          "type": "text",
+          "level": "basic",
+          "question": "空気中で物が燃えるとき、特に使われる気体は何ですか？",
+          "answer": "酸素",
+          "explanation": "酸素には物を燃やす働きがあります。",
+          "why": "空気は一つの気体ではなく、いくつかの気体の混合物です。"
+        },
+        {
+          "id": "S6-COMBUSTION-003",
+          "type": "text",
+          "level": "basic",
+          "question": "物が燃えた後、空気中の酸素の割合は一般にどうなりますか？",
+          "answer": "少なくなります",
+          "explanation": "燃焼によって酸素が使われるためです。",
+          "why": "燃える前後の空気を比べて変化を捉えます。"
+        },
+        {
+          "id": "S6-COMBUSTION-004",
+          "type": "text",
+          "level": "basic",
+          "question": "物が燃えた後、空気中の二酸化炭素の割合は一般にどうなりますか？",
+          "answer": "増えます",
+          "explanation": "燃焼によって二酸化炭素が生じます。",
+          "why": "燃焼前後で空気の成分が変化します。"
+        },
+        {
+          "id": "S6-COMBUSTION-005",
+          "type": "text",
+          "level": "basic",
+          "question": "集気びんの中でろうそくを燃やし、ふたをするとやがて消えるのはなぜですか？",
+          "answer": "燃焼に使える酸素が少なくなるため",
+          "explanation": "密閉すると新しい空気が入らず、酸素が減って燃え続けられなくなります。",
+          "why": "原因を空気の変化と結び付けて考えます。"
+        },
+        {
+          "id": "S6-COMBUSTION-006",
+          "type": "text",
+          "level": "basic",
+          "question": "燃焼前後の空気の違いを調べるとき、石灰水は何を確かめるのに使えますか？",
+          "answer": "二酸化炭素",
+          "explanation": "二酸化炭素があると石灰水が白くにごります。",
+          "why": "気体の性質を利用して成分を確かめます。"
+        },
+        {
+          "id": "S6-COMBUSTION-007",
+          "type": "text",
+          "level": "basic",
+          "question": "酸素を多く含む気体の中に火のついた線香を入れると、燃え方はどうなりますか？",
+          "answer": "激しく燃えます",
+          "explanation": "酸素の割合が高いため、燃焼がさかんになります。",
+          "why": "酸素には物を燃やす働きがあります。"
+        },
+        {
+          "id": "S6-COMBUSTION-008",
+          "type": "text",
+          "level": "basic",
+          "question": "二酸化炭素の中では、火のついた線香は燃え続けますか？",
+          "answer": "燃え続けません",
+          "explanation": "二酸化炭素には物を燃やす働きがありません。",
+          "why": "気体によって燃焼への働きが異なります。"
+        },
+        {
+          "id": "S6-COMBUSTION-009",
+          "type": "text",
+          "level": "basic",
+          "question": "窒素には、酸素のように物を燃やす働きがありますか？",
+          "answer": "ありません",
+          "explanation": "空気の多くを占めますが、燃焼を助ける働きはありません。",
+          "why": "空気の成分ごとの働きを区別します。"
+        },
+        {
+          "id": "S6-COMBUSTION-010",
+          "type": "text",
+          "level": "basic",
+          "question": "燃焼実験で、集気びんを手で直接長く触らない方がよいのはなぜですか？",
+          "answer": "熱くなってやけどするおそれがあるため",
+          "explanation": "燃焼で器具が高温になることがあります。",
+          "why": "実験では安全な器具の扱いが必要です。"
+        },
+        {
+          "id": "S6-COMBUSTION-011",
+          "type": "text",
+          "level": "basic",
+          "question": "物が燃える前と後の気体を比べる実験では、燃やす物の量などをそろえることは大切ですか？",
+          "answer": "大切です",
+          "explanation": "条件をそろえると空気の変化を公平に比べられます。",
+          "why": "6年理科でも条件を整理して実験します。"
+        },
+        {
+          "id": "S6-COMBUSTION-012",
+          "type": "text",
+          "level": "basic",
+          "question": "燃焼の実験結果が予想と違ったとき、結果を予想に合わせて変えてよいですか？",
+          "answer": "いけません",
+          "explanation": "結果をそのまま記録し、原因を考えます。",
+          "why": "理科では観察結果を根拠に考えます。"
+        },
+        {
+          "id": "S6-COMBUSTION-013",
+          "type": "text",
+          "level": "basic",
+          "question": "『空気は全部酸素でできている』は正しいですか？",
+          "answer": "正しくありません",
+          "explanation": "空気には窒素、酸素、二酸化炭素などが含まれています。",
+          "why": "空気を混合物として理解します。"
+        },
+        {
+          "id": "S6-COMBUSTION-014",
+          "type": "text",
+          "level": "basic",
+          "question": "火を消したいとき、酸素の供給を少なくする方法が使われることがありますか？",
+          "answer": "あります",
+          "explanation": "燃焼に必要な酸素を断つと火が消えやすくなります。",
+          "why": "燃焼条件の理解を生活の安全に結び付けます。"
+        },
+        {
+          "id": "S6-COMBUSTION-015",
+          "type": "text",
+          "level": "basic",
+          "question": "燃えている物に不用意に顔を近づけて観察してよいですか？",
+          "answer": "いけません",
+          "explanation": "やけどや煙を吸う危険があります。",
+          "why": "安全を最優先に観察します。"
+        },
+        {
+          "id": "S6-COMBUSTION-016",
+          "type": "text",
+          "level": "basic",
+          "question": "燃焼では、物質がなくなるのではなく別の物質に変化することがありますか？",
+          "answer": "あります",
+          "explanation": "燃焼により二酸化炭素など別の物質が生じます。",
+          "why": "見えなくなったことと消滅を区別します。"
+        }
+      ]
+    },
+    {
+      "id": "science6-body",
+      "title": "人や動物の体",
+      "description": "呼吸・消化・吸収・血液循環と、体の各器官の働きを扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-BODY-001",
+          "type": "text",
+          "level": "basic",
+          "question": "人は呼吸で、空気中から主に何を取り入れますか？",
+          "answer": "酸素",
+          "explanation": "肺で酸素を取り入れます。",
+          "why": "呼吸と生命活動を結び付けます。"
+        },
+        {
+          "id": "S6-BODY-002",
+          "type": "text",
+          "level": "basic",
+          "question": "人は呼吸で、体外へ主にどの気体を出しますか？",
+          "answer": "二酸化炭素",
+          "explanation": "体内で生じた二酸化炭素を肺から出します。",
+          "why": "吸う空気と吐く空気の違いを考えます。"
+        },
+        {
+          "id": "S6-BODY-003",
+          "type": "text",
+          "level": "basic",
+          "question": "肺は何をする器官ですか？",
+          "answer": "酸素を取り入れ、二酸化炭素を出す器官",
+          "explanation": "肺で気体の交換が行われます。",
+          "why": "器官の働きを体全体の仕組みと結び付けます。"
+        },
+        {
+          "id": "S6-BODY-004",
+          "type": "text",
+          "level": "basic",
+          "question": "食べ物を細かくしたり、体に取り入れやすい形に変えたりする働きを何といいますか？",
+          "answer": "消化",
+          "explanation": "口、胃、小腸などが関わります。",
+          "why": "食べ物が体内でどのように利用されるか学びます。"
+        },
+        {
+          "id": "S6-BODY-005",
+          "type": "text",
+          "level": "basic",
+          "question": "消化された養分は、主にどこから吸収されますか？",
+          "answer": "小腸",
+          "explanation": "小腸から養分が血液中へ吸収されます。",
+          "why": "消化と吸収を区別します。"
+        },
+        {
+          "id": "S6-BODY-006",
+          "type": "text",
+          "level": "basic",
+          "question": "小腸で吸収された養分は、主に何によって全身へ運ばれますか？",
+          "answer": "血液",
+          "explanation": "血液が体の各部分へ物質を運びます。",
+          "why": "循環の働きを理解します。"
+        },
+        {
+          "id": "S6-BODY-007",
+          "type": "text",
+          "level": "basic",
+          "question": "心臓はどんな働きをしますか？",
+          "answer": "血液を全身へ送り出す働き",
+          "explanation": "心臓の動きにより血液が循環します。",
+          "why": "体の器官は互いに関係して働きます。"
+        },
+        {
+          "id": "S6-BODY-008",
+          "type": "text",
+          "level": "basic",
+          "question": "血液は酸素も運びますか？",
+          "answer": "運びます",
+          "explanation": "肺で取り入れた酸素を全身へ運びます。",
+          "why": "呼吸と循環をつなげます。"
+        },
+        {
+          "id": "S6-BODY-009",
+          "type": "text",
+          "level": "basic",
+          "question": "血液は体内で生じた二酸化炭素も運びますか？",
+          "answer": "運びます",
+          "explanation": "全身から肺へ運び、体外へ出します。",
+          "why": "物質の移動を循環として捉えます。"
+        },
+        {
+          "id": "S6-BODY-010",
+          "type": "text",
+          "level": "basic",
+          "question": "胃では食べ物の消化が行われますか？",
+          "answer": "行われます",
+          "explanation": "胃液などの働きで食べ物が消化されます。",
+          "why": "消化器官ごとの役割を理解します。"
+        },
+        {
+          "id": "S6-BODY-011",
+          "type": "text",
+          "level": "basic",
+          "question": "口では、かむことも消化に役立ちますか？",
+          "answer": "役立ちます",
+          "explanation": "食べ物を細かくし、だ液と混ぜます。",
+          "why": "消化は胃だけで起こるわけではありません。"
+        },
+        {
+          "id": "S6-BODY-012",
+          "type": "text",
+          "level": "basic",
+          "question": "運動すると呼吸や心拍が速くなることがありますか？",
+          "answer": "あります",
+          "explanation": "体が多くの酸素やエネルギーを必要とするためです。",
+          "why": "体の働きが活動量に応じて変化します。"
+        },
+        {
+          "id": "S6-BODY-013",
+          "type": "text",
+          "level": "basic",
+          "question": "人の体の器官は、それぞれ独立して働いていて関係しないのですか？",
+          "answer": "関係し合って働きます",
+          "explanation": "呼吸・消化・循環などがつながっています。",
+          "why": "体を一つのシステムとして考えます。"
+        },
+        {
+          "id": "S6-BODY-014",
+          "type": "text",
+          "level": "basic",
+          "question": "動物にも、人と同じように呼吸や消化、循環の仕組みがありますか？",
+          "answer": "あります",
+          "explanation": "動物の種類で違いはありますが、生命活動を支える共通した働きがあります。",
+          "why": "生物の共通性と多様性を考えます。"
+        },
+        {
+          "id": "S6-BODY-015",
+          "type": "text",
+          "level": "basic",
+          "question": "体の仕組みを調べるとき、模型や映像、資料を使うことは有効ですか？",
+          "answer": "有効です",
+          "explanation": "直接見ることが難しい体内の様子を調べられます。",
+          "why": "対象に合った観察方法を選びます。"
+        },
+        {
+          "id": "S6-BODY-016",
+          "type": "text",
+          "level": "basic",
+          "question": "『食べた物はそのまま血液の中へ入る』という考えは正しいですか？",
+          "answer": "正しくありません",
+          "explanation": "消化されて体に取り入れやすい形になってから吸収されます。",
+          "why": "消化と吸収の過程を理解します。"
+        }
+      ]
+    },
+    {
+      "id": "science6-plants-environment",
+      "title": "植物の養分と生物・環境",
+      "description": "植物の養分づくり、生物と水・空気・食べ物との関わりを扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-001",
+          "type": "text",
+          "level": "basic",
+          "question": "植物の葉に日光が当たると、でんぷんができることがありますか？",
+          "answer": "あります",
+          "explanation": "葉では日光を受けて養分がつくられます。",
+          "why": "植物の養分づくりと日光を関係付けます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-002",
+          "type": "text",
+          "level": "basic",
+          "question": "植物の葉にできたでんぷんを調べるとき、ヨウ素液を使えますか？",
+          "answer": "使えます",
+          "explanation": "でんぷんがあると色が変化します。",
+          "why": "物質の性質を利用して確かめます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-003",
+          "type": "text",
+          "level": "basic",
+          "question": "植物が養分をつくるとき、日光は重要ですか？",
+          "answer": "重要です",
+          "explanation": "日光が当たる葉で養分がつくられます。",
+          "why": "条件を変えて確かめます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-004",
+          "type": "text",
+          "level": "basic",
+          "question": "植物も呼吸をしていますか？",
+          "answer": "しています",
+          "explanation": "植物も生命活動のために呼吸します。",
+          "why": "植物は養分づくりだけをしているわけではありません。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-005",
+          "type": "text",
+          "level": "basic",
+          "question": "植物は日光のあるときだけ呼吸しますか？",
+          "answer": "いいえ",
+          "explanation": "呼吸は昼夜を通して行われます。",
+          "why": "養分づくりと呼吸を区別します。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-006",
+          "type": "text",
+          "level": "basic",
+          "question": "植物が日光のもとで養分をつくる働きは、生物の食べ物のつながりと関係しますか？",
+          "answer": "関係します",
+          "explanation": "植物がつくった養分が他の生物へ受け渡されます。",
+          "why": "生物同士のつながりを考えます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-007",
+          "type": "text",
+          "level": "basic",
+          "question": "生物は水と関わって生きていますか？",
+          "answer": "はい",
+          "explanation": "動物も植物も生命活動に水が必要です。",
+          "why": "生物と環境の関係を考えます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-008",
+          "type": "text",
+          "level": "basic",
+          "question": "生物は空気と関わって生きていますか？",
+          "answer": "はい",
+          "explanation": "呼吸などを通して空気中の気体と関わります。",
+          "why": "環境との物質のやり取りを考えます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-009",
+          "type": "text",
+          "level": "basic",
+          "question": "食べる・食べられる関係では、植物は重要な出発点の一つですか？",
+          "answer": "はい",
+          "explanation": "植物がつくった養分が多くの生物へつながります。",
+          "why": "食べ物のつながりを考えます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-010",
+          "type": "text",
+          "level": "basic",
+          "question": "人も他の生物や環境と関わって生きていますか？",
+          "answer": "はい",
+          "explanation": "食べ物、水、空気など多くを環境から得ています。",
+          "why": "人も生物の一員として考えます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-011",
+          "type": "text",
+          "level": "basic",
+          "question": "葉の一部を覆って日光を当てない実験では、何を比べますか？",
+          "answer": "日光が当たる部分と当たらない部分のでんぷんのでき方",
+          "explanation": "日光だけを変えて比べます。",
+          "why": "条件制御を使って原因を確かめます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-012",
+          "type": "text",
+          "level": "basic",
+          "question": "同じ葉の一部を覆う方法にはどんなよさがありますか？",
+          "answer": "葉の個体差を小さくして日光の影響を比べやすいこと",
+          "explanation": "同じ葉の中で条件を変えられます。",
+          "why": "公平な比較を工夫します。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-013",
+          "type": "text",
+          "level": "basic",
+          "question": "『動物だけが呼吸し、植物は呼吸しない』は正しいですか？",
+          "answer": "正しくありません",
+          "explanation": "植物も呼吸します。",
+          "why": "生物に共通する生命活動を理解します。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-014",
+          "type": "text",
+          "level": "basic",
+          "question": "環境が大きく変化すると、生物の生活に影響が出ることがありますか？",
+          "answer": "あります",
+          "explanation": "食べ物、水、すみかなどの条件が変わるためです。",
+          "why": "生物と環境の相互関係を考えます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-015",
+          "type": "text",
+          "level": "basic",
+          "question": "生物と環境の関わりを調べるとき、一つの生物だけでなく周囲の生物や環境条件も見ることは大切ですか？",
+          "answer": "大切です",
+          "explanation": "生物同士や環境とのつながりを捉えられます。",
+          "why": "多面的に自然を見ます。"
+        },
+        {
+          "id": "S6-PLANTS-ENVIRONMENT-016",
+          "type": "text",
+          "level": "basic",
+          "question": "環境を守ることは、人の生活とも関係がありますか？",
+          "answer": "関係します",
+          "explanation": "人も水・空気・食べ物などを環境に依存しています。",
+          "why": "自然環境と人の生活をつなげて考えます。"
+        }
+      ]
+    },
+    {
+      "id": "science6-solutions",
+      "title": "水溶液の性質",
+      "description": "酸性・中性・アルカリ性、気体が溶けた水溶液、金属との反応、安全を扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-SOLUTIONS-001",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液には、酸性・中性・アルカリ性という性質がありますか？",
+          "answer": "あります",
+          "explanation": "水溶液は性質によって分類できます。",
+          "why": "見た目だけでなく性質で水溶液を比べます。"
+        },
+        {
+          "id": "S6-SOLUTIONS-002",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液の性質を調べるとき、リトマス紙を使うことがありますか？",
+          "answer": "あります",
+          "explanation": "色の変化から酸性・中性・アルカリ性を調べられます。",
+          "why": "指示薬を使って性質を確かめます。"
+        },
+        {
+          "id": "S6-SOLUTIONS-003",
+          "type": "text",
+          "level": "basic",
+          "question": "酸性の水溶液に青色リトマス紙を入れると、一般にどうなりますか？",
+          "answer": "赤色に変わります",
+          "explanation": "酸性を示す変化です。",
+          "why": "指示薬の変化を覚えます。"
+        },
+        {
+          "id": "S6-SOLUTIONS-004",
+          "type": "text",
+          "level": "basic",
+          "question": "アルカリ性の水溶液に赤色リトマス紙を入れると、一般にどうなりますか？",
+          "answer": "青色に変わります",
+          "explanation": "アルカリ性を示す変化です。",
+          "why": "酸性との違いを区別します。"
+        },
+        {
+          "id": "S6-SOLUTIONS-005",
+          "type": "text",
+          "level": "basic",
+          "question": "中性の水溶液では、赤・青のリトマス紙は大きく変化しますか？",
+          "answer": "大きくは変化しません",
+          "explanation": "中性では酸性・アルカリ性の変化を示しません。",
+          "why": "性質を比較して判断します。"
+        },
+        {
+          "id": "S6-SOLUTIONS-006",
+          "type": "text",
+          "level": "basic",
+          "question": "炭酸水には気体が溶けていますか？",
+          "answer": "溶けています",
+          "explanation": "二酸化炭素が水に溶けています。",
+          "why": "水溶液には気体が溶けている場合もあります。"
+        },
+        {
+          "id": "S6-SOLUTIONS-007",
+          "type": "text",
+          "level": "basic",
+          "question": "炭酸水を温めたり振ったりすると、泡が出やすくなることがありますか？",
+          "answer": "あります",
+          "explanation": "溶けていた二酸化炭素が出てくるためです。",
+          "why": "溶けている気体の存在を確かめます。"
+        },
+        {
+          "id": "S6-SOLUTIONS-008",
+          "type": "text",
+          "level": "basic",
+          "question": "酸性の水溶液に金属を入れると、金属が変化することがありますか？",
+          "answer": "あります",
+          "explanation": "金属が溶け、別の物質になることがあります。",
+          "why": "水溶液と金属の変化を調べます。"
+        },
+        {
+          "id": "S6-SOLUTIONS-009",
+          "type": "text",
+          "level": "basic",
+          "question": "金属が水溶液に溶けて見えなくなったら、金属そのものが消滅したと考えてよいですか？",
+          "answer": "よくありません",
+          "explanation": "別の物質に変化して水溶液中に存在する場合があります。",
+          "why": "見えないことと消滅を区別します。"
+        },
+        {
+          "id": "S6-SOLUTIONS-010",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液を加熱する実験では、保護眼鏡など安全に配慮する必要がありますか？",
+          "answer": "あります",
+          "explanation": "液が飛ぶなどの危険があるためです。",
+          "why": "薬品を扱う実験では安全が最優先です。"
+        },
+        {
+          "id": "S6-SOLUTIONS-011",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液を直接なめて性質を確かめてよいですか？",
+          "answer": "いけません",
+          "explanation": "危険な薬品が含まれる場合があります。",
+          "why": "性質は安全な方法で調べます。"
+        },
+        {
+          "id": "S6-SOLUTIONS-012",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液のにおいをかぐとき、容器に鼻を近づけて直接強く吸い込んでよいですか？",
+          "answer": "いけません",
+          "explanation": "手であおいで少量を確認するなど安全な方法を使います。",
+          "why": "薬品の扱い方を守ります。"
+        },
+        {
+          "id": "S6-SOLUTIONS-013",
+          "type": "text",
+          "level": "basic",
+          "question": "同じ種類の水溶液でも、濃さによって反応のようすが変わることがありますか？",
+          "answer": "あります",
+          "explanation": "濃さの違いが反応に影響する場合があります。",
+          "why": "条件をそろえて比較する必要があります。"
+        },
+        {
+          "id": "S6-SOLUTIONS-014",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液AとBを比べるとき、使う量や調べ方をそろえることは大切ですか？",
+          "answer": "大切です",
+          "explanation": "条件をそろえると公平に比べられます。",
+          "why": "実験条件を整理します。"
+        },
+        {
+          "id": "S6-SOLUTIONS-015",
+          "type": "text",
+          "level": "basic",
+          "question": "酸性・アルカリ性は、見た目の色だけで判断できますか？",
+          "answer": "判断できません",
+          "explanation": "指示薬などを使って性質を確かめます。",
+          "why": "見た目では分からない性質があります。"
+        },
+        {
+          "id": "S6-SOLUTIONS-016",
+          "type": "text",
+          "level": "basic",
+          "question": "水溶液の学習では、複数の実験結果からどの水溶液か推論することがありますか？",
+          "answer": "あります",
+          "explanation": "リトマス紙や金属との反応などを根拠に考えます。",
+          "why": "より妥当な考えをつくる力を使います。"
+        }
+      ]
+    },
+    {
+      "id": "science6-lever",
+      "title": "てこの規則性",
+      "description": "支点・力点・作用点、てこのつり合い、道具への利用を扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-LEVER-001",
+          "type": "text",
+          "level": "basic",
+          "question": "てこには、支点・力点・作用点がありますか？",
+          "answer": "あります",
+          "explanation": "支点を中心に、力を加える点が力点、物に働く点が作用点です。",
+          "why": "てこの基本構造を理解します。"
+        },
+        {
+          "id": "S6-LEVER-002",
+          "type": "text",
+          "level": "basic",
+          "question": "てこを小さい力で動かしたいとき、支点から力点までの距離を長くすると有利ですか？",
+          "answer": "有利です",
+          "explanation": "同じ働きをより小さい力で得られます。",
+          "why": "力の大きさと距離の関係を考えます。"
+        },
+        {
+          "id": "S6-LEVER-003",
+          "type": "text",
+          "level": "basic",
+          "question": "てこのつり合いには、力の大きさだけでなく支点からの距離も関係しますか？",
+          "answer": "関係します",
+          "explanation": "力×支点からの距離が左右でつり合う関係があります。",
+          "why": "二つの要因を組み合わせて考えます。"
+        },
+        {
+          "id": "S6-LEVER-004",
+          "type": "text",
+          "level": "basic",
+          "question": "左に2Nの力を支点から6cmの位置にかけます。右で支点から3cmなら何Nでつり合いますか？",
+          "answer": "4N",
+          "explanation": "2×6=12なので、12÷3=4Nです。",
+          "why": "力×距離の積をそろえます。"
+        },
+        {
+          "id": "S6-LEVER-005",
+          "type": "text",
+          "level": "basic",
+          "question": "左に3Nを4cm、右に2Nを6cmでかけるとつり合いますか？",
+          "answer": "つり合います",
+          "explanation": "3×4=12、2×6=12です。",
+          "why": "左右の力×距離を比べます。"
+        },
+        {
+          "id": "S6-LEVER-006",
+          "type": "text",
+          "level": "basic",
+          "question": "同じ重さを左右につるす場合、支点から同じ距離ならつり合いますか？",
+          "answer": "つり合います",
+          "explanation": "力も距離も同じだからです。",
+          "why": "てこの規則性を基本条件で確認します。"
+        },
+        {
+          "id": "S6-LEVER-007",
+          "type": "text",
+          "level": "basic",
+          "question": "重い物を支点の近く、軽い物を支点から遠くに置くとつり合うことがありますか？",
+          "answer": "あります",
+          "explanation": "力と距離の組み合わせでつり合いが決まります。",
+          "why": "力だけでなく距離を考えます。"
+        },
+        {
+          "id": "S6-LEVER-008",
+          "type": "text",
+          "level": "basic",
+          "question": "てこ実験で、支点からの距離はどこから測りますか？",
+          "answer": "支点から力が働く位置まで",
+          "explanation": "同じ基準で距離を測ります。",
+          "why": "測定位置をそろえます。"
+        },
+        {
+          "id": "S6-LEVER-009",
+          "type": "text",
+          "level": "basic",
+          "question": "はさみはてこの仕組みを利用していますか？",
+          "answer": "利用しています",
+          "explanation": "支点・力点・作用点をもつ道具です。",
+          "why": "身近な道具とてこの原理を結び付けます。"
+        },
+        {
+          "id": "S6-LEVER-010",
+          "type": "text",
+          "level": "basic",
+          "question": "くぎ抜きはてこの仕組みを利用していますか？",
+          "answer": "利用しています",
+          "explanation": "支点を使って小さい力でくぎを抜きます。",
+          "why": "てこの働きを生活に利用します。"
+        },
+        {
+          "id": "S6-LEVER-011",
+          "type": "text",
+          "level": "basic",
+          "question": "ピンセットはてこの仲間として考えられますか？",
+          "answer": "考えられます",
+          "explanation": "支点・力点・作用点の位置関係は道具によって異なります。",
+          "why": "てこにはいくつかの使い方があります。"
+        },
+        {
+          "id": "S6-LEVER-012",
+          "type": "text",
+          "level": "basic",
+          "question": "『てこでは重い物は必ず軽い物より下がる』は正しいですか？",
+          "answer": "正しくありません",
+          "explanation": "支点からの距離によって軽い物側が下がることもあります。",
+          "why": "力と距離を両方考えます。"
+        },
+        {
+          "id": "S6-LEVER-013",
+          "type": "text",
+          "level": "basic",
+          "question": "左右がつり合うか予想するとき、力×距離を比べる方法は有効ですか？",
+          "answer": "有効です",
+          "explanation": "左右の積が等しければつり合います。",
+          "why": "規則性を数量で表します。"
+        },
+        {
+          "id": "S6-LEVER-014",
+          "type": "text",
+          "level": "basic",
+          "question": "てこ実験で一度に力と距離の両方を変えると、何が影響したか分かりにくくなりますか？",
+          "answer": "なります",
+          "explanation": "要因を一つずつ変えると関係が分かりやすくなります。",
+          "why": "条件制御の考えを使います。"
+        },
+        {
+          "id": "S6-LEVER-015",
+          "type": "text",
+          "level": "basic",
+          "question": "てこを利用すると、力の大きさを変えたり力の向きを変えたりできますか？",
+          "answer": "できます",
+          "explanation": "道具によって小さい力で大きな働きをしたり、向きを変えたりします。",
+          "why": "てこの便利さを理解します。"
+        },
+        {
+          "id": "S6-LEVER-016",
+          "type": "text",
+          "level": "basic",
+          "question": "てこの規則性を表や式で整理することは役立ちますか？",
+          "answer": "役立ちます",
+          "explanation": "複数の実験結果から共通する関係を見つけやすくなります。",
+          "why": "データから規則性を考えます。"
+        }
+      ]
+    },
+    {
+      "id": "science6-electricity",
+      "title": "電気の利用",
+      "description": "発電、蓄電、電気の変換、電熱線やLED、エネルギー利用を扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-ELECTRICITY-001",
+          "type": "text",
+          "level": "basic",
+          "question": "手回し発電機などで電気をつくることができますか？",
+          "answer": "できます",
+          "explanation": "運動のエネルギーを電気に変えることができます。",
+          "why": "電気は作り出して利用できます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-002",
+          "type": "text",
+          "level": "basic",
+          "question": "光電池は光を電気に変えることができますか？",
+          "answer": "できます",
+          "explanation": "太陽光などを受けて電気を生み出します。",
+          "why": "エネルギーの変換を考えます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-003",
+          "type": "text",
+          "level": "basic",
+          "question": "コンデンサーなどに電気をためることができますか？",
+          "answer": "できます",
+          "explanation": "一時的に電気を蓄えて後で利用できます。",
+          "why": "発電と蓄電を区別します。"
+        },
+        {
+          "id": "S6-ELECTRICITY-004",
+          "type": "text",
+          "level": "basic",
+          "question": "電気は光に変えることができますか？",
+          "answer": "できます",
+          "explanation": "LEDなどで電気を光に変えます。",
+          "why": "電気の利用形態を理解します。"
+        },
+        {
+          "id": "S6-ELECTRICITY-005",
+          "type": "text",
+          "level": "basic",
+          "question": "電気は熱に変えることができますか？",
+          "answer": "できます",
+          "explanation": "電熱線などで熱に変わります。",
+          "why": "電気のエネルギー変換を考えます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-006",
+          "type": "text",
+          "level": "basic",
+          "question": "電気は運動に変えることができますか？",
+          "answer": "できます",
+          "explanation": "モーターで運動に変わります。",
+          "why": "生活の電気製品とつなげます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-007",
+          "type": "text",
+          "level": "basic",
+          "question": "LEDは豆電球より少ない電気で明るくできる場合がありますか？",
+          "answer": "あります",
+          "explanation": "LEDは効率よく光へ変換できるためです。",
+          "why": "電気の有効利用を考えます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-008",
+          "type": "text",
+          "level": "basic",
+          "question": "電熱線に電流を流すと温度が上がりますか？",
+          "answer": "上がります",
+          "explanation": "電気が熱に変わるためです。",
+          "why": "電気の働きを実験で確かめます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-009",
+          "type": "text",
+          "level": "basic",
+          "question": "電気をためた後、モーターを回すことができますか？",
+          "answer": "できます",
+          "explanation": "蓄えた電気を運動に変えて利用できます。",
+          "why": "蓄電と利用をつなげます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-010",
+          "type": "text",
+          "level": "basic",
+          "question": "発電した電気の量と、使える時間には関係がありますか？",
+          "answer": "あります",
+          "explanation": "多く蓄えれば同じ条件では長く使えることがあります。",
+          "why": "電気の量と利用を考えます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-011",
+          "type": "text",
+          "level": "basic",
+          "question": "発電機を速く回すと、発電のようすが変わることがありますか？",
+          "answer": "あります",
+          "explanation": "回す速さによって生じる電気の大きさが変わることがあります。",
+          "why": "条件と結果の関係を実験で調べます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-012",
+          "type": "text",
+          "level": "basic",
+          "question": "電気を効率よく使うことは、省エネルギーと関係しますか？",
+          "answer": "関係します",
+          "explanation": "同じ働きを少ない電気でできれば無駄を減らせます。",
+          "why": "科学と生活・環境を結び付けます。"
+        },
+        {
+          "id": "S6-ELECTRICITY-013",
+          "type": "text",
+          "level": "basic",
+          "question": "ショート回路をつくるようなつなぎ方は危険ですか？",
+          "answer": "危険です",
+          "explanation": "大きな電流が流れて発熱するおそれがあります。",
+          "why": "電気実験では安全な回路を使います。"
+        },
+        {
+          "id": "S6-ELECTRICITY-014",
+          "type": "text",
+          "level": "basic",
+          "question": "導線が熱くなったとき、そのまま触り続けてよいですか？",
+          "answer": "いけません",
+          "explanation": "やけどの危険があります。",
+          "why": "異常を感じたら電源を切ります。"
+        },
+        {
+          "id": "S6-ELECTRICITY-015",
+          "type": "text",
+          "level": "basic",
+          "question": "同じ電源で豆電球とLEDを比べるなど、条件をそろえることは大切ですか？",
+          "answer": "大切です",
+          "explanation": "違いを公平に比べられます。",
+          "why": "比較実験では条件制御を使います。"
+        },
+        {
+          "id": "S6-ELECTRICITY-016",
+          "type": "text",
+          "level": "basic",
+          "question": "電気は一つの形のまましか利用できませんか？",
+          "answer": "いいえ",
+          "explanation": "光・熱・運動などに変換して利用できます。",
+          "why": "エネルギーの変換という見方をします。"
+        }
+      ]
+    },
+    {
+      "id": "science6-land",
+      "title": "土地のつくりと変化",
+      "description": "地層、れき・砂・泥、化石、火山や地震による土地の変化を扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-LAND-001",
+          "type": "text",
+          "level": "basic",
+          "question": "土地は、れき・砂・泥などが層になってできていることがありますか？",
+          "answer": "あります",
+          "explanation": "堆積した物が重なって地層をつくります。",
+          "why": "土地のつくりを層として捉えます。"
+        },
+        {
+          "id": "S6-LAND-002",
+          "type": "text",
+          "level": "basic",
+          "question": "地層には、しま模様のような層の重なりが見られることがありますか？",
+          "answer": "あります",
+          "explanation": "異なる種類の物が順に堆積して層になります。",
+          "why": "地層の観察から過去の変化を考えます。"
+        },
+        {
+          "id": "S6-LAND-003",
+          "type": "text",
+          "level": "basic",
+          "question": "れき・砂・泥では、粒の大きさが異なりますか？",
+          "answer": "異なります",
+          "explanation": "れきが大きく、砂、泥の順に細かくなります。",
+          "why": "粒の大きさで堆積物を比べます。"
+        },
+        {
+          "id": "S6-LAND-004",
+          "type": "text",
+          "level": "basic",
+          "question": "流れる水によって運ばれた物が積もり、地層ができることがありますか？",
+          "answer": "あります",
+          "explanation": "水中などで堆積して層をつくります。",
+          "why": "5年の流水の働きとつなげます。"
+        },
+        {
+          "id": "S6-LAND-005",
+          "type": "text",
+          "level": "basic",
+          "question": "地層から化石が見つかることがありますか？",
+          "answer": "あります",
+          "explanation": "過去の生物の体や生活の跡が残ることがあります。",
+          "why": "地層から過去の環境を考えます。"
+        },
+        {
+          "id": "S6-LAND-006",
+          "type": "text",
+          "level": "basic",
+          "question": "化石は、土地ができたころの環境を考える手掛かりになりますか？",
+          "answer": "なります",
+          "explanation": "海の生物の化石などから当時の環境を推測できます。",
+          "why": "証拠から過去を推論します。"
+        },
+        {
+          "id": "S6-LAND-007",
+          "type": "text",
+          "level": "basic",
+          "question": "火山の噴火で土地の様子が変わることがありますか？",
+          "answer": "あります",
+          "explanation": "火山灰や溶岩などが積もり、地形が変化します。",
+          "why": "土地は現在も変化しています。"
+        },
+        {
+          "id": "S6-LAND-008",
+          "type": "text",
+          "level": "basic",
+          "question": "地震で土地の様子が変わることがありますか？",
+          "answer": "あります",
+          "explanation": "地割れ、隆起、沈降などが起こることがあります。",
+          "why": "自然災害と土地の変化を結び付けます。"
+        },
+        {
+          "id": "S6-LAND-009",
+          "type": "text",
+          "level": "basic",
+          "question": "地層の観察では、崖や切り通しに近づきすぎてもよいですか？",
+          "answer": "いけません",
+          "explanation": "落石や崩落の危険があります。",
+          "why": "野外観察では安全を最優先します。"
+        },
+        {
+          "id": "S6-LAND-010",
+          "type": "text",
+          "level": "basic",
+          "question": "地層の写真を観察するとき、層の色・厚さ・粒の大きさなどは手掛かりになりますか？",
+          "answer": "なります",
+          "explanation": "層ごとの違いや成り立ちを考える材料になります。",
+          "why": "複数の特徴から推論します。"
+        },
+        {
+          "id": "S6-LAND-011",
+          "type": "text",
+          "level": "basic",
+          "question": "同じ地層でも、場所によって厚さが変わることがありますか？",
+          "answer": "あります",
+          "explanation": "堆積する量や地形などが異なるためです。",
+          "why": "自然の地層は一様とは限りません。"
+        },
+        {
+          "id": "S6-LAND-012",
+          "type": "text",
+          "level": "basic",
+          "question": "火山灰は火山活動によってできた物ですか？",
+          "answer": "はい",
+          "explanation": "噴火によって放出された細かい物質が積もります。",
+          "why": "地層の成因には水だけでなく火山もあります。"
+        },
+        {
+          "id": "S6-LAND-013",
+          "type": "text",
+          "level": "basic",
+          "question": "地層が曲がったりずれたりしていることがありますか？",
+          "answer": "あります",
+          "explanation": "地殻の動きなどで変形することがあります。",
+          "why": "土地の長い変化を考えます。"
+        },
+        {
+          "id": "S6-LAND-014",
+          "type": "text",
+          "level": "basic",
+          "question": "土地の変化を考えるとき、現在の地形だけでなく地層や化石を見ることは大切ですか？",
+          "answer": "大切です",
+          "explanation": "過去の出来事の証拠が残っているからです。",
+          "why": "現在から過去を推論します。"
+        },
+        {
+          "id": "S6-LAND-015",
+          "type": "text",
+          "level": "basic",
+          "question": "『地面は昔からずっと同じ形だった』は正しいですか？",
+          "answer": "正しくありません",
+          "explanation": "水、火山、地震などで土地は変化します。",
+          "why": "地球表面は変化し続けています。"
+        },
+        {
+          "id": "S6-LAND-016",
+          "type": "text",
+          "level": "basic",
+          "question": "地震や火山について学ぶことは、防災を考えることにもつながりますか？",
+          "answer": "つながります",
+          "explanation": "土地の変化の仕組みを知ると災害への備えを考えられます。",
+          "why": "理科の知識を安全な生活に生かします。"
+        }
+      ]
+    },
+    {
+      "id": "science6-moon-sun",
+      "title": "月と太陽",
+      "description": "月の形の見え方と、月・太陽の位置関係を扱います。",
+      "questionCount": 16,
+      "targetQuestions": 16,
+      "questions": [
+        {
+          "id": "S6-MOON-SUN-001",
+          "type": "text",
+          "level": "basic",
+          "question": "月は自分で光を出して明るく見えているのですか？",
+          "answer": "いいえ",
+          "explanation": "太陽の光を反射して明るく見えます。",
+          "why": "月の見え方と太陽の光を関係付けます。"
+        },
+        {
+          "id": "S6-MOON-SUN-002",
+          "type": "text",
+          "level": "basic",
+          "question": "月の形が日によって変わって見えるのは、月そのものの形が変わるからですか？",
+          "answer": "いいえ",
+          "explanation": "太陽に照らされた部分の見え方が変わるためです。",
+          "why": "見かけの形と実際の形を区別します。"
+        },
+        {
+          "id": "S6-MOON-SUN-003",
+          "type": "text",
+          "level": "basic",
+          "question": "月は球形ですか？",
+          "answer": "球形です",
+          "explanation": "太陽に照らされた球の一部が地球から見えます。",
+          "why": "立体と見え方を結び付けます。"
+        },
+        {
+          "id": "S6-MOON-SUN-004",
+          "type": "text",
+          "level": "basic",
+          "question": "満月のころ、地球から見ると月は太陽とおおよそ反対方向にありますか？",
+          "answer": "あります",
+          "explanation": "太陽に照らされた面がほぼ全面見える位置関係です。",
+          "why": "月の形と位置関係を考えます。"
+        },
+        {
+          "id": "S6-MOON-SUN-005",
+          "type": "text",
+          "level": "basic",
+          "question": "新月のころ、月は太陽とおおよそ同じ方向にありますか？",
+          "answer": "あります",
+          "explanation": "照らされた側が地球から見えにくい位置関係です。",
+          "why": "見え方を位置関係で説明します。"
+        },
+        {
+          "id": "S6-MOON-SUN-006",
+          "type": "text",
+          "level": "basic",
+          "question": "半月のころ、太陽・地球・月の位置はおおよそ直角の関係になりますか？",
+          "answer": "なります",
+          "explanation": "照らされた部分の半分ほどが地球から見えます。",
+          "why": "位置関係と見える形を結び付けます。"
+        },
+        {
+          "id": "S6-MOON-SUN-007",
+          "type": "text",
+          "level": "basic",
+          "question": "月の観察では、形だけでなく見えた方角や時刻も記録すると役立ちますか？",
+          "answer": "役立ちます",
+          "explanation": "月の位置の変化と形を比べられます。",
+          "why": "時間と空間の両方を記録します。"
+        },
+        {
+          "id": "S6-MOON-SUN-008",
+          "type": "text",
+          "level": "basic",
+          "question": "太陽を望遠鏡や双眼鏡で直接見てもよいですか？",
+          "answer": "絶対にいけません",
+          "explanation": "目を傷める非常に危険な行為です。",
+          "why": "天体観察では安全を最優先します。"
+        },
+        {
+          "id": "S6-MOON-SUN-009",
+          "type": "text",
+          "level": "basic",
+          "question": "月の形をモデル実験で調べるとき、光源を太陽、球を月に見立てる方法は使えますか？",
+          "answer": "使えます",
+          "explanation": "位置関係を変えて見え方を確かめられます。",
+          "why": "直接確かめにくい現象をモデルで調べます。"
+        },
+        {
+          "id": "S6-MOON-SUN-010",
+          "type": "text",
+          "level": "basic",
+          "question": "モデル実験では、観察者の位置を地球に見立てますか？",
+          "answer": "見立てます",
+          "explanation": "観察者から見える球の明るい部分を月の形として考えます。",
+          "why": "モデルの対応関係を明確にします。"
+        },
+        {
+          "id": "S6-MOON-SUN-011",
+          "type": "text",
+          "level": "basic",
+          "question": "月の満ち欠けは、地球の影が月にかかることが毎回の原因ですか？",
+          "answer": "違います",
+          "explanation": "通常の満ち欠けは太陽・地球・月の位置関係による見え方の変化です。",
+          "why": "月食と満ち欠けを混同しないようにします。"
+        },
+        {
+          "id": "S6-MOON-SUN-012",
+          "type": "text",
+          "level": "basic",
+          "question": "同じ日の月でも、時間がたつと空の中の位置が変わりますか？",
+          "answer": "変わります",
+          "explanation": "地球の自転などにより見える位置が変化します。",
+          "why": "天体の位置を時間とともに観察します。"
+        },
+        {
+          "id": "S6-MOON-SUN-013",
+          "type": "text",
+          "level": "basic",
+          "question": "数日たつと、月の形と太陽との位置関係も変化しますか？",
+          "answer": "変化します",
+          "explanation": "月が地球の周りを動くためです。",
+          "why": "長い時間での位置変化を考えます。"
+        },
+        {
+          "id": "S6-MOON-SUN-014",
+          "type": "text",
+          "level": "basic",
+          "question": "月の観察記録を比べるとき、毎回おおよそ同じ時刻に観察することは役立ちますか？",
+          "answer": "役立ちます",
+          "explanation": "時刻の違いによる位置変化を小さくして比較できます。",
+          "why": "観察条件をそろえます。"
+        },
+        {
+          "id": "S6-MOON-SUN-015",
+          "type": "text",
+          "level": "basic",
+          "question": "曇って月が見えない日は、観察できなかったことをそのまま記録してよいですか？",
+          "answer": "よいです",
+          "explanation": "見えなかったことも観察結果の一つです。",
+          "why": "観察事実を正確に記録します。"
+        },
+        {
+          "id": "S6-MOON-SUN-016",
+          "type": "text",
+          "level": "basic",
+          "question": "月と太陽の学習では、見えた形だけでなく『なぜそう見えるか』を位置関係から考えることが大切ですか？",
+          "answer": "大切です",
+          "explanation": "現象の仕組みをモデルや観察から説明します。",
+          "why": "より妥当な考えをつくることを重視します。"
+        }
+      ]
+    }
+  ]
+}
