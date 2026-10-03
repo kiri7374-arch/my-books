@@ -37,6 +37,7 @@ const closeContentsButton = document.getElementById("closeContentsButton");
 
 const studyBookTitle = document.getElementById("studyBookTitle");
 const studyGradeBadge = document.getElementById("studyGradeBadge");
+const studyIntroText = document.getElementById("studyIntroText");
 const studyHomePanel = document.getElementById("studyHomePanel");
 const studySubjectPanel = document.getElementById("studySubjectPanel");
 const studyQuestionPanel = document.getElementById("studyQuestionPanel");
@@ -320,9 +321,19 @@ function showStudyHome() {
   currentStudySubject = null;
   currentStudySubjectData = null;
 
+  const grade = getStudyGradeFromBook();
+  const showGrade6Challenge = grade === 6;
+
   document.querySelectorAll("[data-study6-only='true']").forEach((element) => {
-    element.hidden = selectedBook?.id !== "study6";
+    element.hidden = !showGrade6Challenge;
+    element.setAttribute("aria-hidden", showGrade6Challenge ? "false" : "true");
   });
+
+  if (studyIntroText) {
+    studyIntroText.textContent = showGrade6Challenge
+      ? "教科またはチャレンジから、今日取り組む学習を選びましょう。"
+      : "教科から、今日取り組む学習を選びましょう。";
+  }
 }
 
 studySubjectGrid
@@ -1473,8 +1484,16 @@ async function selectStudyBookForSearch(bookId) {
     studyGradeBadge.textContent = grade ? `${grade}年` : "";
 
     document.querySelectorAll("[data-study6-only='true']").forEach((element) => {
-      element.hidden = grade !== 6;
+      const showGrade6Challenge = grade === 6;
+      element.hidden = !showGrade6Challenge;
+      element.setAttribute("aria-hidden", showGrade6Challenge ? "false" : "true");
     });
+
+    if (studyIntroText) {
+      studyIntroText.textContent = grade === 6
+        ? "教科またはチャレンジから、今日取り組む学習を選びましょう。"
+        : "教科から、今日取り組む学習を選びましょう。";
+    }
   }
 
   return true;
