@@ -1521,15 +1521,19 @@ async function openStudySearchTarget(record, openQuestion) {
 
 
 
+
+if (studyScrollTopButton && studyScrollTopButton.parentElement !== document.body) {
+  document.body.appendChild(studyScrollTopButton);
+}
+
 function updateStudyScrollTopButton() {
   if (!studyScrollTopButton) return;
 
   const studyIsVisible =
     studyView &&
-    !studyView.classList.contains("hidden") &&
-    getComputedStyle(studyView).display !== "none";
+    studyView.classList.contains("active-view");
 
-  const shouldShow = studyIsVisible && window.scrollY >= 420;
+  const shouldShow = studyIsVisible && window.scrollY >= 320;
 
   studyScrollTopButton.hidden = !shouldShow;
   studyScrollTopButton.classList.toggle("is-visible", shouldShow);
@@ -1540,6 +1544,8 @@ studyScrollTopButton?.addEventListener("click", () => {
     top: 0,
     behavior: "smooth"
   });
+
+  window.setTimeout(updateStudyScrollTopButton, 450);
 });
 
 window.addEventListener("scroll", updateStudyScrollTopButton, { passive: true });
