@@ -11,13 +11,13 @@
 
   <title>MY BOOKS</title>
 
-  <link rel="stylesheet" href="css/style.css?v=20261003-ch50v1">
-  <link rel="stylesheet" href="css/library.css?v=20261003-ch50v1">
-  <link rel="stylesheet" href="css/detail.css?v=20261003-ch50v1">
-  <link rel="stylesheet" href="css/reader.css?v=20261003-ch50v1">
-  <link rel="stylesheet" href="css/book-layouts.css?v=20261003-ch50v1">
-  <link rel="stylesheet" href="css/typography.css?v=20261003-ch50v1">
-  <link rel="stylesheet" href="css/study.css?v=20261003-ch50v1">
+  <link rel="stylesheet" href="css/style.css?v=20261003-searchv1">
+  <link rel="stylesheet" href="css/library.css?v=20261003-searchv1">
+  <link rel="stylesheet" href="css/detail.css?v=20261003-searchv1">
+  <link rel="stylesheet" href="css/reader.css?v=20261003-searchv1">
+  <link rel="stylesheet" href="css/book-layouts.css?v=20261003-searchv1">
+  <link rel="stylesheet" href="css/typography.css?v=20261003-searchv1">
+  <link rel="stylesheet" href="css/study.css?v=20261003-searchv1">
 </head>
 
 <body>
@@ -270,6 +270,38 @@
 
       </div>
 
+
+      <div id="studySearchToolbar" class="study-search-toolbar">
+        <div class="study-search-input-wrap">
+          <span class="study-search-icon" aria-hidden="true">⌕</span>
+          <input
+            id="studySearchInput"
+            type="search"
+            inputmode="search"
+            autocomplete="off"
+            placeholder="問題・単元・漢字を検索"
+            aria-label="学習内容を検索"
+          >
+          <button id="studySearchClear" class="study-search-clear" type="button" aria-label="検索文字を消す" hidden>×</button>
+        </div>
+
+        <select id="studySearchGradeScope" class="study-search-select" aria-label="検索する学年">
+          <option value="current">この学年</option>
+          <option value="all">1〜6年を横断</option>
+        </select>
+
+        <select id="studySearchSubject" class="study-search-select" aria-label="検索する教科">
+          <option value="all">全教科</option>
+          <option value="math">算数</option>
+          <option value="science">理科</option>
+          <option value="english">英語</option>
+          <option value="japanese">国語</option>
+          <option value="challenge">チャレンジ</option>
+        </select>
+
+        <button id="studySearchButton" class="study-search-button" type="button">検索</button>
+      </div>
+
       <div class="study-shell">
 
         <section
@@ -369,6 +401,23 @@
           </div>
 
         </section>
+
+
+        <section id="studySearchPanel" class="study-panel">
+          <button id="backFromStudySearch" class="study-inner-back" type="button">
+            ← 検索前の画面へ戻る
+          </button>
+
+          <div class="study-search-header">
+            <p class="study-subject-english">SEARCH</p>
+            <h2>学習検索</h2>
+            <p id="studySearchSummary">キーワードを入力して検索してください。</p>
+          </div>
+
+          <div id="studyKanjiSearchInfo"></div>
+          <div id="studySearchResults" class="study-search-results"></div>
+        </section>
+
 
         <section
           id="studySubjectPanel"
@@ -568,8 +617,8 @@
 
   </main>
 
-  <script src="js/vendor/page-flip.browser.js?v=20261003-ch50v1"></script>
-  <script src="js/app.js?v=20261003-ch50v1"></script>
+  <script src="js/vendor/page-flip.browser.js?v=20261003-searchv1"></script>
+  <script src="js/app.js?v=20261003-searchv1"></script>
 
 </body>
 
