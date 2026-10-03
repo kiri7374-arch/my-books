@@ -401,6 +401,15 @@ function renderQuestionVisual(visual, compact = false) {
     return Number.isFinite(num) ? num : fallback;
   };
 
+
+  const collectionsLikeCounter = (values) => {
+    return values.reduce((acc, value) => {
+      const key = String(value);
+      acc[key] = (acc[key] || 0) + 1;
+      return acc;
+    }, {});
+  };
+
   const polygonPoints = (sides, cx = 120, cy = 90, radius = 62) => {
     const n = Math.max(3, Math.min(12, Number(sides) || 3));
     return Array.from({ length: n }, (_, index) => {
@@ -605,6 +614,305 @@ function renderQuestionVisual(visual, compact = false) {
               <span>残り ${100 - pct}%</span>
             </div>
           </div>
+        </div>`;
+    }
+
+
+    case "symmetry": {
+      const shape = visual.shape || "square";
+      const axis = visual.showAxis === true;
+      const center = visual.showCenter === true;
+
+      const shapeSvg = {
+        "square": `<rect x="70" y="30" width="100" height="100" class="study-svg-shape"/>`,
+        "rectangle": `<rect x="50" y="45" width="140" height="80" class="study-svg-shape"/>`,
+        "equilateral-triangle": `<polygon points="120,24 52,140 188,140" class="study-svg-shape"/>`,
+        "regular-pentagon": `<polygon points="${polygonPoints(5,120,88,62)}" class="study-svg-shape"/>`,
+        "regular-hexagon": `<polygon points="${polygonPoints(6,120,88,62)}" class="study-svg-shape"/>`,
+        "regular-octagon": `<polygon points="${polygonPoints(8,120,88,62)}" class="study-svg-shape"/>`,
+        "circle": `<circle cx="120" cy="85" r="62" class="study-svg-shape"/>`,
+        "parallelogram": `<polygon points="68,42 185,42 165,132 48,132" class="study-svg-shape"/>`,
+        "rhombus": `<polygon points="120,24 195,88 120,152 45,88" class="study-svg-shape"/>`,
+        "half-reflection": `<polyline points="75,135 75,58 112,95 75,135" class="study-svg-shape"/>`,
+        "point-pair": `
+          <circle cx="65" cy="92" r="5" class="study-svg-point"/>
+          <circle cx="175" cy="92" r="5" class="study-svg-point"/>
+          <text x="52" y="82" class="study-svg-label">A</text>
+          <text x="182" y="82" class="study-svg-label">A'</text>
+          <line x1="65" y1="92" x2="175" y2="92" class="study-svg-guide"/>
+        `,
+        "point-symmetry": `
+          <polygon points="55,55 105,36 92,88 48,108" class="study-svg-shape"/>
+          <polygon points="185,115 135,134 148,82 192,62" class="study-svg-shape"/>
+        `
+      }[shape] || `<rect x="70" y="30" width="100" height="100" class="study-svg-shape"/>`;
+
+      return `
+        <div class="${cls}" aria-label="対称な図形の図">
+          <svg viewBox="0 0 240 180" role="img">
+            ${shapeSvg}
+            ${axis ? `
+              <line x1="120" y1="15" x2="120" y2="160" class="study-svg-axis"/>
+              <text x="126" y="26" class="study-svg-label">対称の軸</text>
+            ` : ""}
+            ${center ? `
+              <circle cx="120" cy="90" r="5" class="study-svg-center"/>
+              <text x="128" y="86" class="study-svg-label">O</text>
+            ` : ""}
+          </svg>
+        </div>`;
+    }
+
+    case "circle-area": {
+      const mode = visual.mode || "basic";
+      const radius = safeNum(visual.radius, "");
+      const diameter = safeNum(visual.diameter, "");
+      const label = radius !== "" ? `半径 ${radius}cm` : diameter !== "" ? `直径 ${diameter}cm` : "";
+
+      if (mode === "semicircle") {
+        return `
+          <div class="${cls}" aria-label="半円の図">
+            <svg viewBox="0 0 260 170" role="img">
+              <path d="M45 125 A85 85 0 0 1 215 125 L45 125 Z" class="study-svg-shape"/>
+              <line x1="45" y1="125" x2="215" y2="125" class="study-svg-guide"/>
+              ${label ? `<text x="130" y="150" text-anchor="middle" class="study-svg-label">${escapeHTML(label)}</text>` : ""}
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "quarter") {
+        return `
+          <div class="${cls}" aria-label="4分の1円の図">
+            <svg viewBox="0 0 230 180" role="img">
+              <path d="M55 145 L55 45 A100 100 0 0 1 155 145 Z" class="study-svg-shape"/>
+              <line x1="55" y1="145" x2="55" y2="45" class="study-svg-guide"/>
+              <line x1="55" y1="145" x2="155" y2="145" class="study-svg-guide"/>
+              ${label ? `<text x="112" y="166" text-anchor="middle" class="study-svg-label">${escapeHTML(label)}</text>` : ""}
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "ring") {
+        return `
+          <div class="${cls}" aria-label="同心円の図">
+            <svg viewBox="0 0 240 180" role="img">
+              <circle cx="120" cy="86" r="65" class="study-svg-shape"/>
+              <circle cx="120" cy="86" r="34" class="study-svg-cutout"/>
+              <circle cx="120" cy="86" r="4" class="study-svg-center"/>
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "circle-in-square") {
+        return `
+          <div class="${cls}" aria-label="正方形に内接する円の図">
+            <svg viewBox="0 0 240 180" role="img">
+              <rect x="50" y="20" width="140" height="140" class="study-svg-shape"/>
+              <circle cx="120" cy="90" r="70" class="study-svg-guide-circle"/>
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "rearrangement") {
+        return `
+          <div class="${cls}" aria-label="円を細かく分けて並べ替える考え方の図">
+            <svg viewBox="0 0 320 180" role="img">
+              <circle cx="75" cy="85" r="55" class="study-svg-shape"/>
+              <line x1="75" y1="30" x2="75" y2="140" class="study-svg-guide"/>
+              <line x1="20" y1="85" x2="130" y2="85" class="study-svg-guide"/>
+              <text x="155" y="90" class="study-svg-equal">→</text>
+              <polygon points="190,52 280,52 305,125 215,125" class="study-svg-shape"/>
+              <text x="248" y="150" text-anchor="middle" class="study-svg-label">長方形に近い形</text>
+            </svg>
+          </div>`;
+      }
+
+      return `
+        <div class="${cls}" aria-label="円の面積の図">
+          <svg viewBox="0 0 240 180" role="img">
+            <circle cx="120" cy="82" r="62" class="study-svg-shape"/>
+            <line x1="120" y1="82" x2="182" y2="82" class="study-svg-guide"/>
+            <circle cx="120" cy="82" r="4" class="study-svg-center"/>
+            ${label ? `<text x="150" y="72" class="study-svg-label">${escapeHTML(label)}</text>` : `<text x="148" y="72" class="study-svg-label">半径</text>`}
+          </svg>
+        </div>`;
+    }
+
+    case "solid": {
+      const shape = visual.shape || "rect-prism";
+
+      if (shape === "cylinder") {
+        return `
+          <div class="${cls}" aria-label="円柱の図">
+            <svg viewBox="0 0 260 200" role="img">
+              <ellipse cx="130" cy="42" rx="65" ry="20" class="study-svg-shape"/>
+              <line x1="65" y1="42" x2="65" y2="145" class="study-svg-guide"/>
+              <line x1="195" y1="42" x2="195" y2="145" class="study-svg-guide"/>
+              <ellipse cx="130" cy="145" rx="65" ry="20" class="study-svg-shape"/>
+              <line x1="130" y1="42" x2="195" y2="42" class="study-svg-guide"/>
+              <text x="134" y="34" class="study-svg-label">半径</text>
+              <text x="202" y="98" class="study-svg-label">高さ</text>
+            </svg>
+          </div>`;
+      }
+
+      if (shape === "triangular-prism") {
+        return `
+          <div class="${cls}" aria-label="三角柱の図">
+            <svg viewBox="0 0 280 200" role="img">
+              <polygon points="55,135 105,55 155,135" class="study-svg-shape"/>
+              <polygon points="120,155 170,75 220,155" class="study-svg-shape"/>
+              <line x1="55" y1="135" x2="120" y2="155" class="study-svg-guide"/>
+              <line x1="105" y1="55" x2="170" y2="75" class="study-svg-guide"/>
+              <line x1="155" y1="135" x2="220" y2="155" class="study-svg-guide"/>
+            </svg>
+          </div>`;
+      }
+
+      if (shape === "trapezoid-prism") {
+        return `
+          <div class="${cls}" aria-label="台形を底面にもつ角柱の図">
+            <svg viewBox="0 0 300 200" role="img">
+              <polygon points="55,70 125,70 155,135 35,135" class="study-svg-shape"/>
+              <polygon points="125,50 195,50 225,115 105,115" class="study-svg-shape"/>
+              <line x1="55" y1="70" x2="125" y2="50" class="study-svg-guide"/>
+              <line x1="125" y1="70" x2="195" y2="50" class="study-svg-guide"/>
+              <line x1="155" y1="135" x2="225" y2="115" class="study-svg-guide"/>
+              <line x1="35" y1="135" x2="105" y2="115" class="study-svg-guide"/>
+            </svg>
+          </div>`;
+      }
+
+      return `
+        <div class="${cls}" aria-label="角柱の図">
+          <svg viewBox="0 0 290 200" role="img">
+            <polygon points="55,60 180,60 230,100 105,100" class="study-svg-shape"/>
+            <polygon points="55,60 105,100 105,165 55,125" class="study-svg-shape"/>
+            <polygon points="105,100 230,100 230,165 105,165" class="study-svg-shape"/>
+            <line x1="230" y1="100" x2="230" y2="165" class="study-svg-guide"/>
+            <text x="238" y="136" class="study-svg-label">高さ</text>
+          </svg>
+        </div>`;
+    }
+
+    case "scale": {
+      const mode = visual.mode || "pair";
+      const scale = Number(visual.scale);
+
+      if (mode === "map") {
+        const ratioText = Number.isFinite(scale) && scale > 0
+          ? (scale < 1 ? `縮尺 1/${Math.round(1/scale)}` : `${scale}倍`)
+          : "縮尺";
+        return `
+          <div class="${cls}" aria-label="縮尺の図">
+            <svg viewBox="0 0 320 180" role="img">
+              <rect x="35" y="28" width="115" height="112" rx="4" class="study-svg-map"/>
+              <path d="M52 116 C74 82, 95 98, 125 54" class="study-svg-route"/>
+              <circle cx="52" cy="116" r="5" class="study-svg-point"/>
+              <circle cx="125" cy="54" r="5" class="study-svg-point"/>
+              <text x="45" y="135" class="study-svg-label">A</text>
+              <text x="132" y="51" class="study-svg-label">B</text>
+              <line x1="184" y1="118" x2="284" y2="118" class="study-svg-scale-line"/>
+              <text x="234" y="142" text-anchor="middle" class="study-svg-label">${escapeHTML(ratioText)}</text>
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "triangle") {
+        return `
+          <div class="${cls}" aria-label="三角形の拡大図・縮図">
+            <svg viewBox="0 0 340 180" role="img">
+              <polygon points="30,135 125,135 72,45" class="study-svg-shape"/>
+              <polygon points="190,145 325,145 248,18" class="study-svg-shape"/>
+              <text x="77" y="163" text-anchor="middle" class="study-svg-label">元の図形</text>
+              <text x="258" y="168" text-anchor="middle" class="study-svg-label">対応する図形</text>
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "distortion") {
+        return `
+          <div class="${cls}" aria-label="拡大図ではない変形の例">
+            <svg viewBox="0 0 340 180" role="img">
+              <rect x="35" y="48" width="90" height="90" class="study-svg-shape"/>
+              <rect x="190" y="67" width="130" height="55" class="study-svg-shape-alt"/>
+              <text x="80" y="160" text-anchor="middle" class="study-svg-label">元</text>
+              <text x="255" y="160" text-anchor="middle" class="study-svg-label">縦横の倍率が違う</text>
+            </svg>
+          </div>`;
+      }
+
+      if (mode === "center-scale") {
+        return `
+          <div class="${cls}" aria-label="中心からの拡大図">
+            <svg viewBox="0 0 320 190" role="img">
+              <circle cx="55" cy="95" r="5" class="study-svg-center"/>
+              <text x="42" y="86" class="study-svg-label">O</text>
+              <line x1="55" y1="95" x2="145" y2="55" class="study-svg-guide"/>
+              <line x1="55" y1="95" x2="145" y2="135" class="study-svg-guide"/>
+              <line x1="55" y1="95" x2="255" y2="25" class="study-svg-guide-faint"/>
+              <line x1="55" y1="95" x2="255" y2="165" class="study-svg-guide-faint"/>
+              <polygon points="145,55 145,135 190,95" class="study-svg-shape"/>
+              <polygon points="235,35 235,155 305,95" class="study-svg-shape"/>
+            </svg>
+          </div>`;
+      }
+
+      const scaleText = Number.isFinite(scale)
+        ? (scale < 1 ? `${scale}倍の縮図` : `${scale}倍の拡大図`)
+        : "拡大図・縮図";
+
+      return `
+        <div class="${cls}" aria-label="拡大図・縮図の比較">
+          <svg viewBox="0 0 340 180" role="img">
+            <polygon points="35,130 125,130 80,50" class="study-svg-shape"/>
+            <polygon points="205,145 325,145 265,32" class="study-svg-shape"/>
+            <text x="80" y="160" text-anchor="middle" class="study-svg-label">元の図形</text>
+            <text x="265" y="168" text-anchor="middle" class="study-svg-label">${escapeHTML(scaleText)}</text>
+          </svg>
+        </div>`;
+    }
+
+    case "data-chart": {
+      const mode = visual.mode || "dotplot";
+      const values = Array.isArray(visual.values) ? visual.values.filter(Number.isFinite) : [];
+
+      if (mode === "histogram") {
+        const bars = [3, 7, 11, 8, 4, 2];
+        return `
+          <div class="${cls}" aria-label="ヒストグラム">
+            <svg viewBox="0 0 320 190" role="img">
+              <line x1="42" y1="155" x2="300" y2="155" class="study-svg-axis-line"/>
+              <line x1="42" y1="20" x2="42" y2="155" class="study-svg-axis-line"/>
+              ${bars.map((v,idx) => {
+                const h = v * 10;
+                const x = 55 + idx * 38;
+                return `<rect x="${x}" y="${155-h}" width="34" height="${h}" class="study-svg-bar"/>`;
+              }).join("")}
+              <text x="170" y="180" text-anchor="middle" class="study-svg-label">階級</text>
+              <text x="18" y="88" text-anchor="middle" transform="rotate(-90 18 88)" class="study-svg-label">度数</text>
+            </svg>
+          </div>`;
+      }
+
+      const vals = values.length ? values : [3,4,4,5,6,6,6,8,9];
+      const min = Math.min(...vals);
+      const max = Math.max(...vals);
+      const range = Math.max(1, max-min);
+      const counts = collectionsLikeCounter(vals);
+      return `
+        <div class="${cls}" aria-label="ドットプロット">
+          <svg viewBox="0 0 340 190" role="img">
+            <line x1="40" y1="150" x2="310" y2="150" class="study-svg-axis-line"/>
+            ${Object.entries(counts).map(([value,count]) => {
+              const x = 55 + ((Number(value)-min)/range)*235;
+              return Array.from({length:count},(_,j) => `<circle cx="${x}" cy="${135-j*18}" r="5" class="study-svg-dot"/>`).join("");
+            }).join("")}
+            ${Object.keys(counts).map((value) => {
+              const x = 55 + ((Number(value)-min)/range)*235;
+              return `<text x="${x}" y="172" text-anchor="middle" class="study-svg-label">${escapeHTML(value)}</text>`;
+            }).join("")}
+          </svg>
         </div>`;
     }
 
