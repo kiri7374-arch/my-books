@@ -104,6 +104,13 @@ function getStudySubjectConfig(subjectKey) {
       description: `${selectedBook?.id === "study6" ? "6" : "5"}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
       file: `${base}/japanese.json?v=20261003-s6all1`,
       splitUnits: false
+    },
+    challenge: {
+      title: "難関中学チャレンジ",
+      en: "ENTRANCE EXAM",
+      description: "算数・国語・理科・社会を混ぜた、入試本番を意識した50問です。",
+      file: `${base}/challenge.json?v=20261003-ch50v1`,
+      splitUnits: false
     }
   };
 
@@ -267,6 +274,10 @@ function showStudyHome() {
   studyHomePanel.classList.add("study-panel-active");
   currentStudySubject = null;
   currentStudySubjectData = null;
+
+  document.querySelectorAll("[data-study6-only='true']").forEach((element) => {
+    element.hidden = selectedBook?.id !== "study6";
+  });
 }
 
 studySubjectGrid
@@ -342,9 +353,68 @@ function renderStudyUnits(units) {
   });
 }
 
+
+function ensureStudyExamIntro() {
+  let box = document.getElementById("studyExamIntro");
+
+  if (!box) {
+    box = document.createElement("section");
+    box.id = "studyExamIntro";
+    box.className = "study-exam-intro";
+    const guide = document.querySelector("#studyQuestionPanel .study-question-guide");
+    guide.insertAdjacentElement("beforebegin", box);
+  }
+
+  return box;
+}
+
+function renderStudyExamIntro(unit) {
+  const box = ensureStudyExamIntro();
+
+  if (!unit?.examIntro && !unit?.examTable) {
+    box.hidden = true;
+    box.innerHTML = "";
+    return;
+  }
+
+  const intro = String(unit.examIntro || "")
+    .split("\n")
+    .map((line) => escapeHTML(line))
+    .join("<br>");
+
+  const table = unit.examTable && Array.isArray(unit.examTable.headers) && Array.isArray(unit.examTable.rows)
+    ? `
+      <div class="study-exam-table-wrap">
+        <table class="study-exam-table">
+          <thead>
+            <tr>${unit.examTable.headers.map((h) => `<th>${escapeHTML(h)}</th>`).join("")}</tr>
+          </thead>
+          <tbody>
+            ${unit.examTable.rows.map((row) => `
+              <tr>${row.map((cell) => `<td>${escapeHTML(cell)}</td>`).join("")}</tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `
+    : "";
+
+  box.hidden = false;
+  box.innerHTML = `
+    <div class="study-exam-paper-head">
+      <span>入試実戦問題</span>
+      <strong>${escapeHTML(unit.subject || "CHALLENGE")}</strong>
+    </div>
+    <div class="study-exam-passage">${intro}</div>
+    ${table}
+  `;
+}
+
+
 async function openStudyUnit(unit) {
   studyQuestionUnitTitle.textContent = unit.title;
   studyQuestionUnitDescription.textContent = unit.description;
+  renderStudyExamIntro(unit);
 
   hideStudyPanels();
   studyQuestionPanel.classList.add("study-panel-active");
@@ -617,6 +687,26 @@ function renderQuestionVisual(visual, compact = false) {
         </div>`;
     }
 
+
+
+    case "triangle-cevians":
+      return `
+        <div class="${cls}" aria-label="三角形と2本の線分の図">
+          <svg viewBox="0 0 320 220" role="img">
+            <polygon points="55,180 285,180 55,30" class="study-svg-shape"/>
+            <circle cx="208.3" cy="180" r="4" class="study-svg-point"/>
+            <circle cx="131.7" cy="80" r="4" class="study-svg-point"/>
+            <line x1="55" y1="30" x2="208.3" y2="180" class="study-svg-guide"/>
+            <line x1="55" y1="180" x2="131.7" y2="80" class="study-svg-guide"/>
+            <circle cx="120.7" cy="107.1" r="4.5" class="study-svg-center"/>
+            <text x="43" y="25" class="study-svg-label">A</text>
+            <text x="38" y="200" class="study-svg-label">B</text>
+            <text x="288" y="200" class="study-svg-label">C</text>
+            <text x="207" y="202" class="study-svg-label">D</text>
+            <text x="138" y="76" class="study-svg-label">E</text>
+            <text x="127" y="105" class="study-svg-label">P</text>
+          </svg>
+        </div>`;
 
     case "symmetry": {
       const shape = visual.shape || "square";
@@ -968,8 +1058,20 @@ function renderStudyQuestions(questions) {
       button.classList.add("study-question-kanji-card");
     }
 
+    const isExamQuestion = question.type === "exam";
+
+    if (isExamQuestion) {
+      button.classList.add("study-question-exam");
+    }
+
     button.innerHTML = `
       <span class="study-question-number">${escapeHTML(question.id)}</span>
+      ${isExamQuestion ? `
+        <span class="study-exam-question-meta">
+          <b>${escapeHTML(question.examLabel || "")}</b>
+          <em>${escapeHTML(question.subject || "")}</em>
+        </span>
+      ` : ""}
       ${isKanjiCard && question.kanji ? `<span class="study-kanji-card-char">${escapeHTML(question.kanji)}</span>` : ""}
       <span class="study-question-text ${isWordProblem ? "study-question-word" : ""}">
         ${formatStudyMathText(questionText)}
