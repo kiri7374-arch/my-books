@@ -1803,3 +1803,60 @@ body.answer-modal-visible {
     font-size: 12px !important;
   }
 }
+
+
+/* =========================================================
+   GRADE VISIBILITY / SEARCH GAP FIX V1.4
+========================================================= */
+
+/* 6年専用カードは hidden 属性を最優先で非表示 */
+.study-mode-subject-card[data-study6-only="true"][hidden],
+[data-study6-only="true"][hidden] {
+  display: none !important;
+}
+
+/*
+  検索欄と白い学習パネルが接触しないよう、
+  通常時は実際の外側余白を確保する。
+*/
+.study-shell {
+  margin-top: 22px !important;
+}
+
+/*
+  sticky中は下のカードが検索欄の直下まで潜り込むため、
+  検索欄の下にページ背景色のセパレーターを常時描画する。
+*/
+.study-search-toolbar {
+  position: sticky;
+  margin-bottom: 0 !important;
+  padding-bottom: 12px !important;
+  overflow: visible !important;
+}
+
+.study-search-toolbar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -18px;
+  height: 18px;
+  background: #151515;
+  pointer-events: none;
+}
+
+/* 以前のfixで付与した大きな下paddingを上書き */
+@media (max-width: 700px) {
+  .study-shell {
+    margin-top: 20px !important;
+  }
+
+  .study-search-toolbar {
+    padding-bottom: 12px !important;
+  }
+
+  .study-search-toolbar::after {
+    bottom: -16px;
+    height: 16px;
+  }
+}
