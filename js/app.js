@@ -124,35 +124,35 @@ function getStudySubjectConfig(subjectKey) {
       title: "算数",
       en: "MATH",
       description: "計算の仕方だけでなく、なぜそうなるのかまで理解しながら学習します。",
-      file: `${base}/math/index.json?v=20261004-reasonv2`,
+      file: `${base}/math/index.json?v=20261004-mathdrillv22`,
       splitUnits: true
     },
     science: {
       title: "理科",
       en: "SCIENCE",
       description: "観察や実験の結果から、理由を考える力を身につけます。",
-      file: `${base}/science.json?v=20261004-reasonv2`,
+      file: `${base}/science.json?v=20261004-mathdrillv22`,
       splitUnits: false
     },
     english: {
       title: "英語",
       en: "ENGLISH",
       description: "単語だけでなく、短い文章や会話の中で英語を使います。",
-      file: `${base}/english.json?v=20261004-reasonv2`,
+      file: `${base}/english.json?v=20261004-mathdrillv22`,
       splitUnits: false
     },
     japanese: {
       title: "国語",
       en: "JAPANESE",
       description: `${getStudyGradeFromBook() || ""}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
-      file: `${base}/japanese.json?v=20261004-reasonv2`,
+      file: `${base}/japanese.json?v=20261004-mathdrillv22`,
       splitUnits: false
     },
     challenge: {
       title: "難関中学チャレンジ",
       en: "ENTRANCE EXAM",
       description: "算数・国語・理科・社会を混ぜた、入試本番を意識した50問です。",
-      file: `${base}/challenge.json?v=20261004-reasonv2`,
+      file: `${base}/challenge.json?v=20261004-mathdrillv22`,
       splitUnits: false
     }
   };
@@ -1164,9 +1164,9 @@ function getStudySubjectLabel(subjectKey) {
 
 function getStudySubjectPath(bookId, subjectKey) {
   if (subjectKey === "math") {
-    return `books/${bookId}/math/index.json?v=20261004-reasonv2`;
+    return `books/${bookId}/math/index.json?v=20261004-mathdrillv22`;
   }
-  return `books/${bookId}/${subjectKey}.json?v=20261004-reasonv2`;
+  return `books/${bookId}/${subjectKey}.json?v=20261004-mathdrillv22`;
 }
 
 async function tryLoadStudyJSON(path) {
@@ -1194,7 +1194,7 @@ async function loadKanjiGradeData() {
   if (studyKanjiGradeData) return studyKanjiGradeData;
 
   try {
-    const response = await fetch("data/kanji-grade.json?v=20261004-reasonv2");
+    const response = await fetch("data/kanji-grade.json?v=20261004-mathdrillv22");
     if (!response.ok) throw new Error("漢字学年データを読み込めませんでした。");
 
     studyKanjiGradeData = await response.json();
