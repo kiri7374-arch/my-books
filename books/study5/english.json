@@ -16,109 +16,133 @@
           "id": "E5-ALPHABET-001",
           "type": "text",
           "level": "basic",
-          "question": "小文字の a に対応する大文字を書きましょう。",
-          "answer": "A",
+          "question": "小文字の a に対応する大文字を書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：A\n手掛かり：a の大文字は A です。",
           "explanation": "a の大文字は A です。",
-          "why": "大文字と小文字の形を対応させて覚えます。"
+          "why": "大文字と小文字の形を対応させて覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-002",
           "type": "text",
           "level": "basic",
-          "question": "大文字の G に対応する小文字を書きましょう。",
-          "answer": "g",
+          "question": "大文字の G に対応する小文字を書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：g\n手掛かり：G の小文字は g です。",
           "explanation": "G の小文字は g です。",
-          "why": "形が大きく違う文字もあるので対応で覚えます。"
+          "why": "形が大きく違う文字もあるので対応で覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-003",
           "type": "text",
           "level": "basic",
-          "question": "“book” の最初の文字を大文字にするとどうなりますか？",
-          "answer": "Book",
+          "question": "“book” の最初の文字を大文字にするとどうなりますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：Book\n理由：b を B にします。",
           "explanation": "b を B にします。",
-          "why": "文の最初や固有名詞では大文字を使うことがあります。"
+          "why": "文の最初や固有名詞では大文字を使うことがあります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-004",
           "type": "text",
           "level": "basic",
-          "question": "“Japan” の最初の文字が大文字なのはなぜですか？",
-          "answer": "国の名前だから",
+          "question": "“Japan” の最初の文字が大文字なのはなぜですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：国の名前だから\n理由：Japan は国名なので J を大文字で書きます。",
           "explanation": "Japan は国名なので J を大文字で書きます。",
-          "why": "国名や人名などの固有名詞は大文字で始めます。"
+          "why": "国名や人名などの固有名詞は大文字で始めます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-005",
           "type": "text",
           "level": "basic",
-          "question": "“school” をアルファベットで1文字ずつ区切って書きましょう。",
-          "answer": "s-c-h-o-o-l",
+          "question": "“school” をアルファベットで1文字ずつ区切って書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：s-c-h-o-o-l\n手掛かり：school は s, c, h, o, o, l の順です。",
           "explanation": "school は s, c, h, o, o, l の順です。",
-          "why": "つづりを音と文字で確かめます。"
+          "why": "つづりを音と文字で確かめます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-006",
           "type": "text",
           "level": "basic",
-          "question": "“name” の文字数はいくつですか？",
-          "answer": "4文字",
+          "question": "“name” の文字数はいくつですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：4文字\n理由：n-a-m-e の4文字です。",
           "explanation": "n-a-m-e の4文字です。",
-          "why": "単語のつづりを正確に見る練習です。"
+          "why": "単語のつづりを正確に見る練習です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-007",
           "type": "text",
           "level": "basic",
-          "question": "“apple” の最初の文字は何ですか？",
-          "answer": "a",
+          "question": "“apple” の最初の文字は何ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：a\n理由：apple は a で始まります。",
           "explanation": "apple は a で始まります。",
-          "why": "文字と単語を結び付けます。"
+          "why": "文字と単語を結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-008",
           "type": "text",
           "level": "basic",
-          "question": "“Friday” の F は大文字ですか？",
-          "answer": "大文字です",
+          "question": "“Friday” の F は大文字ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：大文字です\n理由：曜日の名前は大文字で始めます。",
           "explanation": "曜日の名前は大文字で始めます。",
-          "why": "曜日や月の名前は大文字で始めます。"
+          "why": "曜日や月の名前は大文字で始めます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-009",
           "type": "text",
           "level": "basic",
-          "question": "“English” の最初の文字は大文字ですか？",
-          "answer": "大文字です",
+          "question": "“English” の最初の文字は大文字ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：大文字です\n理由：言語名 English は E を大文字で書きます。",
           "explanation": "言語名 English は E を大文字で書きます。",
-          "why": "言語名を大文字で始める約束です。"
+          "why": "言語名を大文字で始める約束です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-010",
           "type": "text",
           "level": "basic",
-          "question": "自分の名前をローマ字で書くとき、最初の文字は大文字にしますか？",
-          "answer": "します",
+          "question": "自分の名前をローマ字で書くとき、最初の文字は大文字にしますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：します\n理由：人の名前は大文字で始めます。",
           "explanation": "人の名前は大文字で始めます。",
-          "why": "名前を書く基本的な約束です。"
+          "why": "名前を書く基本的な約束です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-011",
           "type": "text",
           "level": "basic",
-          "question": "“cat” と “cap” で違う文字は何番目ですか？",
-          "answer": "3番目",
+          "question": "“cat” と “cap” で違う文字は何番目ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：3番目\n理由：cat の t と cap の p が違います。",
           "explanation": "cat の t と cap の p が違います。",
-          "why": "つづりを比べて文字の違いに気付きます。"
+          "why": "つづりを比べて文字の違いに気付きます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-ALPHABET-012",
           "type": "text",
           "level": "basic",
-          "question": "“desk” の4文字を正しい順に並べましょう。 k / d / s / e",
-          "answer": "d-e-s-k",
+          "question": "“desk” の4文字を正しい順に並べましょう。 k / d / s / e\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：d-e-s-k\n手掛かり：desk は d-e-s-k です。",
           "explanation": "desk は d-e-s-k です。",
-          "why": "文字の並びを正しく覚えます。"
+          "why": "文字の並びを正しく覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -133,127 +157,155 @@
           "id": "E5-NUMBERS-001",
           "type": "text",
           "level": "basic",
-          "question": "15 を英語で書きましょう。",
-          "answer": "fifteen",
+          "question": "15 を英語で書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：fifteen\n手掛かり：15 は fifteen です。",
           "explanation": "15 は fifteen です。",
-          "why": "数の言い方とつづりを結び付けます。"
+          "why": "数の言い方とつづりを結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-002",
           "type": "text",
           "level": "basic",
-          "question": "20 を英語で書きましょう。",
-          "answer": "twenty",
+          "question": "20 を英語で書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：twenty\n手掛かり：20 は twenty です。",
           "explanation": "20 は twenty です。",
-          "why": "10のまとまりの数のつづりを覚えます。"
+          "why": "10のまとまりの数のつづりを覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-003",
           "type": "text",
           "level": "basic",
-          "question": "“thirty” は何を表しますか？",
-          "answer": "30",
+          "question": "“thirty” は何を表しますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：30\n手掛かり：thirty は30です。",
           "explanation": "thirty は30です。",
-          "why": "聞いた数と数字を対応させます。"
+          "why": "聞いた数と数字を対応させます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-004",
           "type": "text",
           "level": "basic",
-          "question": "“What day is it today?” は何をたずねていますか？",
-          "answer": "今日の曜日",
+          "question": "“What day is it today?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：今日の曜日\n手掛かり：day は曜日をたずねる表現で使われます。",
           "explanation": "day は曜日をたずねる表現で使われます。",
-          "why": "質問の目的を理解して答えます。"
+          "why": "質問の目的を理解して答えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-005",
           "type": "text",
           "level": "basic",
-          "question": "“It’s Monday.” の意味は何ですか？",
-          "answer": "月曜日です",
+          "question": "“It’s Monday.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：月曜日です\n手掛かり：Monday は月曜日です。",
           "explanation": "Monday は月曜日です。",
-          "why": "曜日を文の中で使います。"
+          "why": "曜日を文の中で使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-006",
           "type": "text",
           "level": "basic",
-          "question": "“What time is it?” に 7:00 と答えるならどう言いますか？",
-          "answer": "It’s seven.",
+          "question": "“What time is it?” に 7:00 と答えるならどう言いますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：It’s seven.\n理由：7時ちょうどなら It’s seven. と言えます。",
           "explanation": "7時ちょうどなら It’s seven. と言えます。",
-          "why": "時刻をたずねたり答えたりする表現です。"
+          "why": "時刻をたずねたり答えたりする表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-007",
           "type": "text",
           "level": "basic",
-          "question": "“It’s eight thirty.” は何時何分ですか？",
-          "answer": "8時30分",
+          "question": "“It’s eight thirty.” は何時何分ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：8時30分\n理由：eight thirty は 8:30 です。",
           "explanation": "eight thirty は 8:30 です。",
-          "why": "英語の時刻表現を数字に直します。"
+          "why": "英語の時刻表現を数字に直します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-008",
           "type": "text",
           "level": "basic",
-          "question": "January は何月ですか？",
-          "answer": "1月",
+          "question": "January は何月ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：1月\n理由：January は1月です。",
           "explanation": "January は1月です。",
-          "why": "月の名前を覚えます。"
+          "why": "月の名前を覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-009",
           "type": "text",
           "level": "basic",
-          "question": "May は何月ですか？",
-          "answer": "5月",
+          "question": "May は何月ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：5月\n理由：May は5月です。",
           "explanation": "May は5月です。",
-          "why": "月の名前と数字を対応させます。"
+          "why": "月の名前と数字を対応させます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-010",
           "type": "text",
           "level": "basic",
-          "question": "December は何月ですか？",
-          "answer": "12月",
+          "question": "December は何月ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：12月\n理由：December は12月です。",
           "explanation": "December は12月です。",
-          "why": "一年の月の順番を英語でも確認します。"
+          "why": "一年の月の順番を英語でも確認します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-011",
           "type": "text",
           "level": "basic",
-          "question": "“My birthday is in July.” の意味は何ですか？",
-          "answer": "私の誕生日は7月です",
+          "question": "“My birthday is in July.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私の誕生日は7月です\n手掛かり：July は7月です。",
           "explanation": "July は7月です。",
-          "why": "自分の誕生日を伝える表現につなげます。"
+          "why": "自分の誕生日を伝える表現につなげます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-012",
           "type": "text",
           "level": "basic",
-          "question": "“How many books?” は何をたずねていますか？",
-          "answer": "本の数",
+          "question": "“How many books?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：本の数\n手掛かり：How many ...? は数をたずねる表現です。",
           "explanation": "How many ...? は数をたずねる表現です。",
-          "why": "数をたずねる目的で使います。"
+          "why": "数をたずねる目的で使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-013",
           "type": "text",
           "level": "basic",
-          "question": "“I have three pencils.” の意味は何ですか？",
-          "answer": "私は鉛筆を3本持っています",
+          "question": "“I have three pencils.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は鉛筆を3本持っています\n手掛かり：three は3です。",
           "explanation": "three は3です。",
-          "why": "数と名詞を組み合わせて伝えます。"
+          "why": "数と名詞を組み合わせて伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-NUMBERS-014",
           "type": "text",
           "level": "basic",
-          "question": "“first” は何番目を表しますか？",
-          "answer": "1番目",
+          "question": "“first” は何番目を表しますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：1番目\n理由：first は順番の1番目です。",
           "explanation": "first は順番の1番目です。",
-          "why": "数量だけでなく順番を表す言葉にも触れます。"
+          "why": "数量だけでなく順番を表す言葉にも触れます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -268,109 +320,133 @@
           "id": "E5-SCHOOL-001",
           "type": "text",
           "level": "basic",
-          "question": "“What subject do you like?” は何をたずねていますか？",
-          "answer": "好きな教科",
+          "question": "“What subject do you like?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：好きな教科\n手掛かり：subject は教科です。",
           "explanation": "subject は教科です。",
-          "why": "相手の好みをたずねる表現です。"
+          "why": "相手の好みをたずねる表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-002",
           "type": "text",
           "level": "basic",
-          "question": "“I like science.” の意味は何ですか？",
-          "answer": "私は理科が好きです",
+          "question": "“I like science.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は理科が好きです\n手掛かり：science は理科です。",
           "explanation": "science は理科です。",
-          "why": "好きな教科を伝えます。"
+          "why": "好きな教科を伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-003",
           "type": "text",
           "level": "basic",
-          "question": "算数を英語で何といいますか？",
-          "answer": "math",
+          "question": "算数を英語で何といいますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：math\n理由：math は算数・数学です。",
           "explanation": "math は算数・数学です。",
-          "why": "教科名を英語で言えるようにします。"
+          "why": "教科名を英語で言えるようにします。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-004",
           "type": "text",
           "level": "basic",
-          "question": "日本語を英語で何といいますか？",
-          "answer": "Japanese",
+          "question": "日本語を英語で何といいますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：Japanese\n理由：Japanese は日本語です。",
           "explanation": "Japanese は日本語です。",
-          "why": "言語名を英語で言えるようにします。"
+          "why": "言語名を英語で言えるようにします。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-005",
           "type": "text",
           "level": "basic",
-          "question": "体育を英語で何といいますか？",
-          "answer": "P.E.",
+          "question": "体育を英語で何といいますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：P.E.\n理由：P.E. は physical education の略です。",
           "explanation": "P.E. は physical education の略です。",
-          "why": "教科名でよく使う表現です。"
+          "why": "教科名でよく使う表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-006",
           "type": "text",
           "level": "basic",
-          "question": "音楽を英語で何といいますか？",
-          "answer": "music",
+          "question": "音楽を英語で何といいますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：music\n理由：music は音楽です。",
           "explanation": "music は音楽です。",
-          "why": "教科名を英語で覚えます。"
+          "why": "教科名を英語で覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-007",
           "type": "text",
           "level": "basic",
-          "question": "“We have math on Tuesday.” の意味は何ですか？",
-          "answer": "火曜日に算数があります",
+          "question": "“We have math on Tuesday.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：火曜日に算数があります\n手掛かり：on Tuesday は火曜日に、という意味です。",
           "explanation": "on Tuesday は火曜日に、という意味です。",
-          "why": "曜日と時間割を組み合わせます。"
+          "why": "曜日と時間割を組み合わせます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-008",
           "type": "text",
           "level": "basic",
-          "question": "“What do you have on Friday?” は何をたずねていますか？",
-          "answer": "金曜日に何の授業があるか",
+          "question": "“What do you have on Friday?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：金曜日に何の授業があるか\n手掛かり：have を授業がある、という意味で使っています。",
           "explanation": "have を授業がある、という意味で使っています。",
-          "why": "学校生活の文脈で表現を理解します。"
+          "why": "学校生活の文脈で表現を理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-009",
           "type": "text",
           "level": "basic",
-          "question": "“I have English and music.” の and はどんな働きですか？",
-          "answer": "二つをつなぐ",
+          "question": "“I have English and music.” の and はどんな働きですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：二つをつなぐ\n理由：and は「〜と〜」のように語をつなぎます。",
           "explanation": "and は「〜と〜」のように語をつなぎます。",
-          "why": "短い文を組み立てる基本です。"
+          "why": "短い文を組み立てる基本です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-010",
           "type": "text",
           "level": "basic",
-          "question": "“My favorite subject is art.” の意味は何ですか？",
-          "answer": "私の一番好きな教科は図工です",
+          "question": "“My favorite subject is art.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私の一番好きな教科は図工です\n手掛かり：favorite は一番好きな、art は図工・美術です。",
           "explanation": "favorite は一番好きな、art は図工・美術です。",
-          "why": "自分の好みを少し詳しく伝えます。"
+          "why": "自分の好みを少し詳しく伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-011",
           "type": "text",
           "level": "basic",
-          "question": "“Do you like P.E.?” に肯定で答えましょう。",
-          "answer": "Yes, I do.",
+          "question": "“Do you like P.E.?” に肯定で答えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：Yes, I do.\n手掛かり：Do you like ...? に肯定する基本表現です。",
           "explanation": "Do you like ...? に肯定する基本表現です。",
-          "why": "質問と答えをセットで使います。"
+          "why": "質問と答えをセットで使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-SCHOOL-012",
           "type": "text",
           "level": "basic",
-          "question": "“Do you like music?” に否定で答えましょう。",
-          "answer": "No, I don’t.",
+          "question": "“Do you like music?” に否定で答えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：No, I don’t.\n手掛かり：否定する基本表現です。",
           "explanation": "否定する基本表現です。",
-          "why": "相手の質問に自分の気持ちを答えます。"
+          "why": "相手の質問に自分の気持ちを答えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -385,109 +461,133 @@
           "id": "E5-LIKE-001",
           "type": "text",
           "level": "basic",
-          "question": "“I like soccer.” の意味は何ですか？",
-          "answer": "私はサッカーが好きです",
+          "question": "“I like soccer.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私はサッカーが好きです\n手掛かり：like は好きという意味です。",
           "explanation": "like は好きという意味です。",
-          "why": "自分の好みを伝える基本文です。"
+          "why": "自分の好みを伝える基本文です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-002",
           "type": "text",
           "level": "basic",
-          "question": "“I like dogs.” を「私は猫が好きです」に変えましょう。",
-          "answer": "I like cats.",
+          "question": "“I like dogs.” を「私は猫が好きです」に変えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：I like cats.\n手掛かり：dogs を cats に変えます。",
           "explanation": "dogs を cats に変えます。",
-          "why": "語を入れ替えて自分のことを表現します。"
+          "why": "語を入れ替えて自分のことを表現します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-003",
           "type": "text",
           "level": "basic",
-          "question": "“What do you like?” は何をたずねていますか？",
-          "answer": "何が好きか",
+          "question": "“What do you like?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：何が好きか\n手掛かり：相手の好みをたずねます。",
           "explanation": "相手の好みをたずねます。",
-          "why": "会話では質問と答えのやり取りを大切にします。"
+          "why": "会話では質問と答えのやり取りを大切にします。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-004",
           "type": "text",
           "level": "basic",
-          "question": "“I want a new bag.” の意味は何ですか？",
-          "answer": "私は新しいかばんがほしいです",
+          "question": "“I want a new bag.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は新しいかばんがほしいです\n手掛かり：want はほしいという意味です。",
           "explanation": "want はほしいという意味です。",
-          "why": "自分の希望を伝えます。"
+          "why": "自分の希望を伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-005",
           "type": "text",
           "level": "basic",
-          "question": "“What do you want?” は何をたずねていますか？",
-          "answer": "何がほしいか",
+          "question": "“What do you want?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：何がほしいか\n手掛かり：want を使って相手の希望をたずねます。",
           "explanation": "want を使って相手の希望をたずねます。",
-          "why": "場面に応じて質問を使います。"
+          "why": "場面に応じて質問を使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-006",
           "type": "text",
           "level": "basic",
-          "question": "“I want a red cap.” の red は何を説明していますか？",
-          "answer": "cap の色",
+          "question": "“I want a red cap.” の red は何を説明していますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：cap の色\n理由：red は cap がどんな帽子かを説明しています。",
           "explanation": "red は cap がどんな帽子かを説明しています。",
-          "why": "名詞を説明する語の働きに気付きます。"
+          "why": "名詞を説明する語の働きに気付きます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-007",
           "type": "text",
           "level": "basic",
-          "question": "“I like apples, but I don’t like bananas.” の but はどんな意味ですか？",
-          "answer": "しかし・でも",
+          "question": "“I like apples, but I don’t like bananas.” の but はどんな意味ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：しかし・でも\n理由：but は反対の内容をつなぎます。",
           "explanation": "but は反対の内容をつなぎます。",
-          "why": "自分の好みをより詳しく伝えられます。"
+          "why": "自分の好みをより詳しく伝えられます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-008",
           "type": "text",
           "level": "basic",
-          "question": "“I really like music.” の really はどんな感じを加えますか？",
-          "answer": "とても・本当に",
+          "question": "“I really like music.” の really はどんな感じを加えますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：とても・本当に\n理由：好きを強める働きがあります。",
           "explanation": "好きを強める働きがあります。",
-          "why": "気持ちの強さを表す語にも触れます。"
+          "why": "気持ちの強さを表す語にも触れます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-009",
           "type": "text",
           "level": "basic",
-          "question": "“Do you like curry?” に「はい」と答える文を書きましょう。",
-          "answer": "Yes, I do.",
+          "question": "“Do you like curry?” に「はい」と答える文を書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：Yes, I do.\n手掛かり：短い答えで返します。",
           "explanation": "短い答えで返します。",
-          "why": "会話の基本的な応答です。"
+          "why": "会話の基本的な応答です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-010",
           "type": "text",
           "level": "basic",
-          "question": "“Do you want juice?” に「いいえ」と答える文を書きましょう。",
-          "answer": "No, I don’t.",
+          "question": "“Do you want juice?” に「いいえ」と答える文を書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：No, I don’t.\n手掛かり：want の質問にも do を使って答えます。",
           "explanation": "want の質問にも do を使って答えます。",
-          "why": "質問の形に対応した答え方を練習します。"
+          "why": "質問の形に対応した答え方を練習します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-011",
           "type": "text",
           "level": "basic",
-          "question": "“My favorite color is blue.” の意味は何ですか？",
-          "answer": "私の一番好きな色は青です",
+          "question": "“My favorite color is blue.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私の一番好きな色は青です\n手掛かり：favorite color は一番好きな色です。",
           "explanation": "favorite color は一番好きな色です。",
-          "why": "自分について紹介する表現です。"
+          "why": "自分について紹介する表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-LIKE-012",
           "type": "text",
           "level": "basic",
-          "question": "“I like baseball and basketball.” では、好きなものはいくつありますか？",
-          "answer": "2つ",
+          "question": "“I like baseball and basketball.” では、好きなものはいくつありますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：2つ\n理由：baseball と basketball の2つです。",
           "explanation": "baseball と basketball の2つです。",
-          "why": "and で複数のものをつなぎます。"
+          "why": "and で複数のものをつなぎます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -502,109 +602,133 @@
           "id": "E5-CAN-001",
           "type": "text",
           "level": "basic",
-          "question": "“I can swim.” の意味は何ですか？",
-          "answer": "私は泳げます",
+          "question": "“I can swim.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は泳げます\n手掛かり：can は「〜できる」を表します。",
           "explanation": "can は「〜できる」を表します。",
-          "why": "自分のできることを伝えます。"
+          "why": "自分のできることを伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-002",
           "type": "text",
           "level": "basic",
-          "question": "“Can you play soccer?” は何をたずねていますか？",
-          "answer": "サッカーができるか",
+          "question": "“Can you play soccer?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：サッカーができるか\n手掛かり：Can you ...? は相手にできることをたずねます。",
           "explanation": "Can you ...? は相手にできることをたずねます。",
-          "why": "質問の目的を理解します。"
+          "why": "質問の目的を理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-003",
           "type": "text",
           "level": "basic",
-          "question": "“Can you cook?” に肯定で答えましょう。",
-          "answer": "Yes, I can.",
+          "question": "“Can you cook?” に肯定で答えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：Yes, I can.\n手掛かり：can の質問には can で答えます。",
           "explanation": "can の質問には can で答えます。",
-          "why": "質問と答えの形を対応させます。"
+          "why": "質問と答えの形を対応させます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-004",
           "type": "text",
           "level": "basic",
-          "question": "“Can you ski?” に否定で答えましょう。",
-          "answer": "No, I can’t.",
+          "question": "“Can you ski?” に否定で答えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：No, I can’t.\n手掛かり：can’t は cannot の短い形です。",
           "explanation": "can’t は cannot の短い形です。",
-          "why": "できないことも伝えられます。"
+          "why": "できないことも伝えられます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-005",
           "type": "text",
           "level": "basic",
-          "question": "“I can play the piano.” の意味は何ですか？",
-          "answer": "私はピアノを弾けます",
+          "question": "“I can play the piano.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私はピアノを弾けます\n手掛かり：play the piano でピアノを弾く、です。",
           "explanation": "play the piano でピアノを弾く、です。",
-          "why": "楽器についてできることを伝えます。"
+          "why": "楽器についてできることを伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-006",
           "type": "text",
           "level": "basic",
-          "question": "“I can’t fly.” の意味は何ですか？",
-          "answer": "私は空を飛べません",
+          "question": "“I can’t fly.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は空を飛べません\n手掛かり：can’t はできない、という意味です。",
           "explanation": "can’t はできない、という意味です。",
-          "why": "否定の表現を理解します。"
+          "why": "否定の表現を理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-007",
           "type": "text",
           "level": "basic",
-          "question": "“He can run fast.” の fast はどんな意味ですか？",
-          "answer": "速く",
+          "question": "“He can run fast.” の fast はどんな意味ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：速く\n理由：run をどのようにするか説明しています。",
           "explanation": "run をどのようにするか説明しています。",
-          "why": "動作の様子を表す語を知ります。"
+          "why": "動作の様子を表す語を知ります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-008",
           "type": "text",
           "level": "basic",
-          "question": "“She can sing well.” の意味は何ですか？",
-          "answer": "彼女は上手に歌えます",
+          "question": "“She can sing well.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：彼女は上手に歌えます\n手掛かり：well は上手に、という意味です。",
           "explanation": "well は上手に、という意味です。",
-          "why": "人のできることを紹介します。"
+          "why": "人のできることを紹介します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-009",
           "type": "text",
           "level": "basic",
-          "question": "“Can you speak English?” の speak は何をする意味ですか？",
-          "answer": "話す",
+          "question": "“Can you speak English?” の speak は何をする意味ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：話す\n理由：speak English で英語を話す、です。",
           "explanation": "speak English で英語を話す、です。",
-          "why": "動作を表す基本語を文の中で覚えます。"
+          "why": "動作を表す基本語を文の中で覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-010",
           "type": "text",
           "level": "basic",
-          "question": "“I can jump, but I can’t swim.” で、できることは何ですか？",
-          "answer": "jump（跳ぶこと）",
+          "question": "“I can jump, but I can’t swim.” で、できることは何ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：jump（跳ぶこと）\n理由：前半の can の後ろを読み取ります。",
           "explanation": "前半の can の後ろを読み取ります。",
-          "why": "一つの文から必要な情報を探します。"
+          "why": "一つの文から必要な情報を探します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-011",
           "type": "text",
           "level": "basic",
-          "question": "“Can you draw?” に “Yes, I can.” と答えた人は、絵をかけますか？",
-          "answer": "かけます",
+          "question": "“Can you draw?” に “Yes, I can.” と答えた人は、絵をかけますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：かけます\n理由：Yes, I can. は「はい、できます」です。",
           "explanation": "Yes, I can. は「はい、できます」です。",
-          "why": "会話全体から意味を読み取ります。"
+          "why": "会話全体から意味を読み取ります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CAN-012",
           "type": "text",
           "level": "basic",
-          "question": "“I can play baseball.” を「野球ができません」に変えましょう。",
-          "answer": "I can’t play baseball.",
+          "question": "“I can play baseball.” を「野球ができません」に変えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：I can’t play baseball.\n手掛かり：can を can’t に変えます。",
           "explanation": "can を can’t に変えます。",
-          "why": "肯定と否定の違いを使い分けます。"
+          "why": "肯定と否定の違いを使い分けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -619,109 +743,133 @@
           "id": "E5-PEOPLE-001",
           "type": "text",
           "level": "basic",
-          "question": "“My name is Ken.” の意味は何ですか？",
-          "answer": "私の名前はケンです",
+          "question": "“My name is Ken.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私の名前はケンです\n手掛かり：名前を紹介する基本表現です。",
           "explanation": "名前を紹介する基本表現です。",
-          "why": "自己紹介でよく使います。"
+          "why": "自己紹介でよく使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-002",
           "type": "text",
           "level": "basic",
-          "question": "“What’s your name?” は何をたずねていますか？",
-          "answer": "名前",
+          "question": "“What’s your name?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：名前\n手掛かり：相手の名前をたずねます。",
           "explanation": "相手の名前をたずねます。",
-          "why": "初対面のやり取りで使います。"
+          "why": "初対面のやり取りで使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-003",
           "type": "text",
           "level": "basic",
-          "question": "“I’m from Japan.” の意味は何ですか？",
-          "answer": "私は日本出身です",
+          "question": "“I’m from Japan.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は日本出身です\n手掛かり：from は出身を表すときに使います。",
           "explanation": "from は出身を表すときに使います。",
-          "why": "自分の国や地域を紹介します。"
+          "why": "自分の国や地域を紹介します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-004",
           "type": "text",
           "level": "basic",
-          "question": "“Where are you from?” は何をたずねていますか？",
-          "answer": "出身地",
+          "question": "“Where are you from?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：出身地\n手掛かり：where は場所をたずねます。",
           "explanation": "where は場所をたずねます。",
-          "why": "場所についての質問を理解します。"
+          "why": "場所についての質問を理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-005",
           "type": "text",
           "level": "basic",
-          "question": "“This is my brother.” の意味は何ですか？",
-          "answer": "こちらは私の兄・弟です",
+          "question": "“This is my brother.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：こちらは私の兄・弟です\n手掛かり：brother は兄弟の男性を表します。",
           "explanation": "brother は兄弟の男性を表します。",
-          "why": "家族を紹介する表現です。"
+          "why": "家族を紹介する表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-006",
           "type": "text",
           "level": "basic",
-          "question": "“This is my sister.” の意味は何ですか？",
-          "answer": "こちらは私の姉・妹です",
+          "question": "“This is my sister.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：こちらは私の姉・妹です\n手掛かり：sister は姉妹の女性を表します。",
           "explanation": "sister は姉妹の女性を表します。",
-          "why": "家族の語彙を使います。"
+          "why": "家族の語彙を使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-007",
           "type": "text",
           "level": "basic",
-          "question": "“He is kind.” の意味は何ですか？",
-          "answer": "彼は親切です",
+          "question": "“He is kind.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：彼は親切です\n手掛かり：kind は親切な、です。",
           "explanation": "kind は親切な、です。",
-          "why": "人の様子を紹介する表現です。"
+          "why": "人の様子を紹介する表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-008",
           "type": "text",
           "level": "basic",
-          "question": "“She is funny.” の意味は何ですか？",
-          "answer": "彼女はおもしろい人です",
+          "question": "“She is funny.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：彼女はおもしろい人です\n手掛かり：funny はおもしろい、という意味で使えます。",
           "explanation": "funny はおもしろい、という意味で使えます。",
-          "why": "人の特徴を表す語です。"
+          "why": "人の特徴を表す語です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-009",
           "type": "text",
           "level": "basic",
-          "question": "“Who is she?” は何をたずねていますか？",
-          "answer": "彼女がだれか",
+          "question": "“Who is she?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：彼女がだれか\n手掛かり：who は人についてたずねる語です。",
           "explanation": "who は人についてたずねる語です。",
-          "why": "疑問詞の基本的な働きを知ります。"
+          "why": "疑問詞の基本的な働きを知ります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-010",
           "type": "text",
           "level": "basic",
-          "question": "“He is my friend.” の意味は何ですか？",
-          "answer": "彼は私の友達です",
+          "question": "“He is my friend.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：彼は私の友達です\n手掛かり：friend は友達です。",
           "explanation": "friend は友達です。",
-          "why": "身近な人を紹介します。"
+          "why": "身近な人を紹介します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-011",
           "type": "text",
           "level": "basic",
-          "question": "“Nice to meet you.” はどんな場面で使いますか？",
-          "answer": "初めて会った人へのあいさつ",
+          "question": "“Nice to meet you.” はどんな場面で使いますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：初めて会った人へのあいさつ\n理由：「はじめまして」に近い表現です。",
           "explanation": "「はじめまして」に近い表現です。",
-          "why": "場面と表現を結び付けます。"
+          "why": "場面と表現を結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PEOPLE-012",
           "type": "text",
           "level": "basic",
-          "question": "“Nice to meet you, too.” の too はどんな意味を加えますか？",
-          "answer": "私も",
+          "question": "“Nice to meet you, too.” の too はどんな意味を加えますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：私も\n理由：相手と同じ気持ちを返す表現です。",
           "explanation": "相手と同じ気持ちを返す表現です。",
-          "why": "あいさつのやり取りとして覚えます。"
+          "why": "あいさつのやり取りとして覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -736,109 +884,133 @@
           "id": "E5-DAILY-001",
           "type": "text",
           "level": "basic",
-          "question": "“I get up at seven.” の意味は何ですか？",
-          "answer": "私は7時に起きます",
+          "question": "“I get up at seven.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は7時に起きます\n手掛かり：get up は起きる、at seven は7時に、です。",
           "explanation": "get up は起きる、at seven は7時に、です。",
-          "why": "一日の生活を時刻と一緒に表します。"
+          "why": "一日の生活を時刻と一緒に表します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-002",
           "type": "text",
           "level": "basic",
-          "question": "“I go to school at eight.” の意味は何ですか？",
-          "answer": "私は8時に学校へ行きます",
+          "question": "“I go to school at eight.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は8時に学校へ行きます\n手掛かり：go to school は学校へ行く、です。",
           "explanation": "go to school は学校へ行く、です。",
-          "why": "日常の動作を表します。"
+          "why": "日常の動作を表します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-003",
           "type": "text",
           "level": "basic",
-          "question": "“I eat lunch at twelve.” の意味は何ですか？",
-          "answer": "私は12時に昼食を食べます",
+          "question": "“I eat lunch at twelve.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は12時に昼食を食べます\n手掛かり：eat lunch は昼食を食べる、です。",
           "explanation": "eat lunch は昼食を食べる、です。",
-          "why": "生活の時間を説明します。"
+          "why": "生活の時間を説明します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-004",
           "type": "text",
           "level": "basic",
-          "question": "“I go home at four.” の意味は何ですか？",
-          "answer": "私は4時に家へ帰ります",
+          "question": "“I go home at four.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は4時に家へ帰ります\n手掛かり：go home は家に帰る、です。",
           "explanation": "go home は家に帰る、です。",
-          "why": "学校生活の後の行動を表します。"
+          "why": "学校生活の後の行動を表します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-005",
           "type": "text",
           "level": "basic",
-          "question": "“I do my homework.” の意味は何ですか？",
-          "answer": "私は宿題をします",
+          "question": "“I do my homework.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は宿題をします\n手掛かり：do my homework は宿題をする、です。",
           "explanation": "do my homework は宿題をする、です。",
-          "why": "身近な動作を英語で表します。"
+          "why": "身近な動作を英語で表します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-006",
           "type": "text",
           "level": "basic",
-          "question": "“I go to bed at ten.” の意味は何ですか？",
-          "answer": "私は10時に寝ます",
+          "question": "“I go to bed at ten.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は10時に寝ます\n手掛かり：go to bed は寝る・床につく、です。",
           "explanation": "go to bed は寝る・床につく、です。",
-          "why": "一日の最後の行動を表します。"
+          "why": "一日の最後の行動を表します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-007",
           "type": "text",
           "level": "basic",
-          "question": "“What time do you get up?” は何をたずねていますか？",
-          "answer": "何時に起きるか",
+          "question": "“What time do you get up?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：何時に起きるか\n手掛かり：What time ...? は時刻をたずねます。",
           "explanation": "What time ...? は時刻をたずねます。",
-          "why": "相手の生活について質問します。"
+          "why": "相手の生活について質問します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-008",
           "type": "text",
           "level": "basic",
-          "question": "“I get up at six thirty.” は何時何分ですか？",
-          "answer": "6時30分",
+          "question": "“I get up at six thirty.” は何時何分ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：6時30分\n理由：six thirty は6:30です。",
           "explanation": "six thirty は6:30です。",
-          "why": "時刻表現を読み取ります。"
+          "why": "時刻表現を読み取ります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-009",
           "type": "text",
           "level": "basic",
-          "question": "“at seven” の at はここでは何を表していますか？",
-          "answer": "時刻",
+          "question": "“at seven” の at はここでは何を表していますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：時刻\n理由：at は具体的な時刻の前で使われます。",
           "explanation": "at は具体的な時刻の前で使われます。",
-          "why": "表現をかたまりで覚えます。"
+          "why": "表現をかたまりで覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-010",
           "type": "text",
           "level": "basic",
-          "question": "“I usually get up at seven.” の usually はどんな意味ですか？",
-          "answer": "たいてい",
+          "question": "“I usually get up at seven.” の usually はどんな意味ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：たいてい\n理由：普段の習慣を表す語です。",
           "explanation": "普段の習慣を表す語です。",
-          "why": "頻度を表す語にも慣れます。"
+          "why": "頻度を表す語にも慣れます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-011",
           "type": "text",
           "level": "basic",
-          "question": "“I eat breakfast before school.” の意味は何ですか？",
-          "answer": "学校へ行く前に朝食を食べます",
+          "question": "“I eat breakfast before school.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：学校へ行く前に朝食を食べます\n手掛かり：before は〜の前に、です。",
           "explanation": "before は〜の前に、です。",
-          "why": "時間の前後を表す語を理解します。"
+          "why": "時間の前後を表す語を理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-DAILY-012",
           "type": "text",
           "level": "basic",
-          "question": "“After school, I play soccer.” の意味は何ですか？",
-          "answer": "放課後、私はサッカーをします",
+          "question": "“After school, I play soccer.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：放課後、私はサッカーをします\n手掛かり：after school は放課後、です。",
           "explanation": "after school は放課後、です。",
-          "why": "一日の順序を表現します。"
+          "why": "一日の順序を表現します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -853,109 +1025,133 @@
           "id": "E5-FOOD-001",
           "type": "text",
           "level": "basic",
-          "question": "“What would you like?” は、食事などで何をたずねる表現ですか？",
-          "answer": "何がほしいか・何を注文したいか",
+          "question": "“What would you like?” は、食事などで何をたずねる表現ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：何がほしいか・何を注文したいか\n理由：相手の希望を丁寧にたずねる表現です。",
           "explanation": "相手の希望を丁寧にたずねる表現です。",
-          "why": "場面に応じたやり取りを学びます。"
+          "why": "場面に応じたやり取りを学びます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-002",
           "type": "text",
           "level": "basic",
-          "question": "“I’d like curry.” の意味は何ですか？",
-          "answer": "カレーをお願いします",
+          "question": "“I’d like curry.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：カレーをお願いします\n手掛かり：I’d like ... は、〜をお願いします、という丁寧な表現です。",
           "explanation": "I’d like ... は、〜をお願いします、という丁寧な表現です。",
-          "why": "注文の場面で使えます。"
+          "why": "注文の場面で使えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-003",
           "type": "text",
           "level": "basic",
-          "question": "“water” は何ですか？",
-          "answer": "水",
+          "question": "“water” は何ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：水\n理由：飲み物の基本語です。",
           "explanation": "飲み物の基本語です。",
-          "why": "身近な語を英語で理解します。"
+          "why": "身近な語を英語で理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-004",
           "type": "text",
           "level": "basic",
-          "question": "“rice” は何ですか？",
-          "answer": "ご飯・米",
+          "question": "“rice” は何ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：ご飯・米\n理由：食べ物の基本語です。",
           "explanation": "食べ物の基本語です。",
-          "why": "日本の食文化を英語で紹介するときにも使います。"
+          "why": "日本の食文化を英語で紹介するときにも使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-005",
           "type": "text",
           "level": "basic",
-          "question": "“vegetables” は何ですか？",
-          "answer": "野菜",
+          "question": "“vegetables” は何ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：野菜\n理由：複数の野菜を表す語です。",
           "explanation": "複数の野菜を表す語です。",
-          "why": "食べ物の語彙を増やします。"
+          "why": "食べ物の語彙を増やします。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-006",
           "type": "text",
           "level": "basic",
-          "question": "“I like pizza.” を「私はピザが好きではありません」に変えましょう。",
-          "answer": "I don’t like pizza.",
+          "question": "“I like pizza.” を「私はピザが好きではありません」に変えましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：I don’t like pizza.\n手掛かり：don’t を使って否定します。",
           "explanation": "don’t を使って否定します。",
-          "why": "好みを肯定・否定で伝え分けます。"
+          "why": "好みを肯定・否定で伝え分けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-007",
           "type": "text",
           "level": "basic",
-          "question": "“Do you like sushi?” に “Yes, I do.” と答えた人は寿司が好きですか？",
-          "answer": "好きです",
+          "question": "“Do you like sushi?” に “Yes, I do.” と答えた人は寿司が好きですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：好きです\n理由：Yes, I do. は肯定の答えです。",
           "explanation": "Yes, I do. は肯定の答えです。",
-          "why": "会話から相手の情報を読み取ります。"
+          "why": "会話から相手の情報を読み取ります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-008",
           "type": "text",
           "level": "basic",
-          "question": "“I’d like orange juice.” で、ほしいものは何ですか？",
-          "answer": "orange juice",
+          "question": "“I’d like orange juice.” で、ほしいものは何ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：orange juice\n理由：I’d like の後ろが希望するものです。",
           "explanation": "I’d like の後ろが希望するものです。",
-          "why": "文から必要な情報を探します。"
+          "why": "文から必要な情報を探します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-009",
           "type": "text",
           "level": "basic",
-          "question": "“How much?” は買い物で何をたずねることがありますか？",
-          "answer": "値段",
+          "question": "“How much?” は買い物で何をたずねることがありますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：値段\n理由：how much は値段をたずねる表現で使われます。",
           "explanation": "how much は値段をたずねる表現で使われます。",
-          "why": "実生活の場面と英語を結び付けます。"
+          "why": "実生活の場面と英語を結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-010",
           "type": "text",
           "level": "basic",
-          "question": "“Thank you.” に対する自然な返答の一つを書きましょう。",
-          "answer": "You’re welcome.",
+          "question": "“Thank you.” に対する自然な返答の一つを書きましょう。\n答えと、そう考えた手掛かりも答えましょう。",
+          "answer": "答え：You’re welcome.\n手掛かり：「どういたしまして」に当たる表現です。",
           "explanation": "「どういたしまして」に当たる表現です。",
-          "why": "やり取りの流れで表現を使います。"
+          "why": "やり取りの流れで表現を使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-011",
           "type": "text",
           "level": "basic",
-          "question": "“I like apples and oranges.” の意味は何ですか？",
-          "answer": "私はりんごとオレンジが好きです",
+          "question": "“I like apples and oranges.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私はりんごとオレンジが好きです\n手掛かり：and で二つの食べ物をつないでいます。",
           "explanation": "and で二つの食べ物をつないでいます。",
-          "why": "複数の好みを伝えます。"
+          "why": "複数の好みを伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-FOOD-012",
           "type": "text",
           "level": "basic",
-          "question": "“I want some water.” の意味は何ですか？",
-          "answer": "水がほしいです",
+          "question": "“I want some water.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：水がほしいです\n手掛かり：some water でいくらかの水、という意味です。",
           "explanation": "some water でいくらかの水、という意味です。",
-          "why": "身近な表現として理解します。"
+          "why": "身近な表現として理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -970,109 +1166,133 @@
           "id": "E5-PLACES-001",
           "type": "text",
           "level": "basic",
-          "question": "“Where is the library?” は何をたずねていますか？",
-          "answer": "図書館の場所",
+          "question": "“Where is the library?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：図書館の場所\n手掛かり：where は場所をたずねます。",
           "explanation": "where は場所をたずねます。",
-          "why": "学校や町で場所を尋ねる表現です。"
+          "why": "学校や町で場所を尋ねる表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-002",
           "type": "text",
           "level": "basic",
-          "question": "“It’s next to the park.” の意味は何ですか？",
-          "answer": "公園のとなりです",
+          "question": "“It’s next to the park.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：公園のとなりです\n手掛かり：next to は〜のとなり、です。",
           "explanation": "next to は〜のとなり、です。",
-          "why": "位置関係を表す表現です。"
+          "why": "位置関係を表す表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-003",
           "type": "text",
           "level": "basic",
-          "question": "“in front of” はどんな位置を表しますか？",
-          "answer": "〜の前",
+          "question": "“in front of” はどんな位置を表しますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：〜の前\n理由：場所の前後関係を表します。",
           "explanation": "場所の前後関係を表します。",
-          "why": "図や地図と合わせて理解します。"
+          "why": "図や地図と合わせて理解します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-004",
           "type": "text",
           "level": "basic",
-          "question": "“behind” はどんな位置を表しますか？",
-          "answer": "〜の後ろ",
+          "question": "“behind” はどんな位置を表しますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：〜の後ろ\n理由：前の反対側の位置です。",
           "explanation": "前の反対側の位置です。",
-          "why": "位置を表す語を対で覚えます。"
+          "why": "位置を表す語を対で覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-005",
           "type": "text",
           "level": "basic",
-          "question": "“Go straight.” の意味は何ですか？",
-          "answer": "まっすぐ進んでください",
+          "question": "“Go straight.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：まっすぐ進んでください\n手掛かり：道案内で使う表現です。",
           "explanation": "道案内で使う表現です。",
-          "why": "聞いた指示に従う活動につなげます。"
+          "why": "聞いた指示に従う活動につなげます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-006",
           "type": "text",
           "level": "basic",
-          "question": "“Turn right.” の意味は何ですか？",
-          "answer": "右に曲がってください",
+          "question": "“Turn right.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：右に曲がってください\n手掛かり：right は右です。",
           "explanation": "right は右です。",
-          "why": "左右と動作を組み合わせます。"
+          "why": "左右と動作を組み合わせます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-007",
           "type": "text",
           "level": "basic",
-          "question": "“Turn left.” の意味は何ですか？",
-          "answer": "左に曲がってください",
+          "question": "“Turn left.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：左に曲がってください\n手掛かり：left は左です。",
           "explanation": "left は左です。",
-          "why": "道案内の基本表現です。"
+          "why": "道案内の基本表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-008",
           "type": "text",
           "level": "basic",
-          "question": "“The school is near the station.” の意味は何ですか？",
-          "answer": "学校は駅の近くです",
+          "question": "“The school is near the station.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：学校は駅の近くです\n手掛かり：near は〜の近く、です。",
           "explanation": "near は〜の近く、です。",
-          "why": "場所の関係を説明します。"
+          "why": "場所の関係を説明します。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-009",
           "type": "text",
           "level": "basic",
-          "question": "“Where is the restroom?” はどんな場面で役立ちますか？",
-          "answer": "トイレの場所をたずねるとき",
+          "question": "“Where is the restroom?” はどんな場面で役立ちますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：トイレの場所をたずねるとき\n理由：restroom はトイレを表します。",
           "explanation": "restroom はトイレを表します。",
-          "why": "実際に使える質問表現です。"
+          "why": "実際に使える質問表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-010",
           "type": "text",
           "level": "basic",
-          "question": "“The museum is on your left.” の意味は何ですか？",
-          "answer": "博物館はあなたの左側にあります",
+          "question": "“The museum is on your left.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：博物館はあなたの左側にあります\n手掛かり：on your left で左側、です。",
           "explanation": "on your left で左側、です。",
-          "why": "道案内を聞き取る表現です。"
+          "why": "道案内を聞き取る表現です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-011",
           "type": "text",
           "level": "basic",
-          "question": "“Go straight and turn right.” では、最初に何をしますか？",
-          "answer": "まっすぐ進みます",
+          "question": "“Go straight and turn right.” では、最初に何をしますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：まっすぐ進みます\n理由：and の前の Go straight が最初です。",
           "explanation": "and の前の Go straight が最初です。",
-          "why": "指示の順番を聞き取ります。"
+          "why": "指示の順番を聞き取ります。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-PLACES-012",
           "type": "text",
           "level": "basic",
-          "question": "“next to” と “near” は全く同じ位置を表しますか？",
-          "answer": "同じとは限りません",
+          "question": "“next to” と “near” は全く同じ位置を表しますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：同じとは限りません\n理由：next to はすぐ隣、near は近くです。",
           "explanation": "next to はすぐ隣、near は近くです。",
-          "why": "似た表現の違いにも気付きます。"
+          "why": "似た表現の違いにも気付きます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     },
@@ -1087,111 +1307,141 @@
           "id": "E5-CULTURE-001",
           "type": "text",
           "level": "basic",
-          "question": "“Welcome to Japan.” の意味は何ですか？",
-          "answer": "日本へようこそ",
+          "question": "“Welcome to Japan.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：日本へようこそ\n手掛かり：訪れた人を歓迎する表現です。",
           "explanation": "訪れた人を歓迎する表現です。",
-          "why": "外国の人とのやり取りで使えます。"
+          "why": "外国の人とのやり取りで使えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-002",
           "type": "text",
           "level": "basic",
-          "question": "“This is a shrine.” の意味は何ですか？",
-          "answer": "これは神社です",
+          "question": "“This is a shrine.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：これは神社です\n手掛かり：This is ... で物や場所を紹介します。",
           "explanation": "This is ... で物や場所を紹介します。",
-          "why": "日本の文化を簡単な英語で紹介できます。"
+          "why": "日本の文化を簡単な英語で紹介できます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-003",
           "type": "text",
           "level": "basic",
-          "question": "“You can see cherry blossoms.” の意味は何ですか？",
-          "answer": "桜を見ることができます",
+          "question": "“You can see cherry blossoms.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：桜を見ることができます\n手掛かり：can を使って、その場所でできることを紹介します。",
           "explanation": "can を使って、その場所でできることを紹介します。",
-          "why": "観光案内などの表現につなげます。"
+          "why": "観光案内などの表現につなげます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-004",
           "type": "text",
           "level": "basic",
-          "question": "“You can eat sushi.” の意味は何ですか？",
-          "answer": "寿司を食べることができます",
+          "question": "“You can eat sushi.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：寿司を食べることができます\n手掛かり：その場所でできることを can で紹介しています。",
           "explanation": "その場所でできることを can で紹介しています。",
-          "why": "相手に情報を伝える活動です。"
+          "why": "相手に情報を伝える活動です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-005",
           "type": "text",
           "level": "basic",
-          "question": "“What do you like about Japan?” は何をたずねていますか？",
-          "answer": "日本の何が好きか",
+          "question": "“What do you like about Japan?” は何をたずねていますか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：日本の何が好きか\n手掛かり：about Japan で日本について、という意味です。",
           "explanation": "about Japan で日本について、という意味です。",
-          "why": "相手の考えをたずねます。"
+          "why": "相手の考えをたずねます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-006",
           "type": "text",
           "level": "basic",
-          "question": "“I like Japanese food.” の意味は何ですか？",
-          "answer": "私は日本食が好きです",
+          "question": "“I like Japanese food.” の意味は何ですか？\n答えに加えて、意味を判断する手掛かりになった英語の語や表現も答えましょう。",
+          "answer": "答え：私は日本食が好きです\n手掛かり：Japanese food は日本の食べ物です。",
           "explanation": "Japanese food は日本の食べ物です。",
-          "why": "文化について自分の好みを伝えます。"
+          "why": "文化について自分の好みを伝えます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-007",
           "type": "text",
           "level": "basic",
-          "question": "相手の話が聞き取れなかったとき、“Pardon?” と言うことはできますか？",
-          "answer": "できます",
+          "question": "相手の話が聞き取れなかったとき、“Pardon?” と言うことはできますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：できます\n理由：聞き返すときの丁寧な表現の一つです。",
           "explanation": "聞き返すときの丁寧な表現の一つです。",
-          "why": "分からないときに聞き返すこともコミュニケーションです。"
+          "why": "分からないときに聞き返すこともコミュニケーションです。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-008",
           "type": "text",
           "level": "basic",
-          "question": "“One more time, please.” はどんな意味ですか？",
-          "answer": "もう一度お願いします",
+          "question": "“One more time, please.” はどんな意味ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：もう一度お願いします\n理由：相手に繰り返してもらう表現です。",
           "explanation": "相手に繰り返してもらう表現です。",
-          "why": "理解するために必要な表現を使います。"
+          "why": "理解するために必要な表現を使います。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-009",
           "type": "text",
           "level": "basic",
-          "question": "“Slowly, please.” はどんな意味ですか？",
-          "answer": "ゆっくりお願いします",
+          "question": "“Slowly, please.” はどんな意味ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：ゆっくりお願いします\n理由：話す速さを落としてほしいときに使えます。",
           "explanation": "話す速さを落としてほしいときに使えます。",
-          "why": "相手と協力してやり取りを続けます。"
+          "why": "相手と協力してやり取りを続けます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-010",
           "type": "text",
           "level": "basic",
-          "question": "“Thank you for listening.” は発表の最後で使えますか？",
-          "answer": "使えます",
+          "question": "“Thank you for listening.” は発表の最後で使えますか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：使えます\n理由：聞いてくれたことへの感謝を伝える表現です。",
           "explanation": "聞いてくれたことへの感謝を伝える表現です。",
-          "why": "発表の終わりの表現にも慣れます。"
+          "why": "発表の終わりの表現にも慣れます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-011",
           "type": "text",
           "level": "basic",
-          "question": "英語で伝えるとき、知らない単語があっても、知っている語やジェスチャーを使うことは大切ですか？",
-          "answer": "大切です",
+          "question": "英語で伝えるとき、知らない単語があっても、知っている語やジェスチャーを使うことは大切ですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：大切です\n理由：完全な文でなくても、相手に伝えようと工夫できます。",
           "explanation": "完全な文でなくても、相手に伝えようと工夫できます。",
-          "why": "外国語科では実際に伝え合うことが大切です。"
+          "why": "外国語科では実際に伝え合うことが大切です。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         },
         {
           "id": "E5-CULTURE-012",
           "type": "text",
           "level": "basic",
-          "question": "相手の英語が分からないとき、黙ったままにするより聞き返す方がよいですか？",
-          "answer": "よいです",
+          "question": "相手の英語が分からないとき、黙ったままにするより聞き返す方がよいですか？\n適切かどうかを答え、その理由を日本語で説明しましょう。",
+          "answer": "答え：よいです\n理由：Pardon? などを使えばやり取りを続けられます。",
           "explanation": "Pardon? などを使えばやり取りを続けられます。",
-          "why": "相手と確認しながら進めます。"
+          "why": "相手と確認しながら進めます。",
+          "reasonRequired": true,
+          "responseStyle": "answer-and-clue"
         }
       ]
     }
-  ]
+  ],
+  "revision": {
+    "version": "V2",
+    "focus": "答え＋理由・根拠・考え方",
+    "curriculumReview": "小学校学習指導要領（平成29年告示）解説を基準に再点検"
+  },
+  "scopeNote": "How many ...? など高学年で扱う基本的な疑問表現は維持し、中学校文法の暗記ではなく場面理解・応答を中心に調整。"
 }

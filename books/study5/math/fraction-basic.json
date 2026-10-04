@@ -10,351 +10,421 @@
       "id": "M5-FB-001",
       "type": "text",
       "level": "basic",
-      "question": "0.2を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "1/5",
+      "question": "0.2を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1/5\n考え方：0.2=2/10です。これを約分すると1/5です。",
       "explanation": "0.2=2/10です。これを約分すると1/5です。",
       "why": "小数第1位までの数は、分母を10とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-002",
       "type": "text",
       "level": "basic",
-      "question": "0.4を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "2/5",
+      "question": "0.4を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2/5\n考え方：0.4=4/10です。これを約分すると2/5です。",
       "explanation": "0.4=4/10です。これを約分すると2/5です。",
       "why": "小数第1位までの数は、分母を10とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-003",
       "type": "text",
       "level": "basic",
-      "question": "0.5を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "1/2",
+      "question": "0.5を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1/2\n考え方：0.5=5/10です。これを約分すると1/2です。",
       "explanation": "0.5=5/10です。これを約分すると1/2です。",
       "why": "小数第1位までの数は、分母を10とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-004",
       "type": "text",
       "level": "basic",
-      "question": "0.6を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "3/5",
+      "question": "0.6を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/5\n考え方：0.6=6/10です。これを約分すると3/5です。",
       "explanation": "0.6=6/10です。これを約分すると3/5です。",
       "why": "小数第1位までの数は、分母を10とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-005",
       "type": "text",
       "level": "basic",
-      "question": "0.75を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "3/4",
+      "question": "0.75を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/4\n考え方：0.75=75/100です。これを約分すると3/4です。",
       "explanation": "0.75=75/100です。これを約分すると3/4です。",
       "why": "小数第2位までの数は、分母を100とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-006",
       "type": "text",
       "level": "basic",
-      "question": "0.8を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "4/5",
+      "question": "0.8を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：4/5\n考え方：0.8=8/10です。これを約分すると4/5です。",
       "explanation": "0.8=8/10です。これを約分すると4/5です。",
       "why": "小数第1位までの数は、分母を10とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-007",
       "type": "text",
       "level": "basic",
-      "question": "0.125を分数で表し、できるだけ簡単にしましょう。",
-      "answer": "1/8",
+      "question": "0.125を分数で表し、できるだけ簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1/8\n考え方：0.125=125/1000です。これを約分すると1/8です。",
       "explanation": "0.125=125/1000です。これを約分すると1/8です。",
       "why": "小数第3位までの数は、分母を1000とする分数に直せます。",
-      "skill": "decimal-to-fraction"
+      "skill": "decimal-to-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-008",
       "type": "text",
       "level": "basic",
-      "question": "1/2を小数で表しましょう。",
-      "answer": "0.5",
+      "question": "1/2を小数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.5\n考え方：1/2は1÷2なので0.5です。",
       "explanation": "1/2は1÷2なので0.5です。",
       "why": "分数は、分子を分母で割った商として表せます。",
-      "skill": "fraction-to-decimal"
+      "skill": "fraction-to-decimal",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-009",
       "type": "text",
       "level": "basic",
-      "question": "1/4を小数で表しましょう。",
-      "answer": "0.25",
+      "question": "1/4を小数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.25\n考え方：1/4は1÷4なので0.25です。",
       "explanation": "1/4は1÷4なので0.25です。",
       "why": "分数は、分子を分母で割った商として表せます。",
-      "skill": "fraction-to-decimal"
+      "skill": "fraction-to-decimal",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-010",
       "type": "text",
       "level": "basic",
-      "question": "3/4を小数で表しましょう。",
-      "answer": "0.75",
+      "question": "3/4を小数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.75\n考え方：3/4は3÷4なので0.75です。",
       "explanation": "3/4は3÷4なので0.75です。",
       "why": "分数は、分子を分母で割った商として表せます。",
-      "skill": "fraction-to-decimal"
+      "skill": "fraction-to-decimal",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-011",
       "type": "text",
       "level": "basic",
-      "question": "2/5を小数で表しましょう。",
-      "answer": "0.4",
+      "question": "2/5を小数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.4\n考え方：2/5は2÷5なので0.4です。",
       "explanation": "2/5は2÷5なので0.4です。",
       "why": "分数は、分子を分母で割った商として表せます。",
-      "skill": "fraction-to-decimal"
+      "skill": "fraction-to-decimal",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-012",
       "type": "text",
       "level": "basic",
-      "question": "3/8を小数で表しましょう。",
-      "answer": "0.375",
+      "question": "3/8を小数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.375\n考え方：3/8は3÷8なので0.375です。",
       "explanation": "3/8は3÷8なので0.375です。",
       "why": "分数は、分子を分母で割った商として表せます。",
-      "skill": "fraction-to-decimal"
+      "skill": "fraction-to-decimal",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-013",
       "type": "text",
       "level": "basic",
-      "question": "7/8を小数で表しましょう。",
-      "answer": "0.875",
+      "question": "7/8を小数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.875\n考え方：7/8は7÷8なので0.875です。",
       "explanation": "7/8は7÷8なので0.875です。",
       "why": "分数は、分子を分母で割った商として表せます。",
-      "skill": "fraction-to-decimal"
+      "skill": "fraction-to-decimal",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-014",
       "type": "text",
       "level": "basic",
-      "question": "2/3と同じ大きさで、分母が6の分数を書きましょう。",
-      "answer": "4/6",
+      "question": "2/3と同じ大きさで、分母が6の分数を書きましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：4/6\n考え方：分母を2倍したので、分子も2倍して4/6です。",
       "explanation": "分母を2倍したので、分子も2倍して4/6です。",
       "why": "分子と分母を同じ数だけ倍しても大きさは変わりません。",
-      "skill": "equivalent"
+      "skill": "equivalent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-015",
       "type": "text",
       "level": "basic",
-      "question": "3/5と同じ大きさで、分母が20の分数を書きましょう。",
-      "answer": "12/20",
+      "question": "3/5と同じ大きさで、分母が20の分数を書きましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12/20\n考え方：分母を4倍したので、分子も4倍して12/20です。",
       "explanation": "分母を4倍したので、分子も4倍して12/20です。",
       "why": "分子と分母を同じ数だけ倍しても大きさは変わりません。",
-      "skill": "equivalent"
+      "skill": "equivalent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-016",
       "type": "text",
       "level": "basic",
-      "question": "4/7と同じ大きさで、分母が21の分数を書きましょう。",
-      "answer": "12/21",
+      "question": "4/7と同じ大きさで、分母が21の分数を書きましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12/21\n考え方：分母を3倍したので、分子も3倍して12/21です。",
       "explanation": "分母を3倍したので、分子も3倍して12/21です。",
       "why": "分子と分母を同じ数だけ倍しても大きさは変わりません。",
-      "skill": "equivalent"
+      "skill": "equivalent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-017",
       "type": "text",
       "level": "basic",
-      "question": "5/8と同じ大きさで、分母が16の分数を書きましょう。",
-      "answer": "10/16",
+      "question": "5/8と同じ大きさで、分母が16の分数を書きましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10/16\n考え方：分母を2倍したので、分子も2倍して10/16です。",
       "explanation": "分母を2倍したので、分子も2倍して10/16です。",
       "why": "分子と分母を同じ数だけ倍しても大きさは変わりません。",
-      "skill": "equivalent"
+      "skill": "equivalent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-018",
       "type": "text",
       "level": "basic",
-      "question": "7/10と同じ大きさで、分母が50の分数を書きましょう。",
-      "answer": "35/50",
+      "question": "7/10と同じ大きさで、分母が50の分数を書きましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：35/50\n考え方：分母を5倍したので、分子も5倍して35/50です。",
       "explanation": "分母を5倍したので、分子も5倍して35/50です。",
       "why": "分子と分母を同じ数だけ倍しても大きさは変わりません。",
-      "skill": "equivalent"
+      "skill": "equivalent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-019",
       "type": "text",
       "level": "basic",
-      "question": "6/8を約分して、できるだけ簡単な分数にしましょう。",
-      "answer": "3/4",
+      "question": "6/8を約分して、できるだけ簡単な分数にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/4\n考え方：6と8を2で割ると3/4です。",
       "explanation": "6と8を2で割ると3/4です。",
       "why": "分子と分母を同じ数で割っても大きさは変わりません。",
-      "skill": "reduce"
+      "skill": "reduce",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-020",
       "type": "text",
       "level": "basic",
-      "question": "9/12を約分して、できるだけ簡単な分数にしましょう。",
-      "answer": "3/4",
+      "question": "9/12を約分して、できるだけ簡単な分数にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/4\n考え方：9と12を3で割ると3/4です。",
       "explanation": "9と12を3で割ると3/4です。",
       "why": "分子と分母を同じ数で割っても大きさは変わりません。",
-      "skill": "reduce"
+      "skill": "reduce",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-021",
       "type": "text",
       "level": "basic",
-      "question": "10/15を約分して、できるだけ簡単な分数にしましょう。",
-      "answer": "2/3",
+      "question": "10/15を約分して、できるだけ簡単な分数にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2/3\n考え方：10と15を5で割ると2/3です。",
       "explanation": "10と15を5で割ると2/3です。",
       "why": "分子と分母を同じ数で割っても大きさは変わりません。",
-      "skill": "reduce"
+      "skill": "reduce",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-022",
       "type": "text",
       "level": "basic",
-      "question": "18/24を約分して、できるだけ簡単な分数にしましょう。",
-      "answer": "3/4",
+      "question": "18/24を約分して、できるだけ簡単な分数にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/4\n考え方：18と24を6で割ると3/4です。",
       "explanation": "18と24を6で割ると3/4です。",
       "why": "分子と分母を同じ数で割っても大きさは変わりません。",
-      "skill": "reduce"
+      "skill": "reduce",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-023",
       "type": "text",
       "level": "basic",
-      "question": "21/28を約分して、できるだけ簡単な分数にしましょう。",
-      "answer": "3/4",
+      "question": "21/28を約分して、できるだけ簡単な分数にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/4\n考え方：21と28を7で割ると3/4です。",
       "explanation": "21と28を7で割ると3/4です。",
       "why": "分子と分母を同じ数で割っても大きさは変わりません。",
-      "skill": "reduce"
+      "skill": "reduce",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-024",
       "type": "text",
       "level": "basic",
-      "question": "2/3 □ 3/4 の□に >、<、= のどれが入りますか？",
-      "answer": "<",
+      "question": "2/3 □ 3/4 の□に >、<、= のどれが入りますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：<\n考え方：分母を12にそろえると、8/12と9/12です。したがって<です。",
       "explanation": "分母を12にそろえると、8/12と9/12です。したがって<です。",
       "why": "どちらも12等分した表し方に直すと、分子で比べられます。",
-      "skill": "compare"
+      "skill": "compare",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-025",
       "type": "text",
       "level": "basic",
-      "question": "5/6 □ 7/9 の□に >、<、= のどれが入りますか？",
-      "answer": ">",
+      "question": "5/6 □ 7/9 の□に >、<、= のどれが入りますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：>\n考え方：分母を18にそろえると、15/18と14/18です。したがって>です。",
       "explanation": "分母を18にそろえると、15/18と14/18です。したがって>です。",
       "why": "どちらも18等分した表し方に直すと、分子で比べられます。",
-      "skill": "compare"
+      "skill": "compare",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-026",
       "type": "text",
       "level": "basic",
-      "question": "3/5 □ 4/7 の□に >、<、= のどれが入りますか？",
-      "answer": ">",
+      "question": "3/5 □ 4/7 の□に >、<、= のどれが入りますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：>\n考え方：分母を35にそろえると、21/35と20/35です。したがって>です。",
       "explanation": "分母を35にそろえると、21/35と20/35です。したがって>です。",
       "why": "どちらも35等分した表し方に直すと、分子で比べられます。",
-      "skill": "compare"
+      "skill": "compare",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-027",
       "type": "text",
       "level": "basic",
-      "question": "7/8 □ 5/6 の□に >、<、= のどれが入りますか？",
-      "answer": ">",
+      "question": "7/8 □ 5/6 の□に >、<、= のどれが入りますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：>\n考え方：分母を24にそろえると、21/24と20/24です。したがって>です。",
       "explanation": "分母を24にそろえると、21/24と20/24です。したがって>です。",
       "why": "どちらも24等分した表し方に直すと、分子で比べられます。",
-      "skill": "compare"
+      "skill": "compare",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-028",
       "type": "text",
       "level": "basic",
-      "question": "2/9 □ 1/4 の□に >、<、= のどれが入りますか？",
-      "answer": "<",
+      "question": "2/9 □ 1/4 の□に >、<、= のどれが入りますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：<\n考え方：分母を36にそろえると、8/36と9/36です。したがって<です。",
       "explanation": "分母を36にそろえると、8/36と9/36です。したがって<です。",
       "why": "どちらも36等分した表し方に直すと、分子で比べられます。",
-      "skill": "compare"
+      "skill": "compare",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-029",
       "type": "calculation",
       "level": "basic",
-      "question": "3÷5の商を分数で表しましょう。",
-      "answer": "3/5",
+      "question": "3÷5の商を分数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/5\n考え方：3÷5は3/5と表せます。",
       "explanation": "3÷5は3/5と表せます。",
       "why": "割り切れないわり算も分数なら正確に表せます。",
-      "skill": "division-fraction"
+      "skill": "division-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-030",
       "type": "calculation",
       "level": "basic",
-      "question": "7÷4の商を分数で表しましょう。",
-      "answer": "7/4",
+      "question": "7÷4の商を分数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：7/4\n考え方：7÷4は7/4と表せます。",
       "explanation": "7÷4は7/4と表せます。",
       "why": "割り切れないわり算も分数なら正確に表せます。",
-      "skill": "division-fraction"
+      "skill": "division-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-031",
       "type": "calculation",
       "level": "basic",
-      "question": "11÷5の商を分数で表しましょう。",
-      "answer": "11/5",
+      "question": "11÷5の商を分数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：11/5\n考え方：11÷5は11/5と表せます。",
       "explanation": "11÷5は11/5と表せます。",
       "why": "割り切れないわり算も分数なら正確に表せます。",
-      "skill": "division-fraction"
+      "skill": "division-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-032",
       "type": "calculation",
       "level": "basic",
-      "question": "13÷6の商を分数で表しましょう。",
-      "answer": "13/6",
+      "question": "13÷6の商を分数で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：13/6\n考え方：13÷6は13/6と表せます。",
       "explanation": "13÷6は13/6と表せます。",
       "why": "割り切れないわり算も分数なら正確に表せます。",
-      "skill": "division-fraction"
+      "skill": "division-fraction",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-033",
       "type": "text",
       "level": "basic",
-      "question": "2/3と4/6は同じ大きさですか？",
-      "answer": "同じです",
+      "question": "2/3と4/6は同じ大きさですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じです\n考え方：2/3の分子と分母を2倍すると4/6です。",
       "explanation": "2/3の分子と分母を2倍すると4/6です。",
       "why": "同じ倍率で変えても大きさは変わりません。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-034",
       "type": "text",
       "level": "basic",
-      "question": "3/4を約分できますか？",
-      "answer": "できません",
+      "question": "3/4を約分できますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：できません\n考え方：3と4の共通の約数は1だけです。",
       "explanation": "3と4の共通の約数は1だけです。",
       "why": "2以上の共通の約数があるときに約分できます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-FB-035",
       "type": "text",
       "level": "basic",
-      "question": "1/2、2/4、4/8はすべて同じ大きさですか？",
-      "answer": "同じです",
+      "question": "1/2、2/4、4/8はすべて同じ大きさですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じです\n考え方：どれも全体の半分を表します。",
       "explanation": "どれも全体の半分を表します。",
       "why": "分ける数と取る数を同じ倍率で変えても割合は同じです。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

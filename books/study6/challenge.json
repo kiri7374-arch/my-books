@@ -24,9 +24,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "N を求めなさい。",
-          "answer": "17",
+          "answer": "答え：17\n解き方・根拠：10以上99以下を条件で調べると、17は 17÷4=4余り1、17÷5=3余り2、17÷7=2余り3 となり、3条件をすべて満たします。",
           "explanation": "10以上99以下を条件で調べると、17は 17÷4=4余り1、17÷5=3余り2、17÷7=2余り3 となり、3条件をすべて満たします。",
-          "why": "条件を一つずつ確認し、共通して満たす数を探します。"
+          "why": "条件を一つずつ確認し、共通して満たす数を探します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M1-02",
@@ -35,9 +37,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "同じ3条件を満たす、最も小さい3けたの整数を求めなさい。",
-          "answer": "157",
+          "answer": "答え：157\n解き方・根拠：同じ条件を満たす整数は140ずつ増えます。17+140=157 なので、最小の3けたは157です。",
           "explanation": "同じ条件を満たす整数は140ずつ増えます。17+140=157 なので、最小の3けたは157です。",
-          "why": "4・5・7の最小公倍数は140なので、同じ余り条件は140ごとに繰り返します。"
+          "why": "4・5・7の最小公倍数は140なので、同じ余り条件は140ごとに繰り返します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M1-03",
@@ -46,9 +50,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "同じ3条件を満たす整数を小さい順に並べたとき、となり合う2数の差を求めなさい。",
-          "answer": "140",
+          "answer": "答え：140\n解き方・根拠：4、5、7のすべてで割った余りを変えない差は、4・5・7の公倍数です。最小の正の公倍数は140です。",
           "explanation": "4、5、7のすべてで割った余りを変えない差は、4・5・7の公倍数です。最小の正の公倍数は140です。",
-          "why": "複数の余り条件が同時に繰り返す周期は最小公倍数で考えます。"
+          "why": "複数の余り条件が同時に繰り返す周期は最小公倍数で考えます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M1-04",
@@ -57,9 +63,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "100以上999以下で、同じ3条件を満たす整数は全部で何個ありますか。",
-          "answer": "7個",
+          "answer": "答え：7個\n解き方・根拠：157から140ずつ増やすと、157, 297, 437, 577, 717, 857, 997 の7個です。次の1137は999を超えます。",
           "explanation": "157から140ずつ増やすと、157, 297, 437, 577, 717, 857, 997 の7個です。次の1137は999を超えます。",
-          "why": "等差数列のように並ぶ候補を範囲内で数えます。"
+          "why": "等差数列のように並ぶ候補を範囲内で数えます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M1-05",
@@ -68,9 +76,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "(4)で求めた7個の整数の和を求めなさい。",
-          "answer": "4039",
+          "answer": "答え：4039\n解き方・根拠：157+997=1154、297+857=1154、437+717=1154、中央が577なので、1154×3+577=4039です。",
           "explanation": "157+997=1154、297+857=1154、437+717=1154、中央が577なので、1154×3+577=4039です。",
-          "why": "等間隔に並ぶ数は、両端を組にすると計算を工夫できます。"
+          "why": "等間隔に並ぶ数は、両端を組にすると計算を工夫できます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     },
@@ -90,9 +100,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "1冊の仕入れ値が500円であるとすると、定価はいくらですか。",
-          "answer": "700円",
+          "answer": "答え：700円\n解き方・根拠：500×1.4=700円です。",
           "explanation": "500×1.4=700円です。",
-          "why": "40%増しは元の140%です。"
+          "why": "40%増しは元の140%です。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M2-02",
@@ -101,9 +113,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "定価で売れたノートは何冊ですか。",
-          "answer": "450冊",
+          "answer": "答え：450冊\n解き方・根拠：600×0.75=450冊です。",
           "explanation": "600×0.75=450冊です。",
-          "why": "75%を分数3/4として考えても求められます。"
+          "why": "75%を分数3/4として考えても求められます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M2-03",
@@ -112,9 +126,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "残ったノート1冊の販売価格はいくらですか。",
-          "answer": "560円",
+          "answer": "答え：560円\n解き方・根拠：定価700円の20%引きなので、700×0.8=560円です。",
           "explanation": "定価700円の20%引きなので、700×0.8=560円です。",
-          "why": "20%引きは定価の80%を支払うことです。"
+          "why": "20%引きは定価の80%を支払うことです。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M2-04",
@@ -123,9 +139,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "600冊をすべて売った売上高はいくらですか。",
-          "answer": "399000円",
+          "answer": "答え：399000円\n解き方・根拠：定価販売は450×700=315000円、値引き販売は150×560=84000円。合計399000円です。",
           "explanation": "定価販売は450×700=315000円、値引き販売は150×560=84000円。合計399000円です。",
-          "why": "販売条件が違う部分を分けて計算してから合計します。"
+          "why": "販売条件が違う部分を分けて計算してから合計します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M2-05",
@@ -134,9 +152,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "利益99,000円は、仕入れ総額の何%にあたりますか。",
-          "answer": "33%",
+          "answer": "答え：33%\n解き方・根拠：仕入れ総額は600×500=300000円。99000÷300000=0.33なので33%です。",
           "explanation": "仕入れ総額は600×500=300000円。99000÷300000=0.33なので33%です。",
-          "why": "利益率を仕入れ総額に対する割合として求めます。"
+          "why": "利益率を仕入れ総額に対する割合として求めます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     },
@@ -156,12 +176,14 @@
           "level": "challenge",
           "subject": "算数",
           "question": "三角形ABCの面積を求めなさい。",
-          "answer": "126cm²",
+          "answer": "答え：126cm²\n解き方・根拠：18×14÷2=126cm²です。",
           "explanation": "18×14÷2=126cm²です。",
           "why": "三角形の面積=底辺×高さ÷2です。",
           "visual": {
             "type": "triangle-cevians"
-          }
+          },
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M3-02",
@@ -170,9 +192,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "BDとDCの長さをそれぞれ求めなさい。",
-          "answer": "BD=12cm、DC=6cm",
+          "answer": "答え：BD=12cm、DC=6cm\n解き方・根拠：BCを2:1に分けるので、18÷3=6。BD=12、DC=6です。",
           "explanation": "BCを2:1に分けるので、18÷3=6。BD=12、DC=6です。",
-          "why": "比の合計を1単位の大きさに直します。"
+          "why": "比の合計を1単位の大きさに直します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M3-03",
@@ -181,9 +205,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "AP:PD を求めなさい。",
-          "answer": "3:4",
+          "answer": "答え：3:4\n解き方・根拠：質点や面積比で考えると、DはBCを2:1、EはACを1:2に分けています。BEとの交点Pにより、ADは3:4に分けられます。",
           "explanation": "質点や面積比で考えると、DはBCを2:1、EはACを1:2に分けています。BEとの交点Pにより、ADは3:4に分けられます。",
-          "why": "2本の線が辺を一定比に分けるとき、交点によって生じる面積比を利用できます。"
+          "why": "2本の線が辺を一定比に分けるとき、交点によって生じる面積比を利用できます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M3-04",
@@ -192,9 +218,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "三角形AEPと三角形CEPの面積比を求めなさい。",
-          "answer": "1:2",
+          "answer": "答え：1:2\n解き方・根拠：A、E、Cは一直線上でAE:EC=1:2です。PからACへの高さは共通なので、面積比も1:2です。",
           "explanation": "A、E、Cは一直線上でAE:EC=1:2です。PからACへの高さは共通なので、面積比も1:2です。",
-          "why": "同じ高さをもつ三角形の面積比は底辺の比に等しくなります。"
+          "why": "同じ高さをもつ三角形の面積比は底辺の比に等しくなります。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M3-05",
@@ -203,9 +231,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "三角形BDPの面積を求めなさい。",
-          "answer": "48cm²",
+          "answer": "答え：48cm²\n解き方・根拠：三角形ABDの面積は、ABCの面積のBD/BC=12/18=2/3なので84cm²。AP:PD=3:4より、PからBDへの高さはAからBDへの高さの4/7です。したがって84×4/7=48cm²です。",
           "explanation": "三角形ABDの面積は、ABCの面積のBD/BC=12/18=2/3なので84cm²。AP:PD=3:4より、PからBDへの高さはAからBDへの高さの4/7です。したがって84×4/7=48cm²です。",
-          "why": "辺の比と高さの比を順に使って面積を求めます。"
+          "why": "辺の比と高さの比を順に使って面積を求めます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     },
@@ -225,9 +255,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "Aさんが出発した時点で、Bさんは出発地点から何m進んでいますか。",
-          "answer": "400m",
+          "answer": "答え：400m\n解き方・根拠：80×5=400mです。",
           "explanation": "80×5=400mです。",
-          "why": "速さ×時間=道のりです。"
+          "why": "速さ×時間=道のりです。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M4-02",
@@ -236,9 +268,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "Aさんが出発してから最初に出会うまで何分かかりますか。",
-          "answer": "7分",
+          "answer": "答え：7分\n解き方・根拠：A出発時には残りの間隔が1800-400=1400m。反対方向なので近づく速さは120+80=200m/分。1400÷200=7分です。",
           "explanation": "A出発時には残りの間隔が1800-400=1400m。反対方向なので近づく速さは120+80=200m/分。1400÷200=7分です。",
-          "why": "反対方向に進む2人の相対速度は速さの和です。"
+          "why": "反対方向に進む2人の相対速度は速さの和です。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M4-03",
@@ -247,9 +281,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "Bさんが出発してから最初に出会うまで何分ですか。",
-          "answer": "12分",
+          "answer": "答え：12分\n解き方・根拠：Bさんは5分先に出ているので、5+7=12分です。",
           "explanation": "Bさんは5分先に出ているので、5+7=12分です。",
-          "why": "基準となる出発時刻を取り違えないようにします。"
+          "why": "基準となる出発時刻を取り違えないようにします。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M4-04",
@@ -258,9 +294,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "最初に出会った地点は、出発地点からAさんが進んだ向きに何mのところですか。",
-          "answer": "840m",
+          "answer": "答え：840m\n解き方・根拠：Aさんは7分走るので120×7=840mです。",
           "explanation": "Aさんは7分走るので120×7=840mです。",
-          "why": "出会うまでの時間を使って各自の道のりを求めます。"
+          "why": "出会うまでの時間を使って各自の道のりを求めます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-M4-05",
@@ -269,9 +307,11 @@
           "level": "challenge",
           "subject": "算数",
           "question": "最初に出会った後も走り続けると、次に出会うのは何分後ですか。",
-          "answer": "9分後",
+          "answer": "答え：9分後\n解き方・根拠：出会った直後から次の出会いまで、2人が合わせて1周1800m進めばよいので、1800÷(120+80)=9分です。",
           "explanation": "出会った直後から次の出会いまで、2人が合わせて1周1800m進めばよいので、1800÷(120+80)=9分です。",
-          "why": "円周上で反対方向に走る場合、出会いから次の出会いまでの相対距離は1周分です。"
+          "why": "円周上で反対方向に走る場合、出会いから次の出会いまでの相対距離は1周分です。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     },
@@ -291,9 +331,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "本文の「考える手間」と最も近い意味を答えなさい。",
-          "answer": "判断したり調べたりするために自分で行う作業",
+          "answer": "答え：判断したり調べたりするために自分で行う作業\n解き方・根拠：本文では、道順を調べたり情報を探したりする負担を道具が減らす例が示されています。",
           "explanation": "本文では、道順を調べたり情報を探したりする負担を道具が減らす例が示されています。",
-          "why": "語句は前後の具体例から意味を捉えます。"
+          "why": "語句は前後の具体例から意味を捉えます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J1-02",
@@ -302,9 +344,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "筆者が『地図アプリの示す道が、いつも最もよい道とは限らない』と述べる理由を答えなさい。",
-          "answer": "人によって目的や重視する条件が違うから",
+          "answer": "答え：人によって目的や重視する条件が違うから\n解き方・根拠：雨を避けたい、坂を避けたいなど、利用者ごとに条件が異なる例が挙げられています。",
           "explanation": "雨を避けたい、坂を避けたいなど、利用者ごとに条件が異なる例が挙げられています。",
-          "why": "具体例が何を説明するために置かれているか考えます。"
+          "why": "具体例が何を説明するために置かれているか考えます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J1-03",
@@ -313,9 +357,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "『ある条件にもとづく答え』とはどういうことですか。40字以内を目安に答えなさい。",
-          "answer": "道具が設定された基準や情報を使って出した答えであり、利用者の目的すべてを含むとは限らないこと",
+          "answer": "答え：道具が設定された基準や情報を使って出した答えであり、利用者の目的すべてを含むとは限らないこと\n解き方・根拠：道具の答えは万能ではなく、前提となる条件の範囲内で作られているという意味です。",
           "explanation": "道具の答えは万能ではなく、前提となる条件の範囲内で作られているという意味です。",
-          "why": "抽象表現を本文の具体例に置き換えて説明します。"
+          "why": "抽象表現を本文の具体例に置き換えて説明します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J1-04",
@@ -324,9 +370,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "第三段落で筆者が述べる、道具を上手に使うための考え方を答えなさい。",
-          "answer": "道具に任せる部分と、自分で判断する部分を分けること",
+          "answer": "答え：道具に任せる部分と、自分で判断する部分を分けること\n解き方・根拠：第三段落に『便利な道具に任せる部分と、自分で引き受ける判断の部分を分ける』とあります。",
           "explanation": "第三段落に『便利な道具に任せる部分と、自分で引き受ける判断の部分を分ける』とあります。",
-          "why": "段落の中心文を見つけます。"
+          "why": "段落の中心文を見つけます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J1-05",
@@ -335,9 +383,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "本文全体の主張を最もよくまとめたものを答えなさい。",
-          "answer": "道具を活用しながら、最後の選択とその理由は自分で考えることが大切だということ",
+          "answer": "答え：道具を活用しながら、最後の選択とその理由は自分で考えることが大切だということ\n解き方・根拠：最終段落が本文全体の結論になっています。",
           "explanation": "最終段落が本文全体の結論になっています。",
-          "why": "文章全体では、具体例→考え方→結論という流れを追います。"
+          "why": "文章全体では、具体例→考え方→結論という流れを追います。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     },
@@ -357,9 +407,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "冒頭の航平の様子から、どのような気持ちだったと考えられますか。",
-          "answer": "発表を前に強く緊張し、不安になっていた",
+          "answer": "答え：発表を前に強く緊張し、不安になっていた\n解き方・根拠：原稿を何度も開閉し、最初の一文さえ思い出せないように感じています。",
           "explanation": "原稿を何度も開閉し、最初の一文さえ思い出せないように感じています。",
-          "why": "行動や比喩表現から人物の心情を読み取ります。"
+          "why": "行動や比喩表現から人物の心情を読み取ります。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J2-02",
@@ -368,9 +420,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "航平が美咲の沈黙を『少し腹立たしい』と感じたのはなぜですか。",
-          "answer": "美咲が答えを知っているのに、すぐ教えてくれないと思ったから",
+          "answer": "答え：美咲が答えを知っているのに、すぐ教えてくれないと思ったから\n解き方・根拠：航平はその時点では、待つことが助けになるとは理解していませんでした。",
           "explanation": "航平はその時点では、待つことが助けになるとは理解していませんでした。",
-          "why": "人物のその時点の理解に合わせて理由を考えます。"
+          "why": "人物のその時点の理解に合わせて理由を考えます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J2-03",
@@ -379,9 +433,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "『言葉が自分の中からゆっくり浮かんできた』という表現から分かることを答えなさい。",
-          "answer": "航平が他人に教えられず、自分の力で言葉を思い出したこと",
+          "answer": "答え：航平が他人に教えられず、自分の力で言葉を思い出したこと\n解き方・根拠：『自分の中から』という表現が、自力で思い出したことを強調しています。",
           "explanation": "『自分の中から』という表現が、自力で思い出したことを強調しています。",
-          "why": "表現の効果を心情・行動と結び付けます。"
+          "why": "表現の効果を心情・行動と結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J2-04",
@@ -390,9 +446,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "美咲が続きを教えなかった理由を答えなさい。",
-          "answer": "航平自身に思い出させ、自分で言葉を取り戻す経験をしてほしかったから",
+          "answer": "答え：航平自身に思い出させ、自分で言葉を取り戻す経験をしてほしかったから\n解き方・根拠：美咲の『私が言ったら、航平が思い出したことにならない』という言葉から分かります。",
           "explanation": "美咲の『私が言ったら、航平が思い出したことにならない』という言葉から分かります。",
-          "why": "会話文は人物の考えを直接示す重要な手掛かりです。"
+          "why": "会話文は人物の考えを直接示す重要な手掛かりです。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-J2-05",
@@ -401,9 +459,11 @@
           "level": "challenge",
           "subject": "国語",
           "question": "この物語で航平が最後に気づいたことをまとめなさい。",
-          "answer": "人を助けるとは答えをすぐ与えることだけではなく、自分で考える時間を与えることも含まれる",
+          "answer": "答え：人を助けるとは答えをすぐ与えることだけではなく、自分で考える時間を与えることも含まれる\n解き方・根拠：最後の二文が物語の中心的な気づきです。",
           "explanation": "最後の二文が物語の中心的な気づきです。",
-          "why": "物語の終末で起きた心情の変化を主題と結び付けます。"
+          "why": "物語の終末で起きた心情の変化を主題と結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     },
@@ -423,9 +483,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "発電機を40回回したとき、LEDが光った時間は何秒ですか。",
-          "answer": "50秒",
+          "answer": "答え：50秒\n解き方・根拠：表の40回の行とLEDの列を読み取ります。",
           "explanation": "表の40回の行とLEDの列を読み取ります。",
-          "why": "表の行と列を正確に対応させます。"
+          "why": "表の行と列を正確に対応させます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S1-02",
@@ -434,9 +496,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "発電機を回す回数が増えると、LEDやモーターの動作時間にはどのような傾向がありますか。",
-          "answer": "長くなる傾向があります",
+          "answer": "答え：長くなる傾向があります\n解き方・根拠：20回、40回、60回と増えるにつれて、どちらも動作時間が増えています。",
           "explanation": "20回、40回、60回と増えるにつれて、どちらも動作時間が増えています。",
-          "why": "複数のデータから全体の傾向を読み取ります。"
+          "why": "複数のデータから全体の傾向を読み取ります。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S1-03",
@@ -445,9 +509,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "同じ回数だけ発電した場合、LEDとモーターではどちらの動作時間が長いですか。",
-          "answer": "LED",
+          "answer": "答え：LED\n解き方・根拠：20回・40回・60回のすべてでLEDの方が長く動作しています。",
           "explanation": "20回・40回・60回のすべてでLEDの方が長く動作しています。",
-          "why": "同じ条件のデータを比較します。"
+          "why": "同じ条件のデータを比較します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S1-04",
@@ -456,9 +522,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "発電回数の影響を公平に比べるため、発電機を回す速さをそろえたのはなぜですか。",
-          "answer": "回す速さの違いが結果に影響しないようにするため",
+          "answer": "答え：回す速さの違いが結果に影響しないようにするため\n解き方・根拠：調べたい条件は回数なので、それ以外の条件をできるだけそろえます。",
           "explanation": "調べたい条件は回数なので、それ以外の条件をできるだけそろえます。",
-          "why": "比較実験では変える条件とそろえる条件を区別します。"
+          "why": "比較実験では変える条件とそろえる条件を区別します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S1-05",
@@ -467,9 +535,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "『発電機を40回回せば、LEDは必ず50秒ちょうど光る』と言い切ってよいですか。理由も答えなさい。",
-          "answer": "言い切れません。50秒は3回の平均であり、実験ごとに多少のばらつきがあるからです",
+          "answer": "答え：言い切れません。50秒は3回の平均であり、実験ごとに多少のばらつきがあるからです\n解き方・根拠：表は平均値なので、各回がすべて50秒だったことを意味しません。",
           "explanation": "表は平均値なので、各回がすべて50秒だったことを意味しません。",
-          "why": "実験データでは平均と個々の測定値を区別します。"
+          "why": "実験データでは平均と個々の測定値を区別します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ],
       "examTable": {
@@ -513,9 +583,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "Aは何ですか。",
-          "answer": "食塩水",
+          "answer": "答え：食塩水\n解き方・根拠：中性で、蒸発後に固体が残るので食塩水です。",
           "explanation": "中性で、蒸発後に固体が残るので食塩水です。",
-          "why": "複数の実験結果を組み合わせて判断します。"
+          "why": "複数の実験結果を組み合わせて判断します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S2-02",
@@ -524,9 +596,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "Cは何ですか。",
-          "answer": "うすいアンモニア水",
+          "answer": "答え：うすいアンモニア水\n解き方・根拠：赤色リトマス紙を青に変えるのでアルカリ性です。4つの中で該当するのはアンモニア水です。",
           "explanation": "赤色リトマス紙を青に変えるのでアルカリ性です。4つの中で該当するのはアンモニア水です。",
-          "why": "リトマス紙の変化から酸性・中性・アルカリ性を判断します。"
+          "why": "リトマス紙の変化から酸性・中性・アルカリ性を判断します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S2-03",
@@ -535,9 +609,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "BとDに共通する性質を一つ答えなさい。",
-          "answer": "酸性であること",
+          "answer": "答え：酸性であること\n解き方・根拠：どちらも青色リトマス紙を赤に変えています。",
           "explanation": "どちらも青色リトマス紙を赤に変えています。",
-          "why": "共通する観察結果から性質をまとめます。"
+          "why": "共通する観察結果から性質をまとめます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S2-04",
@@ -546,9 +622,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "Bは何ですか。判断の決め手も答えなさい。",
-          "answer": "うすい塩酸。アルミニウムと反応して気体が発生したこと",
+          "answer": "答え：うすい塩酸。アルミニウムと反応して気体が発生したこと\n解き方・根拠：BとDはいずれも酸性ですが、アルミニウムとの反応で区別できます。",
           "explanation": "BとDはいずれも酸性ですが、アルミニウムとの反応で区別できます。",
-          "why": "一つの結果だけで決まらないとき、追加の性質を使って絞り込みます。"
+          "why": "一つの結果だけで決まらないとき、追加の性質を使って絞り込みます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-S2-05",
@@ -557,9 +635,11 @@
           "level": "challenge",
           "subject": "理科",
           "question": "4本の水溶液を見分けるために、直接なめたり、容器に鼻を近づけて強くにおいをかいだりしてよいですか。",
-          "answer": "いけません",
+          "answer": "答え：いけません\n解き方・根拠：薬品には危険なものがあるため、リトマス紙など安全な方法で調べます。",
           "explanation": "薬品には危険なものがあるため、リトマス紙など安全な方法で調べます。",
-          "why": "実験では正しい結果だけでなく、安全な方法を選ぶことも重要です。"
+          "why": "実験では正しい結果だけでなく、安全な方法を選ぶことも重要です。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ],
       "examTable": {
@@ -618,9 +698,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Aに最も当てはまる都道府県を答えなさい。",
-          "answer": "北海道",
+          "answer": "答え：北海道\n解き方・根拠：広い土地、寒冷な気候、酪農・畑作という組み合わせから北海道と考えられます。",
           "explanation": "広い土地、寒冷な気候、酪農・畑作という組み合わせから北海道と考えられます。",
-          "why": "一つの情報ではなく複数の特色を組み合わせて判断します。"
+          "why": "一つの情報ではなく複数の特色を組み合わせて判断します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G1-02",
@@ -629,9 +711,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Bに最も当てはまる都道府県を答えなさい。",
-          "answer": "愛知県",
+          "answer": "答え：愛知県\n解き方・根拠：自動車など輸送用機械工業の集積が大きな手掛かりです。",
           "explanation": "自動車など輸送用機械工業の集積が大きな手掛かりです。",
-          "why": "工業の種類と地域の結び付きを使います。"
+          "why": "工業の種類と地域の結び付きを使います。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G1-03",
@@ -640,9 +724,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Cに最も当てはまる都道府県を答えなさい。",
-          "answer": "東京都",
+          "answer": "答え：東京都\n解き方・根拠：非常に高い人口密度と、情報・金融・サービス業の集中から判断できます。",
           "explanation": "非常に高い人口密度と、情報・金融・サービス業の集中から判断できます。",
-          "why": "人口と産業構造を関連付けます。"
+          "why": "人口と産業構造を関連付けます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G1-04",
@@ -651,9 +737,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Dに最も当てはまる都道府県を答えなさい。",
-          "answer": "鹿児島県",
+          "answer": "答え：鹿児島県\n解き方・根拠：温暖な気候、畜産、さつまいも、火山地形という特色が手掛かりです。",
           "explanation": "温暖な気候、畜産、さつまいも、火山地形という特色が手掛かりです。",
-          "why": "農業・気候・地形を組み合わせます。"
+          "why": "農業・気候・地形を組み合わせます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G1-05",
@@ -662,9 +750,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Bのような工業地域で、港・高速道路・鉄道などの交通網が重要な理由を説明しなさい。",
-          "answer": "原料や部品を運び入れ、完成した製品を国内外へ効率よく運ぶ必要があるから",
+          "answer": "答え：原料や部品を運び入れ、完成した製品を国内外へ効率よく運ぶ必要があるから\n解き方・根拠：工業は工場の中だけで完結せず、原料・部品・製品の輸送と結び付いています。",
           "explanation": "工業は工場の中だけで完結せず、原料・部品・製品の輸送と結び付いています。",
-          "why": "産業と交通の関係を理由まで含めて説明します。"
+          "why": "産業と交通の関係を理由まで含めて説明します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ],
       "examTable": {
@@ -718,9 +808,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "A〜Eを古い順に並べなさい。",
-          "answer": "A→B→C→D→E",
+          "answer": "答え：A→B→C→D→E\n解き方・根拠：平安京794年、元寇13世紀、江戸幕府1603年、明治政府1868年、日本国憲法施行1947年の順です。",
           "explanation": "平安京794年、元寇13世紀、江戸幕府1603年、明治政府1868年、日本国憲法施行1947年の順です。",
-          "why": "年号を丸暗記するだけでなく、時代の大きな流れで並べます。"
+          "why": "年号を丸暗記するだけでなく、時代の大きな流れで並べます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G2-02",
@@ -729,9 +821,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Bの出来事が起きた時代を答えなさい。",
-          "answer": "鎌倉時代",
+          "answer": "答え：鎌倉時代\n解き方・根拠：元寇は鎌倉時代に起こりました。",
           "explanation": "元寇は鎌倉時代に起こりました。",
-          "why": "出来事を政治の中心となった時代区分と結び付けます。"
+          "why": "出来事を政治の中心となった時代区分と結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G2-03",
@@ -740,9 +834,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Cの後、全国の大名を統制するために江戸幕府が行ったしくみの一つを答えなさい。",
-          "answer": "例：参勤交代",
+          "answer": "答え：例：参勤交代\n解き方・根拠：参勤交代などを通して幕府は大名を統制しました。",
           "explanation": "参勤交代などを通して幕府は大名を統制しました。",
-          "why": "制度の名前だけでなく、その目的も理解します。"
+          "why": "制度の名前だけでなく、その目的も理解します。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G2-04",
@@ -751,9 +847,11 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Dの時期に、身分や藩を中心とした社会から中央集権的な国家へ変えていくために行われた政策を一つ答えなさい。",
-          "answer": "例：廃藩置県",
+          "answer": "答え：例：廃藩置県\n解き方・根拠：廃藩置県によって藩を廃止し、府県を置きました。",
           "explanation": "廃藩置県によって藩を廃止し、府県を置きました。",
-          "why": "明治初期の改革を、国の仕組みを変える目的と結び付けます。"
+          "why": "明治初期の改革を、国の仕組みを変える目的と結び付けます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         },
         {
           "id": "CH-G2-05",
@@ -762,11 +860,17 @@
           "level": "challenge",
           "subject": "社会",
           "question": "Eの日本国憲法が施行されたのは何年ですか。",
-          "answer": "1947年",
+          "answer": "答え：1947年\n解き方・根拠：日本国憲法は1946年11月3日に公布され、1947年5月3日に施行されました。",
           "explanation": "日本国憲法は1946年11月3日に公布され、1947年5月3日に施行されました。",
-          "why": "公布と施行を区別して覚えます。"
+          "why": "公布と施行を区別して覚えます。",
+          "reasonRequired": true,
+          "responseStyle": "exam-answer-and-reason"
         }
       ]
     }
-  ]
+  ],
+  "revision": {
+    "version": "V2",
+    "focus": "入試形式を維持しつつ解答と根拠をセットで確認"
+  }
 }

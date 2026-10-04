@@ -10,321 +10,385 @@
       "id": "M6-CH-001",
       "type": "text",
       "level": "applied",
-      "question": "ある数xの3/5が24です。xの1/4はいくつですか？",
-      "answer": "10",
+      "question": "ある数xの3/5が24です。xの1/4はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10\n考え方：x=24÷3/5=40、その1/4は10です。",
       "explanation": "x=24÷3/5=40、その1/4は10です。",
       "why": "複数の割合を順に処理します。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-002",
       "type": "text",
       "level": "applied",
-      "question": "A:B=2:3、B:C=4:5のとき、A:B:Cを整数比で表しましょう。",
-      "answer": "8:12:15",
+      "question": "A:B=2:3、B:C=4:5のとき、A:B:Cを整数比で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：8:12:15\n考え方：Bを12にそろえ、A=8、C=15です。",
       "explanation": "Bを12にそろえ、A=8、C=15です。",
       "why": "二つの比の共通項をそろえます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-003",
       "type": "text",
       "level": "applied",
-      "question": "1200円をA:B=3:5で分け、Aの半分を貯金します。貯金額は？",
-      "answer": "225円",
+      "question": "1200円をA:B=3:5で分け、Aの半分を貯金します。貯金額は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：225円\n考え方：A=450円、その半分225円です。",
       "explanation": "A=450円、その半分225円です。",
       "why": "比と割合を組み合わせます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-004",
       "type": "text",
       "level": "applied",
-      "question": "半径5cmの円の面積の40%は何cm²ですか？",
-      "answer": "31.4cm²",
+      "question": "半径5cmの円の面積の40%は何cm²ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：31.4cm²\n考え方：78.5×0.4=31.4です。",
       "explanation": "78.5×0.4=31.4です。",
       "why": "円の面積と割合を組み合わせます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-005",
       "type": "text",
       "level": "applied",
-      "question": "半径4cm高さ10cmの円柱を高さ方向に半分にすると体積は？",
-      "answer": "251.2cm³",
+      "question": "半径4cm高さ10cmの円柱を高さ方向に半分にすると体積は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：251.2cm³\n考え方：元502.4cm³の半分です。",
       "explanation": "元502.4cm³の半分です。",
       "why": "体積と割合を組み合わせます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-006",
       "type": "text",
       "level": "applied",
-      "question": "2倍の拡大図の面積が72cm²です。元の面積は？",
-      "answer": "18cm²",
+      "question": "2倍の拡大図の面積が72cm²です。元の面積は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：18cm²\n考え方：面積は4倍なので72÷4=18です。",
       "explanation": "面積は4倍なので72÷4=18です。",
       "why": "拡大率と面積倍率を逆に使います。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-007",
       "type": "text",
       "level": "applied",
-      "question": "1/3の縮図の面積が20cm²です。元の面積は？",
-      "answer": "180cm²",
+      "question": "1/3の縮図の面積が20cm²です。元の面積は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：180cm²\n考え方：面積は1/9なので20×9=180です。",
       "explanation": "面積は1/9なので20×9=180です。",
       "why": "長さ倍率から面積倍率を求めます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-008",
       "type": "text",
       "level": "applied",
-      "question": "1/2000の地図で3.5cmの道のりは実際何m？",
-      "answer": "70m",
+      "question": "1/2000の地図で3.5cmの道のりは実際何m？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：70m\n考え方：3.5×2000=7000cm=70mです。",
       "explanation": "3.5×2000=7000cm=70mです。",
       "why": "縮尺と小数を組み合わせます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-009",
       "type": "text",
       "level": "applied",
-      "question": "xとyが比例し、x=4でy=10です。x=14ならyは？",
-      "answer": "35",
+      "question": "xとyが比例し、x=4でy=10です。x=14ならyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：35\n考え方：比例定数2.5、14×2.5=35です。",
       "explanation": "比例定数2.5、14×2.5=35です。",
       "why": "1組の対応から式を作ります。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-010",
       "type": "text",
       "level": "applied",
-      "question": "xとyが反比例し、x=6でy=8です。x=16ならyは？",
-      "answer": "3",
+      "question": "xとyが反比例し、x=6でy=8です。x=16ならyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3\n考え方：積48、48÷16=3です。",
       "explanation": "積48、48÷16=3です。",
       "why": "反比例の一定の積を使います。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-011",
       "type": "text",
       "level": "applied",
-      "question": "速さが時速60kmから75kmになりました。同じ300kmにかかる時間は何時間から何時間に変わりますか？",
-      "answer": "5時間から4時間",
+      "question": "速さが時速60kmから75kmになりました。同じ300kmにかかる時間は何時間から何時間に変わりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：5時間から4時間\n考え方：300÷60=5、300÷75=4です。",
       "explanation": "300÷60=5、300÷75=4です。",
       "why": "速さと時間の反比例です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-012",
       "type": "text",
       "level": "applied",
-      "question": "5/6kgで1000円の品物を1と1/4kg買うといくら？",
-      "answer": "1500円",
+      "question": "5/6kgで1000円の品物を1と1/4kg買うといくら？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1500円\n考え方：1kg1200円、1.25kgで1500円です。",
       "explanation": "1kg1200円、1.25kgで1500円です。",
       "why": "分数除法と比例を組み合わせます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-013",
       "type": "text",
       "level": "applied",
-      "question": "3/4Lで6m²ぬれる塗料があります。2Lでは何m²？",
-      "answer": "16m²",
+      "question": "3/4Lで6m²ぬれる塗料があります。2Lでは何m²？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：16m²\n考え方：1Lで8m²、2Lで16m²です。",
       "explanation": "1Lで8m²、2Lで16m²です。",
       "why": "単位量と比例です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-014",
       "type": "text",
       "level": "applied",
-      "question": "A組の平均70点、B組の中央値72点だけで、どちらが必ず高い成績と言えますか？",
-      "answer": "必ずとは言えません",
+      "question": "A組の平均70点、B組の中央値72点だけで、どちらが必ず高い成績と言えますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：必ずとは言えません\n考え方：異なる代表値だけでは単純比較できません。",
       "explanation": "異なる代表値だけでは単純比較できません。",
       "why": "データの意味を批判的に見ます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-015",
       "type": "text",
       "level": "applied",
-      "question": "データ10,10,10,10,50の平均値と中央値を求めましょう。",
-      "answer": "平均18、中央値10",
+      "question": "データ10,10,10,10,50の平均値と中央値を求めましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：平均18、中央値10\n考え方：合計90÷5=18、中央は10です。",
       "explanation": "合計90÷5=18、中央は10です。",
       "why": "外れ値の影響を見ます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-016",
       "type": "text",
       "level": "applied",
-      "question": "5チーム総当たりの10試合を2日で5試合ずつ行うとき、試合数の合計は変わりますか？",
-      "answer": "変わりません",
+      "question": "5チーム総当たりの10試合を2日で5試合ずつ行うとき、試合数の合計は変わりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：変わりません\n考え方：組み合わせ自体は10組です。",
       "explanation": "組み合わせ自体は10組です。",
       "why": "日程と組み合わせ数を区別します。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-017",
       "type": "text",
       "level": "applied",
-      "question": "4人A,B,C,Dを並べ、AとBが隣り合う並びは何通り？",
-      "answer": "12通り",
+      "question": "4人A,B,C,Dを並べ、AとBが隣り合う並びは何通り？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12通り\n考え方：ABを1組とみて3!×2=12通りです。",
       "explanation": "ABを1組とみて3!×2=12通りです。",
       "why": "条件をまとめて数えます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-018",
       "type": "text",
       "level": "applied",
-      "question": "数字0,1,2,3から異なる3個で3けたの数を作ると何個？",
-      "answer": "18個",
+      "question": "数字0,1,2,3から異なる3個で3けたの数を作ると何個？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：18個\n考え方：百の位3通り、十の位3通り、一の位2通りで18です。",
       "explanation": "百の位3通り、十の位3通り、一の位2通りで18です。",
       "why": "先頭0の条件に注意します。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-019",
       "type": "text",
       "level": "applied",
-      "question": "比3:4で分けた2量の差が15なら、小さい方はいくつ？",
-      "answer": "45",
+      "question": "比3:4で分けた2量の差が15なら、小さい方はいくつ？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：45\n考え方：1比分が15、3比分で45です。",
       "explanation": "1比分が15、3比分で45です。",
       "why": "差から比の1単位を求めます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-020",
       "type": "text",
       "level": "applied",
-      "question": "比5:7で分けた2量の合計が96なら、大きい方はいくつ？",
-      "answer": "56",
+      "question": "比5:7で分けた2量の合計が96なら、大きい方はいくつ？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：56\n考え方：96÷12=8、7×8=56です。",
       "explanation": "96÷12=8、7×8=56です。",
       "why": "合計から比の1単位を求めます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-021",
       "type": "text",
       "level": "applied",
-      "question": "円柱Aは半径3cm高さ8cm、Bは半径4cm高さ4.5cm。体積はどちらが大きい？",
-      "answer": "同じ",
+      "question": "円柱Aは半径3cm高さ8cm、Bは半径4cm高さ4.5cm。体積はどちらが大きい？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じ\n考え方：どちらも72×3.14cm³です。",
       "explanation": "どちらも72×3.14cm³です。",
       "why": "式の形で比較します。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-022",
       "type": "text",
       "level": "applied",
-      "question": "半径6cmの円から半径3cmの円をくりぬいた輪の面積は？",
-      "answer": "84.78cm²",
+      "question": "半径6cmの円から半径3cmの円をくりぬいた輪の面積は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：84.78cm²\n考え方：113.04−28.26=84.78です。",
       "explanation": "113.04−28.26=84.78です。",
       "why": "複合図形の差です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-023",
       "type": "text",
       "level": "applied",
-      "question": "面積100cm²の正方形の1辺は10cmです。2倍拡大図の面積は？",
-      "answer": "400cm²",
+      "question": "面積100cm²の正方形の1辺は10cmです。2倍拡大図の面積は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：400cm²\n考え方：面積倍率4倍です。",
       "explanation": "面積倍率4倍です。",
       "why": "拡大率と面積倍率です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-024",
       "type": "text",
       "level": "applied",
-      "question": "長方形の面積48cm²で縦xcm横ycmです。x=4から8になるとyは？",
-      "answer": "12から6",
+      "question": "長方形の面積48cm²で縦xcm横ycmです。x=4から8になるとyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12から6\n考え方：積48を保つので半分です。",
       "explanation": "積48を保つので半分です。",
       "why": "反比例です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-025",
       "type": "text",
       "level": "applied",
-      "question": "y=3xのグラフ上でxが2増えるとyは必ずいくつ増えますか？",
-      "answer": "6",
+      "question": "y=3xのグラフ上でxが2増えるとyは必ずいくつ増えますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：6\n考え方：3×2=6です。",
       "explanation": "3×2=6です。",
       "why": "比例の一定の増え方です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-026",
       "type": "text",
       "level": "applied",
-      "question": "y=24/xでxが2から4になるとyは12からいくつ？",
-      "answer": "6",
+      "question": "y=24/xでxが2から4になるとyは12からいくつ？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：6\n考え方：xが2倍なのでyは1/2です。",
       "explanation": "xが2倍なのでyは1/2です。",
       "why": "反比例の倍率です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-027",
       "type": "text",
       "level": "applied",
-      "question": "A:B=3:5でA=18のときBは？",
-      "answer": "30",
+      "question": "A:B=3:5でA=18のときBは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：30\n考え方：3→18が6倍なので5→30です。",
       "explanation": "3→18が6倍なので5→30です。",
       "why": "等しい比です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-028",
       "type": "text",
       "level": "applied",
-      "question": "3/4÷1/2×2/3を計算しましょう。",
-      "answer": "1",
+      "question": "3/4÷1/2×2/3を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1\n考え方：3/2×2/3=1です。",
       "explanation": "3/2×2/3=1です。",
       "why": "乗除を順に処理します。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-029",
       "type": "text",
       "level": "applied",
-      "question": "2/5×(3/4+1/2)を計算しましょう。",
-      "answer": "1/2",
+      "question": "2/5×(3/4+1/2)を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1/2\n考え方：3/4+1/2=5/4、×2/5=1/2です。",
       "explanation": "3/4+1/2=5/4、×2/5=1/2です。",
       "why": "加法と乗法の混合です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-030",
       "type": "text",
       "level": "applied",
-      "question": "入試型の複合問題で最初にすることとして有効なのは何ですか？",
-      "answer": "求めるものと与えられた条件を整理すること",
+      "question": "入試型の複合問題で最初にすることとして有効なのは何ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：求めるものと与えられた条件を整理すること\n考え方：情報を図・表・式などに整理します。",
       "explanation": "情報を図・表・式などに整理します。",
       "why": "条件が多い問題を段階的に解きます。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-031",
       "type": "text",
       "level": "applied",
-      "question": "答えが出た後、単位や大きさ、条件に合うか確かめることは大切ですか？",
-      "answer": "大切です",
+      "question": "答えが出た後、単位や大きさ、条件に合うか確かめることは大切ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：大切です\n考え方：計算だけ合っていても読み違いがある場合があります。",
       "explanation": "計算だけ合っていても読み違いがある場合があります。",
       "why": "最終的な検算までが問題解決です。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-CH-032",
       "type": "text",
       "level": "applied",
-      "question": "複数の解き方がある問題で、より簡潔な方法を比べることに意味がありますか？",
-      "answer": "あります",
+      "question": "複数の解き方がある問題で、より簡潔な方法を比べることに意味がありますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：あります\n考え方：比、単位量、式などからよりよい方法を選べます。",
       "explanation": "比、単位量、式などからよりよい方法を選べます。",
       "why": "多面的に考える力を養います。",
-      "skill": "challenge"
+      "skill": "challenge",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

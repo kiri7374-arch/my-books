@@ -10,301 +10,361 @@
       "id": "M5-DD-001",
       "type": "calculation",
       "level": "basic",
-      "question": "1.2 ÷ 0.5",
-      "answer": "2.4",
+      "question": "1.2 ÷ 0.5\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2.4\n考え方：わる数0.5を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.4です。",
       "explanation": "わる数0.5を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.4です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-002",
       "type": "calculation",
       "level": "basic",
-      "question": "2.8 ÷ 0.8",
-      "answer": "3.5",
+      "question": "2.8 ÷ 0.8\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3.5\n考え方：わる数0.8を整数にするため、わられる数とわる数を同じだけ大きくして計算すると3.5です。",
       "explanation": "わる数0.8を整数にするため、わられる数とわる数を同じだけ大きくして計算すると3.5です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-003",
       "type": "calculation",
       "level": "basic",
-      "question": "3 ÷ 1.2",
-      "answer": "2.5",
+      "question": "3 ÷ 1.2\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2.5\n考え方：わる数1.2を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.5です。",
       "explanation": "わる数1.2を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.5です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-004",
       "type": "calculation",
       "level": "basic",
-      "question": "1.05 ÷ 0.75",
-      "answer": "1.4",
+      "question": "1.05 ÷ 0.75\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.4\n考え方：わる数0.75を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.4です。",
       "explanation": "わる数0.75を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.4です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-005",
       "type": "calculation",
       "level": "basic",
-      "question": "5.76 ÷ 1.6",
-      "answer": "3.6",
+      "question": "5.76 ÷ 1.6\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3.6\n考え方：わる数1.6を整数にするため、わられる数とわる数を同じだけ大きくして計算すると3.6です。",
       "explanation": "わる数1.6を整数にするため、わられる数とわる数を同じだけ大きくして計算すると3.6です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-006",
       "type": "calculation",
       "level": "basic",
-      "question": "4.5 ÷ 2.5",
-      "answer": "1.8",
+      "question": "4.5 ÷ 2.5\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.8\n考え方：わる数2.5を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.8です。",
       "explanation": "わる数2.5を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.8です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-007",
       "type": "calculation",
       "level": "basic",
-      "question": "2.5 ÷ 0.4",
-      "answer": "6.25",
+      "question": "2.5 ÷ 0.4\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：6.25\n考え方：わる数0.4を整数にするため、わられる数とわる数を同じだけ大きくして計算すると6.25です。",
       "explanation": "わる数0.4を整数にするため、わられる数とわる数を同じだけ大きくして計算すると6.25です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-008",
       "type": "calculation",
       "level": "basic",
-      "question": "6 ÷ 1.25",
-      "answer": "4.8",
+      "question": "6 ÷ 1.25\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：4.8\n考え方：わる数1.25を整数にするため、わられる数とわる数を同じだけ大きくして計算すると4.8です。",
       "explanation": "わる数1.25を整数にするため、わられる数とわる数を同じだけ大きくして計算すると4.8です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-009",
       "type": "calculation",
       "level": "basic",
-      "question": "1.41 ÷ 0.6",
-      "answer": "2.35",
+      "question": "1.41 ÷ 0.6\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2.35\n考え方：わる数0.6を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.35です。",
       "explanation": "わる数0.6を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.35です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-010",
       "type": "calculation",
       "level": "basic",
-      "question": "4.8 ÷ 3.2",
-      "answer": "1.5",
+      "question": "4.8 ÷ 3.2\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.5\n考え方：わる数3.2を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.5です。",
       "explanation": "わる数3.2を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.5です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-011",
       "type": "calculation",
       "level": "basic",
-      "question": "2.4 ÷ □ = 4 です。□に入る数はいくつですか？",
-      "answer": "0.6",
+      "question": "2.4 ÷ □ = 4 です。□に入る数はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.6\n考え方：2.4÷4=0.6なので、□=0.6です。",
       "explanation": "2.4÷4=0.6なので、□=0.6です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
-      "skill": "inverse"
+      "skill": "inverse",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-012",
       "type": "calculation",
       "level": "basic",
-      "question": "4.8 ÷ □ = 3.2 です。□に入る数はいくつですか？",
-      "answer": "1.5",
+      "question": "4.8 ÷ □ = 3.2 です。□に入る数はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.5\n考え方：4.8÷3.2=1.5なので、□=1.5です。",
       "explanation": "4.8÷3.2=1.5なので、□=1.5です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
-      "skill": "inverse"
+      "skill": "inverse",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-013",
       "type": "calculation",
       "level": "basic",
-      "question": "2 ÷ □ = 8 です。□に入る数はいくつですか？",
-      "answer": "0.25",
+      "question": "2 ÷ □ = 8 です。□に入る数はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.25\n考え方：2÷8=0.25なので、□=0.25です。",
       "explanation": "2÷8=0.25なので、□=0.25です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
-      "skill": "inverse"
+      "skill": "inverse",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-014",
       "type": "calculation",
       "level": "basic",
-      "question": "3.6 ÷ □ = 1.5 です。□に入る数はいくつですか？",
-      "answer": "2.4",
+      "question": "3.6 ÷ □ = 1.5 です。□に入る数はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2.4\n考え方：3.6÷1.5=2.4なので、□=2.4です。",
       "explanation": "3.6÷1.5=2.4なので、□=2.4です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
-      "skill": "inverse"
+      "skill": "inverse",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-015",
       "type": "calculation",
       "level": "basic",
-      "question": "6 ÷ □ = 7.5 です。□に入る数はいくつですか？",
-      "answer": "0.8",
+      "question": "6 ÷ □ = 7.5 です。□に入る数はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0.8\n考え方：6÷7.5=0.8なので、□=0.8です。",
       "explanation": "6÷7.5=0.8なので、□=0.8です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
-      "skill": "inverse"
+      "skill": "inverse",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-016",
       "type": "calculation",
       "level": "basic",
-      "question": "3 ÷ □ = 2.4 です。□に入る数はいくつですか？",
-      "answer": "1.25",
+      "question": "3 ÷ □ = 2.4 です。□に入る数はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.25\n考え方：3÷2.4=1.25なので、□=1.25です。",
       "explanation": "3÷2.4=1.25なので、□=1.25です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
-      "skill": "inverse"
+      "skill": "inverse",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-017",
       "type": "text",
       "level": "applied",
-      "question": "4.8Lのジュースを0.6Lずつ分けます。何本分になりますか？",
-      "answer": "8本分",
+      "question": "4.8Lのジュースを0.6Lずつ分けます。何本分になりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：8本分\n考え方：全体÷1つ分なので、4.8÷0.6=8です。",
       "explanation": "全体÷1つ分なので、4.8÷0.6=8です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
-      "skill": "word"
+      "skill": "word",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-018",
       "type": "text",
       "level": "applied",
-      "question": "7.2mのリボンを0.8mずつ切ります。何本とれますか？",
-      "answer": "9本",
+      "question": "7.2mのリボンを0.8mずつ切ります。何本とれますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：9本\n考え方：全体÷1つ分なので、7.2÷0.8=9です。",
       "explanation": "全体÷1つ分なので、7.2÷0.8=9です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
-      "skill": "word"
+      "skill": "word",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-019",
       "type": "text",
       "level": "applied",
-      "question": "6.25kgの材料を1.25kgずつ袋に入れます。何袋できますか？",
-      "answer": "5袋",
+      "question": "6.25kgの材料を1.25kgずつ袋に入れます。何袋できますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：5袋\n考え方：全体÷1つ分なので、6.25÷1.25=5です。",
       "explanation": "全体÷1つ分なので、6.25÷1.25=5です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
-      "skill": "word"
+      "skill": "word",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-020",
       "type": "text",
       "level": "applied",
-      "question": "9kmの道のりを1.5kmずつ区切ると何区間ですか？",
-      "answer": "6区間",
+      "question": "9kmの道のりを1.5kmずつ区切ると何区間ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：6区間\n考え方：全体÷1つ分なので、9÷1.5=6です。",
       "explanation": "全体÷1つ分なので、9÷1.5=6です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
-      "skill": "word"
+      "skill": "word",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-021",
       "type": "text",
       "level": "applied",
-      "question": "3.6Lの水を0.4Lずつ入れると何杯分ですか？",
-      "answer": "9杯分",
+      "question": "3.6Lの水を0.4Lずつ入れると何杯分ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：9杯分\n考え方：全体÷1つ分なので、3.6÷0.4=9です。",
       "explanation": "全体÷1つ分なので、3.6÷0.4=9です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
-      "skill": "word"
+      "skill": "word",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-022",
       "type": "text",
       "level": "applied",
-      "question": "8.4kgの米を1.2kgずつ分けると何袋ですか？",
-      "answer": "7袋",
+      "question": "8.4kgの米を1.2kgずつ分けると何袋ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：7袋\n考え方：全体÷1つ分なので、8.4÷1.2=7です。",
       "explanation": "全体÷1つ分なので、8.4÷1.2=7です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
-      "skill": "word"
+      "skill": "word",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-023",
       "type": "calculation",
       "level": "basic",
-      "question": "6÷0.5の答えは6より大きくなりますか？",
-      "answer": "大きくなります",
+      "question": "6÷0.5の答えは6より大きくなりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：大きくなります\n考え方：0.5ずつなら12こ入るので12です。",
       "explanation": "0.5ずつなら12こ入るので12です。",
       "why": "1より小さい数で割ると商が大きくなることがあります。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-024",
       "type": "calculation",
       "level": "basic",
-      "question": "3.2÷0.4と32÷4は同じ答えですか？",
-      "answer": "同じです",
+      "question": "3.2÷0.4と32÷4は同じ答えですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じです\n考え方：どちらも8です。",
       "explanation": "どちらも8です。",
       "why": "両方を同じ10倍しても商は変わりません。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-025",
       "type": "calculation",
       "level": "basic",
-      "question": "4.32÷0.6で、わる数だけ10倍するのは正しいですか？",
-      "answer": "正しくありません",
+      "question": "4.32÷0.6で、わる数だけ10倍するのは正しいですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：正しくありません\n考え方：0.6を6にするなら4.32も43.2にします。",
       "explanation": "0.6を6にするなら4.32も43.2にします。",
       "why": "両方を同じ倍率で変えます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-026",
       "type": "calculation",
       "level": "basic",
-      "question": "5÷0.5を2.5とした人がいます。正しい答えは何ですか？",
-      "answer": "10",
+      "question": "5÷0.5を2.5とした人がいます。正しい答えは何ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10\n考え方：5の中に0.5は10こ入ります。",
       "explanation": "5の中に0.5は10こ入ります。",
       "why": "答えのおよその大きさも考えます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-027",
       "type": "calculation",
       "level": "basic",
-      "question": "4.8÷0.5を暗算しやすくする方法を答えましょう。",
-      "answer": "4.8×2",
+      "question": "4.8÷0.5を暗算しやすくする方法を答えましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：4.8×2\n考え方：0.5=1/2なので、0.5で割ることは2倍することと同じです。",
       "explanation": "0.5=1/2なので、0.5で割ることは2倍することと同じです。",
       "why": "小数と分数の関係を使います。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-028",
       "type": "calculation",
       "level": "basic",
-      "question": "0.84÷0.07で、わる数を整数にするには両方を何倍しますか？",
-      "answer": "100倍",
+      "question": "0.84÷0.07で、わる数を整数にするには両方を何倍しますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：100倍\n考え方：0.07を7にするには100倍します。",
       "explanation": "0.07を7にするには100倍します。",
       "why": "小数点以下のけた数を見て倍率を決めます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-029",
       "type": "calculation",
       "level": "basic",
-      "question": "15÷0.1はいくつですか？",
-      "answer": "150",
+      "question": "15÷0.1はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：150\n考え方：0.1ずつに分けると1の中に10こ、15の中に150こあります。",
       "explanation": "0.1ずつに分けると1の中に10こ、15の中に150こあります。",
       "why": "0.1で割ることは10倍することと同じです。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-DD-030",
       "type": "calculation",
       "level": "basic",
-      "question": "8÷0.25は8×4と同じですか？",
-      "answer": "同じです",
+      "question": "8÷0.25は8×4と同じですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じです\n考え方：0.25=1/4なので、1の中に4こあります。",
       "explanation": "0.25=1/4なので、1の中に4こあります。",
       "why": "分数の見方で商の意味を考えます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

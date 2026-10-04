@@ -10,8 +10,8 @@
       "id": "M5-GR-001",
       "type": "text",
       "level": "basic",
-      "question": "全体が100人で、Aが20%です。Aは何人ですか？",
-      "answer": "2人",
+      "question": "全体が100人で、Aが20%です。Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2人\n考え方：100×0.2=2人です。",
       "explanation": "100×0.2=2人です。",
       "why": "グラフの割合から実際の人数を求めます。",
       "skill": "read",
@@ -19,14 +19,16 @@
         "type": "pie-chart",
         "percent": 20,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-002",
       "type": "text",
       "level": "basic",
-      "question": "全体が200人で、Aが35%です。Aは何人ですか？",
-      "answer": "7人",
+      "question": "全体が200人で、Aが35%です。Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：7人\n考え方：200×0.35=7人です。",
       "explanation": "200×0.35=7人です。",
       "why": "グラフの割合から実際の人数を求めます。",
       "skill": "read",
@@ -34,14 +36,16 @@
         "type": "pie-chart",
         "percent": 35,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-003",
       "type": "text",
       "level": "basic",
-      "question": "全体が120人で、Aが25%です。Aは何人ですか？",
-      "answer": "3人",
+      "question": "全体が120人で、Aが25%です。Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3人\n考え方：120×0.25=3人です。",
       "explanation": "120×0.25=3人です。",
       "why": "グラフの割合から実際の人数を求めます。",
       "skill": "read",
@@ -49,14 +53,16 @@
         "type": "pie-chart",
         "percent": 25,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-004",
       "type": "text",
       "level": "basic",
-      "question": "全体が160人で、Aが50%です。Aは何人ですか？",
-      "answer": "8人",
+      "question": "全体が160人で、Aが50%です。Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：8人\n考え方：160×0.5=8人です。",
       "explanation": "160×0.5=8人です。",
       "why": "グラフの割合から実際の人数を求めます。",
       "skill": "read",
@@ -64,14 +70,16 @@
         "type": "pie-chart",
         "percent": 50,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-005",
       "type": "text",
       "level": "basic",
-      "question": "全体が300人で、Aが15%です。Aは何人ですか？",
-      "answer": "45人",
+      "question": "全体が300人で、Aが15%です。Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：45人\n考え方：300×0.15=45人です。",
       "explanation": "300×0.15=45人です。",
       "why": "グラフの割合から実際の人数を求めます。",
       "skill": "read",
@@ -79,14 +87,16 @@
         "type": "pie-chart",
         "percent": 15,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-006",
       "type": "text",
       "level": "basic",
-      "question": "全体が80人で、Aが40%です。Aは何人ですか？",
-      "answer": "32人",
+      "question": "全体が80人で、Aが40%です。Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：32人\n考え方：80×0.4=32人です。",
       "explanation": "80×0.4=32人です。",
       "why": "グラフの割合から実際の人数を求めます。",
       "skill": "read",
@@ -94,64 +104,76 @@
         "type": "pie-chart",
         "percent": 40,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-007",
       "type": "text",
       "level": "basic",
-      "question": "全体80人のうちAが20人です。Aは何%ですか？",
-      "answer": "25%",
+      "question": "全体80人のうちAが20人です。Aは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：25%\n考え方：20÷80×100=25%です。",
       "explanation": "20÷80×100=25%です。",
       "why": "全体を100%として割合を求めます。",
-      "skill": "percent"
+      "skill": "percent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-008",
       "type": "text",
       "level": "basic",
-      "question": "全体150人のうちAが45人です。Aは何%ですか？",
-      "answer": "30%",
+      "question": "全体150人のうちAが45人です。Aは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：30%\n考え方：45÷150×100=30%です。",
       "explanation": "45÷150×100=30%です。",
       "why": "全体を100%として割合を求めます。",
-      "skill": "percent"
+      "skill": "percent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-009",
       "type": "text",
       "level": "basic",
-      "question": "全体240人のうちAが72人です。Aは何%ですか？",
-      "answer": "30%",
+      "question": "全体240人のうちAが72人です。Aは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：30%\n考え方：72÷240×100=30%です。",
       "explanation": "72÷240×100=30%です。",
       "why": "全体を100%として割合を求めます。",
-      "skill": "percent"
+      "skill": "percent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-010",
       "type": "text",
       "level": "basic",
-      "question": "全体120人のうちAが30人です。Aは何%ですか？",
-      "answer": "25%",
+      "question": "全体120人のうちAが30人です。Aは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：25%\n考え方：30÷120×100=25%です。",
       "explanation": "30÷120×100=25%です。",
       "why": "全体を100%として割合を求めます。",
-      "skill": "percent"
+      "skill": "percent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-011",
       "type": "text",
       "level": "basic",
-      "question": "全体200人のうちAが50人です。Aは何%ですか？",
-      "answer": "25%",
+      "question": "全体200人のうちAが50人です。Aは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：25%\n考え方：50÷200×100=25%です。",
       "explanation": "50÷200×100=25%です。",
       "why": "全体を100%として割合を求めます。",
-      "skill": "percent"
+      "skill": "percent",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-012",
       "type": "text",
       "level": "basic",
-      "question": "円グラフでAが35%、Bが25%です。残りのCは何%ですか？",
-      "answer": "40%",
+      "question": "円グラフでAが35%、Bが25%です。残りのCは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：40%\n考え方：100−35−25=40%です。",
       "explanation": "100−35−25=40%です。",
       "why": "円グラフ全体は100%です。",
       "skill": "remainder",
@@ -159,14 +181,16 @@
         "type": "pie-chart",
         "percent": 35,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-013",
       "type": "text",
       "level": "basic",
-      "question": "円グラフでAが40%、Bが30%です。残りのCは何%ですか？",
-      "answer": "30%",
+      "question": "円グラフでAが40%、Bが30%です。残りのCは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：30%\n考え方：100−40−30=30%です。",
       "explanation": "100−40−30=30%です。",
       "why": "円グラフ全体は100%です。",
       "skill": "remainder",
@@ -174,14 +198,16 @@
         "type": "pie-chart",
         "percent": 40,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-014",
       "type": "text",
       "level": "basic",
-      "question": "円グラフでAが20%、Bが45%です。残りのCは何%ですか？",
-      "answer": "35%",
+      "question": "円グラフでAが20%、Bが45%です。残りのCは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：35%\n考え方：100−20−45=35%です。",
       "explanation": "100−20−45=35%です。",
       "why": "円グラフ全体は100%です。",
       "skill": "remainder",
@@ -189,14 +215,16 @@
         "type": "pie-chart",
         "percent": 20,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-015",
       "type": "text",
       "level": "basic",
-      "question": "円グラフでAが50%、Bが15%です。残りのCは何%ですか？",
-      "answer": "35%",
+      "question": "円グラフでAが50%、Bが15%です。残りのCは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：35%\n考え方：100−50−15=35%です。",
       "explanation": "100−50−15=35%です。",
       "why": "円グラフ全体は100%です。",
       "skill": "remainder",
@@ -204,97 +232,117 @@
         "type": "pie-chart",
         "percent": 50,
         "label": "A"
-      }
+      },
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-016",
       "type": "text",
       "level": "basic",
-      "question": "円グラフで全体の半分を表す割合は何%ですか？",
-      "answer": "50%",
+      "question": "円グラフで全体の半分を表す割合は何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：50%\n考え方：半分=1/2=50%です。",
       "explanation": "半分=1/2=50%です。",
       "why": "円グラフは全体を100%として表します。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-017",
       "type": "text",
       "level": "basic",
-      "question": "帯グラフで全体の1/4を表す割合は何%ですか？",
-      "answer": "25%",
+      "question": "帯グラフで全体の1/4を表す割合は何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：25%\n考え方：1/4=0.25=25%です。",
       "explanation": "1/4=0.25=25%です。",
       "why": "分数・小数・百分率の関係を使います。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-018",
       "type": "text",
       "level": "basic",
       "question": "人数の違う二つのクラスの割合を比べるのに帯グラフが便利なのはなぜですか？",
-      "answer": "全体を100%にそろえて比べられるから",
+      "answer": "答え：全体を100%にそろえて比べられるから\n考え方：人数が違っても同じ100%を基準にできます。",
       "explanation": "人数が違っても同じ100%を基準にできます。",
       "why": "割合で比べる目的を理解します。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-019",
       "type": "text",
       "level": "basic",
-      "question": "円グラフと帯グラフの共通点は何ですか？",
-      "answer": "どちらも全体を100%として割合を表すこと",
+      "question": "円グラフと帯グラフの共通点は何ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：どちらも全体を100%として割合を表すこと\n考え方：形は違っても割合を示すグラフです。",
       "explanation": "形は違っても割合を示すグラフです。",
       "why": "グラフの特徴を比べます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-020",
       "type": "text",
       "level": "basic",
-      "question": "棒グラフと帯グラフは同じ目的で使いますか？",
-      "answer": "いつも同じではありません",
+      "question": "棒グラフと帯グラフは同じ目的で使いますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：いつも同じではありません\n考え方：棒グラフは量の大小、帯グラフは割合を見るのに向きます。",
       "explanation": "棒グラフは量の大小、帯グラフは割合を見るのに向きます。",
       "why": "目的に合うグラフを選びます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-021",
       "type": "text",
       "level": "basic",
-      "question": "Aが60%、Bが40%なら、Aの割合はBの何倍ですか？",
-      "answer": "1.5倍",
+      "question": "Aが60%、Bが40%なら、Aの割合はBの何倍ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.5倍\n考え方：60÷40=1.5です。",
       "explanation": "60÷40=1.5です。",
       "why": "割合どうしを比べます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-022",
       "type": "text",
       "level": "basic",
-      "question": "円グラフで10%の部分は全体の何分の1ですか？",
-      "answer": "1/10",
+      "question": "円グラフで10%の部分は全体の何分の1ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1/10\n考え方：10%=0.1=1/10です。",
       "explanation": "10%=0.1=1/10です。",
       "why": "百分率と分数を対応させます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-023",
       "type": "text",
       "level": "basic",
-      "question": "帯グラフでAが45%、Bが35%なら、残りは何%ですか？",
-      "answer": "20%",
+      "question": "帯グラフでAが45%、Bが35%なら、残りは何%ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：20%\n考え方：100−45−35=20%です。",
       "explanation": "100−45−35=20%です。",
       "why": "全体100%から引きます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-GR-024",
       "type": "text",
       "level": "basic",
-      "question": "全体200人の帯グラフでAが30%なら、Aは何人ですか？",
-      "answer": "60人",
+      "question": "全体200人の帯グラフでAが30%なら、Aは何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：60人\n考え方：200×0.3=60人です。",
       "explanation": "200×0.3=60人です。",
       "why": "割合から人数を求めます.",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

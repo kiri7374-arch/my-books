@@ -10,281 +10,337 @@
       "id": "M5-UA-001",
       "type": "text",
       "level": "basic",
-      "question": "2km²の地域に100人が住んでいます。1km²あたり何人ですか？",
-      "answer": "50人/km²",
+      "question": "2km²の地域に100人が住んでいます。1km²あたり何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：50人/km²\n考え方：100÷2=50人/km²です。",
       "explanation": "100÷2=50人/km²です。",
       "why": "広さが違う地域でも、1km²あたりにそろえると比べやすくなります。",
-      "skill": "density"
+      "skill": "density",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-002",
       "type": "text",
       "level": "basic",
-      "question": "3km²の地域に120人が住んでいます。1km²あたり何人ですか？",
-      "answer": "40人/km²",
+      "question": "3km²の地域に120人が住んでいます。1km²あたり何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：40人/km²\n考え方：120÷3=40人/km²です。",
       "explanation": "120÷3=40人/km²です。",
       "why": "広さが違う地域でも、1km²あたりにそろえると比べやすくなります。",
-      "skill": "density"
+      "skill": "density",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-003",
       "type": "text",
       "level": "basic",
-      "question": "4km²の地域に300人が住んでいます。1km²あたり何人ですか？",
-      "answer": "75人/km²",
+      "question": "4km²の地域に300人が住んでいます。1km²あたり何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：75人/km²\n考え方：300÷4=75人/km²です。",
       "explanation": "300÷4=75人/km²です。",
       "why": "広さが違う地域でも、1km²あたりにそろえると比べやすくなります。",
-      "skill": "density"
+      "skill": "density",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-004",
       "type": "text",
       "level": "basic",
-      "question": "5km²の地域に300人が住んでいます。1km²あたり何人ですか？",
-      "answer": "60人/km²",
+      "question": "5km²の地域に300人が住んでいます。1km²あたり何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：60人/km²\n考え方：300÷5=60人/km²です。",
       "explanation": "300÷5=60人/km²です。",
       "why": "広さが違う地域でも、1km²あたりにそろえると比べやすくなります。",
-      "skill": "density"
+      "skill": "density",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-005",
       "type": "text",
       "level": "basic",
-      "question": "6km²の地域に270人が住んでいます。1km²あたり何人ですか？",
-      "answer": "45人/km²",
+      "question": "6km²の地域に270人が住んでいます。1km²あたり何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：45人/km²\n考え方：270÷6=45人/km²です。",
       "explanation": "270÷6=45人/km²です。",
       "why": "広さが違う地域でも、1km²あたりにそろえると比べやすくなります。",
-      "skill": "density"
+      "skill": "density",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-006",
       "type": "text",
       "level": "basic",
-      "question": "4個で320円の商品は、1個あたり何円ですか？",
-      "answer": "80円",
+      "question": "4個で320円の商品は、1個あたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：80円\n考え方：320÷4=80円です。",
       "explanation": "320÷4=80円です。",
       "why": "1個あたりにそろえると、商品どうしを比べやすくなります。",
-      "skill": "unit-price"
+      "skill": "unit-price",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-007",
       "type": "text",
       "level": "basic",
-      "question": "5個で300円の商品は、1個あたり何円ですか？",
-      "answer": "60円",
+      "question": "5個で300円の商品は、1個あたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：60円\n考え方：300÷5=60円です。",
       "explanation": "300÷5=60円です。",
       "why": "1個あたりにそろえると、商品どうしを比べやすくなります。",
-      "skill": "unit-price"
+      "skill": "unit-price",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-008",
       "type": "text",
       "level": "basic",
-      "question": "6個で420円の商品は、1個あたり何円ですか？",
-      "answer": "70円",
+      "question": "6個で420円の商品は、1個あたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：70円\n考え方：420÷6=70円です。",
       "explanation": "420÷6=70円です。",
       "why": "1個あたりにそろえると、商品どうしを比べやすくなります。",
-      "skill": "unit-price"
+      "skill": "unit-price",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-009",
       "type": "text",
       "level": "basic",
-      "question": "8個で400円の商品は、1個あたり何円ですか？",
-      "answer": "50円",
+      "question": "8個で400円の商品は、1個あたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：50円\n考え方：400÷8=50円です。",
       "explanation": "400÷8=50円です。",
       "why": "1個あたりにそろえると、商品どうしを比べやすくなります。",
-      "skill": "unit-price"
+      "skill": "unit-price",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-010",
       "type": "text",
       "level": "basic",
-      "question": "10個で450円の商品は、1個あたり何円ですか？",
-      "answer": "45円",
+      "question": "10個で450円の商品は、1個あたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：45円\n考え方：450÷10=45円です。",
       "explanation": "450÷10=45円です。",
       "why": "1個あたりにそろえると、商品どうしを比べやすくなります。",
-      "skill": "unit-price"
+      "skill": "unit-price",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-011",
       "type": "text",
       "level": "basic",
-      "question": "A店は5個400円、B店は8個600円です。1個あたり安いのはどちらですか？",
-      "answer": "B店",
+      "question": "A店は5個400円、B店は8個600円です。1個あたり安いのはどちらですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：B店\n考え方：Aは80円、Bは75円なのでB店です。",
       "explanation": "Aは80円、Bは75円なのでB店です。",
       "why": "個数が違うときは1個あたりにそろえます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-012",
       "type": "text",
       "level": "basic",
-      "question": "A地域は2km²に120人、B地域は3km²に150人です。人口密度が高いのはどちらですか？",
-      "answer": "A地域",
+      "question": "A地域は2km²に120人、B地域は3km²に150人です。人口密度が高いのはどちらですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：A地域\n考え方：Aは60人/km²、Bは50人/km²です。",
       "explanation": "Aは60人/km²、Bは50人/km²です。",
       "why": "面積が違うときは1km²あたりにそろえます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-013",
       "type": "text",
       "level": "basic",
-      "question": "3人で900円の代金を同じ金額ずつ払います。1人あたり何円ですか？",
-      "answer": "300円",
+      "question": "3人で900円の代金を同じ金額ずつ払います。1人あたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：300円\n考え方：900÷3=300円です。",
       "explanation": "900÷3=300円です。",
       "why": "1人あたりの量を求めます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-014",
       "type": "text",
       "level": "basic",
-      "question": "6mで18kgの材料があります。1mあたり何kgですか？",
-      "answer": "3kg",
+      "question": "6mで18kgの材料があります。1mあたり何kgですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3kg\n考え方：18÷6=3kgです。",
       "explanation": "18÷6=3kgです。",
       "why": "全体の量を長さで割ると1mあたりになります。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-015",
       "type": "text",
       "level": "basic",
-      "question": "4Lで600円のジュースは1Lあたり何円ですか？",
-      "answer": "150円",
+      "question": "4Lで600円のジュースは1Lあたり何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：150円\n考え方：600÷4=150円です。",
       "explanation": "600÷4=150円です。",
       "why": "量が違う商品を比べるときは1Lあたりにそろえます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-016",
       "type": "text",
       "level": "basic",
-      "question": "8個で480gのお菓子は1個あたり何gですか？",
-      "answer": "60g",
+      "question": "8個で480gのお菓子は1個あたり何gですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：60g\n考え方：480÷8=60gです。",
       "explanation": "480÷8=60gです。",
       "why": "全体の重さ÷個数です。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-017",
       "type": "text",
       "level": "basic",
-      "question": "1個あたりの値段を求めるとき、全体の金額を個数で割りますか？",
-      "answer": "はい",
+      "question": "1個あたりの値段を求めるとき、全体の金額を個数で割りますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：はい\n考え方：全体÷個数で1個分を求めます。",
       "explanation": "全体÷個数で1個分を求めます。",
       "why": "何か1つ分にそろえる考え方です。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-018",
       "type": "text",
       "level": "basic",
-      "question": "人口密度は『1km²あたりの人数』を表しますか？",
-      "answer": "はい",
+      "question": "人口密度は『1km²あたりの人数』を表しますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：はい\n考え方：面積1km²にそろえた人数を表します。",
       "explanation": "面積1km²にそろえた人数を表します。",
       "why": "広さの違う地域を公平に比べるための量です。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-019",
       "type": "text",
       "level": "basic",
-      "question": "1mあたりの重さが2kgなら、5mでは何kgですか？",
-      "answer": "10kg",
+      "question": "1mあたりの重さが2kgなら、5mでは何kgですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10kg\n考え方：2×5=10kgです。",
       "explanation": "2×5=10kgです。",
       "why": "1あたりの量から全体を求めるにはかけ算です。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-020",
       "type": "text",
       "level": "basic",
-      "question": "1個75円の商品を8個買うと何円ですか？",
-      "answer": "600円",
+      "question": "1個75円の商品を8個買うと何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：600円\n考え方：75×8=600円です。",
       "explanation": "75×8=600円です。",
       "why": "1個あたり×個数で全体です。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-021",
       "type": "text",
       "level": "basic",
-      "question": "1km²あたり40人の地域が3km²なら、全部で何人ですか？",
-      "answer": "120人",
+      "question": "1km²あたり40人の地域が3km²なら、全部で何人ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：120人\n考え方：40×3=120人です。",
       "explanation": "40×3=120人です。",
       "why": "1km²あたりの人数×面積です。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-022",
       "type": "text",
       "level": "basic",
-      "question": "『1個あたり』と『全部で』は同じ量ですか？",
-      "answer": "違います",
+      "question": "『1個あたり』と『全部で』は同じ量ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：違います\n考え方：1個あたりは1つ分、全部では全体です。",
       "explanation": "1個あたりは1つ分、全部では全体です。",
       "why": "何を1にそろえているかを区別します。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-023",
       "type": "text",
       "level": "basic",
-      "question": "人口が同じ二つの地域なら、面積が小さい方が人口密度は高いですか？",
-      "answer": "高くなります",
+      "question": "人口が同じ二つの地域なら、面積が小さい方が人口密度は高いですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：高くなります\n考え方：同じ人数がより狭い面積にいるからです。",
       "explanation": "同じ人数がより狭い面積にいるからです。",
       "why": "人口密度の意味から考えます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-024",
       "type": "text",
       "level": "basic",
-      "question": "面積が同じ二つの地域なら、人口が多い方が人口密度は高いですか？",
-      "answer": "高いです",
+      "question": "面積が同じ二つの地域なら、人口が多い方が人口密度は高いですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：高いです\n考え方：同じ面積なら人口の多い方が1km²あたりも多くなります。",
       "explanation": "同じ面積なら人口の多い方が1km²あたりも多くなります。",
       "why": "同じ基準なら直接比べられます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-025",
       "type": "text",
       "level": "basic",
-      "question": "1Lあたり150円と、500mLで80円ではどちらが安いですか？",
-      "answer": "1Lあたり150円の方",
+      "question": "1Lあたり150円と、500mLで80円ではどちらが安いですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1Lあたり150円の方\n考え方：500mLで80円は1Lあたり160円なので150円の方が安いです。",
       "explanation": "500mLで80円は1Lあたり160円なので150円の方が安いです。",
       "why": "単位を1Lにそろえます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-026",
       "type": "text",
       "level": "basic",
-      "question": "3kgで1200円と、5kgで1900円では1kgあたり安いのはどちらですか？",
-      "answer": "5kgで1900円の方",
+      "question": "3kgで1200円と、5kgで1900円では1kgあたり安いのはどちらですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：5kgで1900円の方\n考え方：1200÷3=400円/kg、1900÷5=380円/kgです。",
       "explanation": "1200÷3=400円/kg、1900÷5=380円/kgです。",
       "why": "1kgあたりにそろえます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-027",
       "type": "text",
       "level": "basic",
-      "question": "6本で540円のペンと、10本で850円のペンでは1本あたり安いのはどちらですか？",
-      "answer": "10本で850円の方",
+      "question": "6本で540円のペンと、10本で850円のペンでは1本あたり安いのはどちらですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10本で850円の方\n考え方：540÷6=90円、850÷10=85円です。",
       "explanation": "540÷6=90円、850÷10=85円です。",
       "why": "同じ1本あたりで比べます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-UA-028",
       "type": "text",
       "level": "basic",
-      "question": "2Lで300円と、3Lで420円では1Lあたり安いのはどちらですか？",
-      "answer": "3Lで420円の方",
+      "question": "2Lで300円と、3Lで420円では1Lあたり安いのはどちらですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3Lで420円の方\n考え方：300÷2=150円/L、420÷3=140円/Lです。",
       "explanation": "300÷2=150円/L、420÷3=140円/Lです。",
       "why": "同じ1Lあたりで比べます。",
-      "skill": "application"
+      "skill": "application",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

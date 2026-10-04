@@ -10,201 +10,241 @@
       "id": "M5-PR-001",
       "type": "calculation",
       "level": "basic",
-      "question": "□=2×△ の関係があります。△=3のとき□はいくつですか？",
-      "answer": "6",
+      "question": "□=2×△ の関係があります。△=3のとき□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：6\n考え方：2×3=6です。",
       "explanation": "2×3=6です。",
       "why": "比例の式に値を入れます。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-002",
       "type": "calculation",
       "level": "basic",
-      "question": "□=3×△ の関係があります。△=4のとき□はいくつですか？",
-      "answer": "12",
+      "question": "□=3×△ の関係があります。△=4のとき□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12\n考え方：3×4=12です。",
       "explanation": "3×4=12です。",
       "why": "比例の式に値を入れます。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-003",
       "type": "calculation",
       "level": "basic",
-      "question": "□=4×△ の関係があります。△=5のとき□はいくつですか？",
-      "answer": "2",
+      "question": "□=4×△ の関係があります。△=5のとき□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2\n考え方：4×5=2です。",
       "explanation": "4×5=2です。",
       "why": "比例の式に値を入れます。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-004",
       "type": "calculation",
       "level": "basic",
-      "question": "□=2.5×△ の関係があります。△=4のとき□はいくつですか？",
-      "answer": "10",
+      "question": "□=2.5×△ の関係があります。△=4のとき□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10\n考え方：2.5×4=10です。",
       "explanation": "2.5×4=10です。",
       "why": "比例の式に値を入れます。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-005",
       "type": "calculation",
       "level": "basic",
-      "question": "□=1.5×△ の関係があります。△=6のとき□はいくつですか？",
-      "answer": "9",
+      "question": "□=1.5×△ の関係があります。△=6のとき□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：9\n考え方：1.5×6=9です。",
       "explanation": "1.5×6=9です。",
       "why": "比例の式に値を入れます。",
-      "skill": "calculate"
+      "skill": "calculate",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-006",
       "type": "calculation",
       "level": "basic",
-      "question": "□=2×△です。△が3から6へ2倍になると、□は6からいくつになりますか？",
-      "answer": "12",
+      "question": "□=2×△です。△が3から6へ2倍になると、□は6からいくつになりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12\n考え方：6×2=12です。",
       "explanation": "6×2=12です。",
       "why": "比例では同じ倍率で変わります。",
-      "skill": "change"
+      "skill": "change",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-007",
       "type": "calculation",
       "level": "basic",
-      "question": "□=3×△です。△が2から4へ2倍になると、□は6からいくつになりますか？",
-      "answer": "12",
+      "question": "□=3×△です。△が2から4へ2倍になると、□は6からいくつになりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12\n考え方：6×2=12です。",
       "explanation": "6×2=12です。",
       "why": "比例では同じ倍率で変わります。",
-      "skill": "change"
+      "skill": "change",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-008",
       "type": "calculation",
       "level": "basic",
-      "question": "□=4×△です。△が5から10へ2倍になると、□は20からいくつになりますか？",
-      "answer": "40",
+      "question": "□=4×△です。△が5から10へ2倍になると、□は20からいくつになりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：40\n考え方：20×2=40です。",
       "explanation": "20×2=40です。",
       "why": "比例では同じ倍率で変わります。",
-      "skill": "change"
+      "skill": "change",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-009",
       "type": "calculation",
       "level": "basic",
-      "question": "□=5×△です。△が4から8へ2倍になると、□は20からいくつになりますか？",
-      "answer": "40",
+      "question": "□=5×△です。△が4から8へ2倍になると、□は20からいくつになりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：40\n考え方：20×2=40です。",
       "explanation": "20×2=40です。",
       "why": "比例では同じ倍率で変わります。",
-      "skill": "change"
+      "skill": "change",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-010",
       "type": "text",
       "level": "basic",
-      "question": "1mあたり3kgの材料があります。長さが2倍になると重さも2倍になりますか？",
-      "answer": "なります",
+      "question": "1mあたり3kgの材料があります。長さが2倍になると重さも2倍になりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：なります\n考え方：重さ=3×長さなので比例します。",
       "explanation": "重さ=3×長さなので比例します。",
       "why": "1あたりの量が一定なら比例します。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-011",
       "type": "text",
       "level": "basic",
-      "question": "正方形の1辺の長さが2倍になると、周りの長さも2倍になりますか？",
-      "answer": "なります",
+      "question": "正方形の1辺の長さが2倍になると、周りの長さも2倍になりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：なります\n考え方：周り=4×1辺だからです。",
       "explanation": "周り=4×1辺だからです。",
       "why": "一定の数をかける関係です。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-012",
       "type": "text",
       "level": "basic",
-      "question": "正方形の1辺が2倍になると、面積も2倍ですか？",
-      "answer": "2倍ではありません",
+      "question": "正方形の1辺が2倍になると、面積も2倍ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2倍ではありません\n考え方：面積は辺×辺なので4倍です。",
       "explanation": "面積は辺×辺なので4倍です。",
       "why": "すべての関係が比例ではありません。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-013",
       "type": "calculation",
       "level": "basic",
-      "question": "□=5×△で、△=3のとき□=15です。△=9なら□はいくつですか？",
-      "answer": "45",
+      "question": "□=5×△で、△=3のとき□=15です。△=9なら□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：45\n考え方：9は3の3倍なので15も3倍です。",
       "explanation": "9は3の3倍なので15も3倍です。",
       "why": "比例では同じ倍率で変わります。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-014",
       "type": "text",
       "level": "basic",
-      "question": "表で△が1,2,3のとき□が4,8,12です。関係を式で表しましょう。",
-      "answer": "□=4×△",
+      "question": "表で△が1,2,3のとき□が4,8,12です。関係を式で表しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：□=4×△\n考え方：□はいつも△の4倍です。",
       "explanation": "□はいつも△の4倍です。",
       "why": "表から一定の倍率を見つけます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-015",
       "type": "calculation",
       "level": "basic",
-      "question": "△が1増えるたびに□が3増える関係は、必ず□=3×△の比例ですか？",
-      "answer": "必ずとはいえません",
+      "question": "△が1増えるたびに□が3増える関係は、必ず□=3×△の比例ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：必ずとはいえません\n考え方：□=3×△+2でも3ずつ増えます。",
       "explanation": "□=3×△+2でも3ずつ増えます。",
       "why": "比例では0に0が対応することも大切です。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-016",
       "type": "calculation",
       "level": "basic",
-      "question": "□=2×△で△=0のとき□はいくつですか？",
-      "answer": "0",
+      "question": "□=2×△で△=0のとき□はいくつですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：0\n考え方：2×0=0です。",
       "explanation": "2×0=0です。",
       "why": "比例では0に0が対応します。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-017",
       "type": "calculation",
       "level": "basic",
-      "question": "Aは□=3×△、Bは□=△+3です。△=2のときどちらも6です。二つは同じ関係ですか？",
-      "answer": "同じではありません",
+      "question": "Aは□=3×△、Bは□=△+3です。△=2のときどちらも6です。二つは同じ関係ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じではありません\n考え方：△=3ならA=9、B=6です。",
       "explanation": "△=3ならA=9、B=6です。",
       "why": "1組だけでなく複数の値で確かめます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-018",
       "type": "text",
       "level": "basic",
-      "question": "水を毎分2Lずつ入れ、最初は0Lです。時間と水の量は比例しますか？",
-      "answer": "します",
+      "question": "水を毎分2Lずつ入れ、最初は0Lです。時間と水の量は比例しますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：します\n考え方：水量=2×時間です。",
       "explanation": "水量=2×時間です。",
       "why": "0から一定の割合で増えます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-019",
       "type": "text",
       "level": "basic",
-      "question": "最初に5L入っていて毎分2Lずつ増える水の量は、時間に比例しますか？",
-      "answer": "比例しません",
+      "question": "最初に5L入っていて毎分2Lずつ増える水の量は、時間に比例しますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：比例しません\n考え方：水量=5+2×時間です。",
       "explanation": "水量=5+2×時間です。",
       "why": "時間0でも水量が0ではありません。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-PR-020",
       "type": "text",
       "level": "basic",
-      "question": "6個で900円の商品が同じ単価で売られています。10個なら何円ですか？",
-      "answer": "1500円",
+      "question": "6個で900円の商品が同じ単価で売られています。10個なら何円ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1500円\n考え方：1個150円なので150×10=1500円です。",
       "explanation": "1個150円なので150×10=1500円です。",
       "why": "同じ単価なら個数と代金は比例します.",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

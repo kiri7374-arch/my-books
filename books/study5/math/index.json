@@ -18,7 +18,7 @@
       "description": "位取り、10倍・100倍・1000倍、1/10・1/100、数の構成と比較",
       "targetQuestions": 28,
       "questionCount": 28,
-      "file": "books/study5/math/integer-decimal.json?v=20261003-v6"
+      "file": "books/study5/math/integer-decimal.json?v=20261004-reasonv2"
     },
     {
       "id": "math-multiple-divisor",
@@ -26,7 +26,7 @@
       "description": "偶数・奇数、倍数・約数、公倍数・公約数とその活用",
       "targetQuestions": 32,
       "questionCount": 32,
-      "file": "books/study5/math/multiple-divisor.json?v=20261003-v6"
+      "file": "books/study5/math/multiple-divisor.json?v=20261004-reasonv2"
     },
     {
       "id": "math-decimal-multiplication",
@@ -34,7 +34,7 @@
       "description": "計算、逆算、文章題、見積もり、誤り分析、計算の工夫",
       "targetQuestions": 30,
       "questionCount": 30,
-      "file": "books/study5/math/decimal-multiplication.json?v=20261003-v6"
+      "file": "books/study5/math/decimal-multiplication.json?v=20261004-reasonv2"
     },
     {
       "id": "math-decimal-division",
@@ -42,7 +42,7 @@
       "description": "計算、逆算、文章題、見積もり、誤り分析、計算の工夫",
       "targetQuestions": 30,
       "questionCount": 30,
-      "file": "books/study5/math/decimal-division.json?v=20261003-v6"
+      "file": "books/study5/math/decimal-division.json?v=20261004-reasonv2"
     },
     {
       "id": "math-fraction-basic",
@@ -50,7 +50,7 @@
       "description": "小数と分数、等しい分数、約分、通分、大小、わり算との関係",
       "targetQuestions": 35,
       "questionCount": 35,
-      "file": "books/study5/math/fraction-basic.json?v=20261003-v6"
+      "file": "books/study5/math/fraction-basic.json?v=20261004-reasonv2"
     },
     {
       "id": "math-fraction-add-subtract",
@@ -58,7 +58,7 @@
       "description": "異分母分数の計算、文章題、誤り分析、通分・約分の意味",
       "targetQuestions": 32,
       "questionCount": 32,
-      "file": "books/study5/math/fraction-add-subtract.json?v=20261003-v6"
+      "file": "books/study5/math/fraction-add-subtract.json?v=20261004-reasonv2"
     },
     {
       "id": "math-expression-properties",
@@ -66,7 +66,7 @@
       "description": "□や△、表や言葉を使った数量関係の表現・確認・変化",
       "targetQuestions": 24,
       "questionCount": 24,
-      "file": "books/study5/math/expression-properties.json?v=20261003-v6"
+      "file": "books/study5/math/expression-properties.json?v=20261004-reasonv2"
     },
     {
       "id": "math-congruence",
@@ -74,7 +74,7 @@
       "description": "合同の意味、対応、作図、判断、三角形・四角形への応用",
       "targetQuestions": 24,
       "questionCount": 24,
-      "file": "books/study5/math/congruence.json?v=20261003-v6"
+      "file": "books/study5/math/congruence.json?v=20261004-reasonv2"
     },
     {
       "id": "math-polygons-angles",
@@ -82,7 +82,7 @@
       "description": "内角の和、正多角形、角の計算、性質の判断",
       "targetQuestions": 22,
       "questionCount": 22,
-      "file": "books/study5/math/polygons-angles.json?v=20261003-v6"
+      "file": "books/study5/math/polygons-angles.json?v=20261004-reasonv2"
     },
     {
       "id": "math-area",
@@ -90,7 +90,7 @@
       "description": "三角形・平行四辺形・台形・ひし形の計算、逆算、理由、比較、文章題",
       "targetQuestions": 32,
       "questionCount": 32,
-      "file": "books/study5/math/area.json?v=20261003-v6"
+      "file": "books/study5/math/area.json?v=20261004-reasonv2"
     },
     {
       "id": "math-volume",
@@ -98,7 +98,7 @@
       "description": "直方体・立方体、逆算、比較、単位換算、文章題",
       "targetQuestions": 28,
       "questionCount": 28,
-      "file": "books/study5/math/volume.json?v=20261003-v6"
+      "file": "books/study5/math/volume.json?v=20261004-reasonv2"
     },
     {
       "id": "math-circle",
@@ -106,7 +106,7 @@
       "description": "直径・半径・円周、円周率、逆算、比例的な見方",
       "targetQuestions": 22,
       "questionCount": 22,
-      "file": "books/study5/math/circle.json?v=20261003-v6"
+      "file": "books/study5/math/circle.json?v=20261004-reasonv2"
     },
     {
       "id": "math-prism-cylinder",
@@ -114,7 +114,7 @@
       "description": "底面・側面・辺・頂点・展開図・見方",
       "targetQuestions": 20,
       "questionCount": 20,
-      "file": "books/study5/math/prism-cylinder.json?v=20261003-v6"
+      "file": "books/study5/math/prism-cylinder.json?v=20261004-reasonv2"
     },
     {
       "id": "math-average",
@@ -122,7 +122,7 @@
       "description": "平均の計算、逆算、合計、比較、文章題",
       "targetQuestions": 24,
       "questionCount": 24,
-      "file": "books/study5/math/average.json?v=20261003-v6"
+      "file": "books/study5/math/average.json?v=20261004-reasonv2"
     },
     {
       "id": "math-unit-amount",
@@ -130,7 +130,7 @@
       "description": "人口密度、1個・1L・1mあたり、比較と逆算",
       "targetQuestions": 28,
       "questionCount": 28,
-      "file": "books/study5/math/unit-amount.json?v=20261003-v6"
+      "file": "books/study5/math/unit-amount.json?v=20261004-reasonv2"
     },
     {
       "id": "math-speed",
@@ -138,7 +138,7 @@
       "description": "速さ・道のり・時間の計算、単位の意味、比較、複合問題",
       "targetQuestions": 28,
       "questionCount": 28,
-      "file": "books/study5/math/speed.json?v=20261003-v6"
+      "file": "books/study5/math/speed.json?v=20261004-reasonv2"
     },
     {
       "id": "math-ratio",
@@ -146,7 +146,7 @@
       "description": "割合、百分率、もとにする量・比べる量、値引きや増減",
       "targetQuestions": 36,
       "questionCount": 36,
-      "file": "books/study5/math/ratio.json?v=20261003-v6"
+      "file": "books/study5/math/ratio.json?v=20261004-reasonv2"
     },
     {
       "id": "math-proportion",
@@ -154,7 +154,7 @@
       "description": "比例の式、倍率、表、比例する・しない関係の判断",
       "targetQuestions": 20,
       "questionCount": 20,
-      "file": "books/study5/math/proportion.json?v=20261003-v6"
+      "file": "books/study5/math/proportion.json?v=20261004-reasonv2"
     },
     {
       "id": "math-circle-bar-graph",
@@ -162,7 +162,7 @@
       "description": "割合の読み取り、人数への変換、残り、グラフの特徴と選択",
       "targetQuestions": 24,
       "questionCount": 24,
-      "file": "books/study5/math/circle-bar-graph.json?v=20261003-v6"
+      "file": "books/study5/math/circle-bar-graph.json?v=20261004-reasonv2"
     },
     {
       "id": "math-data-analysis",
@@ -170,7 +170,7 @@
       "description": "平均・割合・グラフの読み取り、比較、適切な表現の選択",
       "targetQuestions": 20,
       "questionCount": 20,
-      "file": "books/study5/math/data-analysis.json?v=20261003-v6"
+      "file": "books/study5/math/data-analysis.json?v=20261004-reasonv2"
     },
     {
       "id": "math-comprehensive",
@@ -178,7 +178,7 @@
       "description": "数と計算、図形、変化と関係、データを横断する総合問題",
       "targetQuestions": 36,
       "questionCount": 36,
-      "file": "books/study5/math/comprehensive.json?v=20261003-v6"
+      "file": "books/study5/math/comprehensive.json?v=20261004-reasonv2"
     }
   ]
 }

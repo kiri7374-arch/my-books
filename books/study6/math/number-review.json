@@ -10,321 +10,385 @@
       "id": "M6-NR-001",
       "type": "text",
       "level": "basic",
-      "question": "3/4×8/9を計算しましょう。",
-      "answer": "2/3",
+      "question": "3/4×8/9を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2/3\n考え方：24/36=2/3です。",
       "explanation": "24/36=2/3です。",
       "why": "分数の乗法",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-002",
       "type": "text",
       "level": "basic",
-      "question": "5/6÷10/9を計算しましょう。",
-      "answer": "3/4",
+      "question": "5/6÷10/9を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3/4\n考え方：5/6×9/10=3/4です。",
       "explanation": "5/6×9/10=3/4です。",
       "why": "分数の除法",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-003",
       "type": "text",
       "level": "basic",
-      "question": "2と1/3×3/7を計算しましょう。",
-      "answer": "1",
+      "question": "2と1/3×3/7を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1\n考え方：7/3×3/7=1です。",
       "explanation": "7/3×3/7=1です。",
       "why": "帯分数と逆数",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-004",
       "type": "text",
       "level": "basic",
-      "question": "1と1/2÷3/4を計算しましょう。",
-      "answer": "2",
+      "question": "1と1/2÷3/4を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2\n考え方：3/2×4/3=2です。",
       "explanation": "3/2×4/3=2です。",
       "why": "分数除法",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-005",
       "type": "text",
       "level": "basic",
-      "question": "x=5のとき3x+2はいくつ？",
-      "answer": "17",
+      "question": "x=5のとき3x+2はいくつ？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：17\n考え方：3×5+2=17です。",
       "explanation": "3×5+2=17です。",
       "why": "文字式",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-006",
       "type": "text",
       "level": "basic",
-      "question": "4x=28のxは？",
-      "answer": "7",
+      "question": "4x=28のxは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：7\n考え方：28÷4=7です。",
       "explanation": "28÷4=7です。",
       "why": "文字式の逆算",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-007",
       "type": "text",
       "level": "basic",
-      "question": "比12:18を簡単にしましょう。",
-      "answer": "2:3",
+      "question": "比12:18を簡単にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2:3\n考え方：6で割ります。",
       "explanation": "6で割ります。",
       "why": "比",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-008",
       "type": "text",
       "level": "basic",
-      "question": "比2:5で全部35を分けると小さい方は？",
-      "answer": "10",
+      "question": "比2:5で全部35を分けると小さい方は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10\n考え方：35÷7=5、2×5=10です。",
       "explanation": "35÷7=5、2×5=10です。",
       "why": "比の按分",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-009",
       "type": "text",
       "level": "basic",
-      "question": "y=4xでx=7のときyは？",
-      "answer": "28",
+      "question": "y=4xでx=7のときyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：28\n考え方：4×7=28です。",
       "explanation": "4×7=28です。",
       "why": "比例",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-010",
       "type": "text",
       "level": "basic",
-      "question": "xy=36でx=9のときyは？",
-      "answer": "4",
+      "question": "xy=36でx=9のときyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：4\n考え方：36÷9=4です。",
       "explanation": "36÷9=4です。",
       "why": "反比例",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-011",
       "type": "text",
       "level": "basic",
-      "question": "5mで750円の布は8mでいくら？",
-      "answer": "1200円",
+      "question": "5mで750円の布は8mでいくら？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1200円\n考え方：1m150円×8です。",
       "explanation": "1m150円×8です。",
       "why": "比例",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-012",
       "type": "text",
       "level": "basic",
-      "question": "210kmを時速70kmで進む時間は？",
-      "answer": "3時間",
+      "question": "210kmを時速70kmで進む時間は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3時間\n考え方：210÷70=3です。",
       "explanation": "210÷70=3です。",
       "why": "速さ・道のり・時間の関係を使います。",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-013",
       "type": "text",
       "level": "basic",
-      "question": "同じ210kmを時速105kmで進む時間は？",
-      "answer": "2時間",
+      "question": "同じ210kmを時速105kmで進む時間は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2時間\n考え方：210÷105=2です。",
       "explanation": "210÷105=2です。",
       "why": "速さが大きくなると、同じ道のりにかかる時間は短くなります。",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-014",
       "type": "text",
       "level": "basic",
-      "question": "3/5Lで450円の液体は1Lいくら？",
-      "answer": "750円",
+      "question": "3/5Lで450円の液体は1Lいくら？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：750円\n考え方：450÷3/5=750円です。",
       "explanation": "450÷3/5=750円です。",
       "why": "分数除法と単位量",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-015",
       "type": "text",
       "level": "basic",
-      "question": "4/7kmを2/5時間で進む速さは？",
-      "answer": "10/7km/h",
+      "question": "4/7kmを2/5時間で進む速さは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：10/7km/h\n考え方：4/7÷2/5=10/7です。",
       "explanation": "4/7÷2/5=10/7です。",
       "why": "分数除法と速さ",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-016",
       "type": "text",
       "level": "basic",
-      "question": "ある数の3/4が18です。ある数は？",
-      "answer": "24",
+      "question": "ある数の3/4が18です。ある数は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：24\n考え方：18÷3/4=24です。",
       "explanation": "18÷3/4=24です。",
       "why": "割合と分数除法",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-017",
       "type": "text",
       "level": "basic",
-      "question": "ある数の2/5が14です。ある数は？",
-      "answer": "35",
+      "question": "ある数の2/5が14です。ある数は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：35\n考え方：14÷2/5=35です。",
       "explanation": "14÷2/5=35です。",
       "why": "分数の割合",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-018",
       "type": "text",
       "level": "basic",
-      "question": "1200円を3:5に分けると少ない方は？",
-      "answer": "450円",
+      "question": "1200円を3:5に分けると少ない方は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：450円\n考え方：1200÷8=150、3×150=450です。",
       "explanation": "1200÷8=150、3×150=450です。",
       "why": "比",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-019",
       "type": "text",
       "level": "basic",
-      "question": "6個で900gの商品は15個で何g？",
-      "answer": "2250g",
+      "question": "6個で900gの商品は15個で何g？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2250g\n考え方：1個150g×15です。",
       "explanation": "1個150g×15です。",
       "why": "比例",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-020",
       "type": "text",
       "level": "basic",
-      "question": "面積48cm²の長方形で縦6cmなら横は？",
-      "answer": "8cm",
+      "question": "面積48cm²の長方形で縦6cmなら横は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：8cm\n考え方：48÷6=8です。",
       "explanation": "48÷6=8です。",
       "why": "反比例の場面",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-021",
       "type": "text",
       "level": "basic",
-      "question": "3:4=x:20のxは？",
-      "answer": "15",
+      "question": "3:4=x:20のxは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：15\n考え方：4→20が5倍です。",
       "explanation": "4→20が5倍です。",
       "why": "等しい比",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-022",
       "type": "text",
       "level": "basic",
-      "question": "0.6:0.9を整数比にしましょう。",
-      "answer": "2:3",
+      "question": "0.6:0.9を整数比にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2:3\n考え方：10倍して6:9、さらに簡単にします。",
       "explanation": "10倍して6:9、さらに簡単にします。",
       "why": "小数の比",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-023",
       "type": "text",
       "level": "basic",
-      "question": "1/3:1/2を整数比にしましょう。",
-      "answer": "2:3",
+      "question": "1/3:1/2を整数比にしましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2:3\n考え方：両方を6倍します。",
       "explanation": "両方を6倍します。",
       "why": "分数の比",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-024",
       "type": "text",
       "level": "basic",
-      "question": "2/3×9/10÷3/5を計算しましょう。",
-      "answer": "1",
+      "question": "2/3×9/10÷3/5を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1\n考え方：3/5÷3/5=1です。",
       "explanation": "3/5÷3/5=1です。",
       "why": "乗除混合",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-025",
       "type": "text",
       "level": "basic",
-      "question": "(1/2+1/3)×6/5を計算しましょう。",
-      "answer": "1",
+      "question": "(1/2+1/3)×6/5を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1\n考え方：5/6×6/5=1です。",
       "explanation": "5/6×6/5=1です。",
       "why": "計算の順序",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-026",
       "type": "text",
       "level": "basic",
-      "question": "5/6÷(1/4+1/6)を計算しましょう。",
-      "answer": "2",
+      "question": "5/6÷(1/4+1/6)を計算しましょう。\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2\n考え方：5/12で割るので2です。",
       "explanation": "5/12で割るので2です。",
       "why": "計算の順序",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-027",
       "type": "text",
       "level": "basic",
-      "question": "比例y=2.5xでx=12ならyは？",
-      "answer": "30",
+      "question": "比例y=2.5xでx=12ならyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：30\n考え方：2.5×12=30です。",
       "explanation": "2.5×12=30です。",
       "why": "小数の比例定数",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-028",
       "type": "text",
       "level": "basic",
-      "question": "反比例y=48/xでx=6ならyは？",
-      "answer": "8",
+      "question": "反比例y=48/xでx=6ならyは？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：8\n考え方：48÷6=8です。",
       "explanation": "48÷6=8です。",
       "why": "反比例",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-029",
       "type": "text",
       "level": "basic",
-      "question": "x=3,y=12の比例の式は？",
-      "answer": "y=4x",
+      "question": "x=3,y=12の比例の式は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：y=4x\n考え方：12÷3=4です。",
       "explanation": "12÷3=4です。",
       "why": "比例式",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-030",
       "type": "text",
       "level": "basic",
-      "question": "x=4,y=9の反比例の式は？",
-      "answer": "y=36/x",
+      "question": "x=4,y=9の反比例の式は？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：y=36/x\n考え方：4×9=36です。",
       "explanation": "4×9=36です。",
       "why": "反比例式",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-031",
       "type": "text",
       "level": "basic",
-      "question": "3/4÷1/2は3/4より小さいですか？",
-      "answer": "いいえ",
+      "question": "3/4÷1/2は3/4より小さいですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：いいえ\n考え方：答えは3/2です。",
       "explanation": "答えは3/2です。",
       "why": "割る数が1より小さい場合",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M6-NR-032",
       "type": "text",
       "level": "basic",
-      "question": "2/3×5/4は2/3より大きいですか？",
-      "answer": "はい",
+      "question": "2/3×5/4は2/3より大きいですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：はい\n考え方：5/4>1だからです。",
       "explanation": "5/4>1だからです。",
       "why": "積の大きさの見積もり",
-      "skill": "review-number"
+      "skill": "review-number",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }

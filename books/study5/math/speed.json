@@ -10,281 +10,337 @@
       "id": "M5-SP-001",
       "type": "text",
       "level": "basic",
-      "question": "車が時速40kmで2時間進みます。道のりは何kmですか？",
-      "answer": "8km",
+      "question": "車が時速40kmで2時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：8km\n考え方：40×2=8kmです。",
       "explanation": "40×2=8kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-002",
       "type": "text",
       "level": "basic",
-      "question": "電車が時速60kmで1.5時間進みます。道のりは何kmですか？",
-      "answer": "90km",
+      "question": "電車が時速60kmで1.5時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：90km\n考え方：60×1.5=90kmです。",
       "explanation": "60×1.5=90kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-003",
       "type": "text",
       "level": "basic",
-      "question": "自転車が時速12kmで2.5時間進みます。道のりは何kmですか？",
-      "answer": "30km",
+      "question": "自転車が時速12kmで2.5時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：30km\n考え方：12×2.5=30kmです。",
       "explanation": "12×2.5=30kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-004",
       "type": "text",
       "level": "basic",
-      "question": "歩行が時速6kmで1.5時間進みます。道のりは何kmですか？",
-      "answer": "9km",
+      "question": "歩行が時速6kmで1.5時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：9km\n考え方：6×1.5=9kmです。",
       "explanation": "6×1.5=9kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-005",
       "type": "text",
       "level": "basic",
-      "question": "船が時速50kmで0.5時間進みます。道のりは何kmですか？",
-      "answer": "25km",
+      "question": "船が時速50kmで0.5時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：25km\n考え方：50×0.5=25kmです。",
       "explanation": "50×0.5=25kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-006",
       "type": "text",
       "level": "basic",
-      "question": "高速バスが時速80kmで1.25時間進みます。道のりは何kmですか？",
-      "answer": "100km",
+      "question": "高速バスが時速80kmで1.25時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：100km\n考え方：80×1.25=100kmです。",
       "explanation": "80×1.25=100kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-007",
       "type": "text",
       "level": "basic",
-      "question": "ランニングが時速15kmで2時間進みます。道のりは何kmですか？",
-      "answer": "3km",
+      "question": "ランニングが時速15kmで2時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：3km\n考え方：15×2=3kmです。",
       "explanation": "15×2=3kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-008",
       "type": "text",
       "level": "basic",
-      "question": "列車が時速72kmで0.5時間進みます。道のりは何kmですか？",
-      "answer": "36km",
+      "question": "列車が時速72kmで0.5時間進みます。道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：36km\n考え方：72×0.5=36kmです。",
       "explanation": "72×0.5=36kmです。",
       "why": "時速は1時間あたりに進む道のりなので、速さ×時間です。",
-      "skill": "distance"
+      "skill": "distance",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-009",
       "type": "text",
       "level": "basic",
-      "question": "車が90kmを1.5時間で進みました。時速何kmですか？",
-      "answer": "時速6km",
+      "question": "車が90kmを1.5時間で進みました。時速何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：時速6km\n考え方：90÷1.5=6です。",
       "explanation": "90÷1.5=6です。",
       "why": "道のり÷時間で1時間あたりを求めます。",
-      "skill": "speed"
+      "skill": "speed",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-010",
       "type": "text",
       "level": "basic",
-      "question": "電車が120kmを2時間で進みました。時速何kmですか？",
-      "answer": "時速6km",
+      "question": "電車が120kmを2時間で進みました。時速何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：時速6km\n考え方：120÷2=6です。",
       "explanation": "120÷2=6です。",
       "why": "道のり÷時間で1時間あたりを求めます。",
-      "skill": "speed"
+      "skill": "speed",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-011",
       "type": "text",
       "level": "basic",
-      "question": "自転車が24kmを2時間で進みました。時速何kmですか？",
-      "answer": "時速12km",
+      "question": "自転車が24kmを2時間で進みました。時速何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：時速12km\n考え方：24÷2=12です。",
       "explanation": "24÷2=12です。",
       "why": "道のり÷時間で1時間あたりを求めます。",
-      "skill": "speed"
+      "skill": "speed",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-012",
       "type": "text",
       "level": "basic",
-      "question": "歩行が9kmを1.5時間で進みました。時速何kmですか？",
-      "answer": "時速6km",
+      "question": "歩行が9kmを1.5時間で進みました。時速何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：時速6km\n考え方：9÷1.5=6です。",
       "explanation": "9÷1.5=6です。",
       "why": "道のり÷時間で1時間あたりを求めます。",
-      "skill": "speed"
+      "skill": "speed",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-013",
       "type": "text",
       "level": "basic",
-      "question": "船が75kmを1.5時間で進みました。時速何kmですか？",
-      "answer": "時速5km",
+      "question": "船が75kmを1.5時間で進みました。時速何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：時速5km\n考え方：75÷1.5=5です。",
       "explanation": "75÷1.5=5です。",
       "why": "道のり÷時間で1時間あたりを求めます。",
-      "skill": "speed"
+      "skill": "speed",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-014",
       "type": "text",
       "level": "basic",
-      "question": "ランニングが30kmを2時間で進みました。時速何kmですか？",
-      "answer": "時速15km",
+      "question": "ランニングが30kmを2時間で進みました。時速何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：時速15km\n考え方：30÷2=15です。",
       "explanation": "30÷2=15です。",
       "why": "道のり÷時間で1時間あたりを求めます。",
-      "skill": "speed"
+      "skill": "speed",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-015",
       "type": "text",
       "level": "basic",
-      "question": "車が100kmを時速50kmで進みます。何時間かかりますか？",
-      "answer": "2時間",
+      "question": "車が100kmを時速50kmで進みます。何時間かかりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2時間\n考え方：100÷50=2時間です。",
       "explanation": "100÷50=2時間です。",
       "why": "全体の道のりの中に1時間分がいくつあるかを考えます。",
-      "skill": "time"
+      "skill": "time",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-016",
       "type": "text",
       "level": "basic",
-      "question": "電車が90kmを時速60kmで進みます。何時間かかりますか？",
-      "answer": "1.5時間",
+      "question": "電車が90kmを時速60kmで進みます。何時間かかりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.5時間\n考え方：90÷60=1.5時間です。",
       "explanation": "90÷60=1.5時間です。",
       "why": "全体の道のりの中に1時間分がいくつあるかを考えます。",
-      "skill": "time"
+      "skill": "time",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-017",
       "type": "text",
       "level": "basic",
-      "question": "自転車が30kmを時速15kmで進みます。何時間かかりますか？",
-      "answer": "2時間",
+      "question": "自転車が30kmを時速15kmで進みます。何時間かかりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2時間\n考え方：30÷15=2時間です。",
       "explanation": "30÷15=2時間です。",
       "why": "全体の道のりの中に1時間分がいくつあるかを考えます。",
-      "skill": "time"
+      "skill": "time",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-018",
       "type": "text",
       "level": "basic",
-      "question": "歩行が12kmを時速6kmで進みます。何時間かかりますか？",
-      "answer": "2時間",
+      "question": "歩行が12kmを時速6kmで進みます。何時間かかりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2時間\n考え方：12÷6=2時間です。",
       "explanation": "12÷6=2時間です。",
       "why": "全体の道のりの中に1時間分がいくつあるかを考えます。",
-      "skill": "time"
+      "skill": "time",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-019",
       "type": "text",
       "level": "basic",
-      "question": "船が75kmを時速50kmで進みます。何時間かかりますか？",
-      "answer": "1.5時間",
+      "question": "船が75kmを時速50kmで進みます。何時間かかりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：1.5時間\n考え方：75÷50=1.5時間です。",
       "explanation": "75÷50=1.5時間です。",
       "why": "全体の道のりの中に1時間分がいくつあるかを考えます。",
-      "skill": "time"
+      "skill": "time",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-020",
       "type": "text",
       "level": "basic",
-      "question": "ランニングが24kmを時速12kmで進みます。何時間かかりますか？",
-      "answer": "2時間",
+      "question": "ランニングが24kmを時速12kmで進みます。何時間かかりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：2時間\n考え方：24÷12=2時間です。",
       "explanation": "24÷12=2時間です。",
       "why": "全体の道のりの中に1時間分がいくつあるかを考えます。",
-      "skill": "time"
+      "skill": "time",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-021",
       "type": "text",
       "level": "basic",
-      "question": "同じ道のりを進むなら、速い人ほどかかる時間は短くなりますか？",
-      "answer": "短くなります",
+      "question": "同じ道のりを進むなら、速い人ほどかかる時間は短くなりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：短くなります\n考え方：同じ道のりなら、速さが大きいほど時間は小さくなります。",
       "explanation": "同じ道のりなら、速さが大きいほど時間は小さくなります。",
       "why": "速さ・道のり・時間の関係を意味から考えます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-022",
       "type": "text",
       "level": "basic",
-      "question": "同じ時間進むなら、速い乗り物ほど道のりは長くなりますか？",
-      "answer": "長くなります",
+      "question": "同じ時間進むなら、速い乗り物ほど道のりは長くなりますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：長くなります\n考え方：道のり=速さ×時間だからです。",
       "explanation": "道のり=速さ×時間だからです。",
       "why": "時間が同じなら速さの大小が道のりに表れます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-023",
       "type": "text",
       "level": "basic",
-      "question": "時速60kmは1時間で60km進むという意味ですか？",
-      "answer": "はい",
+      "question": "時速60kmは1時間で60km進むという意味ですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：はい\n考え方：時速は1時間あたりの道のりです。",
       "explanation": "時速は1時間あたりの道のりです。",
       "why": "単位の意味を確認します。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-024",
       "type": "text",
       "level": "basic",
-      "question": "時速12kmで30分進むと12km進みますか？",
-      "answer": "いいえ",
+      "question": "時速12kmで30分進むと12km進みますか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：いいえ\n考え方：30分=0.5時間なので6kmです。",
       "explanation": "30分=0.5時間なので6kmです。",
       "why": "時間の単位をそろえます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-025",
       "type": "text",
       "level": "basic",
-      "question": "Aは60kmを1時間、Bは60kmを2時間で進みました。速いのはどちらですか？",
-      "answer": "A",
+      "question": "Aは60kmを1時間、Bは60kmを2時間で進みました。速いのはどちらですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：A\n考え方：Aは60km/h、Bは30km/hです。",
       "explanation": "Aは60km/h、Bは30km/hです。",
       "why": "同じ道のりなら短い時間で進む方が速いです。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-026",
       "type": "text",
       "level": "basic",
-      "question": "Aは2時間で100km、Bは3時間で150km進みました。速さは同じですか？",
-      "answer": "同じです",
+      "question": "Aは2時間で100km、Bは3時間で150km進みました。速さは同じですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：同じです\n考え方：どちらも50km/hです。",
       "explanation": "どちらも50km/hです。",
       "why": "道のりと時間を合わせて比べます。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-027",
       "type": "text",
       "level": "basic",
-      "question": "時速40kmで2時間進んだ後、時速20kmで1時間進みました。全部の道のりは何kmですか？",
-      "answer": "100km",
+      "question": "時速40kmで2時間進んだ後、時速20kmで1時間進みました。全部の道のりは何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：100km\n考え方：80km+20km=100kmです。",
       "explanation": "80km+20km=100kmです。",
       "why": "区間ごとに道のりを求めて足します。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     },
     {
       "id": "M5-SP-028",
       "type": "text",
       "level": "basic",
-      "question": "1時間に5km歩く人が2.5時間歩くと何kmですか？",
-      "answer": "12.5km",
+      "question": "1時間に5km歩く人が2.5時間歩くと何kmですか？\n答えだけでなく、使った式や考え方も説明しなさい。",
+      "answer": "答え：12.5km\n考え方：5×2.5=12.5kmです。",
       "explanation": "5×2.5=12.5kmです。",
       "why": "1時間あたり×時間です。",
-      "skill": "reasoning"
+      "skill": "reasoning",
+      "reasonRequired": true,
+      "responseStyle": "answer-and-method"
     }
   ]
 }
