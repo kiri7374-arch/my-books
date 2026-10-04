@@ -23,12 +23,12 @@
           "id": "S5-PL-001",
           "type": "concept",
           "level": "basic",
-          "question": "インゲンマメの種子が発芽するために必要な三つの条件は何ですか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：水・空気・適当な温度\n理由：水、空気、発芽に適した温度がそろうと発芽できます。日光や肥料は発芽そのものの必須条件ではありません。",
+          "question": "インゲンマメの種子が発芽するために必要な三つの条件は何ですか？",
+          "answer": "水・空気・適当な温度",
           "explanation": "水、空気、発芽に適した温度がそろうと発芽できます。日光や肥料は発芽そのものの必須条件ではありません。",
           "why": "発芽条件を調べる実験では、一度に変える条件を一つにします。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-PL-002",
@@ -39,7 +39,7 @@
           "explanation": "日光だけを変えて、ほかの条件を同じにすると、結果の違いを日光の有無と結び付けられます。",
           "why": "理科では、調べたい条件以外をそろえる『条件をそろえる』考え方が大切です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-003",
@@ -50,18 +50,18 @@
           "explanation": "水の有無を調べるなら、温度・空気・種子の種類などはそろえます。",
           "why": "二つ以上の条件を同時に変えると、どの条件が結果に影響したか分からなくなります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-004",
           "type": "concept",
           "level": "basic",
-          "question": "種子の中の子葉には、発芽のために使われる養分があります。インゲンマメなどで確かめるときに使う液は何ですか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：ヨウ素液\n理由：ヨウ素液はでんぷんがあると青紫色などに変化するため、種子の養分を調べる手掛かりになります。",
+          "question": "種子の中の子葉には、発芽のために使われる養分があります。インゲンマメなどで確かめるときに使う液は何ですか？",
+          "answer": "ヨウ素液",
           "explanation": "ヨウ素液はでんぷんがあると青紫色などに変化するため、種子の養分を調べる手掛かりになります。",
           "why": "発芽するとき、種子は内部に蓄えられた養分を利用します。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-PL-005",
@@ -72,7 +72,7 @@
           "explanation": "同じ条件で育て、日光に当てるものと当てないものを比べると、成長の違いを調べられます。",
           "why": "植物の成長には日光などが関係しています。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-006",
@@ -83,7 +83,7 @@
           "explanation": "日光や水などをそろえ、肥料の有無だけを変えて比べることで調べられます。",
           "why": "植物の成長には肥料なども関係しています。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-007",
@@ -94,40 +94,40 @@
           "explanation": "発芽に必要なのは水・空気・適当な温度です。肥料は主にその後の成長との関係を調べます。",
           "why": "発芽の条件と、発芽後の成長の条件を区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-008",
           "type": "concept",
           "level": "basic",
-          "question": "花の中で、花粉をつくる部分は何ですか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：おしべ\n理由：おしべの先には花粉があります。",
+          "question": "花の中で、花粉をつくる部分は何ですか？",
+          "answer": "おしべ",
           "explanation": "おしべの先には花粉があります。",
           "why": "花のつくりと、実や種子ができる過程を結び付けて考えます。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-PL-009",
           "type": "concept",
           "level": "basic",
-          "question": "花粉が付く場所として重要な、めしべの先の部分を何といいますか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：柱頭\n理由：花粉が柱頭に付くことが受粉につながります。",
+          "question": "花粉が付く場所として重要な、めしべの先の部分を何といいますか？",
+          "answer": "柱頭",
           "explanation": "花粉が柱頭に付くことが受粉につながります。",
           "why": "受粉の後、めしべのもとが実になり、実の中に種子ができます。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-PL-010",
           "type": "concept",
           "level": "basic",
-          "question": "花粉がめしべの先に付くことを何といいますか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：受粉\n理由：花粉が柱頭に付くことを受粉といいます。",
+          "question": "花粉がめしべの先に付くことを何といいますか？",
+          "answer": "受粉",
           "explanation": "花粉が柱頭に付くことを受粉といいます。",
           "why": "受粉と結実の関係を理解します。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-PL-011",
@@ -138,7 +138,7 @@
           "explanation": "受粉後、めしべのもとの部分が育って実になり、その中に種子ができます。",
           "why": "花から実・種子へ続く生命のつながりを学びます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-012",
@@ -149,7 +149,7 @@
           "explanation": "自然に花粉が付くのを防ぎ、人工的に受粉させたものと比べられるようにします。",
           "why": "実験では、調べたい条件以外の影響をできるだけ除きます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-013",
@@ -160,7 +160,7 @@
           "explanation": "二つの条件をそろえ、受粉の有無だけを変えることで、受粉が結実に関係するか調べられます。",
           "why": "結果と原因を結び付けるには、公平な比較が必要です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-014",
@@ -171,7 +171,7 @@
           "explanation": "比べる条件以外の違いを小さくするためです。",
           "why": "条件をそろえることが、公平な実験につながります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-015",
@@ -182,7 +182,7 @@
           "explanation": "1本だけだと、その個体だけの特徴で結果が左右されることがあります。",
           "why": "複数の結果を見ると、より確かな判断につながります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-016",
@@ -193,7 +193,7 @@
           "explanation": "発芽や初期の成長に養分が使われるためです。",
           "why": "種子に蓄えられた養分が、発芽後の成長に使われます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-017",
@@ -204,7 +204,7 @@
           "explanation": "種子の養分は発芽や初期成長に使われ、その後の成長には日光や肥料なども関係します。",
           "why": "発芽時と、その後の成長で必要な条件を分けて考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PL-018",
@@ -215,7 +215,7 @@
           "explanation": "予想と違う結果も大切な情報です。条件がそろっていたか、観察や記録に誤りがないか確かめます。",
           "why": "理科では結果を予想に合わせるのではなく、結果をもとに考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "explanation": "雄と雌には、ひれなどの形に違いがあります。",
           "why": "動物の誕生を、親と子のつながりとして考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-002",
@@ -246,7 +246,7 @@
           "explanation": "日がたつにつれて卵の中の様子が変化し、やがてかえります。",
           "why": "発生は時間とともに進みます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-003",
@@ -257,7 +257,7 @@
           "explanation": "時間の経過による変化を続けて比べられるからです。",
           "why": "成長の変化は、同じ対象を継続して観察すると分かりやすくなります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-004",
@@ -268,7 +268,7 @@
           "explanation": "何日目にどのような変化が見られたか比べられます。",
           "why": "動物の発生は時間とともに変化するため、時系列の記録が大切です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-005",
@@ -279,7 +279,7 @@
           "explanation": "卵の中で体のつくりが少しずつ形成されます。",
           "why": "卵から子が生まれるまで連続して成長します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-006",
@@ -290,7 +290,7 @@
           "explanation": "人の子は母体内で成長し、十分に育ってから生まれます。",
           "why": "人も生命が連続して受け継がれていく動物の一つです。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-007",
@@ -301,7 +301,7 @@
           "explanation": "時間とともに体が大きくなり、体の各部分が発達します。",
           "why": "人の発生も時間による変化として考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-008",
@@ -312,7 +312,7 @@
           "explanation": "直接観察が難しいため、資料を活用して成長の様子を調べます。",
           "why": "理科では、対象に応じて適切な観察方法や資料を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-009",
@@ -323,7 +323,7 @@
           "explanation": "育つ場所は異なりますが、どちらも時間の経過とともに成長します。",
           "why": "異なる動物にも、生命の連続性という共通した見方があります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-010",
@@ -334,7 +334,7 @@
           "explanation": "外側が大きく変わらなくても、卵の中では発生が進みます。",
           "why": "見た目だけでなく、時間による内部の変化に注目します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-011",
@@ -345,7 +345,7 @@
           "explanation": "卵を傷つけたり、正常な発生を妨げたりするおそれがあります。",
           "why": "生命を扱う観察では、対象を大切に扱います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-012",
@@ -356,7 +356,7 @@
           "explanation": "生き物には個体差があり、全く同じ速さで変化するとは限りません。",
           "why": "一つの例だけでなく複数を観察することが大切です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-013",
@@ -367,7 +367,7 @@
           "explanation": "日ごとの変化を順に並べると、発生の流れが分かりやすくなります。",
           "why": "時間の変化を整理して考える力を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-014",
@@ -378,7 +378,7 @@
           "explanation": "胎児は母体内で成長しながら大きくなります。",
           "why": "発生と成長は連続した変化です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-AN-015",
@@ -389,7 +389,7 @@
           "explanation": "共通点と相違点を整理すると、動物の発生の特徴を考えやすくなります。",
           "why": "比較することで、生命の共通性と多様性を捉えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -409,7 +409,7 @@
           "explanation": "雲の様子を継続して観察すると、天気の変化と結び付けて考えられます。",
           "why": "天気は雲の量や動きなどと関係しています。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-002",
@@ -420,7 +420,7 @@
           "explanation": "時間による雲の動きや天気の変化を捉えられるからです。",
           "why": "気象現象は時間とともに変化します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-003",
@@ -431,7 +431,7 @@
           "explanation": "地上からは見えない広い範囲の雲の分布や動きを確認できます。",
           "why": "目的に応じて観測資料を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-004",
@@ -442,7 +442,7 @@
           "explanation": "各地の観測データを比べることができます。",
           "why": "複数地点の情報から天気の変化を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-005",
@@ -453,7 +453,7 @@
           "explanation": "雲や雨の区域が西から東へ移ることが多く見られます。ただし、いつも同じとは限りません。",
           "why": "規則性は『多い傾向』として捉え、例外もあることを意識します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-006",
@@ -464,7 +464,7 @@
           "explanation": "雲や雨の区域の動きを追うことで、天気の変化を予想できます。",
           "why": "過去と現在の情報をつなげて予想します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-007",
@@ -475,7 +475,7 @@
           "explanation": "台風の接近により風や雨が強まり、災害につながることがあります。",
           "why": "天気の学習では自然災害との関係も扱います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-008",
@@ -486,7 +486,7 @@
           "explanation": "同じ条件で比べやすくなり、時間による違いを整理しやすくなります。",
           "why": "観察条件をそろえることが比較につながります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-009",
@@ -497,7 +497,7 @@
           "explanation": "雲がどちらへ動いたかを比べやすくなります。",
           "why": "動くものを調べるときは、基準になるものを決めます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-010",
@@ -508,7 +508,7 @@
           "explanation": "雲の種類・量・動きなどによって天気は異なります。",
           "why": "一つの情報だけで決めず、複数の情報を見ます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-011",
@@ -519,7 +519,7 @@
           "explanation": "予報は広い範囲や将来の予測で、自分の場所の観察はその時点の実際の記録です。",
           "why": "予想と観察結果を区別して考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-012",
@@ -530,7 +530,7 @@
           "explanation": "雲の位置や動く方向の変化を追えるからです。",
           "why": "時間の変化を資料から読み取ります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-013",
@@ -541,7 +541,7 @@
           "explanation": "安全を最優先し、危険な場所には近づきません。",
           "why": "自然現象の学習では安全への配慮が必要です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-014",
@@ -552,7 +552,7 @@
           "explanation": "『なぜそう予想したか』を雲の動きや観測値などで説明します。",
           "why": "理科では結論だけでなく根拠を示します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-WE-015",
@@ -563,7 +563,7 @@
           "explanation": "雲や雨の区域は場所によって異なるためです。",
           "why": "天気を考えるときは場所と時間の両方に注目します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -578,34 +578,34 @@
           "id": "S5-RI-001",
           "type": "concept",
           "level": "basic",
-          "question": "流れる水が土地をけずる働きを何といいますか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：侵食\n理由：流れる水は地面や川岸をけずることがあります。",
+          "question": "流れる水が土地をけずる働きを何といいますか？",
+          "answer": "侵食",
           "explanation": "流れる水は地面や川岸をけずることがあります。",
           "why": "流水には土地をけずる働きがあります。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-RI-002",
           "type": "concept",
           "level": "basic",
-          "question": "流れる水が土や砂、石などを運ぶ働きを何といいますか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：運搬\n理由：けずられた土砂などは水によって運ばれます。",
+          "question": "流れる水が土や砂、石などを運ぶ働きを何といいますか？",
+          "answer": "運搬",
           "explanation": "けずられた土砂などは水によって運ばれます。",
           "why": "侵食・運搬・堆積を一連の働きとして考えます。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-RI-003",
           "type": "concept",
           "level": "basic",
-          "question": "流れる水が運んできた土や砂を積もらせる働きを何といいますか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：堆積\n理由：流れが弱くなる場所などで土砂が積もることがあります。",
+          "question": "流れる水が運んできた土や砂を積もらせる働きを何といいますか？",
+          "answer": "堆積",
           "explanation": "流れが弱くなる場所などで土砂が積もることがあります。",
           "why": "流水には運んだ物を積もらせる働きがあります。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-RI-004",
@@ -616,7 +616,7 @@
           "explanation": "流れが速いほど侵食や運搬の働きが大きくなる傾向があります。",
           "why": "水の量や流れの速さと働きを関係付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-005",
@@ -627,7 +627,7 @@
           "explanation": "大雨などで水量が増えると、流れが強まり土地を大きく変えることがあります。",
           "why": "流水の働きと自然災害を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-006",
@@ -638,7 +638,7 @@
           "explanation": "一般に外側で流れが速く、けずられやすく、内側では土砂が積もりやすいことがあります。",
           "why": "川の形と流れの違いを関係付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-007",
@@ -649,7 +649,7 @@
           "explanation": "上流では大きな石も見られ、下流へ運ばれる間にぶつかり合って丸みを帯びることがあります。",
           "why": "上流から下流への変化を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-008",
@@ -660,7 +660,7 @@
           "explanation": "運ばれる間に石どうしがぶつかったり、けずられたりするためです。",
           "why": "流水による運搬と石の変化を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-009",
@@ -671,7 +671,7 @@
           "explanation": "増水や氾濫により、土地がけずられたり浸水したりすることがあります。",
           "why": "流水の学習では災害との関係も扱います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-010",
@@ -682,7 +682,7 @@
           "explanation": "水量だけを変え、傾きや土の状態などはそろえます。",
           "why": "条件を一つだけ変えることで原因を確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-011",
@@ -693,7 +693,7 @@
           "explanation": "流水の三つの主な働きを比べられます。",
           "why": "観察する項目を決めて記録すると違いが分かりやすくなります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-012",
@@ -704,7 +704,7 @@
           "explanation": "川幅や地形、石の大きさ・形などに違いが見られます。",
           "why": "複数の特徴を手掛かりに判断します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-013",
@@ -715,7 +715,7 @@
           "explanation": "流水の侵食・運搬・堆積により、長い時間や大雨の後に川の形が変わることがあります。",
           "why": "流水は土地の形を変える働きをもちます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-014",
@@ -726,7 +726,7 @@
           "explanation": "流れが弱まると運んでいた土砂が積もりやすくなります。",
           "why": "観察した結果から流れの様子を推測します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-015",
@@ -737,7 +737,7 @@
           "explanation": "流れが強い場所では侵食が起こりやすくなります。",
           "why": "土地の変化から水の働きを考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-016",
@@ -748,7 +748,7 @@
           "explanation": "どの条件でどのような変化が起きたかを比べるためです。",
           "why": "実験結果は条件とセットで記録します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-RI-017",
@@ -759,7 +759,7 @@
           "explanation": "急な増水や崩れなどの危険があるため近づきません。",
           "why": "自然現象の観察では安全を最優先します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -779,7 +779,7 @@
           "explanation": "見えなくなっても水の中に溶けて存在しています。",
           "why": "『見えない』ことと『なくなった』ことを区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-002",
@@ -790,7 +790,7 @@
           "explanation": "ある量を超えると、それ以上は溶け残ります。",
           "why": "物が水に溶ける量には限度があります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-003",
@@ -801,7 +801,7 @@
           "explanation": "同じ温度なら、水が多いほど多く溶かせます。",
           "why": "溶ける量と水の量の関係を調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-004",
@@ -812,7 +812,7 @@
           "explanation": "食塩やミョウバンなど、物によって溶ける量や温度による変化が異なります。",
           "why": "溶け方は物の種類によって異なります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-005",
@@ -823,7 +823,7 @@
           "explanation": "温度による溶ける量の変化は物によって異なります。",
           "why": "一つの物で得た結果を、すべての物に当てはめないようにします。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-006",
@@ -834,7 +834,7 @@
           "explanation": "温度による溶解量の変化が比較的大きい物があります。",
           "why": "温度と溶ける量の関係は物によって違います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-007",
@@ -845,7 +845,7 @@
           "explanation": "こぼれたり蒸発したりしなければ、溶けても全体の重さは変わりません。",
           "why": "物が水に溶けても、物質がなくなるわけではありません。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-008",
@@ -856,7 +856,7 @@
           "explanation": "50g+10g=60gです。",
           "why": "溶けても水と物を合わせた重さは保存されます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-009",
@@ -867,7 +867,7 @@
           "explanation": "温度だけを変えて比べるためです。",
           "why": "調べたい条件以外は同じにします。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-010",
@@ -878,7 +878,7 @@
           "explanation": "水量だけの影響を比べるためです。",
           "why": "公平な比較には条件の統一が必要です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-011",
@@ -889,7 +889,7 @@
           "explanation": "温度が下がると溶けていられる量が減り、余った分が結晶として出ることがあります。",
           "why": "温度による溶解量の変化を利用して物を取り出せます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-012",
@@ -900,7 +900,7 @@
           "explanation": "水が蒸発して減ると、溶けていた食塩が残ります。",
           "why": "溶けている物を取り出す方法の一つです。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-013",
@@ -911,7 +911,7 @@
           "explanation": "透明でも食塩などが溶けていることがあります。",
           "why": "見た目だけで物質の有無を判断しません。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-014",
@@ -922,7 +922,7 @@
           "explanation": "水の量が増えると、溶かせる量も増えるためです。",
           "why": "水量と溶解量の関係を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-015",
@@ -933,7 +933,7 @@
           "explanation": "変える条件を物の種類だけにして比べます。",
           "why": "条件制御を使って違いを調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-016",
@@ -944,7 +944,7 @@
           "explanation": "急な沸騰などで中身が飛び出す危険があります。",
           "why": "加熱実験では安全な器具の扱いが必要です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-017",
@@ -955,7 +955,7 @@
           "explanation": "一度だけの結果より、再現するかを確かめると信頼性が高まります。",
           "why": "実験結果の確かさを高めます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-SO-018",
@@ -966,7 +966,7 @@
           "explanation": "同じ水量にそろえて数値で比べられます。",
           "why": "量的な変化を数値で捉えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -986,7 +986,7 @@
           "explanation": "1往復だけより測定のずれの影響を小さくできます。",
           "why": "繰り返して測ることで、より確かな値を求めます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-002",
@@ -997,7 +997,7 @@
           "explanation": "糸が長いほど1往復にかかる時間が長くなります。",
           "why": "振り子の周期は糸の長さによって変わります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-003",
@@ -1008,7 +1008,7 @@
           "explanation": "糸の長さなどをそろえると、おもりの重さは1往復の時間に大きく影響しません。",
           "why": "調べる条件を一つずつ変えて確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-004",
@@ -1019,7 +1019,7 @@
           "explanation": "同じ運動を繰り返すときの1回分にかかる時間を周期といいます。",
           "why": "理科用語と実際の動きを結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-005",
@@ -1030,7 +1030,7 @@
           "explanation": "糸の長さだけを変えて比べるためです。",
           "why": "一度に一つの条件を変えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-006",
@@ -1041,7 +1041,7 @@
           "explanation": "どちらが結果に影響したか分からなくなります。",
           "why": "公平な実験には条件をそろえることが必要です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-007",
@@ -1052,7 +1052,7 @@
           "explanation": "20秒÷10=2秒です。",
           "why": "複数回の時間を往復回数で割って1往復分を求めます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-008",
@@ -1063,7 +1063,7 @@
           "explanation": "8秒÷5=1.6秒です。",
           "why": "複数回測る方法でも平均的な1往復時間を求められます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-009",
@@ -1074,7 +1074,7 @@
           "explanation": "3回の値が近く、同じ条件で似た結果が得られています。",
           "why": "繰り返し測定で結果の確かさを見ます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-010",
@@ -1085,7 +1085,7 @@
           "explanation": "支点が動くと、同じ条件で測れなくなります。",
           "why": "実験装置を安定させることが大切です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-011",
@@ -1096,7 +1096,7 @@
           "explanation": "糸の長さなどをそろえると、重さによる周期の変化はほとんどありません。",
           "why": "予想ではなく実験結果で判断します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-012",
@@ -1107,7 +1107,7 @@
           "explanation": "糸が長い方が1往復に時間がかかります。",
           "why": "糸の長さと周期の関係を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-013",
@@ -1118,7 +1118,7 @@
           "explanation": "振り子の長さを同じ基準で測るためです。",
           "why": "測定位置を統一すると比べやすくなります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-014",
@@ -1129,7 +1129,7 @@
           "explanation": "測り始めや止めるタイミングのずれなどの影響を小さくできます。",
           "why": "繰り返し測定がデータの信頼性を高めます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-PE-015",
@@ -1140,7 +1140,7 @@
           "explanation": "実験計画が明確になり、公平に比べられます。",
           "why": "5年理科では条件を制御して実験する力を重視します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -1155,12 +1155,12 @@
           "id": "S5-EM-001",
           "type": "concept",
           "level": "basic",
-          "question": "導線を何回も巻いたものを何といいますか？\n答えと、どうしてそう考えたのかも説明しましょう。",
-          "answer": "答え：コイル\n理由：導線を輪のように何回も巻いたものをコイルといいます。",
+          "question": "導線を何回も巻いたものを何といいますか？",
+          "answer": "コイル",
           "explanation": "導線を輪のように何回も巻いたものをコイルといいます。",
           "why": "電磁石の基本的なつくりを理解します。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S5-EM-002",
@@ -1171,7 +1171,7 @@
           "explanation": "電流が流れている間、鉄心が磁化されます。",
           "why": "電流には磁力を生み出す働きがあります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-003",
@@ -1182,7 +1182,7 @@
           "explanation": "永久磁石とは違い、電流によって磁力をつくります。",
           "why": "電磁石と永久磁石の違いを考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-004",
@@ -1193,7 +1193,7 @@
           "explanation": "電流の向きが変わると、電磁石の極も変わります。",
           "why": "電流の向きと極の関係を調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-005",
@@ -1204,7 +1204,7 @@
           "explanation": "ほかの条件を同じにして巻数を増やすと、電磁石が強くなることがあります。",
           "why": "巻数と電磁石の強さを関係付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-006",
@@ -1215,7 +1215,7 @@
           "explanation": "ほかの条件を同じにして電流を強くすると、電磁石の力が強くなります。",
           "why": "電流の強さと磁力を関係付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-007",
@@ -1226,7 +1226,7 @@
           "explanation": "巻数だけを変えて比べるためです。",
           "why": "条件制御を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-008",
@@ -1237,7 +1237,7 @@
           "explanation": "二つの条件を同時に変えると、原因が分からなくなります。",
           "why": "調べたい条件だけを変えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-009",
@@ -1248,7 +1248,7 @@
           "explanation": "同じ種類のクリップなどを使えば、磁力の違いを数で比べられます。",
           "why": "観察を数値化すると比べやすくなります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-010",
@@ -1259,7 +1259,7 @@
           "explanation": "クリップの違いが結果に影響しないようにするためです。",
           "why": "測定条件をそろえます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-011",
@@ -1270,7 +1270,7 @@
           "explanation": "電磁石は電流が流れることで磁力を生じます。",
           "why": "永久磁石との違いを理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-012",
@@ -1281,7 +1281,7 @@
           "explanation": "方位磁針の針の向きから極を確かめられます。",
           "why": "磁石の極を調べる道具を利用します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-013",
@@ -1292,7 +1292,7 @@
           "explanation": "その結果、電磁石の極も入れ替わります。",
           "why": "回路の向きと電磁石の極をつなげて考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-014",
@@ -1303,7 +1303,7 @@
           "explanation": "大きな電流を長く流すと発熱することがあります。",
           "why": "実験では長時間つなぎっぱなしにせず、安全に扱います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-015",
@@ -1314,7 +1314,7 @@
           "explanation": "クリップの付き方などにばらつきがあるため、複数回確かめると信頼性が高まります。",
           "why": "繰り返し測定で結果の確かさを高めます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-016",
@@ -1325,7 +1325,7 @@
           "explanation": "巻数を増やすと強くなる傾向はありますが、実際の強さが単純に2倍になるとは限りません。",
           "why": "『増える』ことと『比例する』ことを区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-017",
@@ -1336,7 +1336,7 @@
           "explanation": "電流のオン・オフで磁力を変えられる性質を利用できます。",
           "why": "学んだ性質をものづくりや実生活と結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S5-EM-018",
@@ -1347,14 +1347,13 @@
           "explanation": "どの条件でどの結果が得られたかを比較するためです。",
           "why": "結果は条件とセットで記録します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     }
   ],
   "revision": {
-    "version": "V2",
-    "focus": "答え＋理由・根拠・考え方",
-    "curriculumReview": "小学校学習指導要領（平成29年告示）解説を基準に再点検"
+    "version": "V2.5",
+    "focus": "用語・名称などは直接回答、実験・予想・比較・現象説明は理由まで答える"
   }
 }

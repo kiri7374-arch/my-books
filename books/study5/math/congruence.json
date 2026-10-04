@@ -10,8 +10,8 @@
       "id": "M5-CG-001",
       "type": "text",
       "level": "basic",
-      "question": "二つの図形を動かしたり回したり裏返したりするとぴったり重なります。この二つの図形を何といいますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同\n考え方：形と大きさが同じ図形を合同といいます。",
+      "question": "二つの図形を動かしたり回したり裏返したりするとぴったり重なります。この二つの図形を何といいますか？",
+      "answer": "合同",
       "explanation": "形と大きさが同じ図形を合同といいます。",
       "why": "位置や向きではなく、形と大きさが同じかどうかで判断します。",
       "skill": "concept",
@@ -19,15 +19,15 @@
         "type": "congruent-shapes",
         "variant": "basic"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-002",
       "type": "text",
       "level": "basic",
-      "question": "同じ形でも、一方だけを拡大した図形は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同ではありません\n考え方：形は似ていますが大きさが違うため合同ではありません。",
+      "question": "同じ形でも、一方だけを拡大した図形は合同ですか？",
+      "answer": "合同ではありません",
       "explanation": "形は似ていますが大きさが違うため合同ではありません。",
       "why": "合同には形だけでなく大きさも同じであることが必要です。",
       "skill": "concept",
@@ -35,15 +35,15 @@
         "type": "congruent-shapes",
         "variant": "different-size"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-003",
       "type": "text",
       "level": "basic",
-      "question": "図形を右へ平行に動かしただけなら、動かす前と後は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同です\n考え方：場所が変わっただけで形と大きさは同じです。",
+      "question": "図形を右へ平行に動かしただけなら、動かす前と後は合同ですか？",
+      "answer": "合同です",
       "explanation": "場所が変わっただけで形と大きさは同じです。",
       "why": "移動して重なる図形は合同です。",
       "skill": "concept",
@@ -51,15 +51,15 @@
         "type": "congruent-shapes",
         "variant": "translated"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-004",
       "type": "text",
       "level": "basic",
-      "question": "三角形ABCとDEFが合同で、A↔D、B↔E、C↔Fです。辺ABに対応する辺はどれですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：辺DE\n考え方：AにD、BにEが対応するのでDEです。",
+      "question": "三角形ABCとDEFが合同で、A↔D、B↔E、C↔Fです。辺ABに対応する辺はどれですか？",
+      "answer": "辺DE",
       "explanation": "AにD、BにEが対応するのでDEです。",
       "why": "対応する頂点を順に結んだ辺どうしが対応します。",
       "skill": "concept",
@@ -67,15 +67,15 @@
         "type": "congruent-triangles",
         "highlight": "side"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-005",
       "type": "text",
       "level": "basic",
-      "question": "同じ対応で、角Cに対応する角はどれですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：角F\n考え方：C↔Fなので角Fです。",
+      "question": "同じ対応で、角Cに対応する角はどれですか？",
+      "answer": "角F",
       "explanation": "C↔Fなので角Fです。",
       "why": "合同な図形では対応する角の大きさが等しくなります。",
       "skill": "concept",
@@ -83,15 +83,15 @@
         "type": "congruent-triangles",
         "highlight": "angle"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-006",
       "type": "text",
       "level": "basic",
-      "question": "合同な三角形で、辺AB=6cmに対応する辺DEの長さは何cmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6cm\n考え方：対応する辺の長さは等しいので6cmです。",
+      "question": "合同な三角形で、辺AB=6cmに対応する辺DEの長さは何cmですか？",
+      "answer": "6cm",
       "explanation": "対応する辺の長さは等しいので6cmです。",
       "why": "合同な図形では対応する辺の長さが等しいです。",
       "skill": "concept",
@@ -100,15 +100,15 @@
         "sideLabel": "6cm",
         "highlight": "side"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-007",
       "type": "text",
       "level": "basic",
-      "question": "合同な三角形で、角A=52°に対応する角Dは何度ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：52°\n考え方：対応する角の大きさは等しいので52°です。",
+      "question": "合同な三角形で、角A=52°に対応する角Dは何度ですか？",
+      "answer": "52°",
       "explanation": "対応する角の大きさは等しいので52°です。",
       "why": "合同な図形の対応する角は等しくなります。",
       "skill": "concept",
@@ -117,212 +117,212 @@
         "angleLabel": "52°",
         "highlight": "angle"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-008",
       "type": "text",
       "level": "basic",
-      "question": "三角形ABCとDEFが合同です。AB=5cm、BC=7cm、CA=6cmで、BC↔EFです。EFは何cmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：7cm\n考え方：BCに対応するのがEFなので7cmです。",
+      "question": "三角形ABCとDEFが合同です。AB=5cm、BC=7cm、CA=6cmで、BC↔EFです。EFは何cmですか？",
+      "answer": "7cm",
       "explanation": "BCに対応するのがEFなので7cmです。",
       "why": "対応する辺を先に見つけてから長さを読みます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-009",
       "type": "text",
       "level": "basic",
-      "question": "辺が3cm、4cm、5cmの三角形と、3cm、4cm、6cmの三角形は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同ではありません\n考え方：3本目の辺の長さが違います。",
+      "question": "辺が3cm、4cm、5cmの三角形と、3cm、4cm、6cmの三角形は合同ですか？",
+      "answer": "合同ではありません",
       "explanation": "3本目の辺の長さが違います。",
       "why": "合同なら対応する辺の長さはすべて等しくなります。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-010",
       "type": "text",
       "level": "basic",
-      "question": "3辺の長さが4cm、5cm、6cmで同じ二つの三角形は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同です\n考え方：3辺の長さがすべて同じなので同じ三角形になります。",
+      "question": "3辺の長さが4cm、5cm、6cmで同じ二つの三角形は合同ですか？",
+      "answer": "合同です",
       "explanation": "3辺の長さがすべて同じなので同じ三角形になります。",
       "why": "三角形は3辺の長さが決まると形と大きさが決まります。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-011",
       "type": "text",
       "level": "basic",
-      "question": "2辺の長さと、その間の角の大きさがそれぞれ同じ二つの三角形は、同じ形にかけますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：かけます\n考え方：2辺とその間の角が決まると三角形の形と大きさが決まります。",
+      "question": "2辺の長さと、その間の角の大きさがそれぞれ同じ二つの三角形は、同じ形にかけますか？",
+      "answer": "かけます",
       "explanation": "2辺とその間の角が決まると三角形の形と大きさが決まります。",
       "why": "三角形をつくるために必要な情報の組み合わせの一つです。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-012",
       "type": "text",
       "level": "basic",
-      "question": "1辺の長さと、その両端の角がそれぞれ同じ二つの三角形は、同じ形にかけますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：かけます\n考え方：1辺とその両端の角が決まると三角形が決まります。",
+      "question": "1辺の長さと、その両端の角がそれぞれ同じ二つの三角形は、同じ形にかけますか？",
+      "answer": "かけます",
       "explanation": "1辺とその両端の角が決まると三角形が決まります。",
       "why": "すべての辺や角を測らなくても三角形を決められます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-013",
       "type": "text",
       "level": "basic",
-      "question": "辺AB=5cm、AC=4cm、角A=60°の三角形をかくとき、分度器は何を測るために使いますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：角Aの60°\n考え方：辺ABをかいた後、Aから60°の方向を決めるために使います。",
+      "question": "辺AB=5cm、AC=4cm、角A=60°の三角形をかくとき、分度器は何を測るために使いますか？",
+      "answer": "角Aの60°",
       "explanation": "辺ABをかいた後、Aから60°の方向を決めるために使います。",
       "why": "長さは定規やコンパス、角度は分度器を使って条件を再現します。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-014",
       "type": "text",
       "level": "basic",
-      "question": "3辺が4cm、5cm、6cmの三角形をかくとき、コンパスは何に使いますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：決められた長さを移すため\n考え方：各辺の長さを円弧として移し、交点を頂点にします。",
+      "question": "3辺が4cm、5cm、6cmの三角形をかくとき、コンパスは何に使いますか？",
+      "answer": "決められた長さを移すため",
       "explanation": "各辺の長さを円弧として移し、交点を頂点にします。",
       "why": "コンパスは同じ長さを正確に別の場所へ移せます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-015",
       "type": "text",
       "level": "basic",
-      "question": "合同な四角形ABCDとEFGHでA↔E、B↔F、C↔G、D↔Hです。対角線ACに対応するのはどれですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：対角線EG\n考え方：A↔E、C↔GなのでEGです。",
+      "question": "合同な四角形ABCDとEFGHでA↔E、B↔F、C↔G、D↔Hです。対角線ACに対応するのはどれですか？",
+      "answer": "対角線EG",
       "explanation": "A↔E、C↔GなのでEGです。",
       "why": "対応する頂点を結んだ線分どうしが対応します。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-016",
       "type": "text",
       "level": "basic",
-      "question": "合同な図形を裏返して重ねてもよいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：よいです\n考え方：裏返すとぴったり重なる場合も合同です。",
+      "question": "合同な図形を裏返して重ねてもよいですか？",
+      "answer": "よいです",
       "explanation": "裏返すとぴったり重なる場合も合同です。",
       "why": "向きが反対でも形と大きさが同じなら合同です。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-017",
       "type": "text",
       "level": "basic",
-      "question": "正方形を対角線で二つに分けてできる三角形は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同です\n考え方：正方形の辺2本と共通の対角線がそれぞれ同じ長さです。",
+      "question": "正方形を対角線で二つに分けてできる三角形は合同ですか？",
+      "answer": "合同です",
       "explanation": "正方形の辺2本と共通の対角線がそれぞれ同じ長さです。",
       "why": "一つの図形を分けた部分でも合同を見つけられます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-018",
       "type": "text",
       "level": "basic",
-      "question": "長方形を対角線で二つに分けると、二つの三角形は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同です\n考え方：向かい合う辺の長さが等しく、対角線は共通です。",
+      "question": "長方形を対角線で二つに分けると、二つの三角形は合同ですか？",
+      "answer": "合同です",
       "explanation": "向かい合う辺の長さが等しく、対角線は共通です。",
       "why": "辺の長さに注目すると合同を説明できます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-019",
       "type": "text",
       "level": "basic",
-      "question": "平行四辺形を対角線で二つに分けると、二つの三角形は合同ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同です\n考え方：向かい合う辺がそれぞれ等しく、対角線は共通です。",
+      "question": "平行四辺形を対角線で二つに分けると、二つの三角形は合同ですか？",
+      "answer": "合同です",
       "explanation": "向かい合う辺がそれぞれ等しく、対角線は共通です。",
       "why": "合同を使うと図形の性質を説明できます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-020",
       "type": "text",
       "level": "basic",
-      "question": "『向きが違うから合同ではない』という考えは正しいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：正しくありません\n考え方：回転や裏返しでぴったり重なれば合同です。",
+      "question": "『向きが違うから合同ではない』という考えは正しいですか？",
+      "answer": "正しくありません",
       "explanation": "回転や裏返しでぴったり重なれば合同です。",
       "why": "見た目の向きだけで判断しません。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-021",
       "type": "text",
       "level": "basic",
-      "question": "『対応する1辺だけ同じなら合同だ』という考えは正しいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：正しくありません\n考え方：1辺だけ同じでも形の違う図形は作れます。",
+      "question": "『対応する1辺だけ同じなら合同だ』という考えは正しいですか？",
+      "answer": "正しくありません",
       "explanation": "1辺だけ同じでも形の違う図形は作れます。",
       "why": "形と大きさ全体が同じことを確かめる必要があります。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-022",
       "type": "text",
       "level": "basic",
-      "question": "合同な二つの図形の面積は同じですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：同じです\n考え方：ぴったり重なるので同じ広さです。",
+      "question": "合同な二つの図形の面積は同じですか？",
+      "answer": "同じです",
       "explanation": "ぴったり重なるので同じ広さです。",
       "why": "形と大きさが同じなら面積も同じです。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-023",
       "type": "text",
       "level": "basic",
-      "question": "合同な二つの図形の周りの長さは同じですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：同じです\n考え方：対応する辺の長さがすべて等しいので、合計も同じです。",
+      "question": "合同な二つの図形の周りの長さは同じですか？",
+      "answer": "同じです",
       "explanation": "対応する辺の長さがすべて等しいので、合計も同じです。",
       "why": "部分の長さが対応して等しいことから全体も比較できます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-CG-024",
       "type": "text",
       "level": "basic",
-      "question": "合同かどうかを判断するとき、色・位置・向き・形と大きさのうち、最も大切なのはどれですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：形と大きさ\n考え方：色や位置や向きは変わっても合同のことがあります。",
+      "question": "合同かどうかを判断するとき、色・位置・向き・形と大きさのうち、最も大切なのはどれですか？",
+      "answer": "形と大きさ",
       "explanation": "色や位置や向きは変わっても合同のことがあります。",
       "why": "合同の意味を正しく理解して判断します。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     }
   ]
 }

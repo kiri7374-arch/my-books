@@ -10,8 +10,8 @@
       "id": "M5-VO-001",
       "type": "text",
       "level": "basic",
-      "question": "縦3cm、横4cm、高さ5cmの直方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：60cm³\n考え方：3×4×5=60cm³です。",
+      "question": "縦3cm、横4cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "60cm³",
       "explanation": "3×4×5=60cm³です。",
       "why": "1cm³の立方体が縦×横個並び、それが高さの段数だけ重なります。",
       "skill": "calculate",
@@ -22,15 +22,15 @@
         "height": 5,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-002",
       "type": "text",
       "level": "basic",
-      "question": "縦6cm、横2cm、高さ7cmの直方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：84cm³\n考え方：6×2×7=84cm³です。",
+      "question": "縦6cm、横2cm、高さ7cmの直方体の体積を求めましょう。",
+      "answer": "84cm³",
       "explanation": "6×2×7=84cm³です。",
       "why": "1cm³の立方体が縦×横個並び、それが高さの段数だけ重なります。",
       "skill": "calculate",
@@ -41,15 +41,15 @@
         "height": 7,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-003",
       "type": "text",
       "level": "basic",
-      "question": "縦8cm、横5cm、高さ3cmの直方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：120cm³\n考え方：8×5×3=120cm³です。",
+      "question": "縦8cm、横5cm、高さ3cmの直方体の体積を求めましょう。",
+      "answer": "120cm³",
       "explanation": "8×5×3=120cm³です。",
       "why": "1cm³の立方体が縦×横個並び、それが高さの段数だけ重なります。",
       "skill": "calculate",
@@ -60,15 +60,15 @@
         "height": 3,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-004",
       "type": "text",
       "level": "basic",
-      "question": "縦10cm、横4cm、高さ2cmの直方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：80cm³\n考え方：10×4×2=80cm³です。",
+      "question": "縦10cm、横4cm、高さ2cmの直方体の体積を求めましょう。",
+      "answer": "80cm³",
       "explanation": "10×4×2=80cm³です。",
       "why": "1cm³の立方体が縦×横個並び、それが高さの段数だけ重なります。",
       "skill": "calculate",
@@ -79,15 +79,15 @@
         "height": 2,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-005",
       "type": "text",
       "level": "basic",
-      "question": "縦7cm、横6cm、高さ5cmの直方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：210cm³\n考え方：7×6×5=210cm³です。",
+      "question": "縦7cm、横6cm、高さ5cmの直方体の体積を求めましょう。",
+      "answer": "210cm³",
       "explanation": "7×6×5=210cm³です。",
       "why": "1cm³の立方体が縦×横個並び、それが高さの段数だけ重なります。",
       "skill": "calculate",
@@ -98,15 +98,15 @@
         "height": 5,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-006",
       "type": "text",
       "level": "basic",
-      "question": "縦9cm、横3cm、高さ4cmの直方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：108cm³\n考え方：9×3×4=108cm³です。",
+      "question": "縦9cm、横3cm、高さ4cmの直方体の体積を求めましょう。",
+      "answer": "108cm³",
       "explanation": "9×3×4=108cm³です。",
       "why": "1cm³の立方体が縦×横個並び、それが高さの段数だけ重なります。",
       "skill": "calculate",
@@ -117,15 +117,15 @@
         "height": 4,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-007",
       "type": "text",
       "level": "basic",
-      "question": "1辺が2cmの立方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：8cm³\n考え方：2×2×2=8cm³です。",
+      "question": "1辺が2cmの立方体の体積を求めましょう。",
+      "answer": "8cm³",
       "explanation": "2×2×2=8cm³です。",
       "why": "立方体は縦・横・高さがすべて同じです。",
       "skill": "cube",
@@ -134,15 +134,15 @@
         "side": 2,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-008",
       "type": "text",
       "level": "basic",
-      "question": "1辺が3cmの立方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：27cm³\n考え方：3×3×3=27cm³です。",
+      "question": "1辺が3cmの立方体の体積を求めましょう。",
+      "answer": "27cm³",
       "explanation": "3×3×3=27cm³です。",
       "why": "立方体は縦・横・高さがすべて同じです。",
       "skill": "cube",
@@ -151,15 +151,15 @@
         "side": 3,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-009",
       "type": "text",
       "level": "basic",
-      "question": "1辺が4cmの立方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：64cm³\n考え方：4×4×4=64cm³です。",
+      "question": "1辺が4cmの立方体の体積を求めましょう。",
+      "answer": "64cm³",
       "explanation": "4×4×4=64cm³です。",
       "why": "立方体は縦・横・高さがすべて同じです。",
       "skill": "cube",
@@ -168,15 +168,15 @@
         "side": 4,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-010",
       "type": "text",
       "level": "basic",
-      "question": "1辺が5cmの立方体の体積を求めましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：125cm³\n考え方：5×5×5=125cm³です。",
+      "question": "1辺が5cmの立方体の体積を求めましょう。",
+      "answer": "125cm³",
       "explanation": "5×5×5=125cm³です。",
       "why": "立方体は縦・横・高さがすべて同じです。",
       "skill": "cube",
@@ -185,224 +185,224 @@
         "side": 5,
         "unit": "cm"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-011",
       "type": "text",
       "level": "basic",
-      "question": "縦4cm、横5cmの直方体の体積が60cm³です。高さは何cmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：3cm\n考え方：底面は4×5=20cm²。60÷20=3cmです。",
+      "question": "縦4cm、横5cmの直方体の体積が60cm³です。高さは何cmですか？",
+      "answer": "3cm",
       "explanation": "底面は4×5=20cm²。60÷20=3cmです。",
       "why": "体積=底面の広さ×高さなので、高さは体積÷底面の広さです。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-012",
       "type": "text",
       "level": "basic",
-      "question": "縦3cm、横8cmの直方体の体積が96cm³です。高さは何cmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：4cm\n考え方：底面は3×8=24cm²。96÷24=4cmです。",
+      "question": "縦3cm、横8cmの直方体の体積が96cm³です。高さは何cmですか？",
+      "answer": "4cm",
       "explanation": "底面は3×8=24cm²。96÷24=4cmです。",
       "why": "体積=底面の広さ×高さなので、高さは体積÷底面の広さです。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-013",
       "type": "text",
       "level": "basic",
-      "question": "縦6cm、横5cmの直方体の体積が150cm³です。高さは何cmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：5cm\n考え方：底面は6×5=30cm²。150÷30=5cmです。",
+      "question": "縦6cm、横5cmの直方体の体積が150cm³です。高さは何cmですか？",
+      "answer": "5cm",
       "explanation": "底面は6×5=30cm²。150÷30=5cmです。",
       "why": "体積=底面の広さ×高さなので、高さは体積÷底面の広さです。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-014",
       "type": "text",
       "level": "basic",
-      "question": "縦10cm、横4cmの直方体の体積が200cm³です。高さは何cmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：5cm\n考え方：底面は10×4=40cm²。200÷40=5cmです。",
+      "question": "縦10cm、横4cmの直方体の体積が200cm³です。高さは何cmですか？",
+      "answer": "5cm",
       "explanation": "底面は10×4=40cm²。200÷40=5cmです。",
       "why": "体積=底面の広さ×高さなので、高さは体積÷底面の広さです。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-015",
       "type": "calculation",
       "level": "basic",
-      "question": "Aは3×4×5cm、Bは2×5×6cmの直方体です。体積が大きいのはどちらですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：同じ\n考え方：A=60cm³、B=60cm³なので同じです。",
+      "question": "Aは3×4×5cm、Bは2×5×6cmの直方体です。体積が大きいのはどちらですか？",
+      "answer": "同じ",
       "explanation": "A=60cm³、B=60cm³なので同じです。",
       "why": "見た目ではなく、縦×横×高さで比べます。",
       "skill": "compare",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-016",
       "type": "calculation",
       "level": "basic",
-      "question": "Aは4×4×4cm、Bは2×4×8cmの直方体です。体積が大きいのはどちらですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：同じ\n考え方：A=64cm³、B=64cm³なので同じです。",
+      "question": "Aは4×4×4cm、Bは2×4×8cmの直方体です。体積が大きいのはどちらですか？",
+      "answer": "同じ",
       "explanation": "A=64cm³、B=64cm³なので同じです。",
       "why": "見た目ではなく、縦×横×高さで比べます。",
       "skill": "compare",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-017",
       "type": "calculation",
       "level": "basic",
-      "question": "Aは5×3×6cm、Bは4×5×4cmの直方体です。体積が大きいのはどちらですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：A\n考え方：A=90cm³、B=80cm³なのでAです。",
+      "question": "Aは5×3×6cm、Bは4×5×4cmの直方体です。体積が大きいのはどちらですか？",
+      "answer": "A",
       "explanation": "A=90cm³、B=80cm³なのでAです。",
       "why": "見た目ではなく、縦×横×高さで比べます。",
       "skill": "compare",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-018",
       "type": "text",
       "level": "basic",
-      "question": "1Lは何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1000cm³\n考え方：1L=1000cm³です。",
+      "question": "1Lは何cm³ですか？",
+      "answer": "1000cm³",
       "explanation": "1L=1000cm³です。",
       "why": "体積と容積の単位の関係を使います。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-019",
       "type": "text",
       "level": "basic",
-      "question": "2000cm³は何Lですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：2L\n考え方：2000÷1000=2Lです。",
+      "question": "2000cm³は何Lですか？",
+      "answer": "2L",
       "explanation": "2000÷1000=2Lです。",
       "why": "1000cm³が1Lです。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-020",
       "type": "text",
       "level": "basic",
-      "question": "500cm³は何mLですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：500mL\n考え方：1cm³=1mLなので500mLです。",
+      "question": "500cm³は何mLですか？",
+      "answer": "500mL",
       "explanation": "1cm³=1mLなので500mLです。",
       "why": "cm³とmLの対応を使います。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-021",
       "type": "text",
       "level": "basic",
-      "question": "3Lは何mLですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：3000mL\n考え方：3×1000=3000mLです。",
+      "question": "3Lは何mLですか？",
+      "answer": "3000mL",
       "explanation": "3×1000=3000mLです。",
       "why": "1L=1000mLです。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-022",
       "type": "text",
       "level": "basic",
-      "question": "底面積が24cm²、高さ5cmの直方体の体積は何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：120cm³\n考え方：24×5=120cm³です。",
+      "question": "底面積が24cm²、高さ5cmの直方体の体積は何cm³ですか？",
+      "answer": "120cm³",
       "explanation": "24×5=120cm³です。",
       "why": "体積は底面積×高さでも求められます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-023",
       "type": "text",
       "level": "basic",
-      "question": "同じ底面積で高さが2倍になると、直方体の体積は何倍になりますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：2倍\n考え方：体積=底面積×高さなので2倍です。",
+      "question": "同じ底面積で高さが2倍になると、直方体の体積は何倍になりますか？",
+      "answer": "2倍",
       "explanation": "体積=底面積×高さなので2倍です。",
       "why": "公式から量の変化を考えます。",
       "skill": "concept",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-024",
       "type": "text",
       "level": "applied",
-      "question": "内側が縦20cm、横10cm、高さ5cmの箱があります。中の体積は何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1000cm³\n考え方：20×10×5=1000cm³です。",
+      "question": "内側が縦20cm、横10cm、高さ5cmの箱があります。中の体積は何cm³ですか？",
+      "answer": "1000cm³",
       "explanation": "20×10×5=1000cm³です。",
       "why": "容器の内側の長さを使って体積を求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-025",
       "type": "text",
       "level": "applied",
-      "question": "内側が縦30cm、横10cm、高さ4cmの水そうがあります。中の体積は何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1200cm³\n考え方：30×10×4=1200cm³です。",
+      "question": "内側が縦30cm、横10cm、高さ4cmの水そうがあります。中の体積は何cm³ですか？",
+      "answer": "1200cm³",
       "explanation": "30×10×4=1200cm³です。",
       "why": "容器の内側の長さを使って体積を求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-026",
       "type": "text",
       "level": "applied",
-      "question": "内側が縦15cm、横8cm、高さ6cmのケースがあります。中の体積は何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：720cm³\n考え方：15×8×6=720cm³です。",
+      "question": "内側が縦15cm、横8cm、高さ6cmのケースがあります。中の体積は何cm³ですか？",
+      "answer": "720cm³",
       "explanation": "15×8×6=720cm³です。",
       "why": "容器の内側の長さを使って体積を求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-027",
       "type": "text",
       "level": "applied",
-      "question": "内側が縦12cm、横10cm、高さ10cmの容器があります。中の体積は何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1200cm³\n考え方：12×10×10=1200cm³です。",
+      "question": "内側が縦12cm、横10cm、高さ10cmの容器があります。中の体積は何cm³ですか？",
+      "answer": "1200cm³",
       "explanation": "12×10×10=1200cm³です。",
       "why": "容器の内側の長さを使って体積を求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-VO-028",
       "type": "text",
       "level": "applied",
-      "question": "内側が縦25cm、横4cm、高さ8cmの収納箱があります。中の体積は何cm³ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：800cm³\n考え方：25×4×8=800cm³です。",
+      "question": "内側が縦25cm、横4cm、高さ8cmの収納箱があります。中の体積は何cm³ですか？",
+      "answer": "800cm³",
       "explanation": "25×4×8=800cm³です。",
       "why": "容器の内側の長さを使って体積を求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     }
   ]
 }

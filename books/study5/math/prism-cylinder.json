@@ -10,8 +10,8 @@
       "id": "M5-PC-001",
       "type": "text",
       "level": "basic",
-      "question": "三角柱の底面は何という図形ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：三角形\n考え方：三角柱は合同で平行な二つの三角形を底面にもつ立体です。",
+      "question": "三角柱の底面は何という図形ですか？",
+      "answer": "三角形",
       "explanation": "三角柱は合同で平行な二つの三角形を底面にもつ立体です。",
       "why": "角柱の名前は底面の形で決まります。",
       "skill": "solid",
@@ -19,27 +19,27 @@
         "type": "prism",
         "sides": 3
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-002",
       "type": "text",
       "level": "basic",
-      "question": "五角柱の側面はいくつありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：5つ\n考え方：底面の辺1本につき側面が1つあります。",
+      "question": "五角柱の側面はいくつありますか？",
+      "answer": "5つ",
       "explanation": "底面の辺1本につき側面が1つあります。",
       "why": "側面の数は底面の辺の数と同じです。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-003",
       "type": "text",
       "level": "basic",
-      "question": "三角柱の面は全部でいくつありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：5つ\n考え方：底面2つと側面3つで5つです。",
+      "question": "三角柱の面は全部でいくつありますか？",
+      "answer": "5つ",
       "explanation": "底面2つと側面3つで5つです。",
       "why": "面の構成を分けて数えます。",
       "skill": "solid",
@@ -47,27 +47,27 @@
         "type": "prism",
         "sides": 3
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-004",
       "type": "text",
       "level": "basic",
-      "question": "四角柱の頂点は全部でいくつありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：8個\n考え方：底面の4頂点が2組あるので8個です。",
+      "question": "四角柱の頂点は全部でいくつありますか？",
+      "answer": "8個",
       "explanation": "底面の4頂点が2組あるので8個です。",
       "why": "角柱の頂点は底面の頂点数の2倍です。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-005",
       "type": "text",
       "level": "basic",
-      "question": "三角柱の辺は全部で何本ありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：9本\n考え方：底面3本が2組で6本、それらを結ぶ3本で9本です。",
+      "question": "三角柱の辺は全部で何本ありますか？",
+      "answer": "9本",
       "explanation": "底面3本が2組で6本、それらを結ぶ3本で9本です。",
       "why": "底面の辺と縦の辺に分けて数えます。",
       "skill": "solid",
@@ -75,209 +75,209 @@
         "type": "prism",
         "sides": 3
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-006",
       "type": "text",
       "level": "basic",
-      "question": "円柱の底面の形は何ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：円\n考え方：合同な二つの円が底面です。",
+      "question": "円柱の底面の形は何ですか？",
+      "answer": "円",
       "explanation": "合同な二つの円が底面です。",
       "why": "円柱は角柱とは違い底面が円です。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-007",
       "type": "text",
       "level": "basic",
-      "question": "円柱の底面はいくつありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：2つ\n考え方：同じ大きさの円が2つあります。",
+      "question": "円柱の底面はいくつありますか？",
+      "answer": "2つ",
       "explanation": "同じ大きさの円が2つあります。",
       "why": "二つの底面は合同で平行です。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-008",
       "type": "text",
       "level": "basic",
-      "question": "円柱の側面を切り開くと基本的にどんな形になりますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：長方形\n考え方：側面をまっすぐ切って開くと長方形になります。",
+      "question": "円柱の側面を切り開くと基本的にどんな形になりますか？",
+      "answer": "長方形",
       "explanation": "側面をまっすぐ切って開くと長方形になります。",
       "why": "長方形の一辺は高さ、もう一辺は底面の円周です。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-009",
       "type": "text",
       "level": "basic",
-      "question": "円柱の展開図で長方形の横の長さは底面の何に等しいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：円周\n考え方：側面が底面を一周しているからです。",
+      "question": "円柱の展開図で長方形の横の長さは底面の何に等しいですか？",
+      "answer": "円周",
       "explanation": "側面が底面を一周しているからです。",
       "why": "立体と展開図の対応を考えます。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-010",
       "type": "text",
       "level": "basic",
-      "question": "円柱に頂点はありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：ありません\n考え方：円柱には角がありません。",
+      "question": "円柱に頂点はありますか？",
+      "answer": "ありません",
       "explanation": "円柱には角がありません。",
       "why": "頂点は辺が集まる角の点です。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-011",
       "type": "text",
       "level": "basic",
-      "question": "三角柱と円柱の共通点を一つ答えましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同で平行な二つの底面をもつこと\n考え方：どちらも同じ形・同じ大きさの底面が2つあります。",
+      "question": "三角柱と円柱の共通点を一つ答えましょう。",
+      "answer": "合同で平行な二つの底面をもつこと",
       "explanation": "どちらも同じ形・同じ大きさの底面が2つあります。",
       "why": "共通する立体の特徴を見ます。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-012",
       "type": "text",
       "level": "basic",
-      "question": "三角柱と円柱の違いを一つ答えましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：底面の形が三角形と円で違うこと\n考え方：三角柱の底面は三角形、円柱は円です。",
+      "question": "三角柱と円柱の違いを一つ答えましょう。",
+      "answer": "底面の形が三角形と円で違うこと",
       "explanation": "三角柱の底面は三角形、円柱は円です。",
       "why": "底面に注目して分類します。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-013",
       "type": "text",
       "level": "basic",
-      "question": "『底面が三角形ならどんな立体でも三角柱』は正しいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：正しくありません\n考え方：合同で平行な二つの三角形を底面にもつなどの条件が必要です。",
+      "question": "『底面が三角形ならどんな立体でも三角柱』は正しいですか？",
+      "answer": "正しくありません",
       "explanation": "合同で平行な二つの三角形を底面にもつなどの条件が必要です。",
       "why": "名前だけでなく立体の条件を確かめます。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-014",
       "type": "text",
       "level": "basic",
-      "question": "四角柱の底面が正方形でも長方形でも四角柱といえますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：いえます\n考え方：どちらも四角形だからです。",
+      "question": "四角柱の底面が正方形でも長方形でも四角柱といえますか？",
+      "answer": "いえます",
       "explanation": "どちらも四角形だからです。",
       "why": "角柱は底面の辺の数で名前が決まります。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-015",
       "type": "text",
       "level": "basic",
-      "question": "六角柱の底面どうしを結ぶ辺は何本ありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6本\n考え方：6つの対応する頂点どうしを結ぶので6本です。",
+      "question": "六角柱の底面どうしを結ぶ辺は何本ありますか？",
+      "answer": "6本",
       "explanation": "6つの対応する頂点どうしを結ぶので6本です。",
       "why": "底面の頂点数と同じ本数です。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-016",
       "type": "text",
       "level": "basic",
-      "question": "五角柱の頂点は全部で何個ありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：10個\n考え方：5×2=10個です。",
+      "question": "五角柱の頂点は全部で何個ありますか？",
+      "answer": "10個",
       "explanation": "5×2=10個です。",
       "why": "二つの底面に同じ数の頂点があります。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-017",
       "type": "text",
       "level": "basic",
-      "question": "四角柱の辺は全部で何本ありますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：12本\n考え方：底面4本×2+縦の辺4本=12本です。",
+      "question": "四角柱の辺は全部で何本ありますか？",
+      "answer": "12本",
       "explanation": "底面4本×2+縦の辺4本=12本です。",
       "why": "辺を種類ごとに分けて数えます。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-018",
       "type": "text",
       "level": "basic",
-      "question": "円柱を真横から見ると、基本的にどんな形に見えますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：長方形\n考え方：高さと直径を辺にもつ長方形のように見えます。",
+      "question": "円柱を真横から見ると、基本的にどんな形に見えますか？",
+      "answer": "長方形",
       "explanation": "高さと直径を辺にもつ長方形のように見えます。",
       "why": "立体をいろいろな方向から見る力を使います。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-019",
       "type": "text",
       "level": "basic",
-      "question": "角柱の二つの底面はどんな関係ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同で平行\n考え方：同じ形・同じ大きさで平行です。",
+      "question": "角柱の二つの底面はどんな関係ですか？",
+      "answer": "合同で平行",
       "explanation": "同じ形・同じ大きさで平行です。",
       "why": "角柱の基本的な性質です。",
       "skill": "solid",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-PC-020",
       "type": "text",
       "level": "basic",
-      "question": "円柱の二つの底面はどんな関係ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：合同で平行\n考え方：同じ大きさの円で平行です。",
+      "question": "円柱の二つの底面はどんな関係ですか？",
+      "answer": "合同で平行",
       "explanation": "同じ大きさの円で平行です。",
       "why": "円柱の基本的な性質です。",
       "skill": "solid",
       "visual": {
         "type": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     }
   ]
 }

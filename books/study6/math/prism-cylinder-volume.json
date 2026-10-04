@@ -10,8 +10,8 @@
       "id": "M6-VP-001",
       "type": "text",
       "level": "basic",
-      "question": "底面積24cm²、高さ5cmの角柱の体積を求めましょう。\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：120cm³\n考え方：24×5=120cm³です。",
+      "question": "底面積24cm²、高さ5cmの角柱の体積を求めましょう。",
+      "answer": "120cm³",
       "explanation": "24×5=120cm³です。",
       "why": "角柱の体積=底面積×高さです。",
       "skill": "volume",
@@ -19,15 +19,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-002",
       "type": "text",
       "level": "basic",
-      "question": "底面積30cm²、高さ8cmの角柱の体積を求めましょう。\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：240cm³\n考え方：30×8=240cm³です。",
+      "question": "底面積30cm²、高さ8cmの角柱の体積を求めましょう。",
+      "answer": "240cm³",
       "explanation": "30×8=240cm³です。",
       "why": "底面の形が違っても公式は同じです。",
       "skill": "volume",
@@ -35,15 +35,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-003",
       "type": "text",
       "level": "basic",
-      "question": "底面積12.5cm²、高さ6cmの角柱の体積を求めましょう。\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：75cm³\n考え方：12.5×6=75cm³です。",
+      "question": "底面積12.5cm²、高さ6cmの角柱の体積を求めましょう。",
+      "answer": "75cm³",
       "explanation": "12.5×6=75cm³です。",
       "why": "小数でも同じ公式です。",
       "skill": "volume",
@@ -51,15 +51,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-004",
       "type": "text",
       "level": "basic",
-      "question": "底面が底辺8cm、高さ5cmの三角形で、柱の高さ10cmの三角柱の体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：200cm³\n考え方：底面積20cm²×10=200cm³です。",
+      "question": "底面が底辺8cm、高さ5cmの三角形で、柱の高さ10cmの三角柱の体積は？",
+      "answer": "200cm³",
       "explanation": "底面積20cm²×10=200cm³です。",
       "why": "まず底面積を求めます。",
       "skill": "volume",
@@ -67,15 +67,15 @@
         "type": "solid",
         "shape": "triangular-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-005",
       "type": "text",
       "level": "basic",
-      "question": "底面が1辺6cmの正方形、高さ9cmの四角柱の体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：324cm³\n考え方：36×9=324cm³です。",
+      "question": "底面が1辺6cmの正方形、高さ9cmの四角柱の体積は？",
+      "answer": "324cm³",
       "explanation": "36×9=324cm³です。",
       "why": "底面積と柱の高さを使います。",
       "skill": "volume",
@@ -83,15 +83,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-006",
       "type": "text",
       "level": "basic",
-      "question": "底面が上底4cm、下底8cm、高さ3cmの台形で、柱の高さ10cmの体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：180cm³\n考え方：台形18cm²×10=180cm³です。",
+      "question": "底面が上底4cm、下底8cm、高さ3cmの台形で、柱の高さ10cmの体積は？",
+      "answer": "180cm³",
       "explanation": "台形18cm²×10=180cm³です。",
       "why": "既習の面積公式を組み合わせます。",
       "skill": "volume",
@@ -99,15 +99,15 @@
         "type": "solid",
         "shape": "trapezoid-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-007",
       "type": "text",
       "level": "basic",
-      "question": "半径3cm、高さ10cmの円柱の体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：282.6cm³\n考え方：3×3×3.14×10=282.6cm³です。",
+      "question": "半径3cm、高さ10cmの円柱の体積は？",
+      "answer": "282.6cm³",
       "explanation": "3×3×3.14×10=282.6cm³です。",
       "why": "円柱も底面積×高さです。",
       "skill": "volume",
@@ -115,15 +115,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-008",
       "type": "text",
       "level": "basic",
-      "question": "直径10cm、高さ8cmの円柱の体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：628cm³\n考え方：半径5cm、78.5×8=628cm³です。",
+      "question": "直径10cm、高さ8cmの円柱の体積は？",
+      "answer": "628cm³",
       "explanation": "半径5cm、78.5×8=628cm³です。",
       "why": "直径を半径へ直します。",
       "skill": "volume",
@@ -131,15 +131,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-009",
       "type": "text",
       "level": "basic",
-      "question": "半径4cm、高さ5cmの円柱の体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：251.2cm³\n考え方：4×4×3.14×5=251.2cm³です。",
+      "question": "半径4cm、高さ5cmの円柱の体積は？",
+      "answer": "251.2cm³",
       "explanation": "4×4×3.14×5=251.2cm³です。",
       "why": "円の面積公式とつなげます。",
       "skill": "volume",
@@ -147,15 +147,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-010",
       "type": "text",
       "level": "basic",
-      "question": "角柱と円柱の体積公式の共通点は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：どちらも底面積×高さ\n考え方：同じ断面が高さ方向に続く柱体だからです。",
+      "question": "角柱と円柱の体積公式の共通点は？",
+      "answer": "どちらも底面積×高さ",
       "explanation": "同じ断面が高さ方向に続く柱体だからです。",
       "why": "図形を一般化して捉えます。",
       "skill": "volume",
@@ -163,15 +163,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-011",
       "type": "text",
       "level": "basic",
-      "question": "体積300cm³、底面積50cm²の角柱の高さは？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：6cm\n考え方：300÷50=6cmです。",
+      "question": "体積300cm³、底面積50cm²の角柱の高さは？",
+      "answer": "6cm",
       "explanation": "300÷50=6cmです。",
       "why": "公式を逆に使います。",
       "skill": "volume",
@@ -179,15 +179,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-012",
       "type": "text",
       "level": "basic",
-      "question": "体積376.8cm³、高さ12cmの円柱の底面積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：31.4cm²\n考え方：376.8÷12=31.4cm²です。",
+      "question": "体積376.8cm³、高さ12cmの円柱の底面積は？",
+      "answer": "31.4cm²",
       "explanation": "376.8÷12=31.4cm²です。",
       "why": "底面積=体積÷高さです。",
       "skill": "volume",
@@ -195,51 +195,51 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-013",
       "type": "text",
       "level": "basic",
-      "question": "底面積が同じ角柱で高さを2倍にすると体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：2倍\n考え方：底面積×高さなので2倍です。",
+      "question": "底面積が同じ角柱で高さを2倍にすると体積は？",
+      "answer": "2倍",
       "explanation": "底面積×高さなので2倍です。",
       "why": "高さと体積は比例します。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-014",
       "type": "text",
       "level": "basic",
-      "question": "高さが同じ角柱で底面積を3倍にすると体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：3倍\n考え方：底面積の倍率が体積に表れます。",
+      "question": "高さが同じ角柱で底面積を3倍にすると体積は？",
+      "answer": "3倍",
       "explanation": "底面積の倍率が体積に表れます。",
       "why": "公式から倍率を考えます。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-015",
       "type": "text",
       "level": "basic",
-      "question": "底面積と高さを両方2倍にすると体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：4倍\n考え方：2×2=4倍です。",
+      "question": "底面積と高さを両方2倍にすると体積は？",
+      "answer": "4倍",
       "explanation": "2×2=4倍です。",
       "why": "複数の倍率を組み合わせます。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-016",
       "type": "text",
       "level": "basic",
-      "question": "円柱の半径を2倍、高さを同じにすると体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：4倍\n考え方：底面積が4倍になるためです。",
+      "question": "円柱の半径を2倍、高さを同じにすると体積は？",
+      "answer": "4倍",
       "explanation": "底面積が4倍になるためです。",
       "why": "円の面積の倍率とつなげます。",
       "skill": "volume",
@@ -247,15 +247,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-017",
       "type": "text",
       "level": "basic",
-      "question": "円柱の半径を2倍、高さも2倍にすると体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：8倍\n考え方：底面積4倍×高さ2倍です。",
+      "question": "円柱の半径を2倍、高さも2倍にすると体積は？",
+      "answer": "8倍",
       "explanation": "底面積4倍×高さ2倍です。",
       "why": "長さの倍率が体積へどう影響するか考えます。",
       "skill": "volume",
@@ -263,27 +263,27 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-018",
       "type": "text",
       "level": "basic",
-      "question": "角柱の体積の単位はcm²ですかcm³ですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：cm³\n考え方：体積なので立方単位です。",
+      "question": "角柱の体積の単位はcm²ですかcm³ですか？",
+      "answer": "cm³",
       "explanation": "体積なので立方単位です。",
       "why": "面積と体積を区別します。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-019",
       "type": "text",
       "level": "basic",
-      "question": "円柱の体積=円周×高さ、は正しいですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：正しくありません\n考え方：底面の円の面積×高さです。",
+      "question": "円柱の体積=円周×高さ、は正しいですか？",
+      "answer": "正しくありません",
       "explanation": "底面の円の面積×高さです。",
       "why": "円周と面積を混同しません。",
       "skill": "volume",
@@ -291,15 +291,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-020",
       "type": "text",
       "level": "basic",
-      "question": "三角柱でも五角柱でも底面積×高さで求められますか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：求められます\n考え方：底面の形に関係なく角柱なら同じです。",
+      "question": "三角柱でも五角柱でも底面積×高さで求められますか？",
+      "answer": "求められます",
       "explanation": "底面の形に関係なく角柱なら同じです。",
       "why": "公式を一般化します。",
       "skill": "volume",
@@ -307,27 +307,27 @@
         "type": "solid",
         "shape": "triangular-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-021",
       "type": "text",
       "level": "basic",
-      "question": "同じ体積の円柱でも半径と高さの組み合わせは一つとは限りませんか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：一つとは限りません\n考え方：底面積×高さが同じなら体積は同じです。",
+      "question": "同じ体積の円柱でも半径と高さの組み合わせは一つとは限りませんか？",
+      "answer": "一つとは限りません",
       "explanation": "底面積×高さが同じなら体積は同じです。",
       "why": "一つの結果に複数の形があります。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-022",
       "type": "text",
       "level": "basic",
-      "question": "底面積200cm²、高さ15cmの水そうの容量は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：3000cm³\n考え方：200×15=3000cm³です。",
+      "question": "底面積200cm²、高さ15cmの水そうの容量は？",
+      "answer": "3000cm³",
       "explanation": "200×15=3000cm³です。",
       "why": "容積問題に使います。",
       "skill": "volume",
@@ -335,27 +335,27 @@
         "type": "solid",
         "shape": "prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-023",
       "type": "text",
       "level": "basic",
-      "question": "3000cm³は何Lですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：3L\n考え方：1000cm³=1Lです。",
+      "question": "3000cm³は何Lですか？",
+      "answer": "3L",
       "explanation": "1000cm³=1Lです。",
       "why": "単位換算を使います。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-024",
       "type": "text",
       "level": "basic",
-      "question": "半径5cm、高さ20cmの円柱形容器の体積は？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：1570cm³\n考え方：5×5×3.14×20=1570cm³です。",
+      "question": "半径5cm、高さ20cmの円柱形容器の体積は？",
+      "answer": "1570cm³",
       "explanation": "5×5×3.14×20=1570cm³です。",
       "why": "円柱形の容器に使います。",
       "skill": "volume",
@@ -363,15 +363,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-025",
       "type": "text",
       "level": "basic",
-      "question": "底面積18cm²高さ10cmの角柱Aと、底面積30cm²高さ6cmの角柱Bの体積は同じですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：同じです\n考え方：どちらも180cm³です。",
+      "question": "底面積18cm²高さ10cmの角柱Aと、底面積30cm²高さ6cmの角柱Bの体積は同じですか？",
+      "answer": "同じです",
       "explanation": "どちらも180cm³です。",
       "why": "見た目ではなく計算で比べます。",
       "skill": "volume",
@@ -379,15 +379,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-026",
       "type": "text",
       "level": "basic",
-      "question": "円柱Aは半径3cm高さ8cm、Bは半径4cm高さ4.5cmです。体積は同じですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：同じです\n考え方：どちらも72×3.14cm³です。",
+      "question": "円柱Aは半径3cm高さ8cm、Bは半径4cm高さ4.5cmです。体積は同じですか？",
+      "answer": "同じです",
       "explanation": "どちらも72×3.14cm³です。",
       "why": "式の形から等しさを確認できます。",
       "skill": "volume",
@@ -395,15 +395,15 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-027",
       "type": "text",
       "level": "basic",
-      "question": "底面積さえ分かれば複雑な底面の角柱でも体積を求められますか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：求められます\n考え方：底面積に高さをかけます。",
+      "question": "底面積さえ分かれば複雑な底面の角柱でも体積を求められますか？",
+      "answer": "求められます",
       "explanation": "底面積に高さをかけます。",
       "why": "問題を段階に分けます。",
       "skill": "volume",
@@ -411,15 +411,15 @@
         "type": "solid",
         "shape": "rect-prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-028",
       "type": "text",
       "level": "basic",
-      "question": "柱を高さ1cmごとの層に分けて考えると体積公式を説明できますか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：できます\n考え方：1層の体積が底面積cm³で、それが高さ分重なります。",
+      "question": "柱を高さ1cmごとの層に分けて考えると体積公式を説明できますか？",
+      "answer": "できます",
       "explanation": "1層の体積が底面積cm³で、それが高さ分重なります。",
       "why": "公式を単位体積の積み重ねで理解します。",
       "skill": "volume",
@@ -427,15 +427,15 @@
         "type": "solid",
         "shape": "prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-029",
       "type": "text",
       "level": "basic",
-      "question": "斜めの辺の長さは必ず柱の高さですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：違います\n考え方：高さは底面に垂直な距離です。",
+      "question": "斜めの辺の長さは必ず柱の高さですか？",
+      "answer": "違います",
       "explanation": "高さは底面に垂直な距離です。",
       "why": "公式に使う長さを正しく選びます。",
       "skill": "volume",
@@ -443,39 +443,39 @@
         "type": "solid",
         "shape": "prism"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-030",
       "type": "text",
       "level": "basic",
-      "question": "体積を見積もるとき底面積と高さを概数にしてよいですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：よいです\n考え方：目的が概算なら有効です。",
+      "question": "体積を見積もるとき底面積と高さを概数にしてよいですか？",
+      "answer": "よいです",
       "explanation": "目的が概算なら有効です。",
       "why": "必要な正確さに応じて計算します。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-031",
       "type": "text",
       "level": "basic",
-      "question": "角柱・円柱の体積を生活で使う例を一つ答えましょう。\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：例：容器の容量や柱状の物の大きさを求める\n考え方：身近な形に応用できます。",
+      "question": "角柱・円柱の体積を生活で使う例を一つ答えましょう。",
+      "answer": "例：容器の容量や柱状の物の大きさを求める",
       "explanation": "身近な形に応用できます。",
       "why": "図形の計量を生活に活用します。",
       "skill": "volume",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M6-VP-032",
       "type": "text",
       "level": "basic",
-      "question": "半径6cm高さ10cmの円柱の体積を3.14×36×10としてよいですか？\n答えと、使った式や考え方も説明しなさい。",
-      "answer": "答え：よいです\n考え方：6×6=36だからです。",
+      "question": "半径6cm高さ10cmの円柱の体積を3.14×36×10としてよいですか？",
+      "answer": "よいです",
       "explanation": "6×6=36だからです。",
       "why": "計算しやすい形にまとめられます。",
       "skill": "volume",
@@ -483,8 +483,8 @@
         "type": "solid",
         "shape": "cylinder"
       },
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     }
   ]
 }

@@ -11,360 +11,360 @@
       "type": "calculation",
       "level": "basic",
       "question": "1.2 ÷ 0.5",
-      "answer": "答え：2.4",
+      "answer": "2.4",
       "explanation": "わる数0.5を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.4です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-002",
       "type": "calculation",
       "level": "basic",
       "question": "2.8 ÷ 0.8",
-      "answer": "答え：3.5",
+      "answer": "3.5",
       "explanation": "わる数0.8を整数にするため、わられる数とわる数を同じだけ大きくして計算すると3.5です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-003",
       "type": "calculation",
       "level": "basic",
       "question": "3 ÷ 1.2",
-      "answer": "答え：2.5",
+      "answer": "2.5",
       "explanation": "わる数1.2を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.5です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-004",
       "type": "calculation",
       "level": "basic",
       "question": "1.05 ÷ 0.75",
-      "answer": "答え：1.4",
+      "answer": "1.4",
       "explanation": "わる数0.75を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.4です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-005",
       "type": "calculation",
       "level": "basic",
       "question": "5.76 ÷ 1.6",
-      "answer": "答え：3.6",
+      "answer": "3.6",
       "explanation": "わる数1.6を整数にするため、わられる数とわる数を同じだけ大きくして計算すると3.6です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-006",
       "type": "calculation",
       "level": "basic",
       "question": "4.5 ÷ 2.5",
-      "answer": "答え：1.8",
+      "answer": "1.8",
       "explanation": "わる数2.5を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.8です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-007",
       "type": "calculation",
       "level": "basic",
       "question": "2.5 ÷ 0.4",
-      "answer": "答え：6.25",
+      "answer": "6.25",
       "explanation": "わる数0.4を整数にするため、わられる数とわる数を同じだけ大きくして計算すると6.25です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-008",
       "type": "calculation",
       "level": "basic",
       "question": "6 ÷ 1.25",
-      "answer": "答え：4.8",
+      "answer": "4.8",
       "explanation": "わる数1.25を整数にするため、わられる数とわる数を同じだけ大きくして計算すると4.8です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-009",
       "type": "calculation",
       "level": "basic",
       "question": "1.41 ÷ 0.6",
-      "answer": "答え：2.35",
+      "answer": "2.35",
       "explanation": "わる数0.6を整数にするため、わられる数とわる数を同じだけ大きくして計算すると2.35です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-010",
       "type": "calculation",
       "level": "basic",
       "question": "4.8 ÷ 3.2",
-      "answer": "答え：1.5",
+      "answer": "1.5",
       "explanation": "わる数3.2を整数にするため、わられる数とわる数を同じだけ大きくして計算すると1.5です。",
       "why": "わられる数とわる数を同じ数だけ倍しても商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-011",
       "type": "calculation",
       "level": "basic",
-      "question": "2.4 ÷ □ = 4 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：0.6\n考え方：2.4÷4=0.6なので、□=0.6です。",
+      "question": "2.4 ÷ □ = 4 です。□に入る数はいくつですか？",
+      "answer": "0.6",
       "explanation": "2.4÷4=0.6なので、□=0.6です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-012",
       "type": "calculation",
       "level": "basic",
-      "question": "4.8 ÷ □ = 3.2 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1.5\n考え方：4.8÷3.2=1.5なので、□=1.5です。",
+      "question": "4.8 ÷ □ = 3.2 です。□に入る数はいくつですか？",
+      "answer": "1.5",
       "explanation": "4.8÷3.2=1.5なので、□=1.5です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-013",
       "type": "calculation",
       "level": "basic",
-      "question": "2 ÷ □ = 8 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：0.25\n考え方：2÷8=0.25なので、□=0.25です。",
+      "question": "2 ÷ □ = 8 です。□に入る数はいくつですか？",
+      "answer": "0.25",
       "explanation": "2÷8=0.25なので、□=0.25です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-014",
       "type": "calculation",
       "level": "basic",
-      "question": "3.6 ÷ □ = 1.5 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：2.4\n考え方：3.6÷1.5=2.4なので、□=2.4です。",
+      "question": "3.6 ÷ □ = 1.5 です。□に入る数はいくつですか？",
+      "answer": "2.4",
       "explanation": "3.6÷1.5=2.4なので、□=2.4です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-015",
       "type": "calculation",
       "level": "basic",
-      "question": "6 ÷ □ = 7.5 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：0.8\n考え方：6÷7.5=0.8なので、□=0.8です。",
+      "question": "6 ÷ □ = 7.5 です。□に入る数はいくつですか？",
+      "answer": "0.8",
       "explanation": "6÷7.5=0.8なので、□=0.8です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-016",
       "type": "calculation",
       "level": "basic",
-      "question": "3 ÷ □ = 2.4 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1.25\n考え方：3÷2.4=1.25なので、□=1.25です。",
+      "question": "3 ÷ □ = 2.4 です。□に入る数はいくつですか？",
+      "answer": "1.25",
       "explanation": "3÷2.4=1.25なので、□=1.25です。",
       "why": "わり算の関係を別のわり算に直して考えます。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-017",
       "type": "text",
       "level": "applied",
-      "question": "4.8Lのジュースを0.6Lずつ分けます。何本分になりますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：8本分\n考え方：全体÷1つ分なので、4.8÷0.6=8です。",
+      "question": "4.8Lのジュースを0.6Lずつ分けます。何本分になりますか？",
+      "answer": "8本分",
       "explanation": "全体÷1つ分なので、4.8÷0.6=8です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-018",
       "type": "text",
       "level": "applied",
-      "question": "7.2mのリボンを0.8mずつ切ります。何本とれますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：9本\n考え方：全体÷1つ分なので、7.2÷0.8=9です。",
+      "question": "7.2mのリボンを0.8mずつ切ります。何本とれますか？",
+      "answer": "9本",
       "explanation": "全体÷1つ分なので、7.2÷0.8=9です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-019",
       "type": "text",
       "level": "applied",
-      "question": "6.25kgの材料を1.25kgずつ袋に入れます。何袋できますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：5袋\n考え方：全体÷1つ分なので、6.25÷1.25=5です。",
+      "question": "6.25kgの材料を1.25kgずつ袋に入れます。何袋できますか？",
+      "answer": "5袋",
       "explanation": "全体÷1つ分なので、6.25÷1.25=5です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-020",
       "type": "text",
       "level": "applied",
-      "question": "9kmの道のりを1.5kmずつ区切ると何区間ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6区間\n考え方：全体÷1つ分なので、9÷1.5=6です。",
+      "question": "9kmの道のりを1.5kmずつ区切ると何区間ですか？",
+      "answer": "6区間",
       "explanation": "全体÷1つ分なので、9÷1.5=6です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-021",
       "type": "text",
       "level": "applied",
-      "question": "3.6Lの水を0.4Lずつ入れると何杯分ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：9杯分\n考え方：全体÷1つ分なので、3.6÷0.4=9です。",
+      "question": "3.6Lの水を0.4Lずつ入れると何杯分ですか？",
+      "answer": "9杯分",
       "explanation": "全体÷1つ分なので、3.6÷0.4=9です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-022",
       "type": "text",
       "level": "applied",
-      "question": "8.4kgの米を1.2kgずつ分けると何袋ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：7袋\n考え方：全体÷1つ分なので、8.4÷1.2=7です。",
+      "question": "8.4kgの米を1.2kgずつ分けると何袋ですか？",
+      "answer": "7袋",
       "explanation": "全体÷1つ分なので、8.4÷1.2=7です。",
       "why": "全体の中に同じ大きさがいくつ入るかを求めます。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-023",
       "type": "calculation",
       "level": "basic",
-      "question": "6÷0.5の答えは6より大きくなりますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：大きくなります\n考え方：0.5ずつなら12こ入るので12です。",
+      "question": "6÷0.5の答えは6より大きくなりますか？",
+      "answer": "大きくなります",
       "explanation": "0.5ずつなら12こ入るので12です。",
       "why": "1より小さい数で割ると商が大きくなることがあります。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-024",
       "type": "calculation",
       "level": "basic",
-      "question": "3.2÷0.4と32÷4は同じ答えですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：同じです\n考え方：どちらも8です。",
+      "question": "3.2÷0.4と32÷4は同じ答えですか？",
+      "answer": "同じです",
       "explanation": "どちらも8です。",
       "why": "両方を同じ10倍しても商は変わりません。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-025",
       "type": "calculation",
       "level": "basic",
-      "question": "4.32÷0.6で、わる数だけ10倍するのは正しいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：正しくありません\n考え方：0.6を6にするなら4.32も43.2にします。",
+      "question": "4.32÷0.6で、わる数だけ10倍するのは正しいですか？",
+      "answer": "正しくありません",
       "explanation": "0.6を6にするなら4.32も43.2にします。",
       "why": "両方を同じ倍率で変えます。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-026",
       "type": "calculation",
       "level": "basic",
-      "question": "5÷0.5を2.5とした人がいます。正しい答えは何ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：10\n考え方：5の中に0.5は10こ入ります。",
+      "question": "5÷0.5を2.5とした人がいます。正しい答えは何ですか？",
+      "answer": "10",
       "explanation": "5の中に0.5は10こ入ります。",
       "why": "答えのおよその大きさも考えます。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-027",
       "type": "calculation",
       "level": "basic",
-      "question": "4.8÷0.5を暗算しやすくする方法を答えましょう。\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：4.8×2\n考え方：0.5=1/2なので、0.5で割ることは2倍することと同じです。",
+      "question": "4.8÷0.5を暗算しやすくする方法を答えましょう。",
+      "answer": "4.8×2",
       "explanation": "0.5=1/2なので、0.5で割ることは2倍することと同じです。",
       "why": "小数と分数の関係を使います。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-028",
       "type": "calculation",
       "level": "basic",
-      "question": "0.84÷0.07で、わる数を整数にするには両方を何倍しますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：100倍\n考え方：0.07を7にするには100倍します。",
+      "question": "0.84÷0.07で、わる数を整数にするには両方を何倍しますか？",
+      "answer": "100倍",
       "explanation": "0.07を7にするには100倍します。",
       "why": "小数点以下のけた数を見て倍率を決めます。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-029",
       "type": "calculation",
       "level": "basic",
-      "question": "15÷0.1はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：150\n考え方：0.1ずつに分けると1の中に10こ、15の中に150こあります。",
+      "question": "15÷0.1はいくつですか？",
+      "answer": "150",
       "explanation": "0.1ずつに分けると1の中に10こ、15の中に150こあります。",
       "why": "0.1で割ることは10倍することと同じです。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-030",
       "type": "calculation",
       "level": "basic",
-      "question": "8÷0.25は8×4と同じですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：同じです\n考え方：0.25=1/4なので、1の中に4こあります。",
+      "question": "8÷0.25は8×4と同じですか？",
+      "answer": "同じです",
       "explanation": "0.25=1/4なので、1の中に4こあります。",
       "why": "分数の見方で商の意味を考えます。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-031",
@@ -376,7 +376,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-032",
@@ -388,7 +388,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-033",
@@ -400,7 +400,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-034",
@@ -412,7 +412,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-035",
@@ -424,7 +424,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-036",
@@ -436,7 +436,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-037",
@@ -448,7 +448,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-038",
@@ -460,7 +460,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-039",
@@ -472,7 +472,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-040",
@@ -484,7 +484,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-041",
@@ -496,7 +496,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-042",
@@ -508,7 +508,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-043",
@@ -520,7 +520,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-044",
@@ -532,7 +532,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-045",
@@ -544,7 +544,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-046",
@@ -556,7 +556,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-047",
@@ -568,7 +568,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-048",
@@ -580,7 +580,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-049",
@@ -592,7 +592,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-050",
@@ -604,7 +604,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-051",
@@ -616,7 +616,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-052",
@@ -628,7 +628,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-053",
@@ -640,7 +640,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-054",
@@ -652,7 +652,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-055",
@@ -664,7 +664,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-056",
@@ -676,7 +676,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-057",
@@ -688,7 +688,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-058",
@@ -700,7 +700,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-059",
@@ -712,7 +712,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-060",
@@ -724,7 +724,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-061",
@@ -736,7 +736,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-062",
@@ -748,7 +748,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-063",
@@ -760,7 +760,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-064",
@@ -772,7 +772,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-065",
@@ -784,7 +784,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-066",
@@ -796,7 +796,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-067",
@@ -808,7 +808,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-068",
@@ -820,7 +820,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-069",
@@ -832,7 +832,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-070",
@@ -844,7 +844,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-071",
@@ -856,7 +856,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-072",
@@ -868,7 +868,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-073",
@@ -880,7 +880,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-074",
@@ -892,7 +892,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-075",
@@ -904,7 +904,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-076",
@@ -916,7 +916,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-077",
@@ -928,7 +928,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-078",
@@ -940,7 +940,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-079",
@@ -952,7 +952,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-080",
@@ -964,7 +964,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-081",
@@ -976,7 +976,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-082",
@@ -988,7 +988,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-083",
@@ -1000,7 +1000,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-084",
@@ -1012,7 +1012,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-085",
@@ -1024,7 +1024,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-086",
@@ -1036,7 +1036,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-087",
@@ -1048,7 +1048,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-088",
@@ -1060,7 +1060,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-089",
@@ -1072,7 +1072,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DD-090",
@@ -1084,7 +1084,7 @@
       "why": "わられる数とわる数を同じ数だけ倍しても、商は変わりません。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     }
   ]
 }

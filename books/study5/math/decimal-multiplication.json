@@ -11,360 +11,360 @@
       "type": "calculation",
       "level": "basic",
       "question": "2.4 × 3",
-      "answer": "答え：7.2",
+      "answer": "7.2",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと7.2です。",
       "why": "2.4と3を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-002",
       "type": "calculation",
       "level": "basic",
       "question": "0.7 × 8",
-      "answer": "答え：5.6",
+      "answer": "5.6",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと5.6です。",
       "why": "0.7と8を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-003",
       "type": "calculation",
       "level": "basic",
       "question": "3.6 × 2.4",
-      "answer": "答え：8.64",
+      "answer": "8.64",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと8.64です。",
       "why": "3.6と2.4を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-004",
       "type": "calculation",
       "level": "basic",
       "question": "0.45 × 1.8",
-      "answer": "答え：0.81",
+      "answer": "0.81",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと0.81です。",
       "why": "0.45と1.8を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-005",
       "type": "calculation",
       "level": "basic",
       "question": "2.35 × 0.6",
-      "answer": "答え：1.41",
+      "answer": "1.41",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと1.41です。",
       "why": "2.35と0.6を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-006",
       "type": "calculation",
       "level": "basic",
       "question": "4.8 × 1.25",
-      "answer": "答え：6",
+      "answer": "6",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと6です。",
       "why": "4.8と1.25を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-007",
       "type": "calculation",
       "level": "basic",
       "question": "0.32 × 0.04",
-      "answer": "答え：0.0128",
+      "answer": "0.0128",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと0.0128です。",
       "why": "0.32と0.04を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-008",
       "type": "calculation",
       "level": "basic",
       "question": "12.5 × 0.8",
-      "answer": "答え：10",
+      "answer": "10",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと10です。",
       "why": "12.5と0.8を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-009",
       "type": "calculation",
       "level": "basic",
       "question": "6.4 × 2.5",
-      "answer": "答え：16",
+      "answer": "16",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと16です。",
       "why": "6.4と2.5を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-010",
       "type": "calculation",
       "level": "basic",
       "question": "1.75 × 0.24",
-      "answer": "答え：0.42",
+      "answer": "0.42",
       "explanation": "整数のかけ算として計算したあと、小数の位を元に戻すと0.42です。",
       "why": "1.75と0.24を整数に直すために大きくした分だけ、最後に積を小さく戻します。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-011",
       "type": "calculation",
       "level": "basic",
-      "question": "1.2 × □ = 4.8 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：4\n考え方：4.8÷1.2=4なので、□=4です。",
+      "question": "1.2 × □ = 4.8 です。□に入る数はいくつですか？",
+      "answer": "4",
       "explanation": "4.8÷1.2=4なので、□=4です。",
       "why": "かけ算の逆の計算としてわり算を使います。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-012",
       "type": "calculation",
       "level": "basic",
-      "question": "2.5 × □ = 8 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：3.2\n考え方：8÷2.5=3.2なので、□=3.2です。",
+      "question": "2.5 × □ = 8 です。□に入る数はいくつですか？",
+      "answer": "3.2",
       "explanation": "8÷2.5=3.2なので、□=3.2です。",
       "why": "かけ算の逆の計算としてわり算を使います。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-013",
       "type": "calculation",
       "level": "basic",
-      "question": "0.8 × □ = 5 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6.25\n考え方：5÷0.8=6.25なので、□=6.25です。",
+      "question": "0.8 × □ = 5 です。□に入る数はいくつですか？",
+      "answer": "6.25",
       "explanation": "5÷0.8=6.25なので、□=6.25です。",
       "why": "かけ算の逆の計算としてわり算を使います。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-014",
       "type": "calculation",
       "level": "basic",
-      "question": "4.5 × □ = 5.4 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1.2\n考え方：5.4÷4.5=1.2なので、□=1.2です。",
+      "question": "4.5 × □ = 5.4 です。□に入る数はいくつですか？",
+      "answer": "1.2",
       "explanation": "5.4÷4.5=1.2なので、□=1.2です。",
       "why": "かけ算の逆の計算としてわり算を使います。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-015",
       "type": "calculation",
       "level": "basic",
-      "question": "3.75 × □ = 1.5 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：0.4\n考え方：1.5÷3.75=0.4なので、□=0.4です。",
+      "question": "3.75 × □ = 1.5 です。□に入る数はいくつですか？",
+      "answer": "0.4",
       "explanation": "1.5÷3.75=0.4なので、□=0.4です。",
       "why": "かけ算の逆の計算としてわり算を使います。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-016",
       "type": "calculation",
       "level": "basic",
-      "question": "0.6 × □ = 0.9 です。□に入る数はいくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1.5\n考え方：0.9÷0.6=1.5なので、□=1.5です。",
+      "question": "0.6 × □ = 0.9 です。□に入る数はいくつですか？",
+      "answer": "1.5",
       "explanation": "0.9÷0.6=1.5なので、□=1.5です。",
       "why": "かけ算の逆の計算としてわり算を使います。",
       "skill": "inverse",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-017",
       "type": "text",
       "level": "applied",
-      "question": "1mあたり2.4kgの材料を3.5m使います。重さは何kgですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：8.4kg\n考え方：1あたりの量×いくつ分なので、2.4×3.5=8.4です。",
+      "question": "1mあたり2.4kgの材料を3.5m使います。重さは何kgですか？",
+      "answer": "8.4kg",
       "explanation": "1あたりの量×いくつ分なので、2.4×3.5=8.4です。",
       "why": "かける数が小数でも、何倍かを求めるかけ算の意味は変わりません。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-018",
       "type": "text",
       "level": "applied",
-      "question": "1Lあたり1.25kgの液体が4.8Lあります。重さは何kgですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6kg\n考え方：1あたりの量×いくつ分なので、1.25×4.8=6です。",
+      "question": "1Lあたり1.25kgの液体が4.8Lあります。重さは何kgですか？",
+      "answer": "6kg",
       "explanation": "1あたりの量×いくつ分なので、1.25×4.8=6です。",
       "why": "かける数が小数でも、何倍かを求めるかけ算の意味は変わりません。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-019",
       "type": "text",
       "level": "applied",
-      "question": "1mあたり0.75kgのロープが6.4mあります。重さは何kgですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：4.8kg\n考え方：1あたりの量×いくつ分なので、0.75×6.4=4.8です。",
+      "question": "1mあたり0.75kgのロープが6.4mあります。重さは何kgですか？",
+      "answer": "4.8kg",
       "explanation": "1あたりの量×いくつ分なので、0.75×6.4=4.8です。",
       "why": "かける数が小数でも、何倍かを求めるかけ算の意味は変わりません。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-020",
       "type": "text",
       "level": "applied",
-      "question": "1本4.2mの棒の1.5本分の長さは何mですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6.3m\n考え方：1あたりの量×いくつ分なので、4.2×1.5=6.3です。",
+      "question": "1本4.2mの棒の1.5本分の長さは何mですか？",
+      "answer": "6.3m",
       "explanation": "1あたりの量×いくつ分なので、4.2×1.5=6.3です。",
       "why": "かける数が小数でも、何倍かを求めるかけ算の意味は変わりません。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-021",
       "type": "text",
       "level": "applied",
-      "question": "1周0.8kmのコースを7.5周すると何kmですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：6km\n考え方：1あたりの量×いくつ分なので、0.8×7.5=6です。",
+      "question": "1周0.8kmのコースを7.5周すると何kmですか？",
+      "answer": "6km",
       "explanation": "1あたりの量×いくつ分なので、0.8×7.5=6です。",
       "why": "かける数が小数でも、何倍かを求めるかけ算の意味は変わりません。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-022",
       "type": "text",
       "level": "applied",
-      "question": "1m²あたり2.25kgの材料を1.6m²使うと何kgですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：3.6kg\n考え方：1あたりの量×いくつ分なので、2.25×1.6=3.6です。",
+      "question": "1m²あたり2.25kgの材料を1.6m²使うと何kgですか？",
+      "answer": "3.6kg",
       "explanation": "1あたりの量×いくつ分なので、2.25×1.6=3.6です。",
       "why": "かける数が小数でも、何倍かを求めるかけ算の意味は変わりません。",
       "skill": "word",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-023",
       "type": "calculation",
       "level": "basic",
-      "question": "3.5×0.8の答えは3.5より大きくなりますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：小さくなります\n考え方：0.8は1より小さいので、積は3.5より小さくなります。",
+      "question": "3.5×0.8の答えは3.5より大きくなりますか？",
+      "answer": "小さくなります",
       "explanation": "0.8は1より小さいので、積は3.5より小さくなります。",
       "why": "計算前に答えの大きさを予想します。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-024",
       "type": "calculation",
       "level": "basic",
-      "question": "6.2×1.3の答えは6.2より大きくなりますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：大きくなります\n考え方：1.3は1より大きいので積も大きくなります。",
+      "question": "6.2×1.3の答えは6.2より大きくなりますか？",
+      "answer": "大きくなります",
       "explanation": "1.3は1より大きいので積も大きくなります。",
       "why": "かける数が1より大きいか小さいかに注目します。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-025",
       "type": "calculation",
       "level": "basic",
-      "question": "0.4×0.5の答えは0.4より大きいですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：小さいです\n考え方：0.5倍は半分なので0.2です。",
+      "question": "0.4×0.5の答えは0.4より大きいですか？",
+      "answer": "小さいです",
       "explanation": "0.5倍は半分なので0.2です。",
       "why": "0.5は1/2と同じです。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-026",
       "type": "calculation",
       "level": "basic",
-      "question": "0.6×0.7を42とした人がいます。正しい答えは何ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：0.42\n考え方：6×7=42ですが、小数2けた分を戻して0.42です。",
+      "question": "0.6×0.7を42とした人がいます。正しい答えは何ですか？",
+      "answer": "0.42",
       "explanation": "6×7=42ですが、小数2けた分を戻して0.42です。",
       "why": "整数として計算した後に小数の位を戻します。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-027",
       "type": "calculation",
       "level": "basic",
-      "question": "2.5×0.4を10とした人がいます。正しい答えは何ですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：1\n考え方：25×4=100として、100分の1に戻すので1です。",
+      "question": "2.5×0.4を10とした人がいます。正しい答えは何ですか？",
+      "answer": "1",
       "explanation": "25×4=100として、100分の1に戻すので1です。",
       "why": "大きくして計算した分を元に戻します。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-028",
       "type": "calculation",
       "level": "basic",
-      "question": "2.4×3.5で、3.5を3+0.5と考えるとどんな式に分けられますか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：2.4×3+2.4×0.5\n考え方：3.5=3+0.5なので分けて計算できます。",
+      "question": "2.4×3.5で、3.5を3+0.5と考えるとどんな式に分けられますか？",
+      "answer": "2.4×3+2.4×0.5",
       "explanation": "3.5=3+0.5なので分けて計算できます。",
       "why": "かけ算の計算の性質を使います。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-029",
       "type": "calculation",
       "level": "basic",
-      "question": "0.25×16を暗算するといくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：4\n考え方：0.25=1/4なので、16の1/4は4です。",
+      "question": "0.25×16を暗算するといくつですか？",
+      "answer": "4",
       "explanation": "0.25=1/4なので、16の1/4は4です。",
       "why": "小数と分数の関係を使うと暗算しやすくなります。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-030",
       "type": "calculation",
       "level": "basic",
-      "question": "12.5×0.8を暗算するといくつですか？\n答えと、使った式や考え方も書きましょう。",
-      "answer": "答え：10\n考え方：0.8=8/10なので、12.5×8=100、100÷10=10です。",
+      "question": "12.5×0.8を暗算するといくつですか？",
+      "answer": "10",
       "explanation": "0.8=8/10なので、12.5×8=100、100÷10=10です。",
       "why": "小数を整数と10の関係で見ると計算しやすくなります。",
       "skill": "reasoning",
-      "reasonRequired": true,
-      "responseStyle": "answer-and-method"
+      "reasonRequired": false,
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-031",
@@ -376,7 +376,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-032",
@@ -388,7 +388,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-033",
@@ -400,7 +400,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-034",
@@ -412,7 +412,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-035",
@@ -424,7 +424,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-036",
@@ -436,7 +436,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-037",
@@ -448,7 +448,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-038",
@@ -460,7 +460,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-039",
@@ -472,7 +472,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-040",
@@ -484,7 +484,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-041",
@@ -496,7 +496,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-042",
@@ -508,7 +508,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-043",
@@ -520,7 +520,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-044",
@@ -532,7 +532,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-045",
@@ -544,7 +544,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-046",
@@ -556,7 +556,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-047",
@@ -568,7 +568,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-048",
@@ -580,7 +580,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-049",
@@ -592,7 +592,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-050",
@@ -604,7 +604,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-051",
@@ -616,7 +616,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-052",
@@ -628,7 +628,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-053",
@@ -640,7 +640,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-054",
@@ -652,7 +652,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-055",
@@ -664,7 +664,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-056",
@@ -676,7 +676,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-057",
@@ -688,7 +688,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-058",
@@ -700,7 +700,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-059",
@@ -712,7 +712,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-060",
@@ -724,7 +724,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-061",
@@ -736,7 +736,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-062",
@@ -748,7 +748,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-063",
@@ -760,7 +760,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-064",
@@ -772,7 +772,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-065",
@@ -784,7 +784,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-066",
@@ -796,7 +796,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-067",
@@ -808,7 +808,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-068",
@@ -820,7 +820,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-069",
@@ -832,7 +832,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-070",
@@ -844,7 +844,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-071",
@@ -856,7 +856,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-072",
@@ -868,7 +868,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-073",
@@ -880,7 +880,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-074",
@@ -892,7 +892,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-075",
@@ -904,7 +904,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-076",
@@ -916,7 +916,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-077",
@@ -928,7 +928,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-078",
@@ -940,7 +940,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-079",
@@ -952,7 +952,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-080",
@@ -964,7 +964,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-081",
@@ -976,7 +976,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-082",
@@ -988,7 +988,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-083",
@@ -1000,7 +1000,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-084",
@@ -1012,7 +1012,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-085",
@@ -1024,7 +1024,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-086",
@@ -1036,7 +1036,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-087",
@@ -1048,7 +1048,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-088",
@@ -1060,7 +1060,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-089",
@@ -1072,7 +1072,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     },
     {
       "id": "M5-DM-090",
@@ -1084,7 +1084,7 @@
       "why": "小数を整数と同じようにかけたあと、もとの小数のけた数に合わせて小数点を付けます。",
       "skill": "calculate",
       "reasonRequired": false,
-      "responseStyle": "answer-only-practice"
+      "responseStyle": "direct-answer"
     }
   ]
 }

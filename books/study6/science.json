@@ -21,18 +21,18 @@
           "explanation": "燃焼には空気中の酸素が必要です。",
           "why": "燃焼と空気の関係を実験で確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-002",
           "type": "text",
           "level": "basic",
-          "question": "空気中で物が燃えるとき、特に使われる気体は何ですか？\n答えと、そう考えた理由も説明しなさい。",
-          "answer": "答え：酸素\n理由：酸素には物を燃やす働きがあります。",
+          "question": "空気中で物が燃えるとき、特に使われる気体は何ですか？",
+          "answer": "酸素",
           "explanation": "酸素には物を燃やす働きがあります。",
           "why": "空気は一つの気体ではなく、いくつかの気体の混合物です。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S6-COMBUSTION-003",
@@ -43,7 +43,7 @@
           "explanation": "燃焼によって酸素が使われるためです。",
           "why": "燃える前後の空気を比べて変化を捉えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-004",
@@ -54,7 +54,7 @@
           "explanation": "燃焼によって二酸化炭素が生じます。",
           "why": "燃焼前後で空気の成分が変化します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-005",
@@ -65,7 +65,7 @@
           "explanation": "密閉すると新しい空気が入らず、酸素が減って燃え続けられなくなります。",
           "why": "原因を空気の変化と結び付けて考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-006",
@@ -76,7 +76,7 @@
           "explanation": "二酸化炭素があると石灰水が白くにごります。",
           "why": "気体の性質を利用して成分を確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-007",
@@ -87,7 +87,7 @@
           "explanation": "酸素の割合が高いため、燃焼がさかんになります。",
           "why": "酸素には物を燃やす働きがあります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-008",
@@ -98,7 +98,7 @@
           "explanation": "二酸化炭素には物を燃やす働きがありません。",
           "why": "気体によって燃焼への働きが異なります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-009",
@@ -109,7 +109,7 @@
           "explanation": "空気の多くを占めますが、燃焼を助ける働きはありません。",
           "why": "空気の成分ごとの働きを区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-010",
@@ -120,7 +120,7 @@
           "explanation": "燃焼で器具が高温になることがあります。",
           "why": "実験では安全な器具の扱いが必要です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-011",
@@ -131,7 +131,7 @@
           "explanation": "条件をそろえると空気の変化を公平に比べられます。",
           "why": "6年理科でも条件を整理して実験します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-012",
@@ -142,7 +142,7 @@
           "explanation": "結果をそのまま記録し、原因を考えます。",
           "why": "理科では観察結果を根拠に考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-013",
@@ -153,7 +153,7 @@
           "explanation": "空気には窒素、酸素、二酸化炭素などが含まれています。",
           "why": "空気を混合物として理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-014",
@@ -164,7 +164,7 @@
           "explanation": "燃焼に必要な酸素を断つと火が消えやすくなります。",
           "why": "燃焼条件の理解を生活の安全に結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-015",
@@ -175,7 +175,7 @@
           "explanation": "やけどや煙を吸う危険があります。",
           "why": "安全を最優先に観察します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-COMBUSTION-016",
@@ -186,7 +186,7 @@
           "explanation": "燃焼により二酸化炭素など別の物質が生じます。",
           "why": "見えなくなったことと消滅を区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -206,18 +206,18 @@
           "explanation": "肺で酸素を取り入れます。",
           "why": "呼吸と生命活動を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-002",
           "type": "text",
           "level": "basic",
-          "question": "人は呼吸で、体外へ主にどの気体を出しますか？\n答えと、そう考えた理由も説明しなさい。",
-          "answer": "答え：二酸化炭素\n理由：体内で生じた二酸化炭素を肺から出します。",
+          "question": "人は呼吸で、体外へ主にどの気体を出しますか？",
+          "answer": "二酸化炭素",
           "explanation": "体内で生じた二酸化炭素を肺から出します。",
           "why": "吸う空気と吐く空気の違いを考えます。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S6-BODY-003",
@@ -228,29 +228,29 @@
           "explanation": "肺で気体の交換が行われます。",
           "why": "器官の働きを体全体の仕組みと結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-004",
           "type": "text",
           "level": "basic",
-          "question": "食べ物を細かくしたり、体に取り入れやすい形に変えたりする働きを何といいますか？\n答えと、そう考えた理由も説明しなさい。",
-          "answer": "答え：消化\n理由：口、胃、小腸などが関わります。",
+          "question": "食べ物を細かくしたり、体に取り入れやすい形に変えたりする働きを何といいますか？",
+          "answer": "消化",
           "explanation": "口、胃、小腸などが関わります。",
           "why": "食べ物が体内でどのように利用されるか学びます。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S6-BODY-005",
           "type": "text",
           "level": "basic",
-          "question": "消化された養分は、主にどこから吸収されますか？\n答えと、そう考えた理由も説明しなさい。",
-          "answer": "答え：小腸\n理由：小腸から養分が血液中へ吸収されます。",
+          "question": "消化された養分は、主にどこから吸収されますか？",
+          "answer": "小腸",
           "explanation": "小腸から養分が血液中へ吸収されます。",
           "why": "消化と吸収を区別します。",
-          "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "reasonRequired": false,
+          "responseStyle": "direct-answer"
         },
         {
           "id": "S6-BODY-006",
@@ -261,7 +261,7 @@
           "explanation": "血液が体の各部分へ物質を運びます。",
           "why": "循環の働きを理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-007",
@@ -272,7 +272,7 @@
           "explanation": "心臓の動きにより血液が循環します。",
           "why": "体の器官は互いに関係して働きます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-008",
@@ -283,7 +283,7 @@
           "explanation": "肺で取り入れた酸素を全身へ運びます。",
           "why": "呼吸と循環をつなげます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-009",
@@ -294,7 +294,7 @@
           "explanation": "全身から肺へ運び、体外へ出します。",
           "why": "物質の移動を循環として捉えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-010",
@@ -305,7 +305,7 @@
           "explanation": "胃液などの働きで食べ物が消化されます。",
           "why": "消化器官ごとの役割を理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-011",
@@ -316,7 +316,7 @@
           "explanation": "食べ物を細かくし、だ液と混ぜます。",
           "why": "消化は胃だけで起こるわけではありません。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-012",
@@ -327,7 +327,7 @@
           "explanation": "体が多くの酸素やエネルギーを必要とするためです。",
           "why": "体の働きが活動量に応じて変化します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-013",
@@ -338,7 +338,7 @@
           "explanation": "呼吸・消化・循環などがつながっています。",
           "why": "体を一つのシステムとして考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-014",
@@ -349,7 +349,7 @@
           "explanation": "動物の種類で違いはありますが、生命活動を支える共通した働きがあります。",
           "why": "生物の共通性と多様性を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-015",
@@ -360,7 +360,7 @@
           "explanation": "直接見ることが難しい体内の様子を調べられます。",
           "why": "対象に合った観察方法を選びます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-BODY-016",
@@ -371,7 +371,7 @@
           "explanation": "消化されて体に取り入れやすい形になってから吸収されます。",
           "why": "消化と吸収の過程を理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -391,7 +391,7 @@
           "explanation": "葉では日光を受けて養分がつくられます。",
           "why": "植物の養分づくりと日光を関係付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-002",
@@ -402,7 +402,7 @@
           "explanation": "でんぷんがあると色が変化します。",
           "why": "物質の性質を利用して確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-003",
@@ -413,7 +413,7 @@
           "explanation": "日光が当たる葉で養分がつくられます。",
           "why": "条件を変えて確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-004",
@@ -424,7 +424,7 @@
           "explanation": "植物も生命活動のために呼吸します。",
           "why": "植物は養分づくりだけをしているわけではありません。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-005",
@@ -435,7 +435,7 @@
           "explanation": "呼吸は昼夜を通して行われます。",
           "why": "養分づくりと呼吸を区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-006",
@@ -446,7 +446,7 @@
           "explanation": "植物がつくった養分が他の生物へ受け渡されます。",
           "why": "生物同士のつながりを考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-007",
@@ -457,7 +457,7 @@
           "explanation": "動物も植物も生命活動に水が必要です。",
           "why": "生物と環境の関係を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-008",
@@ -468,7 +468,7 @@
           "explanation": "呼吸などを通して空気中の気体と関わります。",
           "why": "環境との物質のやり取りを考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-009",
@@ -479,7 +479,7 @@
           "explanation": "植物がつくった養分が多くの生物へつながります。",
           "why": "食べ物のつながりを考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-010",
@@ -490,7 +490,7 @@
           "explanation": "食べ物、水、空気など多くを環境から得ています。",
           "why": "人も生物の一員として考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-011",
@@ -501,7 +501,7 @@
           "explanation": "日光だけを変えて比べます。",
           "why": "条件制御を使って原因を確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-012",
@@ -512,7 +512,7 @@
           "explanation": "同じ葉の中で条件を変えられます。",
           "why": "公平な比較を工夫します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-013",
@@ -523,7 +523,7 @@
           "explanation": "植物も呼吸します。",
           "why": "生物に共通する生命活動を理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-014",
@@ -534,7 +534,7 @@
           "explanation": "食べ物、水、すみかなどの条件が変わるためです。",
           "why": "生物と環境の相互関係を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-015",
@@ -545,7 +545,7 @@
           "explanation": "生物同士や環境とのつながりを捉えられます。",
           "why": "多面的に自然を見ます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-PLANTS-ENVIRONMENT-016",
@@ -556,7 +556,7 @@
           "explanation": "人も水・空気・食べ物などを環境に依存しています。",
           "why": "自然環境と人の生活をつなげて考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -576,7 +576,7 @@
           "explanation": "水溶液は性質によって分類できます。",
           "why": "見た目だけでなく性質で水溶液を比べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-002",
@@ -587,7 +587,7 @@
           "explanation": "色の変化から酸性・中性・アルカリ性を調べられます。",
           "why": "指示薬を使って性質を確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-003",
@@ -598,7 +598,7 @@
           "explanation": "酸性を示す変化です。",
           "why": "指示薬の変化を覚えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-004",
@@ -609,7 +609,7 @@
           "explanation": "アルカリ性を示す変化です。",
           "why": "酸性との違いを区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-005",
@@ -620,7 +620,7 @@
           "explanation": "中性では酸性・アルカリ性の変化を示しません。",
           "why": "性質を比較して判断します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-006",
@@ -631,7 +631,7 @@
           "explanation": "二酸化炭素が水に溶けています。",
           "why": "水溶液には気体が溶けている場合もあります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-007",
@@ -642,7 +642,7 @@
           "explanation": "溶けていた二酸化炭素が出てくるためです。",
           "why": "溶けている気体の存在を確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-008",
@@ -653,7 +653,7 @@
           "explanation": "金属が溶け、別の物質になることがあります。",
           "why": "水溶液と金属の変化を調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-009",
@@ -664,7 +664,7 @@
           "explanation": "別の物質に変化して水溶液中に存在する場合があります。",
           "why": "見えないことと消滅を区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-010",
@@ -675,7 +675,7 @@
           "explanation": "液が飛ぶなどの危険があるためです。",
           "why": "薬品を扱う実験では安全が最優先です。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-011",
@@ -686,7 +686,7 @@
           "explanation": "危険な薬品が含まれる場合があります。",
           "why": "性質は安全な方法で調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-012",
@@ -697,7 +697,7 @@
           "explanation": "手であおいで少量を確認するなど安全な方法を使います。",
           "why": "薬品の扱い方を守ります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-013",
@@ -708,7 +708,7 @@
           "explanation": "濃さの違いが反応に影響する場合があります。",
           "why": "条件をそろえて比較する必要があります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-014",
@@ -719,7 +719,7 @@
           "explanation": "条件をそろえると公平に比べられます。",
           "why": "実験条件を整理します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-015",
@@ -730,7 +730,7 @@
           "explanation": "指示薬などを使って性質を確かめます。",
           "why": "見た目では分からない性質があります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-SOLUTIONS-016",
@@ -741,7 +741,7 @@
           "explanation": "リトマス紙や金属との反応などを根拠に考えます。",
           "why": "より妥当な考えをつくる力を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -761,7 +761,7 @@
           "explanation": "支点を中心に、力を加える点が力点、物に働く点が作用点です。",
           "why": "てこの基本構造を理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-002",
@@ -772,7 +772,7 @@
           "explanation": "同じ働きをより小さい力で得られます。",
           "why": "力の大きさと距離の関係を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-003",
@@ -783,7 +783,7 @@
           "explanation": "力×支点からの距離が左右でつり合う関係があります。",
           "why": "二つの要因を組み合わせて考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-004",
@@ -794,7 +794,7 @@
           "explanation": "2×6=12なので、12÷3=4Nです。",
           "why": "力×距離の積をそろえます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-005",
@@ -805,7 +805,7 @@
           "explanation": "3×4=12、2×6=12です。",
           "why": "左右の力×距離を比べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-006",
@@ -816,7 +816,7 @@
           "explanation": "力も距離も同じだからです。",
           "why": "てこの規則性を基本条件で確認します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-007",
@@ -827,7 +827,7 @@
           "explanation": "力と距離の組み合わせでつり合いが決まります。",
           "why": "力だけでなく距離を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-008",
@@ -838,7 +838,7 @@
           "explanation": "同じ基準で距離を測ります。",
           "why": "測定位置をそろえます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-009",
@@ -849,7 +849,7 @@
           "explanation": "支点・力点・作用点をもつ道具です。",
           "why": "身近な道具とてこの原理を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-010",
@@ -860,7 +860,7 @@
           "explanation": "支点を使って小さい力でくぎを抜きます。",
           "why": "てこの働きを生活に利用します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-011",
@@ -871,7 +871,7 @@
           "explanation": "支点・力点・作用点の位置関係は道具によって異なります。",
           "why": "てこにはいくつかの使い方があります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-012",
@@ -882,7 +882,7 @@
           "explanation": "支点からの距離によって軽い物側が下がることもあります。",
           "why": "力と距離を両方考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-013",
@@ -893,7 +893,7 @@
           "explanation": "左右の積が等しければつり合います。",
           "why": "規則性を数量で表します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-014",
@@ -904,7 +904,7 @@
           "explanation": "要因を一つずつ変えると関係が分かりやすくなります。",
           "why": "条件制御の考えを使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-015",
@@ -915,7 +915,7 @@
           "explanation": "道具によって小さい力で大きな働きをしたり、向きを変えたりします。",
           "why": "てこの便利さを理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LEVER-016",
@@ -926,7 +926,7 @@
           "explanation": "複数の実験結果から共通する関係を見つけやすくなります。",
           "why": "データから規則性を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -946,7 +946,7 @@
           "explanation": "運動のエネルギーを電気に変えることができます。",
           "why": "電気は作り出して利用できます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-002",
@@ -957,7 +957,7 @@
           "explanation": "太陽光などを受けて電気を生み出します。",
           "why": "エネルギーの変換を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-003",
@@ -968,7 +968,7 @@
           "explanation": "一時的に電気を蓄えて後で利用できます。",
           "why": "発電と蓄電を区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-004",
@@ -979,7 +979,7 @@
           "explanation": "LEDなどで電気を光に変えます。",
           "why": "電気の利用形態を理解します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-005",
@@ -990,7 +990,7 @@
           "explanation": "電熱線などで熱に変わります。",
           "why": "電気のエネルギー変換を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-006",
@@ -1001,7 +1001,7 @@
           "explanation": "モーターで運動に変わります。",
           "why": "生活の電気製品とつなげます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-007",
@@ -1012,7 +1012,7 @@
           "explanation": "LEDは効率よく光へ変換できるためです。",
           "why": "電気の有効利用を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-008",
@@ -1023,7 +1023,7 @@
           "explanation": "電気が熱に変わるためです。",
           "why": "電気の働きを実験で確かめます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-009",
@@ -1034,7 +1034,7 @@
           "explanation": "蓄えた電気を運動に変えて利用できます。",
           "why": "蓄電と利用をつなげます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-010",
@@ -1045,7 +1045,7 @@
           "explanation": "多く蓄えれば同じ条件では長く使えることがあります。",
           "why": "電気の量と利用を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-011",
@@ -1056,7 +1056,7 @@
           "explanation": "回す速さによって生じる電気の大きさが変わることがあります。",
           "why": "条件と結果の関係を実験で調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-012",
@@ -1067,7 +1067,7 @@
           "explanation": "同じ働きを少ない電気でできれば無駄を減らせます。",
           "why": "科学と生活・環境を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-013",
@@ -1078,7 +1078,7 @@
           "explanation": "大きな電流が流れて発熱するおそれがあります。",
           "why": "電気実験では安全な回路を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-014",
@@ -1089,7 +1089,7 @@
           "explanation": "やけどの危険があります。",
           "why": "異常を感じたら電源を切ります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-015",
@@ -1100,7 +1100,7 @@
           "explanation": "違いを公平に比べられます。",
           "why": "比較実験では条件制御を使います。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-ELECTRICITY-016",
@@ -1111,7 +1111,7 @@
           "explanation": "光・熱・運動などに変換して利用できます。",
           "why": "エネルギーの変換という見方をします。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -1131,7 +1131,7 @@
           "explanation": "堆積した物が重なって地層をつくります。",
           "why": "土地のつくりを層として捉えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-002",
@@ -1142,7 +1142,7 @@
           "explanation": "異なる種類の物が順に堆積して層になります。",
           "why": "地層の観察から過去の変化を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-003",
@@ -1153,7 +1153,7 @@
           "explanation": "れきが大きく、砂、泥の順に細かくなります。",
           "why": "粒の大きさで堆積物を比べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-004",
@@ -1164,7 +1164,7 @@
           "explanation": "水中などで堆積して層をつくります。",
           "why": "5年の流水の働きとつなげます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-005",
@@ -1175,7 +1175,7 @@
           "explanation": "過去の生物の体や生活の跡が残ることがあります。",
           "why": "地層から過去の環境を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-006",
@@ -1186,7 +1186,7 @@
           "explanation": "海の生物の化石などから当時の環境を推測できます。",
           "why": "証拠から過去を推論します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-007",
@@ -1197,7 +1197,7 @@
           "explanation": "火山灰や溶岩などが積もり、地形が変化します。",
           "why": "土地は現在も変化しています。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-008",
@@ -1208,7 +1208,7 @@
           "explanation": "地割れ、隆起、沈降などが起こることがあります。",
           "why": "自然災害と土地の変化を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-009",
@@ -1219,7 +1219,7 @@
           "explanation": "落石や崩落の危険があります。",
           "why": "野外観察では安全を最優先します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-010",
@@ -1230,7 +1230,7 @@
           "explanation": "層ごとの違いや成り立ちを考える材料になります。",
           "why": "複数の特徴から推論します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-011",
@@ -1241,7 +1241,7 @@
           "explanation": "堆積する量や地形などが異なるためです。",
           "why": "自然の地層は一様とは限りません。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-012",
@@ -1252,7 +1252,7 @@
           "explanation": "噴火によって放出された細かい物質が積もります。",
           "why": "地層の成因には水だけでなく火山もあります。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-013",
@@ -1263,7 +1263,7 @@
           "explanation": "地殻の動きなどで変形することがあります。",
           "why": "土地の長い変化を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-014",
@@ -1274,7 +1274,7 @@
           "explanation": "過去の出来事の証拠が残っているからです。",
           "why": "現在から過去を推論します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-015",
@@ -1285,7 +1285,7 @@
           "explanation": "水、火山、地震などで土地は変化します。",
           "why": "地球表面は変化し続けています。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-LAND-016",
@@ -1296,7 +1296,7 @@
           "explanation": "土地の変化の仕組みを知ると災害への備えを考えられます。",
           "why": "理科の知識を安全な生活に生かします。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     },
@@ -1316,7 +1316,7 @@
           "explanation": "太陽の光を反射して明るく見えます。",
           "why": "月の見え方と太陽の光を関係付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-002",
@@ -1327,7 +1327,7 @@
           "explanation": "太陽に照らされた部分の見え方が変わるためです。",
           "why": "見かけの形と実際の形を区別します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-003",
@@ -1338,7 +1338,7 @@
           "explanation": "太陽に照らされた球の一部が地球から見えます。",
           "why": "立体と見え方を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-004",
@@ -1349,7 +1349,7 @@
           "explanation": "太陽に照らされた面がほぼ全面見える位置関係です。",
           "why": "月の形と位置関係を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-005",
@@ -1360,7 +1360,7 @@
           "explanation": "照らされた側が地球から見えにくい位置関係です。",
           "why": "見え方を位置関係で説明します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-006",
@@ -1371,7 +1371,7 @@
           "explanation": "照らされた部分の半分ほどが地球から見えます。",
           "why": "位置関係と見える形を結び付けます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-007",
@@ -1382,7 +1382,7 @@
           "explanation": "月の位置の変化と形を比べられます。",
           "why": "時間と空間の両方を記録します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-008",
@@ -1393,7 +1393,7 @@
           "explanation": "目を傷める非常に危険な行為です。",
           "why": "天体観察では安全を最優先します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-009",
@@ -1404,7 +1404,7 @@
           "explanation": "位置関係を変えて見え方を確かめられます。",
           "why": "直接確かめにくい現象をモデルで調べます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-010",
@@ -1415,7 +1415,7 @@
           "explanation": "観察者から見える球の明るい部分を月の形として考えます。",
           "why": "モデルの対応関係を明確にします。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-011",
@@ -1426,7 +1426,7 @@
           "explanation": "通常の満ち欠けは太陽・地球・月の位置関係による見え方の変化です。",
           "why": "月食と満ち欠けを混同しないようにします。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-012",
@@ -1437,7 +1437,7 @@
           "explanation": "地球の自転などにより見える位置が変化します。",
           "why": "天体の位置を時間とともに観察します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-013",
@@ -1448,7 +1448,7 @@
           "explanation": "月が地球の周りを動くためです。",
           "why": "長い時間での位置変化を考えます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-014",
@@ -1459,7 +1459,7 @@
           "explanation": "時刻の違いによる位置変化を小さくして比較できます。",
           "why": "観察条件をそろえます。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-015",
@@ -1470,7 +1470,7 @@
           "explanation": "見えなかったことも観察結果の一つです。",
           "why": "観察事実を正確に記録します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         },
         {
           "id": "S6-MOON-SUN-016",
@@ -1481,14 +1481,13 @@
           "explanation": "現象の仕組みをモデルや観察から説明します。",
           "why": "より妥当な考えをつくることを重視します。",
           "reasonRequired": true,
-          "responseStyle": "conclusion-and-reason"
+          "responseStyle": "answer-with-reason"
         }
       ]
     }
   ],
   "revision": {
-    "version": "V2",
-    "focus": "答え＋理由・根拠・考え方",
-    "curriculumReview": "小学校学習指導要領（平成29年告示）解説を基準に再点検"
+    "version": "V2.5",
+    "focus": "用語・名称などは直接回答、実験・予想・比較・現象説明は理由まで答える"
   }
 }
