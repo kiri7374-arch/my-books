@@ -21,7 +21,8 @@
           "explanation": "went は go の過去の表現です。",
           "why": "過去の出来事を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-002",
@@ -32,7 +33,8 @@
           "explanation": "ate は eat の過去の表現です。",
           "why": "過去の経験を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-003",
@@ -43,7 +45,8 @@
           "explanation": "saw は see の過去の表現です。",
           "why": "旅行や思い出を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-004",
@@ -54,7 +57,8 @@
           "explanation": "was は is/am の過去形として使われます。",
           "why": "過去の感想を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-005",
@@ -65,7 +69,8 @@
           "explanation": "過去にしたことをたずねます。",
           "why": "過去のやり取りに使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-006",
@@ -76,7 +81,8 @@
           "explanation": "played は play の過去の表現です。",
           "why": "動作の過去を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-007",
@@ -87,7 +93,8 @@
           "explanation": "enjoyed は楽しんだ、です。",
           "why": "感想を含めて思い出を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-008",
@@ -98,7 +105,8 @@
           "explanation": "Did you ...? で過去のことをたずねます。",
           "why": "質問の目的を理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-009",
@@ -109,7 +117,8 @@
           "explanation": "Did you ...? に対する基本的な肯定です。",
           "why": "質問と答えを対応させます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-010",
@@ -120,7 +129,8 @@
           "explanation": "didn’t は did not の短い形です。",
           "why": "過去の否定表現に慣れます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-011",
@@ -131,7 +141,8 @@
           "explanation": "with my family は家族と一緒に、です。",
           "why": "だれとしたかも伝えられます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-012",
@@ -142,7 +153,8 @@
           "explanation": "last は前の、という意味で使われます。",
           "why": "過去を示す時間表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-013",
@@ -153,7 +165,8 @@
           "explanation": "過去の時を示す語です。",
           "why": "文の時を判断する手掛かりです。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-PAST-014",
@@ -164,7 +177,8 @@
           "explanation": "was を使って過去の状態を表します。",
           "why": "出来事だけでなく感情も伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -184,7 +198,8 @@
           "explanation": "want to be ... で〜になりたい、です。",
           "why": "将来の夢を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-002",
@@ -195,7 +210,8 @@
           "explanation": "職業などの夢をたずねます。",
           "why": "相手の将来の希望を聞きます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-003",
@@ -206,7 +222,8 @@
           "explanation": "teacher は先生です。",
           "why": "職業名を使って夢を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-004",
@@ -217,7 +234,8 @@
           "explanation": "want to + 動詞で、〜したい、を表します。",
           "why": "将来したいことを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-005",
@@ -228,7 +246,8 @@
           "explanation": "study は勉強する、です。",
           "why": "興味や希望を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-006",
@@ -239,7 +258,8 @@
           "explanation": "dream は夢です。",
           "why": "少し長い自己表現に慣れます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-007",
@@ -250,7 +270,8 @@
           "explanation": "相手の考えの理由をたずねます。",
           "why": "やり取りを一段深めます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-008",
@@ -261,7 +282,8 @@
           "explanation": "because は理由を伝えるときに使います。",
           "why": "理由を添えて自分の考えを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-009",
@@ -272,7 +294,8 @@
           "explanation": "travel は旅行する、around the world は世界中を、です。",
           "why": "将来したいことを表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-010",
@@ -283,7 +306,8 @@
           "explanation": "want to be ... と because ... を組み合わせられます。",
           "why": "まとまりのある発表につながります。",
           "reasonRequired": true,
-          "responseStyle": "answer-with-reason"
+          "responseStyle": "answer-with-reason",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-011",
@@ -294,7 +318,8 @@
           "explanation": "make は作る、です。",
           "why": "興味のある活動を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-FUTURE-012",
@@ -305,7 +330,8 @@
           "explanation": "work は働く、です。",
           "why": "場所と将来の仕事を結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -325,7 +351,8 @@
           "explanation": "行きたい場所をたずねます。",
           "why": "旅行の希望をやり取りします。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-002",
@@ -336,7 +363,8 @@
           "explanation": "want to go to ... で〜へ行きたい、です。",
           "why": "国名と希望を組み合わせます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-003",
@@ -347,7 +375,8 @@
           "explanation": "want to see ... で〜を見たい、です。",
           "why": "観光したいものを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-004",
@@ -358,7 +387,8 @@
           "explanation": "want to eat ... です。",
           "why": "食文化の話題に使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-005",
@@ -369,7 +399,8 @@
           "explanation": "文脈によって意味が変わります。",
           "why": "国名と形容表現を結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-006",
@@ -380,7 +411,8 @@
           "explanation": "French はフランスの、です。",
           "why": "国と文化を英語で紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-007",
@@ -391,7 +423,8 @@
           "explanation": "famous は有名な、です。",
           "why": "地域紹介に使える表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-008",
@@ -402,7 +435,8 @@
           "explanation": "be famous for ... で〜で有名、です。",
           "why": "地域の特色を紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-009",
@@ -413,7 +447,8 @@
           "explanation": "違いと共通点の両方から理解が深まります。",
           "why": "外国語学習を文化理解につなげます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-010",
@@ -424,7 +459,8 @@
           "explanation": "Pardon? などを使って確認できます。",
           "why": "やり取りを続ける工夫です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-011",
@@ -435,7 +471,8 @@
           "explanation": "can を使ってその場所でできることを紹介します。",
           "why": "観光案内に使えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-COUNTRIES-012",
@@ -446,7 +483,8 @@
           "explanation": "because で理由をつないでいます。",
           "why": "希望と理由を一文で表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -466,7 +504,8 @@
           "explanation": "習慣の頻度を表します。",
           "why": "日常生活を詳しく説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-002",
@@ -477,7 +516,8 @@
           "explanation": "頻度を表します。",
           "why": "行動の回数の感じを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-003",
@@ -488,7 +528,8 @@
           "explanation": "非常に高い頻度を表します。",
           "why": "生活習慣について話します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-004",
@@ -499,7 +540,8 @@
           "explanation": "頻度が0に近いことを表します。",
           "why": "否定を含む頻度表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-005",
@@ -510,7 +552,8 @@
           "explanation": "how often は頻度をたずねます。",
           "why": "習慣について詳しく聞きます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-006",
@@ -521,7 +564,8 @@
           "explanation": "three times a week は週3回、です。",
           "why": "回数を使って頻度を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-007",
@@ -532,7 +576,8 @@
           "explanation": "once は1回です。",
           "why": "頻度表現を覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-008",
@@ -543,7 +588,8 @@
           "explanation": "twice は2回です。",
           "why": "回数の表現を使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-009",
@@ -554,7 +600,8 @@
           "explanation": "before は〜の前に、です。",
           "why": "行動の順序を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-010",
@@ -565,7 +612,8 @@
           "explanation": "after は〜の後に、です。",
           "why": "時間の前後を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-011",
@@ -576,7 +624,8 @@
           "explanation": "生活時刻をたずねます。",
           "why": "相手の生活を質問します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-LIFE-012",
@@ -587,7 +636,8 @@
           "explanation": "頻度を加えると習慣がより具体的になります。",
           "why": "表現を組み合わせます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -607,7 +657,8 @@
           "explanation": "had は have の過去の表現です。",
           "why": "学校行事を振り返ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-002",
@@ -618,7 +669,8 @@
           "explanation": "ran は run の過去形です。",
           "why": "経験したことを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-003",
@@ -629,7 +681,8 @@
           "explanation": "sang は sing の過去形です。",
           "why": "行事の活動を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-004",
@@ -640,7 +693,8 @@
           "explanation": "exciting はわくわくさせる、です。",
           "why": "感想を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-005",
@@ -651,7 +705,8 @@
           "explanation": "nervous は緊張した、です。",
           "why": "気持ちを過去形で表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-006",
@@ -662,7 +717,8 @@
           "explanation": "favorite event で一番好きな行事です。",
           "why": "思い出を質問します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-007",
@@ -673,7 +729,8 @@
           "explanation": "school trip は学校旅行です。",
           "why": "自分の経験を説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-008",
@@ -684,7 +741,8 @@
           "explanation": "went は過去の移動を表します。",
           "why": "行事の場所を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-009",
@@ -695,7 +753,8 @@
           "explanation": "learned は学んだ、です。",
           "why": "経験から学んだことを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-010",
@@ -706,7 +765,8 @@
           "explanation": "情報を順序よく伝えられます。",
           "why": "まとまりのある発表を作ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-011",
@@ -717,7 +777,8 @@
           "explanation": "出来事の順序を示します。",
           "why": "発表の構成に使えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-SCHOOL-EVENTS-012",
@@ -728,7 +789,8 @@
           "explanation": "次の出来事をつなぎます。",
           "why": "順序を分かりやすくします。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -748,7 +810,8 @@
           "explanation": "should は〜した方がよい・〜すべき、という助言に使われます。",
           "why": "環境について自分の考えを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-002",
@@ -759,7 +822,8 @@
           "explanation": "save は節約する・守る、の意味で使われます。",
           "why": "生活と環境を結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-003",
@@ -770,7 +834,8 @@
           "explanation": "litter はごみを捨てる、です。",
           "why": "してはいけない行動を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-004",
@@ -781,7 +846,8 @@
           "explanation": "live in ... で〜に住む、です。",
           "why": "動物の生息地を紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-005",
@@ -792,7 +858,8 @@
           "explanation": "they は複数の動物を受けることができます。",
           "why": "動物の食べ物を紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-006",
@@ -803,7 +870,8 @@
           "explanation": "can で能力を表します。",
           "why": "動物の特徴を説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-007",
@@ -814,7 +882,8 @@
           "explanation": "理由をたずねます。",
           "why": "環境問題を考える質問です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-008",
@@ -825,7 +894,8 @@
           "explanation": "habitat は生息地です。",
           "why": "理由を説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-009",
@@ -836,7 +906,8 @@
           "explanation": "行動を考える表現です。",
           "why": "問題に対する自分の考えを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-010",
@@ -847,7 +918,8 @@
           "explanation": "短い文やジェスチャーでも考えを伝えられます。",
           "why": "外国語は実際に伝え合うことが目的です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-011",
@@ -858,7 +930,8 @@
           "explanation": "less はより少ない、です。",
           "why": "自分たちにできる行動を提案します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-ANIMALS-012",
@@ -869,7 +942,8 @@
           "explanation": "Let’s ... で一緒に〜しよう、です。",
           "why": "相手に呼びかける表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -889,7 +963,8 @@
           "explanation": "where は場所をたずねます。",
           "why": "実生活の質問表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-002",
@@ -900,7 +975,8 @@
           "explanation": "道案内で使います。",
           "why": "指示を聞いて行動します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-003",
@@ -911,7 +987,8 @@
           "explanation": "second は2番目、corner は角です。",
           "why": "順番と方向を組み合わせます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-004",
@@ -922,7 +999,8 @@
           "explanation": "across from は〜の向かい、です。",
           "why": "位置関係を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-005",
@@ -933,7 +1011,8 @@
           "explanation": "between A and B でAとBの間です。",
           "why": "位置を詳しく説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-006",
@@ -944,7 +1023,8 @@
           "explanation": "道順をたずねる表現です。",
           "why": "旅行先でも使える表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-007",
@@ -955,7 +1035,8 @@
           "explanation": "take を交通手段に使うことがあります。",
           "why": "移動方法を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-008",
@@ -966,7 +1047,8 @@
           "explanation": "get off は乗り物から降りる、です。",
           "why": "交通機関の案内に使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-009",
@@ -977,7 +1059,8 @@
           "explanation": "必要ならゆっくり言ったり繰り返したりします。",
           "why": "相手を意識したコミュニケーションです。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-010",
@@ -988,7 +1071,8 @@
           "explanation": "相手に丁寧に声をかける表現です。",
           "why": "場面に合う表現を使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-011",
@@ -999,7 +1083,8 @@
           "explanation": "help は助けることです。",
           "why": "やり取りの最後に感謝を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-DIRECTIONS-012",
@@ -1010,7 +1095,8 @@
           "explanation": "音声と地図情報を結び付けます。",
           "why": "複数の情報を統合して理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -1030,7 +1116,8 @@
           "explanation": "best memory は一番の思い出です。",
           "why": "小学校生活を振り返ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-002",
@@ -1041,7 +1128,8 @@
           "explanation": "enjoyed playing ... で、〜して楽しんだ、です。",
           "why": "思い出を詳しく伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-003",
@@ -1052,7 +1140,8 @@
           "explanation": "join は参加する・入る、です。",
           "why": "中学校でやりたいことを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-004",
@@ -1063,7 +1152,8 @@
           "explanation": "hard は一生懸命に、です。",
           "why": "これからの目標を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-005",
@@ -1074,7 +1164,8 @@
           "explanation": "look forward to ... で〜を楽しみにする、です。",
           "why": "卒業後への気持ちを表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-006",
@@ -1085,7 +1176,8 @@
           "explanation": "club は部活動です。",
           "why": "将来の学校生活について質問します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-007",
@@ -1096,7 +1188,8 @@
           "explanation": "make friends で友達を作る、です。",
           "why": "中学校での希望を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-008",
@@ -1107,7 +1200,8 @@
           "explanation": "過去形wasを使っています。",
           "why": "過去の思い出をまとめます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-009",
@@ -1118,7 +1212,8 @@
           "explanation": "視覚情報が内容の理解を助けます。",
           "why": "資料を使った発表につなげます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-010",
@@ -1129,7 +1224,8 @@
           "explanation": "最初・次・最後を示せます。",
           "why": "まとまりのある話を組み立てます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-011",
@@ -1140,7 +1236,8 @@
           "explanation": "聞き手を見たり、声や資料を工夫したりできます。",
           "why": "外国語科ではコミュニケーションを図ることが重要です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E6-MIDDLE-SCHOOL-012",
@@ -1151,7 +1248,8 @@
           "explanation": "自分で学習を続けるための力になります。",
           "why": "小学校英語を中学校へつなげます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     }
