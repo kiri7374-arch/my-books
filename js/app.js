@@ -124,35 +124,35 @@ function getStudySubjectConfig(subjectKey) {
       title: "算数",
       en: "MATH",
       description: "計算の仕方だけでなく、なぜそうなるのかまで理解しながら学習します。",
-      file: `${base}/math/index.json?v=20261009-selfcheckv27`,
+      file: `${base}/math/index.json?v=20261009-englishhandv28`,
       splitUnits: true
     },
     science: {
       title: "理科",
       en: "SCIENCE",
       description: "観察や実験の結果から、理由を考える力を身につけます。",
-      file: `${base}/science.json?v=20261009-selfcheckv27`,
+      file: `${base}/science.json?v=20261009-englishhandv28`,
       splitUnits: false
     },
     english: {
       title: "英語",
       en: "ENGLISH",
       description: "単語だけでなく、短い文章や会話の中で英語を使います。",
-      file: `${base}/english.json?v=20261009-selfcheckv27`,
+      file: `${base}/english.json?v=20261009-englishhandv28`,
       splitUnits: false
     },
     japanese: {
       title: "国語",
       en: "JAPANESE",
       description: `${getStudyGradeFromBook() || ""}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
-      file: `${base}/japanese.json?v=20261009-selfcheckv27`,
+      file: `${base}/japanese.json?v=20261009-englishhandv28`,
       splitUnits: false
     },
     challenge: {
       title: "難関中学チャレンジ",
       en: "ENTRANCE EXAM",
       description: "算数・国語・理科・社会を混ぜた、入試本番を意識した50問です。",
-      file: `${base}/challenge.json?v=20261009-selfcheckv27`,
+      file: `${base}/challenge.json?v=20261009-englishhandv28`,
       splitUnits: false
     }
   };
@@ -1162,9 +1162,9 @@ function getStudySubjectLabel(subjectKey) {
 
 function getStudySubjectPath(bookId, subjectKey) {
   if (subjectKey === "math") {
-    return `books/${bookId}/math/index.json?v=20261009-selfcheckv27`;
+    return `books/${bookId}/math/index.json?v=20261009-englishhandv28`;
   }
-  return `books/${bookId}/${subjectKey}.json?v=20261009-selfcheckv27`;
+  return `books/${bookId}/${subjectKey}.json?v=20261009-englishhandv28`;
 }
 
 async function tryLoadStudyJSON(path) {
@@ -1192,7 +1192,7 @@ async function loadKanjiGradeData() {
   if (studyKanjiGradeData) return studyKanjiGradeData;
 
   try {
-    const response = await fetch("data/kanji-grade.json?v=20261009-selfcheckv27");
+    const response = await fetch("data/kanji-grade.json?v=20261009-englishhandv28");
     if (!response.ok) throw new Error("漢字学年データを読み込めませんでした。");
 
     studyKanjiGradeData = await response.json();
@@ -2465,7 +2465,12 @@ function practiceModeForQuestion(q) {
     return "notebook";
   }
   if (currentStudySubject === "english") {
-    if (/英語で書|アルファベット|つづり|小文字を書|大文字を書/.test(text)) return "english";
+    // Explicit per-question designation wins; spelling and composition use handwriting.
+    if (q.answerMode === "handwrite") return "handwrite";
+    if (q.answerMode === "english") return "english";
+    if (q.answerMode === "notebook") return "notebook";
+    // Backward compatibility with earlier question JSON.
+    if (/英語で書|アルファベット.*書|つづり.*書|小文字を書|大文字を書|英語に直|英文を書/.test(text)) return "handwrite";
     return "notebook";
   }
   if (currentStudySubject === "math") {
@@ -2538,7 +2543,11 @@ function openStudyPractice(q) {
     return;
   }
   if (mode === "handwrite") {
-    area.innerHTML = `<p class="study-practice-instruction">指やペンで漢字を書きましょう。書き終わったら、模範解答と見比べて自分で判定します。</p>
+    const isEnglishWriting = currentStudySubject === "english";
+    const writingGuide = isEnglishWriting
+      ? "指やペンでアルファベット・英単語・英文を書きましょう。書き終わったら、模範解答と比べて自己判定します。"
+      : "指やペンで漢字を書きましょう。書き終わったら、模範解答と見比べて自分で判定します。";
+    area.innerHTML = `<p class="study-practice-instruction">${writingGuide}</p>
       <canvas class="study-practice-canvas" width="900" height="340" aria-label="手書き回答欄"></canvas>
       <p class="study-practice-status" aria-live="polite">書いた文字は答え合わせのあとも、この画面に残ります。</p>
       <div class="study-practice-actions"><button type="button" data-clear>書き直す</button><button type="button" class="study-practice-go" data-judge disabled>答え合わせをする</button></div>`;
@@ -2599,7 +2608,7 @@ function openStudyPractice(q) {
     });
     judge.addEventListener("click", () => {
       if (!strokes) return;
-      status.textContent = "書いた漢字と模範解答を見比べて「できた」「もう一度」を選びましょう。";
+      status.textContent = "書いた答えと模範解答を見比べて「できた」「もう一度」を選びましょう。";
       practiceShowAnswer(q, area);
     });
     return;
