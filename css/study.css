@@ -1880,3 +1880,7 @@ body.answer-modal-visible {
 .study-practice-rating button:first-child {background:#d9ecdf;color:#145737}
 .study-practice-rating button:last-child {background:#f5e8dc;color:#85501e}
 @media(max-width:700px) {.study-practice-area{padding:14px;margin:12px 0}.study-practice-actions button{font-size:16px}.study-practice-canvas{min-height:130px}}
+
+/* v2.7: handwriting is manually checked; keep the handwriting visible beside the answer. */
+.study-practice-area .study-practice-canvas{background:#fff}
+.study-practice-area .study-practice-status{font-weight:600}
