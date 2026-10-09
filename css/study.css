@@ -1860,3 +1860,23 @@ body.answer-modal-visible {
     height: 16px;
   }
 }
+
+/* Learning practice and handwriting (v2.6) */
+.answer-modal.study-practice-locked .answer-section, .answer-modal.study-practice-locked #answerModalDone {display:none!important}
+.study-practice-area {padding:20px;margin:18px 0 24px;background:#edf3f7;border:2px solid #bdd2df;border-radius:18px;color:#193646;display:grid;gap:14px}
+.study-practice-instruction {font-size:clamp(18px,4.7vw,25px);font-weight:700;line-height:1.6;margin:0}
+.study-practice-input {width:100%;box-sizing:border-box;min-height:66px;border:2px solid #7094ac;border-radius:12px;padding:12px;font-size:25px;color:#182b3c;background:white}
+.study-practice-go,.study-practice-actions button,.study-practice-fallback,.study-practice-rating button {min-height:56px;padding:12px;border-radius:12px;border:0;font-size:18px;font-weight:700;cursor:pointer}
+.study-practice-go {background:#24638c;color:white;width:100%}
+.study-practice-go:disabled {opacity:.35;cursor:not-allowed}
+.study-practice-actions {display:grid;grid-template-columns:1fr 1.4fr;gap:10px}
+.study-practice-actions button:first-child {background:#e3e7eb;color:#253e50}
+.study-practice-canvas {display:block;width:100%;height:auto;touch-action:none;background:#fff;border:2px solid #829aaa;border-radius:10px;box-sizing:border-box}
+.study-practice-fallback {background:#dce6ec;color:#204a64}
+.study-practice-status,.study-practice-feedback {line-height:1.6;font-size:16px;margin:0}
+.study-practice-check {display:flex;gap:12px;align-items:center;font-size:19px;line-height:1.6;padding:14px;background:#fff;border-radius:10px}
+.study-practice-check input {width:25px;height:25px;flex:none}
+.study-practice-rating {display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.study-practice-rating button:first-child {background:#d9ecdf;color:#145737}
+.study-practice-rating button:last-child {background:#f5e8dc;color:#85501e}
+@media(max-width:700px) {.study-practice-area{padding:14px;margin:12px 0}.study-practice-actions button{font-size:16px}.study-practice-canvas{min-height:130px}}
