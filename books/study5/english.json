@@ -21,7 +21,8 @@
           "explanation": "a の大文字は A です。",
           "why": "大文字と小文字の形を対応させて覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-ALPHABET-002",
@@ -32,7 +33,8 @@
           "explanation": "G の小文字は g です。",
           "why": "形が大きく違う文字もあるので対応で覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-ALPHABET-003",
@@ -43,7 +45,8 @@
           "explanation": "b を B にします。",
           "why": "文の最初や固有名詞では大文字を使うことがあります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-ALPHABET-004",
@@ -54,7 +57,8 @@
           "explanation": "Japan は国名なので J を大文字で書きます。",
           "why": "国名や人名などの固有名詞は大文字で始めます。",
           "reasonRequired": true,
-          "responseStyle": "answer-with-reason"
+          "responseStyle": "answer-with-reason",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-ALPHABET-005",
@@ -65,7 +69,8 @@
           "explanation": "school は s, c, h, o, o, l の順です。",
           "why": "つづりを音と文字で確かめます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-ALPHABET-006",
@@ -76,7 +81,8 @@
           "explanation": "n-a-m-e の4文字です。",
           "why": "単語のつづりを正確に見る練習です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-ALPHABET-007",
@@ -87,7 +93,8 @@
           "explanation": "apple は a で始まります。",
           "why": "文字と単語を結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-ALPHABET-008",
@@ -98,7 +105,8 @@
           "explanation": "曜日の名前は大文字で始めます。",
           "why": "曜日や月の名前は大文字で始めます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-ALPHABET-009",
@@ -109,7 +117,8 @@
           "explanation": "言語名 English は E を大文字で書きます。",
           "why": "言語名を大文字で始める約束です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-ALPHABET-010",
@@ -120,7 +129,8 @@
           "explanation": "人の名前は大文字で始めます。",
           "why": "名前を書く基本的な約束です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-ALPHABET-011",
@@ -131,7 +141,8 @@
           "explanation": "cat の t と cap の p が違います。",
           "why": "つづりを比べて文字の違いに気付きます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-ALPHABET-012",
@@ -142,7 +153,8 @@
           "explanation": "desk は d-e-s-k です。",
           "why": "文字の並びを正しく覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         }
       ]
     },
@@ -162,7 +174,8 @@
           "explanation": "15 は fifteen です。",
           "why": "数の言い方とつづりを結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-NUMBERS-002",
@@ -173,7 +186,8 @@
           "explanation": "20 は twenty です。",
           "why": "10のまとまりの数のつづりを覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-NUMBERS-003",
@@ -184,7 +198,8 @@
           "explanation": "thirty は30です。",
           "why": "聞いた数と数字を対応させます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-004",
@@ -195,7 +210,8 @@
           "explanation": "day は曜日をたずねる表現で使われます。",
           "why": "質問の目的を理解して答えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-005",
@@ -206,7 +222,8 @@
           "explanation": "Monday は月曜日です。",
           "why": "曜日を文の中で使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-006",
@@ -217,7 +234,8 @@
           "explanation": "7時ちょうどなら It’s seven. と言えます。",
           "why": "時刻をたずねたり答えたりする表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-NUMBERS-007",
@@ -228,7 +246,8 @@
           "explanation": "eight thirty は 8:30 です。",
           "why": "英語の時刻表現を数字に直します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-008",
@@ -239,7 +258,8 @@
           "explanation": "January は1月です。",
           "why": "月の名前を覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-009",
@@ -250,7 +270,8 @@
           "explanation": "May は5月です。",
           "why": "月の名前と数字を対応させます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-010",
@@ -261,7 +282,8 @@
           "explanation": "December は12月です。",
           "why": "一年の月の順番を英語でも確認します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-011",
@@ -272,7 +294,8 @@
           "explanation": "July は7月です。",
           "why": "自分の誕生日を伝える表現につなげます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-012",
@@ -283,7 +306,8 @@
           "explanation": "How many ...? は数をたずねる表現です。",
           "why": "数をたずねる目的で使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-013",
@@ -294,7 +318,8 @@
           "explanation": "three は3です。",
           "why": "数と名詞を組み合わせて伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-NUMBERS-014",
@@ -305,7 +330,8 @@
           "explanation": "first は順番の1番目です。",
           "why": "数量だけでなく順番を表す言葉にも触れます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -325,7 +351,8 @@
           "explanation": "subject は教科です。",
           "why": "相手の好みをたずねる表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-SCHOOL-002",
@@ -336,7 +363,8 @@
           "explanation": "science は理科です。",
           "why": "好きな教科を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-SCHOOL-003",
@@ -347,7 +375,8 @@
           "explanation": "math は算数・数学です。",
           "why": "教科名を英語で言えるようにします。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-SCHOOL-004",
@@ -358,7 +387,8 @@
           "explanation": "Japanese は日本語です。",
           "why": "言語名を英語で言えるようにします。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-SCHOOL-005",
@@ -369,7 +399,8 @@
           "explanation": "P.E. は physical education の略です。",
           "why": "教科名でよく使う表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-SCHOOL-006",
@@ -380,7 +411,8 @@
           "explanation": "music は音楽です。",
           "why": "教科名を英語で覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-SCHOOL-007",
@@ -391,7 +423,8 @@
           "explanation": "on Tuesday は火曜日に、という意味です。",
           "why": "曜日と時間割を組み合わせます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-SCHOOL-008",
@@ -402,7 +435,8 @@
           "explanation": "have を授業がある、という意味で使っています。",
           "why": "学校生活の文脈で表現を理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-SCHOOL-009",
@@ -413,7 +447,8 @@
           "explanation": "and は「〜と〜」のように語をつなぎます。",
           "why": "短い文を組み立てる基本です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-SCHOOL-010",
@@ -424,7 +459,8 @@
           "explanation": "favorite は一番好きな、art は図工・美術です。",
           "why": "自分の好みを少し詳しく伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-SCHOOL-011",
@@ -435,7 +471,8 @@
           "explanation": "Do you like ...? に肯定する基本表現です。",
           "why": "質問と答えをセットで使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-SCHOOL-012",
@@ -446,7 +483,8 @@
           "explanation": "否定する基本表現です。",
           "why": "相手の質問に自分の気持ちを答えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         }
       ]
     },
@@ -466,7 +504,8 @@
           "explanation": "like は好きという意味です。",
           "why": "自分の好みを伝える基本文です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-002",
@@ -477,7 +516,8 @@
           "explanation": "dogs を cats に変えます。",
           "why": "語を入れ替えて自分のことを表現します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-LIKE-003",
@@ -488,7 +528,8 @@
           "explanation": "相手の好みをたずねます。",
           "why": "会話では質問と答えのやり取りを大切にします。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-004",
@@ -499,7 +540,8 @@
           "explanation": "want はほしいという意味です。",
           "why": "自分の希望を伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-005",
@@ -510,7 +552,8 @@
           "explanation": "want を使って相手の希望をたずねます。",
           "why": "場面に応じて質問を使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-006",
@@ -521,7 +564,8 @@
           "explanation": "red は cap がどんな帽子かを説明しています。",
           "why": "名詞を説明する語の働きに気付きます。",
           "reasonRequired": true,
-          "responseStyle": "answer-with-reason"
+          "responseStyle": "answer-with-reason",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-007",
@@ -532,7 +576,8 @@
           "explanation": "but は反対の内容をつなぎます。",
           "why": "自分の好みをより詳しく伝えられます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-008",
@@ -543,7 +588,8 @@
           "explanation": "好きを強める働きがあります。",
           "why": "気持ちの強さを表す語にも触れます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-009",
@@ -554,7 +600,8 @@
           "explanation": "短い答えで返します。",
           "why": "会話の基本的な応答です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-LIKE-010",
@@ -565,7 +612,8 @@
           "explanation": "want の質問にも do を使って答えます。",
           "why": "質問の形に対応した答え方を練習します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-LIKE-011",
@@ -576,7 +624,8 @@
           "explanation": "favorite color は一番好きな色です。",
           "why": "自分について紹介する表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-LIKE-012",
@@ -587,7 +636,8 @@
           "explanation": "baseball と basketball の2つです。",
           "why": "and で複数のものをつなぎます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -607,7 +657,8 @@
           "explanation": "can は「〜できる」を表します。",
           "why": "自分のできることを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-002",
@@ -618,7 +669,8 @@
           "explanation": "Can you ...? は相手にできることをたずねます。",
           "why": "質問の目的を理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-003",
@@ -629,7 +681,8 @@
           "explanation": "can の質問には can で答えます。",
           "why": "質問と答えの形を対応させます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-CAN-004",
@@ -640,7 +693,8 @@
           "explanation": "can’t は cannot の短い形です。",
           "why": "できないことも伝えられます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-CAN-005",
@@ -651,7 +705,8 @@
           "explanation": "play the piano でピアノを弾く、です。",
           "why": "楽器についてできることを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-006",
@@ -662,7 +717,8 @@
           "explanation": "can’t はできない、という意味です。",
           "why": "否定の表現を理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-007",
@@ -673,7 +729,8 @@
           "explanation": "run をどのようにするか説明しています。",
           "why": "動作の様子を表す語を知ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-008",
@@ -684,7 +741,8 @@
           "explanation": "well は上手に、という意味です。",
           "why": "人のできることを紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-009",
@@ -695,7 +753,8 @@
           "explanation": "speak English で英語を話す、です。",
           "why": "動作を表す基本語を文の中で覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-010",
@@ -706,7 +765,8 @@
           "explanation": "前半の can の後ろを読み取ります。",
           "why": "一つの文から必要な情報を探します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-011",
@@ -717,7 +777,8 @@
           "explanation": "Yes, I can. は「はい、できます」です。",
           "why": "会話全体から意味を読み取ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CAN-012",
@@ -728,7 +789,8 @@
           "explanation": "can を can’t に変えます。",
           "why": "肯定と否定の違いを使い分けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         }
       ]
     },
@@ -748,7 +810,8 @@
           "explanation": "名前を紹介する基本表現です。",
           "why": "自己紹介でよく使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-002",
@@ -759,7 +822,8 @@
           "explanation": "相手の名前をたずねます。",
           "why": "初対面のやり取りで使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-003",
@@ -770,7 +834,8 @@
           "explanation": "from は出身を表すときに使います。",
           "why": "自分の国や地域を紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-004",
@@ -781,7 +846,8 @@
           "explanation": "where は場所をたずねます。",
           "why": "場所についての質問を理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-005",
@@ -792,7 +858,8 @@
           "explanation": "brother は兄弟の男性を表します。",
           "why": "家族を紹介する表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-006",
@@ -803,7 +870,8 @@
           "explanation": "sister は姉妹の女性を表します。",
           "why": "家族の語彙を使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-007",
@@ -814,7 +882,8 @@
           "explanation": "kind は親切な、です。",
           "why": "人の様子を紹介する表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-008",
@@ -825,7 +894,8 @@
           "explanation": "funny はおもしろい、という意味で使えます。",
           "why": "人の特徴を表す語です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-009",
@@ -836,7 +906,8 @@
           "explanation": "who は人についてたずねる語です。",
           "why": "疑問詞の基本的な働きを知ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-010",
@@ -847,7 +918,8 @@
           "explanation": "friend は友達です。",
           "why": "身近な人を紹介します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-011",
@@ -858,7 +930,8 @@
           "explanation": "「はじめまして」に近い表現です。",
           "why": "場面と表現を結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PEOPLE-012",
@@ -869,7 +942,8 @@
           "explanation": "相手と同じ気持ちを返す表現です。",
           "why": "あいさつのやり取りとして覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -889,7 +963,8 @@
           "explanation": "get up は起きる、at seven は7時に、です。",
           "why": "一日の生活を時刻と一緒に表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-002",
@@ -900,7 +975,8 @@
           "explanation": "go to school は学校へ行く、です。",
           "why": "日常の動作を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-003",
@@ -911,7 +987,8 @@
           "explanation": "eat lunch は昼食を食べる、です。",
           "why": "生活の時間を説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-004",
@@ -922,7 +999,8 @@
           "explanation": "go home は家に帰る、です。",
           "why": "学校生活の後の行動を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-005",
@@ -933,7 +1011,8 @@
           "explanation": "do my homework は宿題をする、です。",
           "why": "身近な動作を英語で表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-006",
@@ -944,7 +1023,8 @@
           "explanation": "go to bed は寝る・床につく、です。",
           "why": "一日の最後の行動を表します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-007",
@@ -955,7 +1035,8 @@
           "explanation": "What time ...? は時刻をたずねます。",
           "why": "相手の生活について質問します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-008",
@@ -966,7 +1047,8 @@
           "explanation": "six thirty は6:30です。",
           "why": "時刻表現を読み取ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-009",
@@ -977,7 +1059,8 @@
           "explanation": "at は具体的な時刻の前で使われます。",
           "why": "表現をかたまりで覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-010",
@@ -988,7 +1071,8 @@
           "explanation": "普段の習慣を表す語です。",
           "why": "頻度を表す語にも慣れます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-011",
@@ -999,7 +1083,8 @@
           "explanation": "before は〜の前に、です。",
           "why": "時間の前後を表す語を理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-DAILY-012",
@@ -1010,7 +1095,8 @@
           "explanation": "after school は放課後、です。",
           "why": "一日の順序を表現します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -1030,7 +1116,8 @@
           "explanation": "相手の希望を丁寧にたずねる表現です。",
           "why": "場面に応じたやり取りを学びます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-002",
@@ -1041,7 +1128,8 @@
           "explanation": "I’d like ... は、〜をお願いします、という丁寧な表現です。",
           "why": "注文の場面で使えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-003",
@@ -1052,7 +1140,8 @@
           "explanation": "飲み物の基本語です。",
           "why": "身近な語を英語で理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-004",
@@ -1063,7 +1152,8 @@
           "explanation": "食べ物の基本語です。",
           "why": "日本の食文化を英語で紹介するときにも使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-005",
@@ -1074,7 +1164,8 @@
           "explanation": "複数の野菜を表す語です。",
           "why": "食べ物の語彙を増やします。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-006",
@@ -1085,7 +1176,8 @@
           "explanation": "don’t を使って否定します。",
           "why": "好みを肯定・否定で伝え分けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-FOOD-007",
@@ -1096,7 +1188,8 @@
           "explanation": "Yes, I do. は肯定の答えです。",
           "why": "会話から相手の情報を読み取ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-008",
@@ -1107,7 +1200,8 @@
           "explanation": "I’d like の後ろが希望するものです。",
           "why": "文から必要な情報を探します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-FOOD-009",
@@ -1118,7 +1212,8 @@
           "explanation": "how much は値段をたずねる表現で使われます。",
           "why": "実生活の場面と英語を結び付けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-010",
@@ -1129,7 +1224,8 @@
           "explanation": "「どういたしまして」に当たる表現です。",
           "why": "やり取りの流れで表現を使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "handwrite"
         },
         {
           "id": "E5-FOOD-011",
@@ -1140,7 +1236,8 @@
           "explanation": "and で二つの食べ物をつないでいます。",
           "why": "複数の好みを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-FOOD-012",
@@ -1151,7 +1248,8 @@
           "explanation": "some water でいくらかの水、という意味です。",
           "why": "身近な表現として理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -1171,7 +1269,8 @@
           "explanation": "where は場所をたずねます。",
           "why": "学校や町で場所を尋ねる表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-002",
@@ -1182,7 +1281,8 @@
           "explanation": "next to は〜のとなり、です。",
           "why": "位置関係を表す表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-003",
@@ -1193,7 +1293,8 @@
           "explanation": "場所の前後関係を表します。",
           "why": "図や地図と合わせて理解します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-004",
@@ -1204,7 +1305,8 @@
           "explanation": "前の反対側の位置です。",
           "why": "位置を表す語を対で覚えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-005",
@@ -1215,7 +1317,8 @@
           "explanation": "道案内で使う表現です。",
           "why": "聞いた指示に従う活動につなげます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-006",
@@ -1226,7 +1329,8 @@
           "explanation": "right は右です。",
           "why": "左右と動作を組み合わせます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-007",
@@ -1237,7 +1341,8 @@
           "explanation": "left は左です。",
           "why": "道案内の基本表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-008",
@@ -1248,7 +1353,8 @@
           "explanation": "near は〜の近く、です。",
           "why": "場所の関係を説明します。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-009",
@@ -1259,7 +1365,8 @@
           "explanation": "restroom はトイレを表します。",
           "why": "実際に使える質問表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-010",
@@ -1270,7 +1377,8 @@
           "explanation": "on your left で左側、です。",
           "why": "道案内を聞き取る表現です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-011",
@@ -1281,7 +1389,8 @@
           "explanation": "and の前の Go straight が最初です。",
           "why": "指示の順番を聞き取ります。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-PLACES-012",
@@ -1292,7 +1401,8 @@
           "explanation": "next to はすぐ隣、near は近くです。",
           "why": "似た表現の違いにも気付きます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     },
@@ -1312,7 +1422,8 @@
           "explanation": "訪れた人を歓迎する表現です。",
           "why": "外国の人とのやり取りで使えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-002",
@@ -1323,7 +1434,8 @@
           "explanation": "This is ... で物や場所を紹介します。",
           "why": "日本の文化を簡単な英語で紹介できます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-003",
@@ -1334,7 +1446,8 @@
           "explanation": "can を使って、その場所でできることを紹介します。",
           "why": "観光案内などの表現につなげます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-004",
@@ -1345,7 +1458,8 @@
           "explanation": "その場所でできることを can で紹介しています。",
           "why": "相手に情報を伝える活動です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-005",
@@ -1356,7 +1470,8 @@
           "explanation": "about Japan で日本について、という意味です。",
           "why": "相手の考えをたずねます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-006",
@@ -1367,7 +1482,8 @@
           "explanation": "Japanese food は日本の食べ物です。",
           "why": "文化について自分の好みを伝えます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-007",
@@ -1378,7 +1494,8 @@
           "explanation": "聞き返すときの丁寧な表現の一つです。",
           "why": "分からないときに聞き返すこともコミュニケーションです。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-008",
@@ -1389,7 +1506,8 @@
           "explanation": "相手に繰り返してもらう表現です。",
           "why": "理解するために必要な表現を使います。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-009",
@@ -1400,7 +1518,8 @@
           "explanation": "話す速さを落としてほしいときに使えます。",
           "why": "相手と協力してやり取りを続けます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-010",
@@ -1411,7 +1530,8 @@
           "explanation": "聞いてくれたことへの感謝を伝える表現です。",
           "why": "発表の終わりの表現にも慣れます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-011",
@@ -1422,7 +1542,8 @@
           "explanation": "完全な文でなくても、相手に伝えようと工夫できます。",
           "why": "外国語科では実際に伝え合うことが大切です。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         },
         {
           "id": "E5-CULTURE-012",
@@ -1433,7 +1554,8 @@
           "explanation": "Pardon? などを使えばやり取りを続けられます。",
           "why": "相手と確認しながら進めます。",
           "reasonRequired": false,
-          "responseStyle": "direct-answer"
+          "responseStyle": "direct-answer",
+          "answerMode": "notebook"
         }
       ]
     }
