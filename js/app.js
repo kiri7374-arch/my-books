@@ -124,35 +124,35 @@ function getStudySubjectConfig(subjectKey) {
       title: "算数",
       en: "MATH",
       description: "計算の仕方だけでなく、なぜそうなるのかまで理解しながら学習します。",
-      file: `${base}/math/index.json?v=20261004-allsubjectsv25`,
+      file: `${base}/math/index.json?v=20261008-practicev26`,
       splitUnits: true
     },
     science: {
       title: "理科",
       en: "SCIENCE",
       description: "観察や実験の結果から、理由を考える力を身につけます。",
-      file: `${base}/science.json?v=20261004-allsubjectsv25`,
+      file: `${base}/science.json?v=20261008-practicev26`,
       splitUnits: false
     },
     english: {
       title: "英語",
       en: "ENGLISH",
       description: "単語だけでなく、短い文章や会話の中で英語を使います。",
-      file: `${base}/english.json?v=20261004-allsubjectsv25`,
+      file: `${base}/english.json?v=20261008-practicev26`,
       splitUnits: false
     },
     japanese: {
       title: "国語",
       en: "JAPANESE",
       description: `${getStudyGradeFromBook() || ""}年生で学ぶ漢字を中心に、読み・書き・意味・書き順を学びます。`,
-      file: `${base}/japanese.json?v=20261004-allsubjectsv25`,
+      file: `${base}/japanese.json?v=20261008-practicev26`,
       splitUnits: false
     },
     challenge: {
       title: "難関中学チャレンジ",
       en: "ENTRANCE EXAM",
       description: "算数・国語・理科・社会を混ぜた、入試本番を意識した50問です。",
-      file: `${base}/challenge.json?v=20261004-allsubjectsv25`,
+      file: `${base}/challenge.json?v=20261008-practicev26`,
       splitUnits: false
     }
   };
@@ -1132,10 +1132,10 @@ function renderStudyQuestions(questions) {
         ${formatStudyMathText(questionText)}
       </span>
       ${renderQuestionVisual(question.visual, true)}
-      <span class="study-question-hint">タップして答え・解説を見る →</span>
+      <span class="study-question-hint">タップして問題を解く →</span>
     `;
 
-    button.addEventListener("click", () => openAnswerModal(question));
+    button.addEventListener("click", () => openStudyPractice(question));
     studyQuestionList.appendChild(button);
   });
 }
@@ -1162,9 +1162,9 @@ function getStudySubjectLabel(subjectKey) {
 
 function getStudySubjectPath(bookId, subjectKey) {
   if (subjectKey === "math") {
-    return `books/${bookId}/math/index.json?v=20261004-allsubjectsv25`;
+    return `books/${bookId}/math/index.json?v=20261008-practicev26`;
   }
-  return `books/${bookId}/${subjectKey}.json?v=20261004-allsubjectsv25`;
+  return `books/${bookId}/${subjectKey}.json?v=20261008-practicev26`;
 }
 
 async function tryLoadStudyJSON(path) {
@@ -1192,7 +1192,7 @@ async function loadKanjiGradeData() {
   if (studyKanjiGradeData) return studyKanjiGradeData;
 
   try {
-    const response = await fetch("data/kanji-grade.json?v=20261004-allsubjectsv25");
+    const response = await fetch("data/kanji-grade.json?v=20261008-practicev26");
     if (!response.ok) throw new Error("漢字学年データを読み込めませんでした。");
 
     studyKanjiGradeData = await response.json();
@@ -1862,6 +1862,8 @@ function openAnswerModal(question) {
 }
 
 function closeAnswerModal() {
+  document.getElementById("studyPracticeArea")?.remove();
+  answerModal.classList.remove("study-practice-locked");
   const kanjiExtra = document.getElementById("answerKanjiExtra");
 
   if (kanjiExtra) {
@@ -2449,3 +2451,170 @@ async function launchStudyFromURL() {
 
 loadBooks();
 launchStudyFromURL();
+
+
+/* MY BOOKS PRACTICE MODE v2.6 */
+let studyPracticeActiveToken = 0;
+let studyPracticeCanvasReset = null;
+let studyOcrLoading = null;
+const STUDY_OCR_SCRIPT = "https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js";
+
+function practiceModeForQuestion(q) {
+  const text = String(q.question || "");
+  if (q.type === "kanji-card") return "reference";
+  if (currentStudySubject === "japanese") {
+    if (/漢字で書きなさい|漢字で書きましょう|漢字に直/.test(text)) return "handwrite";
+    if (/読みをひらがな|ひらがなで読み/.test(text)) return "kana";
+    return "notebook";
+  }
+  if (currentStudySubject === "english") {
+    if (/英語で書|アルファベット|つづり|小文字を書|大文字を書/.test(text)) return "english";
+    return "notebook";
+  }
+  if (currentStudySubject === "math") {
+    if (/^[\s\d.＋+－−×÷*/()\/＝=]+$/.test(text.trim()) ||
+        (/計算しましょう|計算しなさい/.test(text) && text.length < 90)) return "number";
+    return "notebook";
+  }
+  return "notebook";
+}
+function practiceNormalized(s) {
+  return String(s || "").normalize("NFKC").replace(/[\s　。、,.!?！？]/g, "").toLowerCase();
+}
+function practiceAnswerOnly(s) {
+  return String(s || "").replace(/^答え：/, "").split("\n")[0].trim();
+}
+function practiceRecord(q, status) {
+  try {
+    const grade = getStudyGradeFromBook() || "x";
+    const key = `my-books-practice-${grade}-${currentStudySubject}-${q.id}`;
+    localStorage.setItem(key, JSON.stringify({status, at: new Date().toISOString()}));
+  } catch (err) { console.warn("復習記録を保存できません", err); }
+}
+function practiceShowAnswer(q, area) {
+  if (!area || !area.isConnected) return;
+  area.querySelectorAll("button, input").forEach(el => { el.disabled = true; });
+  const review = document.createElement("div");
+  review.className = "study-practice-review";
+  review.innerHTML = `<p class="study-practice-status">自分の回答と、下の答え・解説を比べましょう。</p>
+    <div class="study-practice-rating"><button type="button" data-rating="done">できた</button><button type="button" data-rating="retry">もう一度</button></div>`;
+  area.appendChild(review);
+  answerModal.classList.remove("study-practice-locked");
+  answerModalAnswer.innerHTML = formatStudyMathText(q.answer || "");
+  answerModalExplanation.innerHTML = formatStudyMathText(q.explanation || "解説は準備中です。");
+  answerModalWhy.innerHTML = formatStudyMathText(q.why || "");
+  syncAnswerModalVisual(q);
+  renderKanjiEnrichment(q);
+  review.querySelectorAll("[data-rating]").forEach(b => b.addEventListener("click", () => {
+    practiceRecord(q,b.dataset.rating);
+    review.querySelector(".study-practice-status").textContent = b.dataset.rating === "done" ? "「できた」を記録しました。" : "「もう一度」を記録しました。";
+  }));
+}
+
+function studyPracticeOpenShell(q) {
+  ++studyPracticeActiveToken;
+  document.getElementById("studyPracticeArea")?.remove();
+  answerModalNumber.textContent = q.id || "";
+  answerModalQuestion.innerHTML = formatStudyMathText(q.question || "");
+  answerModalAnswer.textContent = "";
+  answerModalExplanation.textContent = "";
+  answerModalWhy.textContent = "";
+  document.getElementById("answerKanjiExtra")?.remove();
+  document.getElementById("answerModalVisual")?.remove();
+  syncAnswerModalVisual(q);
+  const area = document.createElement("section");
+  area.id = "studyPracticeArea";
+  area.className = "study-practice-area";
+  answerModalQuestion.insertAdjacentElement("afterend",area);
+  answerModal.classList.add("study-practice-locked","answer-modal-open");
+  answerModal.setAttribute("aria-hidden","false");
+  document.body.classList.add("answer-modal-visible");
+  return area;
+}
+function openStudyPractice(q) {
+  const mode = practiceModeForQuestion(q);
+  const area = studyPracticeOpenShell(q);
+  const token = studyPracticeActiveToken;
+  const safe = x => escapeHTML(x);
+  if (mode === "reference") {
+    area.innerHTML = `<p>これは漢字を調べるカードです。読みや書き順を確認できます。</p><button class="study-practice-go" type="button">漢字情報を見る</button>`;
+    area.querySelector("button").addEventListener("click",()=>practiceShowAnswer(q,area));
+    return;
+  }
+  if (mode === "handwrite") {
+    area.innerHTML = `<p class="study-practice-instruction">指やペンで漢字を書きましょう。文字変換は使いません。</p>
+      <canvas class="study-practice-canvas" width="900" height="340" aria-label="手書き回答欄"></canvas>
+      <p class="study-practice-status" aria-live="polite">漢字は枠内に大きく、1字ずつ間を空けて書いてください。</p>
+      <div class="study-practice-actions"><button type="button" data-clear>書き直す</button><button type="button" class="study-practice-go" data-judge disabled>手書きを判定する</button></div>
+      <button type="button" class="study-practice-fallback" data-fallback hidden>認識できない場合：自分で答え合わせ</button>`;
+    const canvas=area.querySelector("canvas"), ctx=canvas.getContext("2d");
+    ctx.fillStyle="#fff";ctx.fillRect(0,0,canvas.width,canvas.height);
+    ctx.strokeStyle="#182e3f";ctx.lineWidth=13;ctx.lineCap="round";ctx.lineJoin="round";
+    let drawing=false,strokes=0;
+    const pos=e=>{const r=canvas.getBoundingClientRect();return {x:(e.clientX-r.left)*canvas.width/r.width,y:(e.clientY-r.top)*canvas.height/r.height};};
+    canvas.addEventListener("pointerdown",e=>{e.preventDefault();canvas.setPointerCapture(e.pointerId);drawing=true;const p=pos(e);ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x+.01,p.y+.01);ctx.stroke();strokes++;area.querySelector("[data-judge]").disabled=false;});
+    canvas.addEventListener("pointermove",e=>{if(!drawing)return;e.preventDefault();const p=pos(e);ctx.lineTo(p.x,p.y);ctx.stroke();});
+    const stop=()=>{drawing=false;};canvas.addEventListener("pointerup",stop);canvas.addEventListener("pointercancel",stop);
+    area.querySelector("[data-clear]").addEventListener("click",()=>{ctx.fillStyle="#fff";ctx.fillRect(0,0,canvas.width,canvas.height);strokes=0;area.querySelector("[data-judge]").disabled=true;area.querySelector("[data-fallback]").hidden=true;area.querySelector(".study-practice-status").textContent="書き直せます。";});
+    area.querySelector("[data-fallback]").addEventListener("click",()=>practiceShowAnswer(q,area));
+    area.querySelector("[data-judge]").addEventListener("click",async()=>{
+      if(!strokes)return;
+      const status=area.querySelector(".study-practice-status");
+      const btn=area.querySelector("[data-judge]");btn.disabled=true;
+      status.textContent="文字を認識しています。初回はデータの読み込みに時間がかかります…";
+      try {
+        await ensureStudyHandwritingOCR();
+        const result=await Promise.race([
+          window.Tesseract.recognize(canvas,"jpn",{logger:()=>{}}),
+          new Promise((_,reject)=>setTimeout(()=>reject(new Error("認識がタイムアウトしました")),30000))
+        ]);
+        if(token!==studyPracticeActiveToken || !area.isConnected)return;
+        const recognized=String(result?.data?.text || "").replace(/\s/g,"");
+        const expected=practiceAnswerOnly(q.answer);
+        const hit=practiceNormalized(recognized)===practiceNormalized(expected);
+        status.textContent=hit ? `認識結果「${recognized}」：正解です。` : `認識結果「${recognized || "読み取れませんでした"}」。手書き認識は間違うことがあります。`;
+        if(hit){practiceShowAnswer(q,area);}else{
+          btn.disabled=false;area.querySelector("[data-fallback]").hidden=false;
+          area.querySelector("[data-fallback]").textContent="自分で答え合わせをする";
+        }
+      }catch(e){console.warn(e);status.textContent="自動認識を利用できませんでした。インターネット接続を確認するか、自分で答え合わせしてください。";area.querySelector("[data-fallback]").hidden=false;btn.disabled=false;}
+    });
+    return;
+  }
+  if (["number","kana","english"].includes(mode)) {
+    const placeholder=mode==="number"?"計算した答えを入力":mode==="kana"?"ひらがなで入力":"英語で入力";
+    area.innerHTML=`<label class="study-practice-instruction" for="studyPracticeInput">自分の答えを書いてから答え合わせしましょう。</label>
+      <input id="studyPracticeInput" class="study-practice-input" type="text" ${mode==="number"?'inputmode="decimal"':mode==="english"?'autocapitalize="off" spellcheck="false"':''} placeholder="${safe(placeholder)}" autocomplete="off">
+      <button type="button" class="study-practice-go" disabled>答え合わせをする</button>`;
+    const input=area.querySelector("input"), button=area.querySelector("button");
+    input.addEventListener("input",()=>button.disabled=!input.value.trim());
+    button.addEventListener("click",()=>{
+      const response=input.value.trim();if(!response)return;
+      const expected=practiceAnswerOnly(q.answer);
+      const norm=x=>practiceNormalized(x).replace(/[×]/g,"*");
+      const exact=norm(response)===norm(expected);
+      const msg=document.createElement("p");msg.className="study-practice-feedback";
+      msg.textContent=exact ? "入力した答えは正解です。" : "入力が終わりました。模範解答と比べてみましょう。";
+      area.appendChild(msg);
+      practiceShowAnswer(q,area);
+    });
+    return;
+  }
+  area.innerHTML=`<p class="study-practice-instruction">ノートや紙に答えを書いてから、答え合わせをしましょう。</p>
+    <label class="study-practice-check"><input type="checkbox"> 自分で考えて、答えを書きました</label>
+    <button class="study-practice-go" type="button" disabled>答え合わせをする</button>`;
+  const check=area.querySelector("input"), btn=area.querySelector("button");
+  check.addEventListener("change",()=>btn.disabled=!check.checked);
+  btn.addEventListener("click",()=>practiceShowAnswer(q,area));
+}
+function ensureStudyHandwritingOCR() {
+  if(window.Tesseract?.recognize)return Promise.resolve();
+  if(studyOcrLoading)return studyOcrLoading;
+  studyOcrLoading=new Promise((resolve,reject)=>{
+    const script=document.createElement("script");script.src=STUDY_OCR_SCRIPT;script.async=true;
+    script.onload=()=>window.Tesseract?.recognize?resolve():reject(new Error("文字認識が初期化できません"));
+    script.onerror=()=>reject(new Error("文字認識ライブラリを読み込めません"));
+    document.head.appendChild(script);
+  }).catch(e=>{studyOcrLoading=null;throw e;});
+  return studyOcrLoading;
+}
